@@ -184,10 +184,31 @@
                 </div>
             </div>
 
+            <!-- Seção: Fontes de Pesquisa -->
+            <div class="border border-cyan-200 rounded-xl p-6 bg-cyan-50 shadow-md">
+                <h2 class="text-2xl font-bold text-cyan-800 mb-5 flex items-center">
+                    <span class="mr-3 text-3xl">🌐</span> 5. Fontes de Pesquisa
+                </h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <label class="flex items-center p-3 border border-cyan-300 rounded-md bg-white cursor-pointer hover:bg-cyan-100 transition-all duration-200 shadow-sm">
+                        <input type="checkbox" name="fontes-pesquisa" value="Rede (Internet) atualizada até a data de hoje" class="form-checkbox h-5 w-5 text-cyan-600 rounded focus:ring-cyan-500">
+                        <span class="ml-3 text-base text-gray-700">Rede (Internet) atualizada até a data de hoje</span>
+                    </label>
+                    <label class="flex items-center p-3 border border-cyan-300 rounded-md bg-white cursor-pointer hover:bg-cyan-100 transition-all duration-200 shadow-sm">
+                        <input type="checkbox" name="fontes-pesquisa" value="Pesquisas Acadêmicas (artigos, teses, dissertações)" class="form-checkbox h-5 w-5 text-cyan-600 rounded focus:ring-cyan-500">
+                        <span class="ml-3 text-base text-gray-700">Pesquisas Acadêmicas</span>
+                    </label>
+                    <label class="flex items-center p-3 border border-cyan-300 rounded-md bg-white cursor-pointer hover:bg-cyan-100 transition-all duration-200 shadow-sm">
+                        <input type="checkbox" name="fontes-pesquisa" value="Vídeos do YouTube e Aulas Online" class="form-checkbox h-5 w-5 text-cyan-600 rounded focus:ring-cyan-500">
+                        <span class="ml-3 text-base text-gray-700">Vídeos do YouTube e Aulas Online</span>
+                    </label>
+                </div>
+            </div>
+
             <!-- Seção: Formato e Estrutura Didática -->
             <div class="border border-purple-200 rounded-xl p-6 bg-purple-50 shadow-md">
                 <h2 class="text-2xl font-bold text-purple-800 mb-5 flex items-center">
-                    <span class="mr-3 text-3xl">✨</span> 5. Formato e Estrutura Didática
+                    <span class="mr-3 text-3xl">✨</span> 6. Formato e Estrutura Didática
                 </h2>
                 <div class="mb-6">
                     <label class="block text-lg font-medium text-gray-700 mb-3">
@@ -265,7 +286,7 @@
             <!-- Seção: Formato de Saída -->
             <div class="border border-yellow-200 rounded-xl p-6 bg-yellow-50 shadow-md">
                 <h2 class="text-2xl font-bold text-yellow-800 mb-5 flex items-center">
-                    <span class="mr-3 text-3xl">📦</span> 6. Formato de Entrega Preferido
+                    <span class="mr-3 text-3xl">📦</span> 7. Formato de Entrega Preferido
                 </h2>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
                     <label class="flex items-center p-3 border border-yellow-300 rounded-md bg-white cursor-pointer hover:bg-yellow-100 transition-all duration-200 shadow-sm">
@@ -290,7 +311,7 @@
             <!-- Seção: Opções Adicionais -->
             <div class="border border-gray-200 rounded-xl p-6 bg-gray-50 shadow-md">
                 <h2 class="text-2xl font-bold text-gray-800 mb-5 flex items-center">
-                    <span class="mr-3 text-3xl">➕</span> 7. Opções Adicionais
+                    <span class="mr-3 text-3xl">➕</span> 8. Opções Adicionais
                 </h2>
                 <label class="flex items-center p-3 border border-gray-300 rounded-md bg-white cursor-pointer hover:bg-gray-100 transition-all duration-200 shadow-sm">
                     <input type="checkbox" name="opcoes-adicionais" value="Incluir Referências Bibliográficas e Fontes Consultadas" class="form-checkbox h-5 w-5 text-gray-600 rounded focus:ring-gray-500">
@@ -379,6 +400,16 @@
                 prompt += `**Requisitos de Atualização:**\n- Legislação Mais Recente (ex: reformas, novas leis)\n- Doutrina Contemporânea (autores modernos)\n- Jurisprudência Recente (últimos 5 anos - STF/STJ)\n- Súmulas (Vinculantes e Não Vinculantes)\n\n`;
             }
 
+            // Fontes de Pesquisa (NOVA SEÇÃO)
+            const fontesPesquisa = Array.from(document.querySelectorAll('input[name="fontes-pesquisa"]:checked'))
+                                       .map(cb => cb.value);
+            if (fontesPesquisa.length > 0) {
+                prompt += `**Fontes de Pesquisa Preferidas:**\n`;
+                fontesPesquisa.forEach(fonte => prompt += `- ${fonte}\n`);
+                prompt += `\n`;
+            } else {
+                prompt += `**Fontes de Pesquisa Preferidas:**\n- Rede (Internet) atualizada até a data de hoje\n- Pesquisas Acadêmicas (artigos, teses, dissertações)\n- Vídeos do YouTube e Aulas Online\n\n`;
+            }
 
             // Estrutura do Material
             const estruturaMaterial = Array.from(document.querySelectorAll('input[name="estrutura-material"]:checked'))
