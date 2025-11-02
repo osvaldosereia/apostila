@@ -3,23 +3,9 @@
 // e não mais os dados completos.
 const database = {
     "Direito Penal": {
-        "Teoria do Crime": {
-            "Crimes Contra a Vida": "data/direito-penal/crimes-contra-a-vida.json",
-            "Fato Típico": "data/direito-penal/teoria-fato-tipico.json"
-        },
         "Crimes contra a Vida": {
-            "Homicídio": "data/direito-penal/vida-homicidio.json",
-            "Infanticídio": "data/direito-penal/vida-infanticidio.json"
-        }
-    },
-    "Filosofia": {
-        "Filósofos Pré-Socráticos": {
-            "Escola Jônica": "data/filosofia/pre-socraticos-escola-jonica.json",
-            "Escola Italiana": "data/filosofia/pre-socraticos-escola-italiana.json"
-        },
-        "Período Clássico": {
-            "Sofistas": "data/filosofia/classico-sofistas.json",
-            "Tríade de Atenas": "data/filosofia/classico-triade-atenas.json"
+            // Simplificado para conter apenas a entrada solicitada
+            "Visão Geral": "data/direito-penal/crimes-contra-a-vida.json" 
         }
     }
 };
