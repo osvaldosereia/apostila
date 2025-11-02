@@ -269,3 +269,4 @@ function searchOnGoogle(topic) {
     const url = `https://www.google.com/search?q=${query}`;
     window.open(url, '_blank');
 }
+
