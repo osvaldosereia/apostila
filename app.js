@@ -4,7 +4,7 @@
 const database = {
     "Direito Penal": {
         "Teoria do Crime": {
-            "Conceito de Crime": "data/direito-penal/teoria-conceito-crime.json",
+            "Crimes Contra a Vida": "data/direito-penal/crimes-contra-a-vida.json",
             "Fato Típico": "data/direito-penal/teoria-fato-tipico.json"
         },
         "Crimes contra a Vida": {
