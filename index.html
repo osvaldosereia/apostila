@@ -1,494 +1,477 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de Prompt para Material de Estudo de Direito</title>
-    <!-- Inclui o Tailwind CSS para estilização -->
+    <title>Mapa Mental Educacional</title>
+    <!-- Carregando Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Carregando biblioteca de ícones (Lucide) -->
+    <script src="https://unpkg.com/lucide-react@latest/dist/umd/lucide.min.js"></script>
+    
     <style>
-        /* Define a fonte "Inter" como padrão para o corpo do documento */
+        /* Estilos personalizados */
         body {
-            font-family: "Inter", sans-serif;
-            background-color: #f0f4f8; /* Cor de fundo suave */
+            font-family: 'Inter', sans-serif;
         }
-        /* Estilos para o scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
+        
+        /* --- Estilos do Novo Mapa Mental --- */
+
+        /* O nó raiz (o primeiro) não deve ter linhas de conexão */
+        .mindmap-root {
+            padding-left: 0;
         }
-        ::-webkit-scrollbar-track {
-            background: #e2e8f0;
-            border-radius: 10px;
+
+        /* Cada nó que não é o raiz */
+        .mindmap-node {
+            position: relative;
+            /* Espaço à esquerda para a linha vertical e o card */
+            padding-left: 48px; 
+            margin-top: 12px;
         }
-        ::-webkit-scrollbar-thumb {
-            background: #94a3b8;
-            border-radius: 10px;
+        
+        /* O card que contém o tópico */
+        .mindmap-card {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 12px 16px;
+            background-color: white;
+            border: 1px solid #e2e8f0; /* gray-200 */
+            border-radius: 8px;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+            transition: all 0.2s ease-in-out;
         }
-        ::-webkit-scrollbar-thumb:hover {
-            background: #64748b;
+        .mindmap-card:hover {
+            border-color: #3b82f6; /* blue-500 */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
         }
+
+        /* Linha horizontal (do card para a linha vertical principal) */
+        .mindmap-card::before {
+            content: '';
+            position: absolute;
+            top: 50%; /* Centraliza verticalmente */
+            left: -20px; /* Puxa para a esquerda até a linha vertical */
+            width: 20px; /* Comprimento da linha */
+            height: 2px;
+            background-color: #94a3b8; /* gray-400 */
+            transform: translateY(-50%);
+        }
+
+        /* O primeiro nó (raiz) não precisa da linha horizontal */
+        .mindmap-root > .mindmap-card::before {
+            display: none;
+        }
+
+        /* Contêiner para os filhos de um nó */
+        .mindmap-children {
+            position: relative;
+            margin-top: 12px;
+            padding-left: 28px; /* Alinha os filhos com o pai */
+        }
+
+        /* Linha vertical principal (a "espinha dorsal") */
+        .mindmap-children::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0; /* Alinhada à esquerda do contêiner dos filhos */
+            width: 2px;
+            background-color: #94a3b8; /* gray-400 */
+        }
+
+        /* Ajusta a linha vertical do último filho para não passar dele */
+        .mindmap-node:last-child > .mindmap-children::before {
+            /* Se o último filho também tem filhos, deixa a linha normal */
+            /* Se o último filho NÃO tem filhos, a linha não é necessária */
+        }
+        
+        /* Remove a linha vertical se não houver filhos */
+        .mindmap-node.no-children > .mindmap-children {
+            display: none;
+        }
+
     </style>
 </head>
-<body class="p-4 sm:p-6 lg:p-8">
-    <div class="max-w-4xl mx-auto bg-white rounded-xl shadow-2xl p-6 sm:p-8 lg:p-10 border border-gray-200">
-        <h1 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-6 text-center">
-            📚 Gerador de Prompt para Material de Estudo de Direito
-        </h1>
-        <p class="text-lg text-gray-600 mb-8 text-center">
-            Crie um prompt detalhado para solicitar material de estudo jurídico sob medida.
-        </p>
+<body class="bg-gray-100 text-gray-800 flex h-screen overflow-hidden">
 
-        <!-- Campo personalizável para o tema -->
-        <div class="mb-8">
-            <label for="tema-personalizado" class="block text-xl font-semibold text-gray-800 mb-3">
-                1. Qual o tema ou área específica do Direito para o material de estudo?
-            </label>
-            <textarea id="tema-personalizado" rows="4"
-                      class="w-full p-4 border-2 border-blue-300 rounded-lg shadow-sm focus:ring-blue-500 focus:border-blue-500 transition-all duration-300 text-base"
-                      placeholder="Ex: Teoria Geral dos Contratos, Direito Administrativo - Licitações, Direito Constitucional - Controle de Constitucionalidade, etc."></textarea>
-            <p class="text-sm text-gray-500 mt-2">
-                Descreva o tema com o máximo de detalhes possível para um resultado mais preciso.
-            </p>
-        </div>
+    <!-- Sidebar de Navegação (Menu Lateral) -->
+    <!-- 
+      Estado Padrão (Mobile): Oculto (-translate-x-full)
+      Estado Desktop (md:): Visível (md:translate-x-0)
+    -->
+    <aside id="sidebar" class="w-80 bg-gray-900 text-white p-6 overflow-y-auto shadow-lg h-full fixed top-0 left-0 z-30
+                           transform -translate-x-full md:translate-x-0 transition-transform duration-300 ease-in-out">
+        <h1 class="text-2xl font-bold mb-6 text-white">Disciplinas</h1>
+        <nav id="sidebar-nav">
+            <!-- O conteúdo da navegação será injetado pelo JavaScript -->
+        </nav>
+    </aside>
 
-        <div class="space-y-10">
-            <!-- Seção: Público-Alvo e Nível -->
-            <div class="border border-blue-200 rounded-xl p-6 bg-blue-50 shadow-md">
-                <h2 class="text-2xl font-bold text-blue-800 mb-5 flex items-center">
-                    <span class="mr-3 text-3xl">🎯</span> 2. Público-Alvo e Nível de Profundidade
-                </h2>
-                <div class="mb-6">
-                    <label class="block text-lg font-medium text-gray-700 mb-3">
-                        Qual período da graduação ou fase de estudo?
-                    </label>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                        <label class="flex items-center p-3 border border-blue-300 rounded-md bg-white cursor-pointer hover:bg-blue-100 transition-all duration-200 shadow-sm">
-                            <input type="radio" name="publico-alvo" value="Início da Graduação (1º-2º ano)" class="form-radio h-5 w-5 text-blue-600 focus:ring-blue-500">
-                            <span class="ml-3 text-base text-gray-700">Início da Graduação (1º-2º ano)</span>
-                        </label>
-                        <label class="flex items-center p-3 border border-blue-300 rounded-md bg-white cursor-pointer hover:bg-blue-100 transition-all duration-200 shadow-sm">
-                            <input type="radio" name="publico-alvo" value="Meio da Graduação (3º-4º ano)" class="form-radio h-5 w-5 text-blue-600 focus:ring-blue-500">
-                            <span class="ml-3 text-base text-gray-700">Meio da Graduação (3º-4º ano)</span>
-                        </label>
-                        <label class="flex items-center p-3 border border-blue-300 rounded-md bg-white cursor-pointer hover:bg-blue-100 transition-all duration-200 shadow-sm">
-                            <input type="radio" name="publico-alvo" value="Final da Graduação (5º ano)" class="form-radio h-5 w-5 text-blue-600 focus:ring-blue-500">
-                            <span class="ml-3 text-base text-gray-700">Final da Graduação (5º ano)</span>
-                        </label>
-                        <label class="flex items-center p-3 border border-blue-300 rounded-md bg-white cursor-pointer hover:bg-blue-100 transition-all duration-200 shadow-sm">
-                            <input type="radio" name="publico-alvo" value="Preparatório para OAB/Concurso" class="form-radio h-5 w-5 text-blue-600 focus:ring-blue-500">
-                            <span class="ml-3 text-base text-gray-700">Preparatório para OAB/Concurso</span>
-                        </label>
-                        <label class="flex items-center p-3 border border-blue-300 rounded-md bg-white cursor-pointer hover:bg-blue-100 transition-all duration-200 shadow-sm">
-                            <input type="radio" name="publico-alvo" value="Pós-Graduação/Pesquisa" class="form-radio h-5 w-5 text-blue-600 focus:ring-blue-500">
-                            <span class="ml-3 text-base text-gray-700">Pós-Graduação/Pesquisa</span>
-                        </label>
-                    </div>
-                </div>
+    <!-- Overlay para fechar o menu no mobile -->
+    <div id="sidebar-overlay" class="fixed inset-0 bg-black bg-opacity-50 z-20 hidden md:hidden" onclick="toggleMenu()"></div>
 
-                <div>
-                    <label class="block text-lg font-medium text-gray-700 mb-3">
-                        Qual o nível de profundidade desejado?
-                    </label>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <label class="flex items-center p-3 border border-blue-300 rounded-md bg-white cursor-pointer hover:bg-blue-100 transition-all duration-200 shadow-sm">
-                            <input type="radio" name="nivel-profundidade" value="Introdução/Conceitual (foco em fundamentos)" class="form-radio h-5 w-5 text-blue-600 focus:ring-blue-500">
-                            <span class="ml-3 text-base text-gray-700">Introdução/Conceitual (foco em fundamentos)</span>
-                        </label>
-                        <label class="flex items-center p-3 border border-blue-300 rounded-md bg-white cursor-pointer hover:bg-blue-100 transition-all duration-200 shadow-sm">
-                            <input type="radio" name="nivel-profundidade" value="Análise Aprofundada (com discussões doutrinárias e jurisprudenciais)" class="form-radio h-5 w-5 text-blue-600 focus:ring-blue-500">
-                            <span class="ml-3 text-base text-gray-700">Análise Aprofundada (com discussões doutrinárias e jurisprudenciais)</span>
-                        </label>
-                        <label class="flex items-center p-3 border border-blue-300 rounded-md bg-white cursor-pointer hover:bg-blue-100 transition-all duration-200 shadow-sm">
-                            <input type="radio" name="nivel-profundidade" value="Foco em Aspectos Práticos/Casos Concretos" class="form-radio h-5 w-5 text-blue-600 focus:ring-blue-500">
-                            <span class="ml-3 text-base text-gray-700">Foco em Aspectos Práticos/Casos Concretos</span>
-                        </label>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Seção: Abrangência e Tópicos -->
-            <div class="border border-green-200 rounded-xl p-6 bg-green-50 shadow-md">
-                <h2 class="text-2xl font-bold text-green-800 mb-5 flex items-center">
-                    <span class="mr-3 text-3xl">📝</span> 3. Tipos de Conteúdo a Incluir
-                </h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                    <label class="flex items-center p-3 border border-green-300 rounded-md bg-white cursor-pointer hover:bg-green-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="tipo-conteudo" value="Conceitos Fundamentais" class="form-checkbox h-5 w-5 text-green-600 rounded focus:ring-green-500">
-                        <span class="ml-3 text-base text-gray-700">Conceitos Fundamentais</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-green-300 rounded-md bg-white cursor-pointer hover:bg-green-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="tipo-conteudo" value="Evolução Histórica do Tema" class="form-checkbox h-5 w-5 text-green-600 rounded focus:ring-green-500">
-                        <span class="ml-3 text-base text-gray-700">Evolução Histórica do Tema</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-green-300 rounded-md bg-white cursor-pointer hover:bg-green-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="tipo-conteudo" value="Princípios Relevantes da Área" class="form-checkbox h-5 w-5 text-green-600 rounded focus:ring-green-500">
-                        <span class="ml-3 text-base text-gray-700">Princípios Relevantes da Área</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-green-300 rounded-md bg-white cursor-pointer hover:bg-green-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="tipo-conteudo" value="Classificações e Diferenciações Essenciais" class="form-checkbox h-5 w-5 text-green-600 rounded focus:ring-green-500">
-                        <span class="ml-3 text-base text-gray-700">Classificações e Diferenciações Essenciais</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-green-300 rounded-md bg-white cursor-pointer hover:bg-green-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="tipo-conteudo" value="Procedimentos e Fluxogramas" class="form-checkbox h-5 w-5 text-green-600 rounded focus:ring-green-500">
-                        <span class="ml-3 text-base text-gray-700">Procedimentos e Fluxogramas</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-green-300 rounded-md bg-white cursor-pointer hover:bg-green-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="tipo-conteudo" value="Exemplos Práticos e Casos Hipotéticos" class="form-checkbox h-5 w-5 text-green-600 rounded focus:ring-green-500">
-                        <span class="ml-3 text-base text-gray-700">Exemplos Práticos e Casos Hipotéticos</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-green-300 rounded-md bg-white cursor-pointer hover:bg-green-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="tipo-conteudo" value="Discussões Doutrinárias Relevantes" class="form-checkbox h-5 w-5 text-green-600 rounded focus:ring-green-500">
-                        <span class="ml-3 text-base text-gray-700">Discussões Doutrinárias Relevantes</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-green-300 rounded-md bg-white cursor-pointer hover:bg-green-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="tipo-conteudo" value="Análise Jurisprudencial (STF/STJ)" class="form-checkbox h-5 w-5 text-green-600 rounded focus:ring-green-500">
-                        <span class="ml-3 text-base text-gray-700">Análise Jurisprudencial (STF/STJ)</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-green-300 rounded-md bg-white cursor-pointer hover:bg-green-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="tipo-conteudo" value="Legislação Aplicável (Artigos específicos)" class="form-checkbox h-5 w-5 text-green-600 rounded focus:ring-green-500">
-                        <span class="ml-3 text-base text-gray-700">Legislação Aplicável (Artigos específicos)</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-green-300 rounded-md bg-white cursor-pointer hover:bg-green-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="tipo-conteudo" value="Modelos de Peças/Documentos (se aplicável)" class="form-checkbox h-5 w-5 text-green-600 rounded focus:ring-green-500">
-                        <span class="ml-3 text-base text-gray-700">Modelos de Peças/Documentos (se aplicável)</span>
-                    </label>
-                </div>
-            </div>
-
-            <!-- Seção: Requisitos de Atualização -->
-            <div class="border border-red-200 rounded-xl p-6 bg-red-50 shadow-md">
-                <h2 class="text-2xl font-bold text-red-800 mb-5 flex items-center">
-                    <span class="mr-3 text-3xl">⏰</span> 4. Requisitos de Atualização
-                </h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                    <label class="flex items-center p-3 border border-red-300 rounded-md bg-white cursor-pointer hover:bg-red-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="requisito-atualizacao" value="Legislação Mais Recente (ex: reformas, novas leis)" class="form-checkbox h-5 w-5 text-red-600 rounded focus:ring-red-500">
-                        <span class="ml-3 text-base text-gray-700">Legislação Mais Recente</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-red-300 rounded-md bg-white cursor-pointer hover:bg-red-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="requisito-atualizacao" value="Doutrina Contemporânea (autores modernos)" class="form-checkbox h-5 w-5 text-red-600 rounded focus:ring-red-500">
-                        <span class="ml-3 text-base text-gray-700">Doutrina Contemporânea</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-red-300 rounded-md bg-white cursor-pointer hover:bg-red-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="requisito-atualizacao" value="Jurisprudência Recente (últimos 5 anos - STF/STJ)" class="form-checkbox h-5 w-5 text-red-600 rounded focus:ring-red-500">
-                        <span class="ml-3 text-base text-gray-700">Jurisprudência Recente (últimos 5 anos)</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-red-300 rounded-md bg-white cursor-pointer hover:bg-red-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="requisito-atualizacao" value="Súmulas (Vinculantes e Não Vinculantes)" class="form-checkbox h-5 w-5 text-red-600 rounded focus:ring-red-500">
-                        <span class="ml-3 text-base text-gray-700">Súmulas (STF/STJ)</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-red-300 rounded-md bg-white cursor-pointer hover:bg-red-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="requisito-atualizacao" value="Enunciados de Jornadas (ex: Jornadas de Direito Civil/Processual Civil)" class="form-checkbox h-5 w-5 text-red-600 rounded focus:ring-red-500">
-                        <span class="ml-3 text-base text-gray-700">Enunciados de Jornadas</span>
-                    </label>
-                </div>
-            </div>
-
-            <!-- Seção: Fontes de Pesquisa -->
-            <div class="border border-cyan-200 rounded-xl p-6 bg-cyan-50 shadow-md">
-                <h2 class="text-2xl font-bold text-cyan-800 mb-5 flex items-center">
-                    <span class="mr-3 text-3xl">🌐</span> 5. Fontes de Pesquisa
-                </h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                    <label class="flex items-center p-3 border border-cyan-300 rounded-md bg-white cursor-pointer hover:bg-cyan-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="fontes-pesquisa" value="Rede (Internet) atualizada até a data de hoje" class="form-checkbox h-5 w-5 text-cyan-600 rounded focus:ring-cyan-500">
-                        <span class="ml-3 text-base text-gray-700">Rede (Internet) atualizada até a data de hoje</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-cyan-300 rounded-md bg-white cursor-pointer hover:bg-cyan-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="fontes-pesquisa" value="Pesquisas Acadêmicas (artigos, teses, dissertações)" class="form-checkbox h-5 w-5 text-cyan-600 rounded focus:ring-cyan-500">
-                        <span class="ml-3 text-base text-gray-700">Pesquisas Acadêmicas</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-cyan-300 rounded-md bg-white cursor-pointer hover:bg-cyan-100 transition-all duration-200 shadow-sm">
-                        <input type="checkbox" name="fontes-pesquisa" value="Vídeos do YouTube e Aulas Online" class="form-checkbox h-5 w-5 text-cyan-600 rounded focus:ring-cyan-500">
-                        <span class="ml-3 text-base text-gray-700">Vídeos do YouTube e Aulas Online</span>
-                    </label>
-                </div>
-            </div>
-
-            <!-- Seção: Formato e Estrutura Didática -->
-            <div class="border border-purple-200 rounded-xl p-6 bg-purple-50 shadow-md">
-                <h2 class="text-2xl font-bold text-purple-800 mb-5 flex items-center">
-                    <span class="mr-3 text-3xl">✨</span> 6. Formato e Estrutura Didática
-                </h2>
-                <div class="mb-6">
-                    <label class="block text-lg font-medium text-gray-700 mb-3">
-                        Estrutura do Material:
-                    </label>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <label class="flex items-center p-3 border border-purple-300 rounded-md bg-white cursor-pointer hover:bg-purple-100 transition-all duration-200 shadow-sm">
-                            <input type="checkbox" name="estrutura-material" value="Organizado em Capítulos/Seções Claras" class="form-checkbox h-5 w-5 text-purple-600 rounded focus:ring-purple-500">
-                            <span class="ml-3 text-base text-gray-700">Organizado em Capítulos/Seções Claras</span>
-                        </label>
-                        <label class="flex items-center p-3 border border-purple-300 rounded-md bg-white cursor-pointer hover:bg-purple-100 transition-all duration-200 shadow-sm">
-                            <input type="checkbox" name="estrutura-material" value="Progressão Lógica e Sequencial dos Tópicos" class="form-checkbox h-5 w-5 text-purple-600 rounded focus:ring-purple-500">
-                            <span class="ml-3 text-base text-gray-700">Progressão Lógica e Sequencial dos Tópicos</span>
-                        </label>
-                    </div>
-                </div>
-
-                <div class="mb-6">
-                    <label class="block text-lg font-medium text-gray-700 mb-3">
-                        Recursos Didáticos Preferidos:
-                    </label>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                        <label class="flex items-center p-3 border border-purple-300 rounded-md bg-white cursor-pointer hover:bg-purple-100 transition-all duration-200 shadow-sm">
-                            <input type="checkbox" name="recurso-didatico" value="Resumos ao final de cada seção/capítulo" class="form-checkbox h-5 w-5 text-purple-600 rounded focus:ring-purple-500">
-                            <span class="ml-3 text-base text-gray-700">Resumos</span>
-                        </label>
-                        <label class="flex items-center p-3 border border-purple-300 rounded-md bg-white cursor-pointer hover:bg-purple-100 transition-all duration-200 shadow-sm">
-                            <input type="checkbox" name="recurso-didatico" value="Mapas Mentais/Esquemas Visuais" class="form-checkbox h-5 w-5 text-purple-600 rounded focus:ring-purple-500">
-                            <span class="ml-3 text-base text-gray-700">Mapas Mentais/Esquemas</span>
-                        </label>
-                        <label class="flex items-center p-3 border border-purple-300 rounded-md bg-white cursor-pointer hover:bg-purple-100 transition-all duration-200 shadow-sm">
-                            <input type="checkbox" name="recurso-didatico" value="Quadros Comparativos" class="form-checkbox h-5 w-5 text-purple-600 rounded focus:ring-purple-500">
-                            <span class="ml-3 text-base text-gray-700">Quadros Comparativos</span>
-                        </label>
-                        <label class="flex items-center p-3 border border-purple-300 rounded-md bg-white cursor-pointer hover:bg-purple-100 transition-all duration-200 shadow-sm">
-                            <input type="checkbox" name="recurso-didatico" value="Fluxogramas/Passo a Passo de Procedimentos" class="form-checkbox h-5 w-5 text-purple-600 rounded focus:ring-purple-500">
-                            <span class="ml-3 text-base text-gray-700">Fluxogramas/Passo a Passo</span>
-                        </label>
-                        <label class="flex items-center p-3 border border-purple-300 rounded-md bg-white cursor-pointer hover:bg-purple-100 transition-all duration-200 shadow-sm">
-                            <input type="checkbox" name="recurso-didatico" value="Questões de Fixação (Múltipla Escolha)" class="form-checkbox h-5 w-5 text-purple-600 rounded focus:ring-purple-500">
-                            <span class="ml-3 text-base text-gray-700">Questões de Fixação (Múltipla Escolha)</span>
-                        </label>
-                        <label class="flex items-center p-3 border border-purple-300 rounded-md bg-white cursor-pointer hover:bg-purple-100 transition-all duration-200 shadow-sm">
-                            <input type="checkbox" name="recurso-didatico" value="Questões Discursivas para aprofundamento" class="form-checkbox h-5 w-5 text-purple-600 rounded focus:ring-purple-500">
-                            <span class="ml-3 text-base text-gray-700">Questões Discursivas</span>
-                        </label>
-                        <label class="flex items-center p-3 border border-purple-300 rounded-md bg-white cursor-pointer hover:bg-purple-100 transition-all duration-200 shadow-sm">
-                            <input type="checkbox" name="recurso-didatico" value="Glossário de Termos Jurídicos" class="form-checkbox h-5 w-5 text-purple-600 rounded focus:ring-purple-500">
-                            <span class="ml-3 text-base text-gray-700">Glossário de Termos Jurídicos</span>
-                        </label>
-                    </div>
-                </div>
-
-                <div>
-                    <label class="block text-lg font-medium text-gray-700 mb-3">
-                        Linguagem do Material:
-                    </label>
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                        <label class="flex items-center p-3 border border-purple-300 rounded-md bg-white cursor-pointer hover:bg-purple-100 transition-all duration-200 shadow-sm">
-                            <input type="radio" name="linguagem-material" value="Clara, Objetiva e Acessível (com explicações)" class="form-radio h-5 w-5 text-purple-600 focus:ring-purple-500">
-                            <span class="ml-3 text-base text-gray-700">Clara, Objetiva e Acessível</span>
-                        </label>
-                        <label class="flex items-center p-3 border border-purple-300 rounded-md bg-white cursor-pointer hover:bg-purple-100 transition-all duration-200 shadow-sm">
-                            <input type="radio" name="linguagem-material" value="Técnica com Explicações Detalhadas dos Conceitos" class="form-radio h-5 w-5 text-purple-600 focus:ring-purple-500">
-                            <span class="ml-3 text-base text-gray-700">Técnica com Explicações Detalhadas</span>
-                        </label>
-                        <label class="flex items-center p-3 border border-purple-300 rounded-md bg-white cursor-pointer hover:bg-purple-100 transition-all duration-200 shadow-sm">
-                            <input type="radio" name="linguagem-material" value="Acadêmica com Debate Doutrinário e Conceitos Avançados" class="form-radio h-5 w-5 text-purple-600 focus:ring-purple-500">
-                            <span class="ml-3 text-base text-gray-700">Acadêmica com Debate Doutrinário</span>
-                        </label>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Seção: Formato de Saída -->
-            <div class="border border-yellow-200 rounded-xl p-6 bg-yellow-50 shadow-md">
-                <h2 class="text-2xl font-bold text-yellow-800 mb-5 flex items-center">
-                    <span class="mr-3 text-3xl">📦</span> 7. Formato de Entrega Preferido
-                </h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-                    <label class="flex items-center p-3 border border-yellow-300 rounded-md bg-white cursor-pointer hover:bg-yellow-100 transition-all duration-200 shadow-sm">
-                        <input type="radio" name="formato-saida" value="Texto Corrido (ideal para Markdown/documento simples)" class="form-radio h-5 w-5 text-yellow-600 focus:ring-yellow-500">
-                        <span class="ml-3 text-base text-gray-700">Texto Corrido (Markdown)</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-yellow-300 rounded-md bg-white cursor-pointer hover:bg-yellow-100 transition-all duration-200 shadow-sm">
-                        <input type="radio" name="formato-saida" value="Formato para PDF/E-book (com seções e sumário)" class="form-radio h-5 w-5 text-yellow-600 focus:ring-yellow-500">
-                        <span class="ml-3 text-base text-gray-700">Formato para PDF/E-book</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-yellow-300 rounded-md bg-white cursor-pointer hover:bg-yellow-100 transition-all duration-200 shadow-sm">
-                        <input type="radio" name="formato-saida" value="Roteiro para Apresentação (slides)" class="form-radio h-5 w-5 text-yellow-600 focus:ring-yellow-500">
-                            <span class="ml-3 text-base text-gray-700">Roteiro para Apresentação (Slides)</span>
-                    </label>
-                    <label class="flex items-center p-3 border border-yellow-300 rounded-md bg-white cursor-pointer hover:bg-yellow-100 transition-all duration-200 shadow-sm">
-                        <input type="radio" name="formato-saida" value="Roteiro para Vídeo Aula" class="form-radio h-5 w-5 text-yellow-600 focus:ring-yellow-500">
-                        <span class="ml-3 text-base text-gray-700">Roteiro para Vídeo Aula</span>
-                    </label>
-                </div>
-            </div>
-
-            <!-- Seção: Opções Adicionais -->
-            <div class="border border-gray-200 rounded-xl p-6 bg-gray-50 shadow-md">
-                <h2 class="text-2xl font-bold text-gray-800 mb-5 flex items-center">
-                    <span class="mr-3 text-3xl">➕</span> 8. Opções Adicionais
-                </h2>
-                <label class="flex items-center p-3 border border-gray-300 rounded-md bg-white cursor-pointer hover:bg-gray-100 transition-all duration-200 shadow-sm">
-                    <input type="checkbox" name="opcoes-adicionais" value="Incluir Referências Bibliográficas e Fontes Consultadas" class="form-checkbox h-5 w-5 text-gray-600 rounded focus:ring-gray-500">
-                    <span class="ml-3 text-base text-gray-700">Incluir Referências Bibliográficas e Fontes Consultadas</span>
-                </label>
-            </div>
-
-        </div>
-
-        <!-- Botão para gerar o prompt -->
-        <div class="mt-10 text-center">
-            <button id="gerar-prompt"
-                    class="px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-700 text-white font-bold text-lg rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300 focus:outline-none focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50">
-                🚀 Gerar Prompt Personalizado
+    <!-- Conteúdo Principal (com Topbar) -->
+    <div class="flex-1 flex flex-col h-screen">
+        
+        <!-- Topbar -->
+        <header class="bg-white shadow-md p-4 flex items-center justify-between z-10 md:ml-80">
+            <!-- Botão Hamburger (Apenas Mobile) -->
+            <button id="menu-toggle" class="md:hidden text-gray-700" onclick="toggleMenu()">
+                <i data-lucide="menu" class="w-6 h-6"></i>
             </button>
-        </div>
+            <h2 class="text-xl font-semibold text-gray-700">MindMap Educacional</h2>
+            <div class="w-6"></div> <!-- Espaçador -->
+        </header>
 
-        <!-- Área para exibir o prompt gerado -->
-        <div id="resultado-prompt" class="mt-12 p-8 bg-gray-100 border border-gray-300 rounded-lg shadow-inner hidden">
-            <h2 class="text-2xl font-bold text-gray-900 mb-4 text-center">
-                Seu Prompt Gerado:
-            </h2>
-            <div class="bg-white p-6 rounded-md border border-gray-200 shadow-sm relative">
-                <pre id="prompt-output" class="whitespace-pre-wrap text-gray-800 font-mono text-sm leading-relaxed"></pre>
-                <button id="copy-prompt"
-                        class="absolute top-3 right-3 p-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-gray-400"
-                        title="Copiar para a área de transferência">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                        <path d="M8 3a1 1 0 011-1h2a1 1 0 110 2H9a1 1 0 01-1-1z" />
-                        <path d="M6 3a2 2 0 00-2 2v11a2 2 0 002 2h8a2 2 0 002-2V5a2 2 0 00-2-2H6zM5 9a1 1 0 011-1h8a1 1 0 110 2H6a1 1 0 01-1-1z" />
-                    </svg>
-                </button>
+        <!-- Área de Conteúdo Scrollável -->
+        <main class="flex-1 p-4 md:p-8 overflow-y-auto bg-gray-50 md:ml-80">
+            <div id="content-area" class="bg-transparent min-h-full">
+                <h2 id="content-title" class="text-3xl font-bold text-gray-800 mb-6">
+                    Selecione um Subtema
+                </h2>
+                <div id="mindmap-container">
+                    <p class="text-gray-500">Escolha uma disciplina, tema e subtema no menu ao lado para exibir o mapa mental.</p>
+                </div>
             </div>
-            <div id="copy-message" class="mt-2 text-sm text-green-700 text-center hidden">
-                Prompt copiado! 🎉
-            </div>
-        </div>
-
+        </main>
     </div>
 
     <script>
-        document.getElementById('gerar-prompt').addEventListener('click', function() {
-            const temaPersonalizado = document.getElementById('tema-personalizado').value.trim();
-            if (!temaPersonalizado) {
-                alert('Por favor, descreva o tema ou área específica do Direito.');
-                return;
+        // --- BANCO DE DADOS SIMULADO ---
+        const database = {
+            "Direito Penal": {
+                "Teoria do Crime": {
+                    "Conceito de Crime": {
+                        title: "Conceito de Crime",
+                        children: [
+                            { title: "Conceito Material" },
+                            { title: "Conceito Formal" },
+                            { 
+                                title: "Conceito Analítico (Tripartido)",
+                                children: [
+                                    { title: "Fato Típico" },
+                                    { title: "Ilicitude (Antijuridicidade)" },
+                                    { title: "Culpabilidade" }
+                                ]
+                            }
+                        ]
+                    },
+                    "Fato Típico": {
+                        title: "Fato Típico e seus Elementos",
+                        children: [
+                            { title: "Conduta (Ação ou Omissão)" },
+                            { title: "Resultado Naturalístico" },
+                            { title: "Nexo de Causalidade" },
+                            { title: "Tipicidade" }
+                        ]
+                    }
+                },
+                "Crimes contra a Vida": {
+                    "Homicídio": {
+                        title: "Homicídio (Art. 121 CP)",
+                        children: [
+                            { title: "Homicídio Simples (caput)" },
+                            {
+                                title: "Homicídio Privilegiado (§ 1º)",
+                                children: [
+                                    { title: "Relevante valor social" },
+                                    { title: "Relevante valor moral" },
+                                    { title: "Domínio de violenta emoção" }
+                                ]
+                            },
+                            {
+                                title: "Homicídio Qualificado (§ 2º)",
+                                children: [
+                                    { title: "Motivo Torpe" },
+                                    { title: "Motivo Fútil" },
+                                    { title: "Feminicídio" }
+                                ]
+                            },
+                        ]
+                    },
+                    "Infanticídio": {
+                        title: "Infanticídio (Art. 123 CP)",
+                        children: [
+                            { title: "Sujeito Ativo (Mãe)" },
+                            { title: "Sujeito Passivo (Próprio filho)" },
+                            { title: "Elemento Psicofisiológico (Estado puerperal)" }
+                        ]
+                    }
+                }
+            },
+            "Filosofia": {
+                "Filósofos Pré-Socráticos": {
+                    "Escola Jônica": {
+                        title: "Escola Jônica (Physis)",
+                        children: [
+                            { title: "Tales de Mileto (Água)" },
+                            { title: "Anaximandro (Apeíron)" },
+                            { title: "Anaxímenes (Ar)" },
+                            { title: "Heráclito (Fogo - Devir)" }
+                        ]
+                    },
+                     "Escola Italiana": {
+                        title: "Escola Italiana",
+                        children: [
+                            { title: "Pitágoras (Números)" },
+                            { 
+                                title: "Escola Eleática",
+                                children: [
+                                    { title: "Parmênides (O Ser é)" },
+                                    { title: "Zenão de Eleia (Paradoxos)" }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "Período Clássico": {
+                    "Sofistas": {
+                        title: "Sofistas",
+                        children: [
+                            { title: "Protágoras (O homem é a medida)" },
+                            { title: "Górgias (Ceticismo)" }
+                        ]
+                    },
+                    "Tríade de Atenas": {
+                        title: "A Tríade de Atenas",
+                        children: [
+                            { 
+                                title: "Sócrates",
+                                children: [
+                                    { title: "Método Socrático (Maiêutica)" },
+                                    { title: "Ironia" },
+                                    { title: "Conhece-te a ti mesmo" }
+                                ]
+                            },
+                            { 
+                                title: "Platão",
+                                children: [
+                                    { title: "Teoria das Ideias (Mundo Sensível vs. Inteligível)" },
+                                    { title: "Alegoria da Caverna" },
+                                    { title: "A República (Sofocracia)" }
+                                ]
+                            },
+                             { 
+                                title: "Aristóteles",
+                                children: [
+                                    { title: "Metafísica (Ato e Potência)" },
+                                    { title: "Ética a Nicômaco (Justo Meio)" },
+                                    { title: "Lógica (Organon)" },
+                                    { title: "Política (Zoon Politikon)" }
+                                ]
+                            },
+                        ]
+                    }
+                }
             }
+        };
 
-            let prompt = `Com o objetivo de criar um material de estudo ATUALIZADO e MUITO BEM ESTRUTURADO para estudantes universitários de Direito, preciso de um guia completo sobre:\n\n`;
-            prompt += `**Tema Principal:** ${temaPersonalizado}\n\n`;
-
-            // Público-Alvo e Nível
-            const publicoAlvo = document.querySelector('input[name="publico-alvo"]:checked')?.value;
-            const nivelProfundidade = document.querySelector('input[name="nivel-profundidade"]:checked')?.value;
-
-            if (publicoAlvo) {
-                prompt += `**Público-Alvo/Fase de Estudo:** ${publicoAlvo}\n`;
-            }
-            if (nivelProfundidade) {
-                prompt += `**Nível de Profundidade Desejado:** ${nivelProfundidade}\n\n`;
-            } else {
-                 prompt += `**Nível de Profundidade Desejado:** Análise Aprofundada (com discussões doutrinárias e jurisprudenciais) (Padrão se não selecionado)\n\n`;
-            }
-
-
-            // Tipos de Conteúdo
-            const tiposConteudo = Array.from(document.querySelectorAll('input[name="tipo-conteudo"]:checked'))
-                                      .map(cb => cb.value);
-            if (tiposConteudo.length > 0) {
-                prompt += `**Tipos de Conteúdo a Incluir:**\n`;
-                tiposConteudo.forEach(tipo => prompt += `- ${tipo}\n`);
-                prompt += `\n`;
-            } else {
-                prompt += `**Tipos de Conteúdo a Incluir:**\n- Conceitos Fundamentais\n- Princípios Relevantes da Área\n- Análise Jurisprudencial (STF/STJ)\n- Legislação Aplicável (Artigos específicos)\n\n`;
-            }
-
-
-            // Requisitos de Atualização
-            const requisitosAtualizacao = Array.from(document.querySelectorAll('input[name="requisito-atualizacao"]:checked'))
-                                             .map(cb => cb.value);
-            if (requisitosAtualizacao.length > 0) {
-                prompt += `**Requisitos de Atualização:**\n`;
-                requisitosAtualizacao.forEach(req => prompt += `- ${req}\n`);
-                prompt += `\n`;
-            } else {
-                prompt += `**Requisitos de Atualização:**\n- Legislação Mais Recente (ex: reformas, novas leis)\n- Doutrina Contemporânea (autores modernos)\n- Jurisprudência Recente (últimos 5 anos - STF/STJ)\n- Súmulas (Vinculantes e Não Vinculantes)\n\n`;
-            }
-
-            // Fontes de Pesquisa (NOVA SEÇÃO)
-            const fontesPesquisa = Array.from(document.querySelectorAll('input[name="fontes-pesquisa"]:checked'))
-                                       .map(cb => cb.value);
-            if (fontesPesquisa.length > 0) {
-                prompt += `**Fontes de Pesquisa Preferidas:**\n`;
-                fontesPesquisa.forEach(fonte => prompt += `- ${fonte}\n`);
-                prompt += `\n`;
-            } else {
-                prompt += `**Fontes de Pesquisa Preferidas:**\n- Rede (Internet) atualizada até a data de hoje\n- Pesquisas Acadêmicas (artigos, teses, dissertações)\n- Vídeos do YouTube e Aulas Online\n\n`;
-            }
-
-            // Estrutura do Material
-            const estruturaMaterial = Array.from(document.querySelectorAll('input[name="estrutura-material"]:checked'))
-                                          .map(cb => cb.value);
-            if (estruturaMaterial.length > 0) {
-                prompt += `**Estrutura do Material:**\n`;
-                estruturaMaterial.forEach(est => prompt += `- ${est}\n`);
-                prompt += `\n`;
-            } else {
-                prompt += `**Estrutura do Material:**\n- Organizado em Capítulos/Seções Claras\n- Progressão Lógica e Sequencial dos Tópicos\n\n`;
-            }
-
-
-            // Recursos Didáticos
-            const recursosDidaticos = Array.from(document.querySelectorAll('input[name="recurso-didatico"]:checked'))
-                                          .map(cb => cb.value);
-            if (recursosDidaticos.length > 0) {
-                prompt += `**Recursos Didáticos Preferidos:**\n`;
-                recursosDidaticos.forEach(rec => prompt += `- ${rec}\n`);
-                prompt += `\n`;
-            } else {
-                prompt += `**Recursos Didáticos Preferidos:**\n- Resumos ao final de cada seção/capítulo\n- Mapas Mentais/Esquemas Visuais\n- Quadros Comparativos\n- Exemplos Práticos e Casos Hipotéticos\n\n`;
-            }
-
-
-            // Linguagem do Material
-            const linguagemMaterial = document.querySelector('input[name="linguagem-material"]:checked')?.value;
-            if (linguagemMaterial) {
-                prompt += `**Linguagem do Material:** ${linguagemMaterial}\n\n`;
-            } else {
-                prompt += `**Linguagem do Material:** Clara, Objetiva e Acessível (com explicações) (Padrão se não selecionado)\n\n`;
-            }
-
-
-            // Formato de Saída
-            const formatoSaida = document.querySelector('input[name="formato-saida"]:checked')?.value;
-            if (formatoSaida) {
-                prompt += `**Formato de Entrega Preferido:** ${formatoSaida}\n\n`;
-            } else {
-                prompt += `**Formato de Entrega Preferido:** Texto Corrido (ideal para Markdown/documento simples) (Padrão se não selecionado)\n\n`;
-            }
-
-
-            // Opções Adicionais
-            const opcoesAdicionais = Array.from(document.querySelectorAll('input[name="opcoes-adicionais"]:checked'))
-                                          .map(cb => cb.value);
-            if (opcoesAdicionais.length > 0) {
-                prompt += `**Opções Adicionais:**\n`;
-                opcoesAdicionais.forEach(op => prompt += `- ${op}\n`);
-                prompt += `\n`;
-            } else {
-                prompt += `**Opções Adicionais:**\n- Incluir Referências Bibliográficas e Fontes Consultadas (Padrão se não selecionado)\n\n`;
-            }
-
-            document.getElementById('prompt-output').textContent = prompt;
-            document.getElementById('resultado-prompt').classList.remove('hidden');
-            // Scroll to the generated prompt
-            document.getElementById('resultado-prompt').scrollIntoView({ behavior: 'smooth' });
+        // --- INICIALIZAÇÃO ---
+        document.addEventListener('DOMContentLoaded', () => {
+            renderSidebar();
+            // Inicializa os ícones do Lucide
+            lucide.createIcons();
         });
 
-        document.getElementById('copy-prompt').addEventListener('click', function() {
-            const promptText = document.getElementById('prompt-output').textContent;
-            // Use document.execCommand for better compatibility in iframe environments
-            const textarea = document.createElement('textarea');
-            textarea.value = promptText;
-            document.body.appendChild(textarea);
-            textarea.select();
-            try {
-                const successful = document.execCommand('copy');
-                const msgElement = document.getElementById('copy-message');
-                msgElement.classList.remove('hidden');
-                setTimeout(() => msgElement.classList.add('hidden'), 2000); // Hide after 2 seconds
-            } catch (err) {
-                console.error('Falha ao copiar o prompt:', err);
-                alert('Erro ao copiar o prompt. Por favor, tente novamente manualmente.');
-            } finally {
-                document.body.removeChild(textarea);
+        // --- FUNÇÕES DE UI (MENU) ---
+        function toggleMenu() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('sidebar-overlay');
+            sidebar.classList.toggle('-translate-x-full');
+            overlay.classList.toggle('hidden');
+        }
+
+        // --- FUNÇÕES DA SIDEBAR ---
+        function renderSidebar() {
+            const nav = document.getElementById('sidebar-nav');
+            nav.innerHTML = ''; // Limpa a navegação
+
+            for (const disciplina in database) {
+                // Nível 1: Disciplina
+                const discContainer = document.createElement('div');
+                discContainer.className = 'mb-4';
+                
+                const discButton = document.createElement('button');
+                discButton.className = 'flex items-center justify-between w-full text-lg font-semibold text-left text-blue-300 hover:text-white focus:outline-none py-2';
+                discButton.innerHTML = `
+                    <span>${disciplina}</span>
+                    <i data-lucide="chevron-down" class="w-5 h-5 transition-transform duration-200"></i>
+                `;
+                
+                const temasList = document.createElement('ul');
+                temasList.className = 'ml-4 mt-2 hidden space-y-2 border-l border-gray-700'; // Começa escondido
+
+                for (const tema in database[disciplina]) {
+                    // Nível 2: Tema
+                    const temaItem = document.createElement('li');
+                    temaItem.className = "pl-4";
+                    
+                    const temaButton = document.createElement('button');
+                    temaButton.className = 'flex items-center justify-between w-full text-md font-medium text-left text-gray-300 hover:text-white focus:outline-none py-1';
+                    temaButton.innerHTML = `
+                        <span>${tema}</span>
+                        <i data-lucide="chevron-down" class="w-4 h-4 transition-transform duration-200"></i>
+                    `;
+                    
+                    const subtemasList = document.createElement('ul');
+                    subtemasList.className = 'ml-4 mt-2 hidden space-y-1 border-l border-gray-600'; // Começa escondido
+
+                    for (const subtema in database[disciplina][tema]) {
+                        // Nível 3: Subtema
+                        const subtemaItem = document.createElement('li');
+                        subtemaItem.className = "pl-4";
+
+                        const subtemaLink = document.createElement('a');
+                        subtemaLink.href = '#';
+                        subtemaLink.textContent = subtema;
+                        subtemaLink.className = 'block text-gray-400 hover:text-white py-1 transition-colors';
+                        
+                        subtemaLink.dataset.disciplina = disciplina;
+                        subtemaLink.dataset.tema = tema;
+                        subtemaLink.dataset.subtema = subtema;
+
+                        subtemaLink.addEventListener('click', (e) => {
+                            e.preventDefault();
+                            
+                            // Remove o 'active' de todos os links
+                            document.querySelectorAll('#sidebar-nav a').forEach(a => a.classList.remove('text-white', 'font-bold'));
+                            // Adiciona o 'active' no link clicado
+                            e.target.classList.add('text-white', 'font-bold');
+
+                            const data = e.target.dataset;
+                            const mapData = database[data.disciplina][data.tema][data.subtema];
+                            renderMindMap(mapData, subtema);
+                            
+                            // Fecha o menu se estiver no modo mobile
+                            if (window.innerWidth < 768) { // 768px é o breakpoint 'md' do Tailwind
+                                toggleMenu();
+                            }
+                        });
+                        
+                        subtemaItem.appendChild(subtemaLink);
+                        subtemasList.appendChild(subtemaItem);
+                    }
+
+                    temaButton.addEventListener('click', (e) => {
+                        e.stopPropagation(); // Evita que o clique feche a disciplina
+                        subtemasList.classList.toggle('hidden');
+                        temaButton.querySelector('i').classList.toggle('rotate-180');
+                    });
+
+                    temaItem.appendChild(temaButton);
+                    temaItem.appendChild(subtemasList);
+                    temasList.appendChild(temaItem);
+                }
+
+                discButton.addEventListener('click', () => {
+                    temasList.classList.toggle('hidden');
+                    discButton.querySelector('i').classList.toggle('rotate-180');
+                });
+                
+                discContainer.appendChild(discButton);
+                discContainer.appendChild(temasList);
+                nav.appendChild(discContainer);
             }
-        });
+            lucide.createIcons(); // Cria os ícones do acordeão
+        }
+
+        // --- FUNÇÕES DO MAPA MENTAL ---
+        function renderMindMap(mapData, title) {
+            const container = document.getElementById('mindmap-container');
+            const titleEl = document.getElementById('content-title');
+            
+            titleEl.textContent = title;
+            container.innerHTML = ''; // Limpa o mapa anterior
+
+            if (mapData && mapData.title) {
+                // Cria o nó raiz (nível 0)
+                const rootNode = createMindMapNode(mapData, true); // true = isRoot
+                container.appendChild(rootNode);
+            } else {
+                container.innerHTML = '<p class="text-gray-500">Não foi possível carregar este mapa mental.</p>';
+            }
+            
+            // Recria os ícones do Lucide
+            lucide.createIcons();
+        }
+
+        /**
+         * Cria recursivamente os nós do mapa mental
+         * @param {object} nodeData - Os dados do nó atual
+         * @param {boolean} isRoot - Se este é o nó raiz
+         */
+        function createMindMapNode(nodeData, isRoot = false) {
+            const node = document.createElement('div');
+            const hasChildren = nodeData.children && nodeData.children.length > 0;
+            
+            node.className = isRoot ? 'mindmap-root' : 'mindmap-node';
+            if (!hasChildren && !isRoot) {
+                node.classList.add('no-children');
+            }
+
+            // O Card do Tópico
+            const card = document.createElement('div');
+            card.className = 'mindmap-card';
+            
+            // Conteúdo Esquerdo (Ícone + Texto)
+            const leftContent = document.createElement('div');
+            leftContent.className = 'flex items-center';
+            
+            const icon = document.createElement('i');
+            // Ícone de "livro" para o raiz, "arquivo" para os filhos
+            icon.setAttribute('data-lucide', isRoot ? 'book-open' : 'file-text');
+            icon.className = 'w-5 h-5 text-blue-500 mr-3';
+            
+            const text = document.createElement('span');
+            text.textContent = nodeData.title;
+            text.className = isRoot ? 'text-xl font-semibold text-gray-800' : 'text-lg text-gray-700';
+            
+            leftContent.appendChild(icon);
+            leftContent.appendChild(text);
+
+            // Conteúdo Direito (Botão Google IA)
+            const searchButton = document.createElement('button');
+            searchButton.className = 'ml-4 text-gray-500 hover:text-blue-600 p-2 rounded-full hover:bg-blue-100';
+            searchButton.title = `Pesquisar "${nodeData.title}" no Google (Modo IA)`;
+            // Ícone "BrainCircuit" para IA
+            searchButton.innerHTML = '<i data-lucide="brain-circuit" class="w-5 h-5"></i>';
+            searchButton.onclick = () => searchOnGoogle(nodeData.title);
+            
+            card.appendChild(leftContent);
+            card.appendChild(searchButton);
+            node.appendChild(card);
+
+            // Processa os filhos recursivamente
+            if (hasChildren) {
+                const childrenContainer = document.createElement('div');
+                childrenContainer.className = 'mindmap-children';
+                
+                nodeData.children.forEach(childData => {
+                    const childNode = createMindMapNode(childData, false);
+                    childrenContainer.appendChild(childNode);
+                });
+                
+                node.appendChild(childrenContainer);
+            }
+            
+            return node;
+        }
+        
+        // --- FUNÇÕES AUXILIARES ---
+        function searchOnGoogle(topic) {
+            // Codifica o tópico para ser usado em uma URL
+            const query = encodeURIComponent(topic);
+            // O "modo IA" do Google (AI Overviews) é ativado automaticamente
+            // pela pesquisa padrão.
+            const url = `https://www.google.com/search?q=${query}`;
+            window.open(url, '_blank');
+        }
+
     </script>
 </body>
 </html>
+
