@@ -1,0 +1,22 @@
+{
+    "title": "Homicídio (Art. 121 CP)",
+    "children": [
+        { "title": "Homicídio Simples (caput)" },
+        {
+            "title": "Homicídio Privilegiado (§ 1º)",
+            "children": [
+                { "title": "Relevante valor social" },
+                { "title": "Relevante valor moral" },
+                { "title": "Domínio de violenta emoção" }
+            ]
+        },
+        {
+            "title": "Homicídio Qualificado (§ 2º)",
+            "children": [
+                { "title": "Motivo Torpe" },
+                { "title": "Motivo Fútil" },
+                { "title": "Feminicídio" }
+            ]
+        }
+    ]
+}
