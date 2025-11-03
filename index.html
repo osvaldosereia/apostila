@@ -90,7 +90,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <!-- Lado Esquerdo: Hamburger e Logo -->
-                <div class="flex items-center">
+                <div class="items-center flex">
                     <!-- Botão Hamburger -->
                     <button id="hamburger-btn" class="p-2 rounded-md text-gray-500 hover:text-indigo-600 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-indigo-600">
                         <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
@@ -192,6 +192,22 @@
                 }
             }
 
+            // --- FUNÇÃO DE RECALCULAR ALTURA ---
+            // Recalcula a altura de todos os pais que estão abertos
+            function recalculateParentsHeight(targetElement) {
+                let current = targetElement.parentNode;
+                
+                // Limite a busca para dentro da área de conteúdo (para não quebrar a página)
+                while (current && current.id !== 'content-area') {
+                    if (current.classList.contains('children-container') && current.style.maxHeight !== '0px') {
+                        // Garante que o scrollHeight é medido corretamente
+                        current.style.maxHeight = current.scrollHeight + 'px';
+                    }
+                    current = current.parentNode;
+                }
+            }
+
+
             // 4. Função para carregar um mapa mental na tela
             let currentPromptTemplate = ''; // Armazena o template do JSON
 
@@ -271,8 +287,20 @@
                         const childrenContainer = item.querySelector('.children-container');
                         if (childrenContainer) {
                             const isOpen = childrenContainer.style.maxHeight !== '0px';
-                            childrenContainer.style.maxHeight = isOpen ? '0px' : childrenContainer.scrollHeight + 'px';
-                            toggleIcon.classList.toggle('rotate-90', !isOpen);
+                            
+                            if (isOpen) {
+                                // Fechar
+                                childrenContainer.style.maxHeight = '0px';
+                                toggleIcon.classList.remove('rotate-90');
+                            } else {
+                                // Abrir
+                                childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
+                                toggleIcon.classList.add('rotate-90');
+                            }
+                            
+                            // *** NOVA CHAMADA PARA CORREÇÃO DO BOX PRIMÁRIO ***
+                            // Recalcula a altura de todos os pais abertos para ajustar o layout
+                            recalculateParentsHeight(item);
                         }
                     };
                 }
@@ -315,11 +343,13 @@
 
                     item.appendChild(childrenContainer);
                     
-                    // Força o max-height correto após a adição dos filhos (necessário para a transição)
-                    // Apenas se for a raiz, senão, fica fechado
+                    // Ajuste inicial de maxHeight para a transição
                     if (depth === 0) {
-                        // setTimeout para garantir que a DOM foi renderizada
-                         setTimeout(() => childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px', 0);
+                         // Necessário para iniciar a altura correta antes que o overflow:hidden seja aplicado
+                         setTimeout(() => {
+                            childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
+                            recalculateParentsHeight(item);
+                         }, 0);
                     }
                 }
 
