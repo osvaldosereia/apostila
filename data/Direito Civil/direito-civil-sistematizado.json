@@ -3084,7 +3084,9 @@
               {
                 "nome": "Breve suma",
                 "filhos": []
-              }
-          ]
-      }
-    }
+            }
+            ]
+          }
+        ]
+      } // <- Fecha o objeto "topicoRaiz"
+    } // <- Fecha o objeto principal (raiz). O arquivo deve terminar aqui.
