@@ -375,7 +375,7 @@
                 header.className = `item-header ${colorClass}`;
                 
                 
-                // Se tiver filhos, adiciona o evento de clique ao header
+                // Se tiver filhos, adiciona o evento de clique ao header (para o ACORDEÃO)
                 if (hasChildren) {
                     header.addEventListener('click', toggleAccordion);
                     // Adiciona o estilo de hover customizado baseado na cor primária
@@ -464,31 +464,34 @@
             // Evento para cliques DENTRO da área de conteúdo (botões de explicação)
             contentArea.addEventListener('click', (event) => {
                 const button = event.target.closest('.explain-btn');
-                if (!button) {
-                    return;
+                
+                if (button) {
+                    // *** CORREÇÃO CHAVE: Impede que o clique no botão suba e ative o acordeão do header ***
+                    event.stopPropagation(); 
+
+                    const topic = button.dataset.topic;
+                    if (!topic) {
+                        return;
+                    }
+
+                    // 1. Monta o novo prompt com o caminho (CONTEXT)
+                    const pathString = button.dataset.path;
+                    const pathArray = pathString ? JSON.parse(pathString) : [];
+                    const context = pathArray.length > 0 ? ` (${pathArray.join(', ')})` : '';
+                    
+                    // 2. Aplica os placeholders no template
+                    let finalQuery = currentPromptTemplate
+                        .replace(/\[TOPIC\]/g, topic)
+                        .replace(/\[CONTEXT\]/g, context);
+
+                    const encodedQuery = encodeURIComponent(finalQuery);
+                    
+                    // 3. Abre a nova URL
+                    const googleUrl = `https://www.google.com/search?udm=50&q=${encodedQuery}`;
+                    
+                    window.open(googleUrl, '_blank');
                 }
-
-                const topic = button.dataset.topic;
-                if (!topic) {
-                    return;
-                }
-
-                // 1. Monta o novo prompt com o caminho (CONTEXT)
-                const pathString = button.dataset.path;
-                const pathArray = pathString ? JSON.parse(pathString) : [];
-                const context = pathArray.length > 0 ? ` (${pathArray.join(', ')})` : '';
-                
-                // 2. Aplica os placeholders no template
-                let finalQuery = currentPromptTemplate
-                    .replace(/\[TOPIC\]/g, topic)
-                    .replace(/\[CONTEXT\]/g, context);
-
-                const encodedQuery = encodeURIComponent(finalQuery);
-                
-                // 3. Abre a nova URL
-                const googleUrl = `https://www.google.com/search?udm=50&q=${encodedQuery}`;
-                
-                window.open(googleUrl, '_blank');
+                // Se o clique não foi no botão, o evento continua a subir, e a função toggleAccordion no header é acionada (se o clique foi no texto).
             });
 
 
