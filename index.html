@@ -229,7 +229,7 @@
                 const parentList = item.parentElement; // O <ul> pai
                 const isCurrentlyOpen = childrenContainer.classList.contains('open');
                 
-                // Lógica de fechamento de irmãos (siblings) - NOVO: Garante o foco
+                // Lógica de fechamento de irmãos (siblings) - Garante o foco
                 if (!isCurrentlyOpen) {
                     Array.from(parentList.children).forEach(sibling => {
                         // Verifica se o irmão é colapsável e não é o item clicado
@@ -341,7 +341,7 @@
                     mapContainer.appendChild(rootList);
                     contentArea.appendChild(mapContainer);
 
-                    // NOVO: Desloca a página para o topo do conteúdo do mapa
+                    // Desloca a página para o topo do conteúdo do mapa
                     window.scrollTo({ top: 0, behavior: 'smooth' });
                     
                 } catch (error) {
@@ -409,6 +409,26 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 `;
+                
+                // *** CORREÇÃO: Anexar o listener de IA diretamente ao botão e parar a propagação aqui. ***
+                button.addEventListener('click', (event) => {
+                    event.stopPropagation(); // IMPEDE QUE O CLIQUE SUBA PARA O HEADER (toggleAccordion)
+                    
+                    const topic = button.dataset.topic;
+                    const pathString = button.dataset.path;
+                    const pathArray = pathString ? JSON.parse(pathString) : [];
+                    const context = pathArray.length > 0 ? ` (${pathArray.join(', ')})` : '';
+
+                    let finalQuery = currentPromptTemplate
+                        .replace(/\[TOPIC\]/g, topic)
+                        .replace(/\[CONTEXT\]/g, context);
+
+                    const encodedQuery = encodeURIComponent(finalQuery);
+                    const googleUrl = `https://www.google.com/search?udm=50&q=${encodedQuery}`;
+                    
+                    window.open(googleUrl, '_blank');
+                });
+                
                 header.appendChild(button);
                 item.appendChild(header);
 
@@ -461,39 +481,7 @@
                 }
             });
 
-            // Evento para cliques DENTRO da área de conteúdo (botões de explicação)
-            contentArea.addEventListener('click', (event) => {
-                const button = event.target.closest('.explain-btn');
-                
-                if (button) {
-                    // *** CORREÇÃO CHAVE: Impede que o clique no botão suba e ative o acordeão do header ***
-                    event.stopPropagation(); 
-
-                    const topic = button.dataset.topic;
-                    if (!topic) {
-                        return;
-                    }
-
-                    // 1. Monta o novo prompt com o caminho (CONTEXT)
-                    const pathString = button.dataset.path;
-                    const pathArray = pathString ? JSON.parse(pathString) : [];
-                    const context = pathArray.length > 0 ? ` (${pathArray.join(', ')})` : '';
-                    
-                    // 2. Aplica os placeholders no template
-                    let finalQuery = currentPromptTemplate
-                        .replace(/\[TOPIC\]/g, topic)
-                        .replace(/\[CONTEXT\]/g, context);
-
-                    const encodedQuery = encodeURIComponent(finalQuery);
-                    
-                    // 3. Abre a nova URL
-                    const googleUrl = `https://www.google.com/search?udm=50&q=${encodedQuery}`;
-                    
-                    window.open(googleUrl, '_blank');
-                }
-                // Se o clique não foi no botão, o evento continua a subir, e a função toggleAccordion no header é acionada (se o clique foi no texto).
-            });
-
+            // O Listener delegado na contentArea foi removido e a lógica de IA está agora em createMapNode.
 
             // --- 7. Inicialização ---
             await buildSidebarMenu(); 
