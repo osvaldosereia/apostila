@@ -2,9 +2,7 @@
   {
     "disciplina": "Direito Civil",
     "temas": [
-      { "nome": "Contratos", "path": "data/Direito Civil/Contratos.json" },
-      { "nome": "Diálogo das Fontes", "path": "data/Direito Civil/Dialogo-das-fontes.json" },
-      { "nome": "Manual de Direito Civil", "path": "data/Direito Civil/direito-civil.json" }
+      { "nome": "Manual de Direito Civil", "path": "data/Direito Civil/manual-direito-civil.json" }
     ]
   },
   {
