@@ -1,271 +1,342 @@
 {
-"titulo": "Lei de Introdução às Normas do Direito Brasileiro (LINDB)",
-"topicoRaiz": {
-"nome": "LINDB (Decreto-Lei nº 4.657/1942)",
-"filhos": [
-{
-"nome": "I. Fundamentos e Histórico da LINDB",
-"filhos": [
-{ "nome": "Instituição (Decreto-Lei nº 4.657/1942)", "filhos": [] },
-{ "nome": "Antiga Nomenclatura (Lei de Introdução ao Código Civil)", "filhos": [] },
-{ "nome": "Status (Lei ordinária)", "filhos": [] },
-{ "nome": "Função (Norma de sobredireito)", "filhos": [] },
-{ "nome": "Abrangência (Todos os ramos do Direito)", "filhos": [] },
-{ "nome": "Finalidade Geral (Segurança jurídica e previsibilidade)", "filhos": [] }
-]
-},
-{
-"nome": "II. Aplicação da Norma no Tempo (Vigência)",
-"filhos": [
-{
-"nome": "Princípio da Obrigatoriedade",
-"filhos": [
-{ "nome": "Ninguém se escusa de cumprir a lei (Art. 3º)", "filhos": [] },
-{ "nome": "Teorias sobre a Obrigatoriedade", "filhos": [
-{ "nome": "Ficção Legal", "filhos": [] },
-{ "nome": "Presunção Absoluta (Não aceita)", "filhos": [] },
-{ "nome": "Necessidade Social (Mais aceita)", "filhos": [] }
-] }
-]
-},
-{
-"nome": "Princípio da Continuidade das Leis",
-"filhos": [
-{ "nome": "Lei não temporária tem vigor contínuo", "filhos": [] }
-]
-},
-{
-"nome": "Existência, Validade e Eficácia",
-"filhos": [
-{ "nome": "Promulgação", "filhos": [] },
-{ "nome": "Publicação (Condição de vigência)", "filhos": [] }
-]
-},
-{
-"nome": "Vacatio Legis",
-"filhos": [
-{ "nome": "Conceito (Intervalo entre publicação e vigência)", "filhos": [] },
-{ "nome": "Prazos em caso de omissão (Art. 1º)", "filhos": [
-{ "nome": "45 dias (Território nacional)", "filhos": [] },
-{ "nome": "3 meses (Estados estrangeiros)", "filhos": [] }
-] },
-{ "nome": "Princípio da Vigência Sincrônica (Obrigatoriedade simultânea)", "filhos": [] },
-{ "nome": "Recontagem de Prazo (Correção do texto na *vacatio legis*)", "filhos": [] }
-]
-},
-{
-"nome": "Revogação da Lei",
-"filhos": [
-{ "nome": "Espécies quanto à Extensão", "filhos": [
-{ "nome": "Ab-rogação (Revogação total)", "filhos": [] },
-{ "nome": "Derrogação (Revogação parcial)", "filhos": [] }
-] },
-{ "nome": "Espécies quanto à Forma", "filhos": [
-{ "nome": "Expressa", "filhos": [] },
-{ "nome": "Tácita/Indireta (Incompatibilidade ou Regulamentação total)", "filhos": [] }
-] }
-]
-},
-{ "nome": "Ultravatividade da Norma (Lei revogada continua produzindo efeitos)", "filhos": [] },
-{ "nome": "Repristinação (Não automática, exige previsão expressa)", "filhos": [] }
-]
-},
-{
-"nome": "III. Conflito de Leis no Tempo (Retroatividade)",
-"filhos": [
-{ "nome": "Princípio da Irretroatividade das Leis (Regra)", "filhos": [] },
-{ "nome": "Limites à Retroatividade (Proteções Constitucionais/LINDB)", "filhos": [
-{ "nome": "Ato Jurídico Perfeito", "filhos": [] },
-{ "nome": "Direito Adquirido", "filhos": [] },
-{ "nome": "Coisa Julgada", "filhos": [] }
-] }
-]
-},
-{
-"nome": "IV. Aplicação da Norma no Espaço (Direito Internacional)",
-"filhos": [
-{ "nome": "Princípio da Territorialidade Moderada (Temperada)", "filhos": [] },
-{ "nome": "Regra Geral (Lei do domicílio - Art. 7º)", "filhos": [
-{ "nome": "Capacidade e Direitos da Personalidade", "filhos": [] },
-{ "nome": "Começo e Fim da Personalidade", "filhos": [] },
-{ "nome": "Nome e Direitos de Família", "filhos": [] }
-] },
-{ "nome": "Homologação de Sentença Estrangeira (Requisitos - STJ)", "filhos": [
-{ "nome": "Não ofender Soberania Nacional", "filhos": [] },
-{ "nome": "Não ofender Ordem Pública", "filhos": [] },
-{ "nome": "Não ofender Bons Costumes", "filhos": [] }
-] }
-]
-},
-{
-"nome": "V. Interpretação e Integração da Norma",
-"filhos": [
-{
-"nome": "Interpretação (Busca do Sentido e Alcance)",
-"filhos": [
-{ "nome": "Meios de Interpretação", "filhos": [
-{ "nome": "Gramatical ou Literal", "filhos": [] },
-{ "nome": "Lógica", "filhos": [] },
-{ "nome": "Sistemática (Lógico-sistemática)", "filhos": [] },
-{ "nome": "Histórica", "filhos": [] },
-{ "nome": "Ontológica (*Ratio Legis*)", "filhos": [] },
-{ "nome": "Sociológica ou Teleológica (Fins sociais e Bem comum)", "filhos": [] }
-] },
-{ "nome": "Fontes da Interpretação", "filhos": [
-{ "nome": "Autêntica (Pelo legislador)", "filhos": [] },
-{ "nome": "Doutrinária", "filhos": [] },
-{ "nome": "Jurisprudencial", "filhos": [] }
-] },
-{ "nome": "Resultados da Interpretação", "filhos": [
-{ "nome": "Declarativa", "filhos": [] },
-{ "nome": "Extensiva (Legislador disse menos)", "filhos": [] },
-{ "nome": "Restritiva (Legislador disse mais)", "filhos": [] }
-] }
-]
-},
-{
-"nome": "Integração (Art. 4º LINDB - Lacuna da Lei)",
-"filhos": [
-{ "nome": "Princípio da Inafastabilidade da Jurisdição", "filhos": [] },
-{ "nome": "Métodos de Integração Sucessivos", "filhos": [
-{ "nome": "Analogia", "filhos": [] },
-{ "nome": "Costumes", "filhos": [
-{ "nome": "Costume *Secundum Legem*", "filhos": [] },
-{ "nome": "Costume *Praeter Legem* (Integrativo)", "filhos": [] },
-{ "nome": "Costume *Contra Legem*", "filhos": [] }
-] },
-{ "nome": "Princípios Gerais de Direito", "filhos": [] }
-] },
-{ "nome": "Equidade (Não é método de integração)", "filhos": [
-{ "nome": "Decidir Com Equidade vs. Por Equidade", "filhos": [] },
-{ "nome": "Equidade Legal (Ex: Art. 413 CC)", "filhos": [] },
-{ "nome": "Equidade Judicial (Ex: Art. 140 CPC)", "filhos": [] }
-] }
-]
-},
-{
-"nome": "Lacunas da Lei",
-"filhos": [
-{ "nome": "Lacuna Normativa (Omissão total)", "filhos": [] },
-{ "nome": "Lacuna Ontológica (Norma sem eficácia social)", "filhos": [] },
-{ "nome": "Lacuna Axiológica (Norma que enseja injustiça)", "filhos": [] },
-{ "nome": "Lacuna de Conflito (Antinomia)", "filhos": [] }
-]
-},
-{
-"nome": "Antinomia (Conflito de Normas)",
-"filhos": [
-{ "nome": "Antinomia Aparente (1º grau)", "filhos": [
-{ "nome": "Critério Hierárquico", "filhos": [] },
-{ "nome": "Critério da Especialidade", "filhos": [] },
-{ "nome": "Critério Cronológico", "filhos": [] }
-] },
-{ "nome": "Antinomia Real (2º grau)", "filhos": [
-{ "nome": "Conflito entre Critérios", "filhos": [] }
-] }
-]
-}
-]
-},
-{
-"nome": "VI. Contribuições da Lei 13.655/18 (Direito Público)",
-"filhos": [
-{ "nome": "Foco em Segurança Jurídica e Eficiência na Gestão Pública", "filhos": [] },
-{ "nome": "Consequências Práticas da Decisão (Art. 20)", "filhos": [] },
-{ "nome": "Invalidação de Atos (Indicação expressa das consequências - Art. 21)", "filhos": [] },
-{ "nome": "Interpretação de Gestão Pública (Obstáculos e Dificuldades Reais - Art. 22)", "filhos": [] },
-{ "nome": "Orientação Nova (Exigência de Regime de Transição - Art. 23)", "filhos": [] },
-{ "nome": "Revisão de Atos Completados (Orientações da Época - Art. 24)", "filhos": [] },
-{ "nome": "Responsabilidade do Agente Público (Dolo ou Erro Grosseiro - Art. 28)", "filhos": [] }
-]
-},
-{
-"nome": "VII. Tópicos de Direito Civil Regulados pela Parte Geral e LINDB (Contratos)",
-"filhos": [
-{
-"nome": "Contratos",
-"filhos": [
-{
-"nome": "Conceito e Natureza Jurídica",
-"filhos": [
-{ "nome": "Acordo de Vontades (Adquirir, resguardar, modificar ou extinguir direitos)", "filhos": [] },
-{ "nome": "Fonte Humana Geradora de Obrigações", "filhos": [] },
-{ "nome": "Negócio Jurídico Bilateral ou Plurilateral", "filhos": [] }
-]
-},
-{
-"nome": "Princípios Contratuais",
-"filhos": [
-{ "nome": "Função Social dos Contratos", "filhos": [] },
-{ "nome": "Boa-Fé Objetiva (Dever de cooperação)", "filhos": [] },
-{ "nome": "Força Obrigatória (Obrigatoriedade e Intangibilidade)", "filhos": [] },
-{ "nome": "Relatividade", "filhos": [] },
-{ "nome": "Autonomia da Vontade", "filhos": [] }
-]
-},
-{
-"nome": "Planos de Análise do Negócio Jurídico",
-"filhos": [
-{ "nome": "Existência", "filhos": [] },
-{ "nome": "Validade", "filhos": [] },
-{ "nome": "Eficácia", "filhos": [] }
-]
-},
-{
-"nome": "Formação dos Contratos",
-"filhos": [
-{
-"nome": "1ª Etapa: Oferta (Proposta ou Policiatação)",
-"filhos": [
-{ "nome": "Requisitos: Séria, clara, completa e com destinatário", "filhos": [] },
-{ "nome": "Regra: Vincula o proponente", "filhos": [] }
-]
-},
-{
-"nome": "2ª Etapa: Aceitação",
-"filhos": [
-{ "nome": "Requisitos: Expedida no prazo, Sem adições/restrições/modificações, Expressa", "filhos": [] },
-{ "nome": "Conclusão entre Ausentes (Expedição da declaração)", "filhos": [] }
-]
-},
-{ "nome": "Estipulação em Favor de Terceiro", "filhos": [] },
-{ "nome": "Promessa de Fato de Terceiro", "filhos": [] },
-{ "nome": "Contrato com Pessoa a Declarar", "filhos": [] }
-]
-},
-{
-"nome": "Classificação dos Contratos",
-"filhos": [
-{ "nome": "Quanto aos Efeitos (Unilaterais, Bilaterais, Bilaterais Imperfeitos, Bifrontes)", "filhos": [] },
-{ "nome": "Quanto às Vantagens (Gratuitos, Onerosos)", "filhos": [] },
-{ "nome": "Quanto ao Momento de Formação (Consensual, Real)", "filhos": [] },
-{ "nome": "Quanto à Forma (Não Solene, Solene)", "filhos": [] },
-{ "nome": "Quanto às Qualidades Pessoais (Impessoais, Personalíssimo)", "filhos": [] },
-{ "nome": "Quanto ao Regramento Legal (Típicos/Nominados, Atípicos/Inominados, Mistos)", "filhos": [] },
-{ "nome": "Quanto às Condições de Formação (Paritários, De Adesão)", "filhos": [] },
-{ "nome": "Quanto à Definitividade (Definitivos, Preliminares)", "filhos": [] },
-{ "nome": "Quanto ao Conhecimento Prévio (Comutativo, Aleatório)", "filhos": [] },
-{ "nome": "Quanto ao Momento da Execução (Instantâneo, Execução Diferida, Trato Sucessivo)", "filhos": [] }
-]
-},
-{
-"nome": "Temas Relacionados aos Contratos",
-"filhos": [
-{ "nome": "Extinção dos Contratos", "filhos": [] },
-{ "nome": "Onerosidade Excessiva", "filhos": [] },
-{ "nome": "Evicção", "filhos": [] },
-{ "nome": "Vícios Redibitórios", "filhos": [] },
-{ "nome": "Contratos em Espécie (Exemplos citados)", "filhos": [
-{ "nome": "Compra e Venda", "filhos": [] },
-{ "nome": "Contrato Estimatório (Venda em consignação)", "filhos": [] },
-{ "nome": "Doação", "filhos": [] },
-{ "nome": "Empréstimo (Mútuo)", "filhos": [] },
-{ "nome": "Contrato de Administração Fiduciária de Garantias", "filhos": [] }
-] }
-]
-}
-]
-}
-]
-}
+    "titulo": "Contratos: Teoria Geral e Espécies",
+    "topicoRaiz": {
+        "nome": "Contratos",
+        "filhos": [
+            {
+                "nome": "Conceito, Histórico e Funções",
+                "filhos": [
+                    { "nome": "Conceito de Contrato", "filhos": [
+                        { "nome": "Conceito Clássico (Vínculo Jurídico)", "filhos": [] },
+                        { "nome": "Conceito Moderno (Relação Jurídica)", "filhos": [] },
+                        { "nome": "O Contrato e o Negócio Jurídico", "filhos": [] }
+                    ] },
+                    { "nome": "Histórico da Concepção", "filhos": [
+                        { "nome": "Direito Romano", "filhos": [] },
+                        { "nome": "Surgimento da Autonomia da Vontade", "filhos": [] },
+                        { "nome": "Liberalismo Econômico (Séc. XVIII/XIX)", "filhos": [] },
+                        { "nome": "Nova Concepção Social (Séc. XX)", "filhos": [] }
+                    ] },
+                    { "nome": "Funções do Contrato", "filhos": [
+                        { "nome": "Função Econômica", "filhos": [] },
+                        { "nome": "Função Pedagógica", "filhos": [] }
+                    ] }
+                ]
+            },
+            {
+                "nome": "Princípios Contratuais",
+                "filhos": [
+                    { "nome": "Autonomia da Vontade / Autonomia Privada", "filhos": [
+                        { "nome": "Liberdade de Contratar", "filhos": [] },
+                        { "nome": "Liberdade de Formação", "filhos": [] },
+                        { "nome": "Liberdade de Modelação (Conteúdo)", "filhos": [] },
+                        { "nome": "Limitações Legais", "filhos": [] }
+                    ] },
+                    { "nome": "Força Obrigatória (*Pacta Sunt Servanda*)", "filhos": [
+                        { "nome": "Intangibilidade do Conteúdo", "filhos": [] },
+                        { "nome": "Atenuação (Relatividade)", "filhos": [] }
+                    ] },
+                    { "nome": "Função Social do Contrato", "filhos": [
+                        { "nome": "Sentido Amplo", "filhos": [] },
+                        { "nome": "Sentido Estrito", "filhos": [] },
+                        { "nome": "Eficácia Interna (Entre as Partes)", "filhos": [
+                            { "nome": "Proteção da Parte Vulnerável", "filhos": [] }
+                        ] },
+                        { "nome": "Eficácia Externa (Transcende as Partes)", "filhos": [
+                            { "nome": "Proteção dos Direitos Difusos e Coletivos", "filhos": [] },
+                            { "nome": "Tutela Externa do Crédito", "filhos": [] }
+                        ] }
+                    ] },
+                    { "nome": "Boa-Fé Objetiva (Princípio da Eticidade)", "filhos": [
+                        { "nome": "Boa-Fé Subjetiva (Intenção)", "filhos": [] },
+                        { "nome": "Boa-Fé Objetiva (Conduta)", "filhos": [] },
+                        { "nome": "Funções da Boa-Fé Objetiva", "filhos": [
+                            { "nome": "Função Interpretativa", "filhos": [] },
+                            { "nome": "Função de Controle", "filhos": [] },
+                            { "nome": "Função Integrativa", "filhos": [] }
+                        ] },
+                        { "nome": "Deveres Anexos (ou Laterais)", "filhos": [
+                            { "nome": "Dever de Cuidado", "filhos": [] },
+                            { "nome": "Dever de Informar", "filhos": [] },
+                            { "nome": "Dever de Colaboração", "filhos": [] },
+                            { "nome": "Dever de Mitigar o Próprio Prejuízo", "filhos": [] }
+                        ] },
+                        { "nome": "Conceitos Parcelares", "filhos": [
+                            { "nome": "Supressio", "filhos": [] },
+                            { "nome": "Surrectio", "filhos": [] },
+                            { "nome": "Tu Quoque", "filhos": [] }
+                        ] }
+                    ] },
+                    { "nome": "Relatividade dos Efeitos Contratuais", "filhos": [
+                        { "nome": "Mitigação / Exceções", "filhos": [
+                            { "nome": "Estipulação em Favor de Terceiro", "filhos": [] },
+                            { "nome": "Promessa de Fato de Terceiro", "filhos": [] },
+                            { "nome": "Contrato com Pessoa a Declarar", "filhos": [] },
+                            { "nome": "Eficácia Externa da Função Social", "filhos": [] }
+                        ] }
+                    ] },
+                    { "nome": "Princípio do Consensualismo", "filhos": [] },
+                    { "nome": "Princípio do Equilíbrio Contratual", "filhos": [] }
+                ]
+            },
+            {
+                "nome": "Requisitos e Elementos Constitutivos",
+                "filhos": [
+                    { "nome": "Planos do Negócio Jurídico ('Escada Ponteana')", "filhos": [
+                        { "nome": "Plano da Existência", "filhos": [
+                            { "nome": "Partes", "filhos": [] },
+                            { "nome": "Vontade / Declaração", "filhos": [] },
+                            { "nome": "Objeto", "filhos": [] },
+                            { "nome": "Forma", "filhos": [] }
+                        ] },
+                        { "nome": "Plano da Validade", "filhos": [
+                            { "nome": "Agente Capaz (Capacidade Legal de Agir)", "filhos": [] },
+                            { "nome": "Objeto Lícito, Possível, Determinado ou Determinável", "filhos": [] },
+                            { "nome": "Forma Prescrita ou Não Defesa em Lei", "filhos": [] },
+                            { "nome": "Vontade Livre e Consciente", "filhos": [] }
+                        ] },
+                        { "nome": "Plano da Eficácia", "filhos": [
+                            { "nome": "Condição (Suspensiva/Resolutiva)", "filhos": [] },
+                            { "nome": "Termo", "filhos": [] },
+                            { "nome": "Encargo (Modo)", "filhos": [] },
+                            { "nome": "Multa", "filhos": [] },
+                            { "nome": "Registro Imobiliário", "filhos": [] }
+                        ] }
+                    ] },
+                    { "nome": "Pressupostos Contratuais (Extrínsecos)", "filhos": [
+                        { "nome": "Capacidade das Partes", "filhos": [] },
+                        { "nome": "Idoneidade do Objeto", "filhos": [] },
+                        { "nome": "Legitimidade", "filhos": [] }
+                    ] },
+                    { "nome": "Requisitos Complementares (Intrínsecos)", "filhos": [
+                        { "nome": "Consentimento", "filhos": [] },
+                        { "nome": "Causa (Função Econômico-Social)", "filhos": [] },
+                        { "nome": "Objeto (Conjunto de Atos)", "filhos": [] },
+                        { "nome": "Forma", "filhos": [] }
+                    ] }
+                ]
+            },
+            {
+                "nome": "Formação dos Contratos",
+                "filhos": [
+                    { "nome": "Fases do Desenvolvimento", "filhos": [
+                        { "nome": "1ª Fase: Negociações Preliminares (Puntuação)", "filhos": [
+                            { "nome": "Caráter Não Vinculante", "filhos": [] },
+                            { "nome": "Responsabilidade Pré-Contratual", "filhos": [] }
+                        ] },
+                        { "nome": "2ª Fase: Proposta (Policitação/Oferta/Oblação)", "filhos": [
+                            { "nome": "Requisitos da Proposta (Clara, Completa, Inequívoca)", "filhos": [] },
+                            { "nome": "Proposta Obrigatória (Regra)", "filhos": [] },
+                            { "nome": "Proposta Não Obrigatória (Exceções)", "filhos": [] },
+                            { "nome": "Oferta ao Público", "filhos": [] },
+                            { "nome": "Aceitação Pura e Simples", "filhos": [] },
+                            { "nome": "Contraproposta", "filhos": [] }
+                        ] },
+                        { "nome": "3ª Fase: Contrato Preliminar (Pré-Contrato)", "filhos": [
+                            { "nome": "Compromisso Unilateral (Opção)", "filhos": [] },
+                            { "nome": "Compromisso Bilateral", "filhos": [] },
+                            { "nome": "Requisitos (Mesmo Conteúdo do Definitivo, Exceto Forma)", "filhos": [] },
+                            { "nome": "Registro (Oponibilidade a Terceiros)", "filhos": [] }
+                        ] },
+                        { "nome": "4ª Fase: Contrato Definitivo", "filhos": [] }
+                    ] },
+                    { "nome": "Momento da Conclusão (Inter Ausentes)", "filhos": [
+                        { "nome": "Teoria da Informação (Cognição)", "filhos": [] },
+                        { "nome": "Teoria da Declaração (Agnição)", "filhos": [
+                            { "nome": "Subteoria da Expedição (Regra Geral)", "filhos": [] },
+                            { "nome": "Subteoria da Recepção", "filhos": [] }
+                        ] }
+                    ] },
+                    { "nome": "Contratação Eletrônica", "filhos": [] }
+                ]
+            },
+            {
+                "nome": "Classificação dos Contratos",
+                "filhos": [
+                    { "nome": "Quanto aos Efeitos/Obrigações", "filhos": [
+                        { "nome": "Unilaterais", "filhos": [] },
+                        { "nome": "Bilaterais (Sinalagmáticos)", "filhos": [] },
+                        { "nome": "Plurilaterais", "filhos": [] }
+                    ] },
+                    { "nome": "Quanto à Vantagem Patrimonial", "filhos": [
+                        { "nome": "Gratuitos (Benéficos)", "filhos": [] },
+                        { "nome": "Onerosos", "filhos": [
+                            { "nome": "Comutativos", "filhos": [] },
+                            { "nome": "Aleatórios", "filhos": [
+                                { "nome": "Emptio Spei (Risco de Existência)", "filhos": [] },
+                                { "nome": "Emptio Rei Speratae (Risco de Quantidade)", "filhos": [] }
+                            ] }
+                        ] }
+                    ] },
+                    { "nome": "Quanto ao Momento de Aperfeiçoamento", "filhos": [
+                        { "nome": "Consensuais (Basta o Acordo de Vontade)", "filhos": [] },
+                        { "nome": "Reais (Exige a Tradição da Coisa)", "filhos": [] }
+                    ] },
+                    { "nome": "Quanto à Forma", "filhos": [
+                        { "nome": "Formais (Solene)", "filhos": [] },
+                        { "nome": "Informais (Não Solene / Forma Livre)", "filhos": [] }
+                    ] },
+                    { "nome": "Quanto ao Tempo de Execução", "filhos": [
+                        { "nome": "Execução Imediata (Instantâneos)", "filhos": [] },
+                        { "nome": "Execução Diferida", "filhos": [] },
+                        { "nome": "Trato Sucessivo (Execução Continuada)", "filhos": [] }
+                    ] },
+                    { "nome": "Quanto à Previsão Legal (Designação)", "filhos": [
+                        { "nome": "Nominados (Típicos)", "filhos": [] },
+                        { "nome": "Inominados (Atípicos)", "filhos": [] },
+                        { "nome": "Mistos", "filhos": [] },
+                        { "nome": "Coligados (Conexos)", "filhos": [] }
+                    ] },
+                    { "nome": "Quanto à Elaboração/Formação", "filhos": [
+                        { "nome": "Paritários", "filhos": [] },
+                        { "nome": "De Adesão", "filhos": [] },
+                        { "nome": "Contrato-Tipo (De Massa/Por Formulários)", "filhos": [] }
+                    ] },
+                    { "nome": "Quanto ao Agente", "filhos": [
+                        { "nome": "Personalíssimos (*Intuitu Personae*)", "filhos": [] },
+                        { "nome": "Impessoais", "filhos": [] },
+                        { "nome": "Individuais", "filhos": [] },
+                        { "nome": "Coletivos (Convenção Coletiva)", "filhos": [] }
+                    ] },
+                    { "nome": "Quanto à Dependência (Reciprocamente Considerados)", "filhos": [
+                        { "nome": "Principais", "filhos": [] },
+                        { "nome": "Acessórios", "filhos": [] }
+                    ] },
+                    { "nome": "Contratos Normativos (Guarda-Chuva)", "filhos": [] }
+                ]
+            },
+            {
+                "nome": "Vícios, Defeitos e Revisão Contratual",
+                "filhos": [
+                    { "nome": "Vícios do Consentimento (Anulabilidade)", "filhos": [
+                        { "nome": "Erro (Essencial/Acidental)", "filhos": [] },
+                        { "nome": "Dolo (Essencial/Acidental)", "filhos": [] },
+                        { "nome": "Coação (Absoluta/Relativa)", "filhos": [] },
+                        { "nome": "Lesão", "filhos": [] },
+                        { "nome": "Estado de Perigo", "filhos": [] }
+                    ] },
+                    { "nome": "Vícios Sociais", "filhos": [
+                        { "nome": "Simulação (Absoluta/Relativa)", "filhos": [] },
+                        { "nome": "Fraude Contra Credores", "filhos": [] }
+                    ] },
+                    { "nome": "Vícios Redibitórios", "filhos": [
+                        { "nome": "Erro Objetivo Sobre a Coisa", "filhos": [] },
+                        { "nome": "Ações Edilícias", "filhos": [
+                            { "nome": "Ação Redibitória", "filhos": [] },
+                            { "nome": "Ação Quanti Minoris (Estimatória)", "filhos": [] }
+                        ] }
+                    ] },
+                    { "nome": "Evicção", "filhos": [] },
+                    { "nome": "Revisão Judicial de Contratos", "filhos": [
+                        { "nome": "Teoria da Imprevisão (*Rebus Sic Stantibus*)", "filhos": [] },
+                        { "nome": "Teoria da Onerosidade Excessiva", "filhos": [] },
+                        { "nome": "Teoria da Quebra da Base Objetiva do Negócio (CDC)", "filhos": [] }
+                    ] }
+                ]
+            },
+            {
+                "nome": "Interpretação e Integração dos Contratos",
+                "filhos": [
+                    { "nome": "Critérios Gerais", "filhos": [
+                        { "nome": "Interpretação Conforme a Boa-Fé", "filhos": [] },
+                        { "nome": "Interpretação Conforme Usos, Costumes e Práticas do Mercado", "filhos": [] },
+                        { "nome": "Intenção Prevalece Sobre a Gramática", "filhos": [] }
+                    ] },
+                    { "nome": "Regras Específicas", "filhos": [
+                        { "nome": "Interpretação Contra o Estipulante (*Ambiguitas Contra Stipulatorem Est*)", "filhos": [] },
+                        { "nome": "Interpretação Mais Benéfica ao Aderente (Contratos de Adesão)", "filhos": [] },
+                        { "nome": "Interpretação Estrita (Negócios Benéficos e Renúncia)", "filhos": [] }
+                    ] }
+                ]
+            },
+            {
+                "nome": "Extinção dos Contratos",
+                "filhos": [
+                    { "nome": "Modo Normal de Extinção", "filhos": [
+                        { "nome": "Pelo Cumprimento (Execução)", "filhos": [] },
+                        { "nome": "Pela Quitação", "filhos": [] }
+                    ] },
+                    { "nome": "Extinção Sem Cumprimento (Causas Supervenientes)", "filhos": [
+                        { "nome": "Rescisão (Gênero)", "filhos": [
+                            { "nome": "Resolução (Inadimplemento/Onerosidade Excessiva)", "filhos": [
+                                { "nome": "Resolução Culposa (Voluntária)", "filhos": [] },
+                                { "nome": "Resolução Involuntária (Força Maior/Caso Fortuito)", "filhos": [] },
+                                { "nome": "Cláusula Resolutiva (Expressa/Tácita)", "filhos": [] },
+                                { "nome": "Teoria do Adimplemento Substancial", "filhos": [] }
+                            ] },
+                            { "nome": "Resilição (Direito Potestativo)", "filhos": [
+                                { "nome": "Resilição Bilateral (Distrato)", "filhos": [] },
+                                { "nome": "Resilição Unilateral (Denúncia)", "filhos": [] }
+                            ] }
+                        ] },
+                        { "nome": "Por Morte", "filhos": [] },
+                        { "nome": "Por Direito de Arrependimento", "filhos": [] }
+                    ] },
+                    { "nome": "Extinção por Causas Anteriores/Contemporâneas", "filhos": [
+                        { "nome": "Nulidade Absoluta", "filhos": [] },
+                        { "nome": "Anulabilidade (Nulidade Relativa)", "filhos": [] }
+                    ] }
+                ]
+            },
+            {
+                "nome": "Contratos em Espécie",
+                "filhos": [
+                    { "nome": "Contratos Traslativos de Domínio/Posse", "filhos": [
+                        { "nome": "Compra e Venda", "filhos": [
+                            { "nome": "Elementos Essenciais (Consentimento, Coisa, Preço)", "filhos": [] },
+                            { "nome": "Venda Ad Mensuram", "filhos": [] },
+                            { "nome": "Venda Ad Corpus", "filhos": [] },
+                            { "nome": "Vendas Nulas e Anuláveis", "filhos": [] },
+                            { "nome": "Cláusulas Especiais", "filhos": [
+                                { "nome": "Retrovenda (Resgate)", "filhos": [] },
+                                { "nome": "Preempção (Preferência)", "filhos": [] },
+                                { "nome": "Venda com Reserva de Domínio", "filhos": [] }
+                            ] }
+                        ] },
+                        { "nome": "Doação", "filhos": [
+                            { "nome": "Natureza Jurídica (Unilateral, Consensual, Gratuito)", "filhos": [] },
+                            { "nome": "Aceitação (Expressa, Tácita, Presumida)", "filhos": [] },
+                            { "nome": "Espécies de Doação", "filhos": [
+                                { "nome": "Doação com Encargo (Modal)", "filhos": [] },
+                                { "nome": "Doação Remuneratória", "filhos": [] },
+                                { "nome": "Doação Universal", "filhos": [] },
+                                { "nome": "Doação Inoficiosa", "filhos": [] }
+                            ] },
+                            { "nome": "Revogação da Doação (Ingratidão/Inexecução do Encargo)", "filhos": [] }
+                        ] },
+                        { "nome": "Troca ou Permuta", "filhos": [] },
+                        { "nome": "Contrato Estimatório", "filhos": [] }
+                    ] },
+                    { "nome": "Contratos de Empréstimo", "filhos": [
+                        { "nome": "Comodato (Coisa Infungível, Gratuito)", "filhos": [] },
+                        { "nome": "Mútuo (Coisa Fungível, Oneroso ou Gratuito)", "filhos": [] }
+                    ] },
+                    { "nome": "Contratos de Serviços", "filhos": [
+                        { "nome": "Prestação de Serviço (Regime CC)", "filhos": [] },
+                        { "nome": "Empreitada", "filhos": [] }
+                    ] },
+                    { "nome": "Contratos de Guarda", "filhos": [
+                        { "nome": "Depósito (Voluntário/Necessário)", "filhos": [] }
+                    ] },
+                    { "nome": "Contratos de Garantia", "filhos": [
+                        { "nome": "Fiança (Garantia Fidejussória)", "filhos": [
+                            { "nome": "Natureza Acessória e Solene", "filhos": [] },
+                            { "nome": "Benefício de Ordem", "filhos": [] }
+                        ] },
+                        { "nome": "Penhor", "filhos": [] },
+                        { "nome": "Hipoteca", "filhos": [] }
+                    ] },
+                    { "nome": "Contratos de Colaboração", "filhos": [
+                        { "nome": "Mandato", "filhos": [
+                            { "nome": "Mandato vs. Procuração", "filhos": [] },
+                            { "nome": "Classificação (Legal, Judicial, Convencional)", "filhos": [] }
+                        ] }
+                    ] },
+                    { "nome": "Outras Espécies", "filhos": [
+                        { "nome": "Jogo e Aposta (Obrigação Natural)", "filhos": [] }
+                    ] }
+                ]
+            }
+        ]
+    }
 }
