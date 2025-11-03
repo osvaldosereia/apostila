@@ -12,110 +12,95 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- 2. Estilos CSS customizados e responsivos (Linha do Tempo e Lógica Retrátil) -->
+    <!-- 2. Estilos CSS customizados e responsivos (Minimalista, Estrutura de Outline) -->
     <style>
-        /* Fonte padrão */
+        /* Fonte padrão e fundo suave */
         body {
             font-family: 'Inter', sans-serif;
-            overflow-x: hidden; /* Previne scroll horizontal */
-            background-color: #f7f9fb; /* Cor de fundo suave */
+            overflow-x: hidden; 
+            background-color: #f7f9fb; /* Fundo muito leve */
         }
 
         /* Cores de Nível para Ícones e Borda (UX para hierarquia) */
-        .depth-0 { --color-primary: #1d4ed8; } /* Azul Escuro (Seção) */
-        .depth-1 { --color-primary: #059669; } /* Verde (Tópico) */
-        .depth-2 { --color-primary: #d97706; } /* Laranja (Sub-Tópico) */
-        .depth-3 { --color-primary: #4b5563; } /* Cinza (Detalhe) */
+        .depth-0 { --color-primary: #1d4ed8; } /* Azul Escuro (Raiz) */
+        .depth-1 { --color-primary: #059669; } /* Verde (Grande Seção) */
+        .depth-2 { --color-primary: #d97706; } /* Laranja (Sub-Seção) */
+        .depth-3 { --color-primary: #4b5563; } /* Cinza (Detalhe/Folhas) */
 
-        /* --- Estilos da Linha do Tempo --- */
+        /* --- Estilos do Mapa Mental (Estrutura de Outline/Lista) --- */
 
-        /* Contêiner da Linha Central */
-        .timeline-container {
-            position: relative;
-            padding-left: 1.5rem; /* Espaço para a linha central (mobile) */
+        /* Contêiner principal da lista (Substitui map-item-card) */
+        .map-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        /* Estilo de cada item (li) */
+        .map-list-item {
+            cursor: pointer;
+            padding: 0.75rem 0; 
+            border-bottom: 1px solid #e5e7eb; /* Divisor sutil */
         }
 
-        /* Linha Central Vertical */
-        .timeline-container::before {
-            content: '';
-            position: absolute;
-            left: 0.5rem; /* Posição no centro da margem */
-            top: 0;
-            bottom: 0;
-            width: 3px;
-            background-color: #d1d5db; /* Cor Cinza da Linha */
-            z-index: 1; 
+        /* Linha de Hierarquia (Usando a borda da indentação) */
+        .map-list .map-list {
+            padding-left: 1rem; /* Indentação mobile */
+            border-left: 2px solid #e5e7eb; /* Linha vertical sutil */
         }
 
-        /* Estilo do Card do Tópico */
-        .map-item-card {
-            position: relative;
-            margin-bottom: 1.25rem; /* Espaço entre os itens da linha do tempo */
-            background-color: #ffffff;
-            border-radius: 0.5rem;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); 
-            z-index: 2; /* Sobrepõe a linha central */
+        /* Estilo do Título/Header */
+        .item-header {
+            display: flex;
+            align-items: center; 
+            transition: background-color 0.15s ease;
+            padding: 0.5rem 0.5rem;
+            margin-bottom: 0.25rem;
+            border-radius: 0.25rem;
+        }
+        
+        /* Hover e Ícone */
+        .item-header:hover {
+            background-color: #eff6ff; /* Cor muito leve no hover */
         }
 
-        /* Ponto (Dot/Icon) na Linha do Tempo */
-        .timeline-dot {
-            position: absolute;
-            left: 0.5rem; /* Alinhado com a linha central */
-            top: 0.75rem;
-            transform: translateX(-50%);
-            width: 1rem;
-            height: 1rem;
-            border-radius: 50%;
-            background-color: var(--color-primary); 
-            z-index: 3;
-            border: 3px solid #f7f9fb; /* Borda para destacar do fundo */
+        /* Estilos dos Conteúdos Colapsáveis (ul dentro de li) */
+        .collapsible-content {
+            display: grid;
+            grid-template-rows: 0fr; /* Fechado */
+            transition: grid-template-rows 0.4s ease-in-out;
+            margin-top: 0;
         }
 
-        /* Conteúdo dos filhos (colapsável e independente) */
-        .children-container {
-            overflow: hidden;
-            transition: max-height 0.4s ease-in-out; 
-            padding-left: 1rem; /* Indentação dentro do card */
-            padding-right: 0.75rem;
-            padding-bottom: 0.5rem;
-            margin-top: 0.5rem;
+        .collapsible-content.open {
+            grid-template-rows: 1fr; /* Abre */
         }
 
-        /* Estilo para Tópicos Finais (Mantendo o visual leve) */
-        .leaf-item .item-header {
-            font-size: 0.875rem; /* Texto menor para folhas */
+        .collapsible-inner {
+            overflow: hidden; /* Oculta o conteúdo no estado fechado */
         }
 
         /* Classes de texto por nível (Mobile-First) */
-        .depth-0 .title-text { font-size: 1.125rem; font-weight: 700; color: #1d4ed8; } 
-        .depth-1 .title-text { font-size: 1rem; font-weight: 600; color: #1f2937; }
-        .depth-2 .title-text { font-size: 0.875rem; font-weight: 500; color: #1f2937; }
-        .depth-3 .title-text { font-size: 0.875rem; font-weight: 400; color: #4b5563; }
+        .depth-0 .title-text { font-size: 1.25rem; font-weight: 700; color: #1f2937; } /* Raiz - Negrito */
+        .depth-1 .title-text { font-size: 1.125rem; font-weight: 600; color: #059669; } /* Verde */
+        .depth-2 .title-text { font-size: 1rem; font-weight: 500; color: #d97706; } /* Laranja */
+        .depth-3 .title-text { font-size: 0.875rem; font-weight: 400; color: #4b5563; } /* Cinza */
 
 
         @media (min-width: 768px) {
-            /* Otimizações para Desktop: Aumenta o respiro */
-             .timeline-container {
-                padding-left: 2rem; 
+            /* Otimizações para Desktop */
+             .depth-0 .title-text { font-size: 1.75rem; } 
+             .depth-1 .title-text { font-size: 1.25rem; }
+             .map-list .map-list {
+                padding-left: 1.5rem; /* Indentação maior */
             }
-            .timeline-container::before {
-                left: 1rem;
-            }
-            .timeline-dot {
-                left: 1rem;
-                top: 1rem; /* Ajusta a posição do dot */
-                width: 1.25rem; /* Dot um pouco maior */
-                height: 1.25rem;
-            }
-             .depth-0 .title-text { font-size: 1.5rem; } 
-             .depth-1 .title-text { font-size: 1.125rem; }
         }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
 
     <!-- Barra Superior (Header) -->
-    <header class="bg-white text-gray-800 shadow-lg fixed top-0 left-0 right-0 z-30">
+    <header class="bg-white text-gray-800 shadow-lg sticky top-0 left-0 right-0 z-30">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between items-center h-16">
                 <!-- Lado Esquerdo: Hamburger e Logo -->
@@ -144,7 +129,7 @@
     <div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 z-30 hidden" aria-hidden="true"></div>
 
     <!-- Área de Conteúdo Principal -->
-    <main id="content-area" class="pt-20 pb-12 max-w-4xl mx-auto px-4">
+    <main id="content-area" class="pt-12 pb-12 max-w-4xl mx-auto px-4">
         <div class="bg-white p-8 rounded-xl shadow-md text-center border border-gray-200">
             <h2 class="text-2xl font-semibold text-indigo-700">Bem-vindo(a) ao seu Mapa Mental de Direito!</h2>
             <p class="mt-4 text-gray-600">Selecione uma disciplina e um tema no menu lateral para começar a estudar de forma interativa.</p>
@@ -162,14 +147,43 @@
             const overlay = document.getElementById('overlay');
             const contentArea = document.getElementById('content-area');
 
+            // Variável para armazenar o prompt customizado
+            let currentPromptTemplate = ''; 
+
             // 2. Função para abrir/fechar o menu lateral
             function toggleSidebar() {
                 sidebar.classList.toggle('-translate-x-full');
                 overlay.classList.toggle('hidden');
             }
             
-            // --- FUNÇÃO DE RECALCULAR ALTURA (REMOVIDA! Não é mais necessária devido à independência dos acordeões) ---
-            // A expansão agora é independente, eliminando o problema de cascata de maxHeight.
+            // --- FUNÇÃO PARA MANIPULAR O ACORDEÃO (CLIQUE) ---
+            function toggleAccordion(event) {
+                const item = event.target.closest('.map-list-item');
+                if (!item) return;
+
+                // Encontra o contêiner colapsável (o ul dos filhos)
+                const childrenContainer = item.querySelector('.collapsible-content');
+                if (!childrenContainer) return;
+
+                // Ícone de rotação
+                const toggleIcon = item.querySelector('.toggle-icon');
+
+                const isExpanded = childrenContainer.classList.contains('open');
+                
+                if (isExpanded) {
+                    // Fechar
+                    childrenContainer.classList.remove('open');
+                    if(toggleIcon) toggleIcon.classList.remove('rotate-90');
+                } else {
+                    // Abrir (empurra o conteúdo para baixo)
+                    childrenContainer.classList.add('open');
+                    if(toggleIcon) toggleIcon.classList.add('rotate-90');
+                }
+                
+                // Impede que o clique suba e ative a lógica do pai (se houver)
+                event.stopPropagation();
+            }
+
 
             // 3. Função para construir o menu lateral dinamicamente
             async function buildSidebarMenu() {
@@ -217,8 +231,6 @@
 
 
             // 4. Função para carregar um mapa mental na tela
-            let currentPromptTemplate = ''; // Armazena o template do JSON
-
             async function loadMindMap(path, disciplina) {
                 try {
                     contentArea.innerHTML = ''; // Limpa antes de carregar
@@ -236,17 +248,22 @@
 
                     // 4.1. Título do Mapa
                     const title = document.createElement('h1');
-                    title.className = "text-3xl md:text-4xl font-bold text-indigo-700 mb-6 text-center";
+                    title.className = "text-3xl md:text-4xl font-bold text-indigo-700 mb-6 mt-4 text-center";
                     title.textContent = mapData.titulo;
                     contentArea.appendChild(title);
 
-                    // 4.2. Contêiner Principal da Linha do Tempo
+                    // 4.2. Contêiner Principal
                     const mapContainer = document.createElement('div');
-                    mapContainer.className = "timeline-container";
+                    mapContainer.className = "map-list-container p-4 md:p-8 bg-white rounded-xl shadow-md";
                     
                     // 4.3. Cria o nó raiz (Depth 0)
+                    const rootList = document.createElement('ul');
+                    rootList.className = 'map-list';
+
                     const rootNode = createMapNode(mapData.topicoRaiz, [disciplina], 0);
-                    mapContainer.appendChild(rootNode);
+                    rootList.appendChild(rootNode);
+
+                    mapContainer.appendChild(rootList);
                     contentArea.appendChild(mapContainer);
                     
                 } catch (error) {
@@ -258,68 +275,47 @@
                 }
             }
 
-            // 5. Função Recursiva para criar os nós do mapa (Linha do Tempo, Retrátil Independente)
+            // 5. Função Recursiva para criar os nós do mapa (Estrutura de Lista)
             function createMapNode(nodeData, pathArray, depth) {
-                const item = document.createElement('div');
+                // O nó é um elemento <li>
+                const item = document.createElement('li');
+                item.className = 'map-list-item';
                 
                 // Define a classe de cor com base na profundidade
                 const colorClass = `depth-${Math.min(depth, 3)}`;
-                
-                // Verifica se tem filhos para determinar o estilo
+
+                // Verifica se tem filhos
                 const hasChildren = nodeData.filhos && nodeData.filhos.length > 0;
                 
-                // Classes base do cartão
-                let itemClasses = `map-item-card ${colorClass}`;
-                if (!hasChildren && depth > 0) {
-                    itemClasses += ' leaf-item'; // Estilo mais leve para tópicos finais
-                }
-
-                item.className = itemClasses;
-
-                // --- 5.0. Dot da Linha do Tempo (Apenas para Tópicos Principais) ---
-                if (depth <= 1) { // Garante que apenas o nível 0 e 1 tenham o Dot proeminente
-                    const dot = document.createElement('span');
-                    dot.className = 'timeline-dot';
-                    item.appendChild(dot);
-                }
-
-
                 // --- 5.1. Header do Tópico (Contém Título e Botões) ---
                 const header = document.createElement('div');
-                header.className = 'item-header';
+                header.className = `item-header ${colorClass}`;
                 
-                // Ícone de seta (Apenas se tiver filhos)
+                // Ícone de seta (Apenas se for colapsável)
                 if (hasChildren) {
                     const toggleIcon = document.createElement('span');
-                    // Todos começam fechados, exceto a raiz (depth 0)
-                    const isRoot = depth === 0;
-                    toggleIcon.className = `toggle-icon mr-2 flex-shrink-0 transition-transform duration-300 ${isRoot ? 'rotate-90' : ''}`;
+                    // Todos começam abertos (rotate-90)
+                    toggleIcon.className = `toggle-icon mr-2 flex-shrink-0 transition-transform duration-300 rotate-90`;
                     toggleIcon.innerHTML = `<svg class="w-4 h-4 text-[color:var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>`;
                     header.appendChild(toggleIcon);
                     
                     // Adiciona o evento de clique para expandir/colapsar
-                    header.onclick = () => {
-                        const childrenContainer = item.querySelector('.children-container');
-                        if (childrenContainer) {
-                            const isExpanded = childrenContainer.style.maxHeight !== '0px';
-                            
-                            if (isExpanded) {
-                                // Fechar
-                                childrenContainer.style.maxHeight = '0px';
-                                toggleIcon.classList.remove('rotate-90');
-                            } else {
-                                // Abrir (usa scrollHeight para obter a altura total)
-                                childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
-                                toggleIcon.classList.add('rotate-90');
-                            }
-                            // NÃO PRECISA CHAMAR RECALCULATEParentsHeight, pois a expansão é independente!
-                        }
+                    header.addEventListener('click', toggleAccordion);
+                    // Adiciona o estilo de hover customizado baseado na cor primária
+                    header.onmouseover = function() {
+                        const rootStyle = getComputedStyle(document.documentElement);
+                        const primaryColor = rootStyle.getPropertyValue(`--color-primary`);
+                        header.style.backgroundColor = primaryColor + '05'; // Adiciona 5% de opacidade
+                    };
+                    header.onmouseout = function() {
+                         header.style.backgroundColor = 'transparent';
                     };
                 }
 
+
                 // Título do Tópico
                 const titleText = document.createElement('span');
-                titleText.className = `title-text flex-grow`; 
+                titleText.className = `title-text flex-grow border-l-4 pl-3 ${depth > 0 ? 'border-l-[color:var(--color-primary)]' : 'border-l-transparent'}`; 
                 titleText.textContent = nodeData.nome;
                 header.appendChild(titleText);
 
@@ -341,30 +337,23 @@
                 // --- 5.2. Contêiner dos Filhos (Acordeão) ---
                 if (hasChildren) {
                     const childrenContainer = document.createElement('div');
-                    childrenContainer.className = 'children-container space-y-2';
+                    childrenContainer.className = 'collapsible-content open'; // Começa aberto
                     
-                    // Estado Inicial: Raiz (depth 0) aberta, Outros fechados
-                    childrenContainer.style.maxHeight = depth === 0 ? 'auto' : '0px';
+                    const innerWrapper = document.createElement('div');
+                    innerWrapper.className = 'collapsible-inner';
                     
-                    // Simula a expansão inicial da raiz (depth 0)
-                    if (depth === 0) {
-                        // Força a expansão inicial
-                        setTimeout(() => {
-                            childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
-                        }, 50); // Pequeno atraso para garantir que o DOM esteja totalmente renderizado
-
-                        // Adiciona a classe para indentar o conteúdo da raiz
-                        item.classList.add('pl-4', 'md:pl-6');
-                    }
-
-
                     // Cria os filhos (recursão)
+                    const childrenList = document.createElement('ul');
+                    childrenList.className = 'map-list space-y-1';
+
                     const newPathArray = [...pathArray, nodeData.nome];
                     nodeData.filhos.forEach(filhoNode => {
                         const filhoElement = createMapNode(filhoNode, newPathArray, depth + 1);
-                        childrenContainer.appendChild(filhoElement);
+                        childrenList.appendChild(filhoElement);
                     });
 
+                    innerWrapper.appendChild(childrenList);
+                    childrenContainer.appendChild(innerWrapper);
                     item.appendChild(childrenContainer);
                 }
 
