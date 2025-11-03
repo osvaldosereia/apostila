@@ -1,23 +1,24 @@
 [
-    {
-        "disciplina": "Direito Civil",
-        "temas": [
-            { "nome": "Contratos", "path": "data/Direito Civil/Contratos.json" },
-            { "nome": "Obrigações", "path": "data/Direito Civil/Obrigacoes.json" },
-            { "nome": "LINDB", "path": "data/Direito Civil/Lindb.json" }
-        ]
-    },
-    {
-        "disciplina": "Direito Penal",
-        "temas": [
-            { "nome": "Teoria do Crime", "path": "data/Direito Penal/Teoria do Crime.json" },
-            { "nome": "Tipos de Pena", "path": "data/Direito Penal/Penas.json" }
-        ]
-    },
-    {
-        "disciplina": "Direito Constitucional",
-        "temas": [
-            { "nome": "Remédios Constitucionais", "path": "data/Direito Constitucional/Remedios.json" }
-        ]
-    }
+  {
+    "disciplina": "Direito Civil",
+    "temas": [
+      { "nome": "Contratos", "path": "data/Direito Civil/Contratos.json" },
+      { "nome": "Obrigações", "path": "data/Direito Civil/Obrigacoes.json" },
+      { "nome": "LINDB", "path": "data/Direito Civil/LINDB.json" }
+    ]
+  },
+  {
+    "disciplina": "Direito Penal",
+    "temas": [
+      { "nome": "Teoria do Crime", "path": "data/Direito Penal/Teoria_do_Crime.json" },
+      { "nome": "Tipos de Pena", "path": "data/Direito Penal/Penas.json" }
+    ]
+  },
+  {
+    "disciplina": "Direito Constitucional",
+    "temas": [
+      { "nome": "Remédios Constitucionais", "path": "data/Direito Constitucional/Remedios.json" }
+    ]
+  }
 ]
+
