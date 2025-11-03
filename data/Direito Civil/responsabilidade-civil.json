@@ -1,0 +1,1517 @@
+{
+  "titulo": "Mapa Mental: Sumário - Responsabilidade Civil Teoria Geral",
+  "topicoRaiz": {
+    "nome": "SUMÁRIO - RESPONSABILIDADE CIVIL TEORIA GERAL",
+    "filhos": [
+      {
+        "nome": "CAPÍTULO I - INTRODUÇÃO À RESPONSABILIDADE CIVIL",
+        "filhos": [
+          {
+            "nome": "1. A RESPONSABILIDADE CIVIL NA SOCIEDADE DE RISCO",
+            "filhos": [
+              {
+                "nome": "1.1 Os riscos e o medo",
+                "filhos": []
+              },
+              {
+                "nome": "1.2 A resposta pelo olhar da responsabilidade civil",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "CAPÍTULO II - CONCEITO DA RESPONSABILIDADE CIVIL. DO FILOSÓFICO AO TECNOLÓGICO",
+        "filhos": [
+          {
+            "nome": "1. O CONCEITO DA RESPONSABILIDADE CIVIL",
+            "filhos": []
+          },
+          {
+            "nome": "2. 4 CONCEITOS DE RESPONSABILIDADE CIVIL PARA A 4ª REVOLUÇÃO INDUSTRIAL",
+            "filhos": [
+              {
+                "nome": "2.1 Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "2.2 Liability: a renovação pela multifuncionalidade da responsabilidade civil",
+                "filhos": []
+              },
+              {
+                "nome": "2.3 Responsibility: o sentido moral da responsabilidade",
+                "filhos": []
+              },
+              {
+                "nome": "2.4 Accountability: vetor da atuação dos agentes de tratamento de dados pessoais",
+                "filhos": []
+              },
+              {
+                "nome": "2.5 Answerability (ou explainability)",
+                "filhos": []
+              },
+              {
+                "nome": "2.6 Conclusão",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "CAPÍTULO III - PRINCÍPIOS DA RESPONSABILIDADE CIVIL",
+        "filhos": [
+          {
+            "nome": "1. UMA BREVE MENÇÃO AOS PRINCÍPIOS",
+            "filhos": []
+          },
+          {
+            "nome": "2. PRINCÍPIO DA DIGNIDADE DA PESSOA HUMANA",
+            "filhos": [
+              {
+                "nome": "2.1 A dupla acepção da dignidade",
+                "filhos": []
+              },
+              {
+                "nome": "2.2 A dimensão ontológica da dignidade (concepção kantiana)",
+                "filhos": []
+              },
+              {
+                "nome": "2.3 A dimensão comunicativa/relacional da dignidade (Hannah Arendt)",
+                "filhos": []
+              },
+              {
+                "nome": "2.4 A dimensão histórico-cultural da dignidade",
+                "filhos": []
+              },
+              {
+                "nome": "2.5 A dignidade e as dimensões da liberdade",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "3. PRINCÍPIO DA SOLIDARIEDADE",
+            "filhos": []
+          },
+          {
+            "nome": "4. PRINCÍPIO DA PREVENÇÃO",
+            "filhos": []
+          },
+          {
+            "nome": "5. PRINCÍPIO DA REPARAÇÃO INTEGRAL",
+            "filhos": [
+              {
+                "nome": "5.1 O sentido tradicional da reparação integral",
+                "filhos": []
+              },
+              {
+                "nome": "5.2 A ressignificação do princípio da reparação integral",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "CAPÍTULO IV - FUNDAMENTOS HISTÓRICOS, FILOSÓFICOS, POLÍTICOS E PSICOLÓGICOS DA RESPONSABILIDADE CIVIL",
+        "filhos": [
+          {
+            "nome": "1. FUNDAMENTOS HISTÓRICOS",
+            "filhos": []
+          },
+          {
+            "nome": "2. FUNDAMENTOS FILOSÓFICOS DA RESPONSABILIDADE CIVIL",
+            "filhos": []
+          },
+          {
+            "nome": "3. FUNDAMENTOS POLÍTICOS DA RESPONSABILIDADE CIVIL",
+            "filhos": []
+          },
+          {
+            "nome": "4. FUNDAMENTOS PSICOLÓGICOS DA RESPONSABILIDADE CIVIL",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "nome": "CAPÍTULO V - AS FUNÇÕES DA RESPONSABILIDADE CIVIL",
+        "filhos": [
+          {
+            "nome": "1. A MULTIFUNCIONALIDADE DA RESPONSABILIDADE CIVIL",
+            "filhos": []
+          },
+          {
+            "nome": "2. RESPONSABILIDADE CIVIL: COMPENSAR, PUNIR E RESTITUIR",
+            "filhos": []
+          },
+          {
+            "nome": "3. A FUNÇÃO COMPENSATÓRIA",
+            "filhos": [
+              {
+                "nome": "3.1 A compensação de danos como epicentro da responsabilidade civil",
+                "filhos": []
+              },
+              {
+                "nome": "3.2 Ressignificando a função compensatória da responsabilidade civil",
+                "filhos": []
+              },
+              {
+                "nome": "3.3 Indenização e compensação",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "4. A FUNÇÃO PUNITIVA",
+            "filhos": [
+              {
+                "nome": "4.1 Do monopólio compensatório à função punitiva",
+                "filhos": []
+              },
+              {
+                "nome": "4.2 A etiologia dos punitive damages nos Estados Unidos e Inglaterra",
+                "filhos": [
+                  {
+                    "nome": "4.2.1 Punitive damages nos EUA: as contradições teóricas",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.2.2 A singular trajetória dos punitive damages na Inglaterra: o \"patinho feio do common law\"",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "4.3 Os dilemas da função punitiva no direito brasileiro",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "5. A FUNÇÃO RESTITUTÓRIA",
+            "filhos": [
+              {
+                "nome": "5.1 A multicausalidade do remédio restitutório",
+                "filhos": []
+              },
+              {
+                "nome": "5.2 A restituição por ganhos ilícitos como um gênero",
+                "filhos": [
+                  {
+                    "nome": "5.2.1 Disgorgement - a remoção dos lucros ilícitos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.2.2 Restitutionary damages - a devolução dos lucros ilícitos",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "5.3 Distinção estrutural e funcional entre remédios restitutórios e punitivos",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "6. A FUNÇÃO PRECAUCIONAL",
+            "filhos": [
+              {
+                "nome": "6.1 Panorama geral",
+                "filhos": []
+              },
+              {
+                "nome": "6.2 As duas dimensões da função preventiva da responsabilidade civil",
+                "filhos": [
+                  {
+                    "nome": "6.2.1 A função preventiva autônoma",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.2.2 A função preventiva acessória",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "6.3 A prevenção como cerne da responsabilidade civil contemporânea",
+                "filhos": []
+              },
+              {
+                "nome": "6.4 Há uma responsabilidade civil sem dano ou independente de dano?",
+                "filhos": []
+              },
+              {
+                "nome": "6.5 A indenização preventiva",
+                "filhos": [
+                  {
+                    "nome": "6.5.1 Introdução",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.5.2 1ª opção: A função preventiva da responsabilidade civil",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.5.3 2ª opção: A função compensatória da responsabilidade civil",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.5.4 Em busca de uma terceira via",
+                    "filhos": [
+                      {
+                        "nome": "6.5.4.1 O enriquecimento injustificado",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.5.4.2 Nosso posicionamento: A indenização preventiva como remédio restitutório na responsabilidade civil",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "7. A FUNÇÃO PROMOCIONAL",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "nome": "CAPÍTULO VI - MODALIDADES DE RESPONSABILIDADE CIVIL",
+        "filhos": [
+          {
+            "nome": "1. A CLÁSSICA DICOTOMIA - RESPONSABILIDADE NEGOCIAL E EXTRANEGOCIAL (OU SIMPLESMENTE \"CIVIL\")",
+            "filhos": [
+              {
+                "nome": "1.1 O dano como elemento comum às duas responsabilidades",
+                "filhos": []
+              },
+              {
+                "nome": "1.2 As distinções entre a responsabilidade civil e a responsabilidade negocial",
+                "filhos": []
+              },
+              {
+                "nome": "1.3 O concurso de responsabilidades",
+                "filhos": []
+              },
+              {
+                "nome": "1.4 A responsabilidade pela confiança a superação da clássica dicotomia responsabilidade negocial e extranegocial",
+                "filhos": [
+                  {
+                    "nome": "1.4.1 Responsabilidade civil pela violação positiva do contrato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.4.2 A violação de deveres anexos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.4.3 A responsabilidade pré-negocial - os deveres anexos desvinculados da obrigação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.4.4 A responsabilidade pós-negocial - os deveres anexos transcendem a obrigação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.4.5 A responsabilidade civil transubjetiva e os deveres anexos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.4.6 O terceiro ofendido e a relação obrigacional",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.4.7 O terceiro ofensor e a relação obrigacional",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "1.5 Conclusão: A violação dos deveres anexos remete à qual responsabilidade?",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "2. RESPONSABILIDADES CIVIL E PENAL",
+            "filhos": [
+              {
+                "nome": "2.1 Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "2.2 Fundamentos da separação de responsabilidades",
+                "filhos": []
+              },
+              {
+                "nome": "2.3 A confluência entre os ilícitos penal e civil",
+                "filhos": [
+                  {
+                    "nome": "2.3.1 A culpa no direito civil e no direito penal",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.3.2 O dano",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.3.3 A tipicidade",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.4 A interseção entre a jurisdição civil e a criminal",
+                "filhos": [
+                  {
+                    "nome": "2.4.1 Relativa independência de jurisdições",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.2 Repercussão civil da decisão penal condenatória",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.3 Repercussão civil da decisão penal absolutória",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.4 A Inovação Brasileira - O \"Mínimo Indenizatório\"",
+                    "filhos": [
+                      {
+                        "nome": "2.4.4.1 Antecedentes Históricos",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.4.4.2 Uma visão comparatista dos veículos compensatórios",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "2.5 Espanha - As obscurecidas fronteiras entre a responsabilidade civil e a criminal",
+                "filhos": []
+              },
+              {
+                "nome": "2.6 França - A Parte Civil",
+                "filhos": []
+              },
+              {
+                "nome": "2.7 Inglaterra - A completa separação",
+                "filhos": []
+              },
+              {
+                "nome": "2.8 Diretiva 2012/29/EU",
+                "filhos": []
+              },
+              {
+                "nome": "2.9 O modelo compensatório: entre os juízos cível e criminal",
+                "filhos": []
+              },
+              {
+                "nome": "2.10 Critérios para a fixação do mínimo reparatório",
+                "filhos": []
+              },
+              {
+                "nome": "2.11 A vítima como parte civil",
+                "filhos": []
+              },
+              {
+                "nome": "2.12 A reparação no juízo criminal em números",
+                "filhos": []
+              },
+              {
+                "nome": "2.13 O projeto do novo CPP",
+                "filhos": [
+                  {
+                    "nome": "2.13.1 Processos (civil e criminal) simultâneos: decisões conflitantes?",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.14 Excludentes de ilicitude",
+                "filhos": []
+              },
+              {
+                "nome": "2.15 Perspectivas contemporâneas das responsabilidades civil e penal",
+                "filhos": [
+                  {
+                    "nome": "2.15.1 A migração da pena para o Direito Civil",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.15.2 A reparação de danos como terzo binario do Direito Penal",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "CAPÍTULO VII - PRESSUPOSTOS DA RESPONSABILIDADE CIVIL - TEORIA SUBJETIVA",
+        "filhos": [
+          {
+            "nome": "1. INTRODUÇÃO",
+            "filhos": [
+              {
+                "nome": "1.1 Acepções e âmbito da responsabilidade civil",
+                "filhos": []
+              },
+              {
+                "nome": "1.2 Sistemas de responsabilidade civil",
+                "filhos": [
+                  {
+                    "nome": "1.2.1 Noções gerais",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.2.2 Sistema da tipicidade dos fatos geradores de responsabilidade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.2.3 Sistema da cláusula geral de responsabilidade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.2.4 O sistema intermediário",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.2.5 Onde se situa o sistema brasileiro?",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "1.3 Pressupostos da responsabilidade civil",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "2. FATO VOLUNTÁRIO",
+            "filhos": [
+              {
+                "nome": "2.1 Fato e Ação",
+                "filhos": []
+              },
+              {
+                "nome": "2.2 O fato omissivo",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "3. ILÍCITO",
+            "filhos": [
+              {
+                "nome": "3.1 A caracterização do ilícito como fato jurídico",
+                "filhos": []
+              },
+              {
+                "nome": "3.2 A autonomia entre o ilícito civil e a responsabilidade civil",
+                "filhos": [
+                  {
+                    "nome": "3.2.1 Espécies clássicas de ilícitos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.2.2 A passagem da dicotomia ilícito absoluto/relativo à dicotomia ilícito patrimonial/extrapatrimonial",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.2.3 Ilícito típico (estrutural) e atípico (funcional)",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3.3 O ilícito e a culpa: uma diferenciação necessária",
+                "filhos": []
+              },
+              {
+                "nome": "3.4 Os elementos do ilícito",
+                "filhos": [
+                  {
+                    "nome": "3.4.1 A antijuridicidade como elemento objetivo do ilícito",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3.5 A imputabilidade como elemento subjetivo do ilícito",
+                "filhos": [
+                  {
+                    "nome": "3.5.1 A nova responsabilidade civil dos curadores",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.5.2 A responsabilidade civil dos incapazes",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3.6 O ato ilícito stricto sensu (cláusula geral de ilicitude culposa)",
+                "filhos": []
+              },
+              {
+                "nome": "3.7 Apenas do ato ilícito advém a responsabilidade civil?",
+                "filhos": []
+              },
+              {
+                "nome": "3.8 Tutela preventiva e tutela repressiva do ilícito",
+                "filhos": []
+              },
+              {
+                "nome": "3.9 O ilícito com eficácia restitutória (o ilícito lucrativo)",
+                "filhos": []
+              },
+              {
+                "nome": "3.10 Excludentes de ilicitude civil (causas de justificação)",
+                "filhos": [
+                  {
+                    "nome": "3.10.1 Estado de necessidade (art. 188, II, c/c os arts. 929 e 930, CC)",
+                    "filhos": [
+                      {
+                        "nome": "3.10.1.1 Estado de necessidade sem que a pessoa lesada seja culpada pelo perigo",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "3.10.1.2 Estado de necessidade quando a pessoa lesada é culpada pelo perigo",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "3.10.2 Legítima defesa (art. 188, I, c/c o parágrafo único do art. 930)",
+                    "filhos": [
+                      {
+                        "nome": "3.10.2.1 Pressupostos da legítima defesa",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "3.10.2.2 Legítima defesa que causa danos em terceiro inocente",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "3.10.2.3 Legítima defesa de terceiro",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "3.10.2.4 Legítima defesa putativa",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "3.10.3 Exercício regular de um direito (art. 188, I)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.10.4 Estrito cumprimento do dever legal",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.10.5 Excludentes de ilicitude: disciplina heterogênea",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.10.6 O consentimento do ofendido e a assunção do risco",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3.11 Cláusulas de Limitação e Exclusão de Responsabilidade",
+                "filhos": [
+                  {
+                    "nome": "3.11.1 Modalidades de cláusulas de limitação de responsabilidade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.11.2 A cláusula de limitação de indenizar stricto sensu",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.11.3 A validade das cláusulas de exclusão de responsabilidade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.11.4 A limitação de indenizar nas relações de consumo e contratos de adesão",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "4. A CULPA",
+            "filhos": [
+              {
+                "nome": "4.1 A culpa e a responsabilidade civil",
+                "filhos": []
+              },
+              {
+                "nome": "4.2 A evolução do significado de culpa civil",
+                "filhos": []
+              },
+              {
+                "nome": "4.3 A culpa presumida e distribuição dinâmica do ônus da prova",
+                "filhos": []
+              },
+              {
+                "nome": "4.4 A gradação da culpa",
+                "filhos": []
+              },
+              {
+                "nome": "4.5 A ilicitude e a culpa",
+                "filhos": []
+              },
+              {
+                "nome": "4.6 A culpa e a mitigação da indenização por equidade",
+                "filhos": []
+              },
+              {
+                "nome": "4.7 O renascimento da culpa",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "5. O ABUSO DO DIREITO",
+            "filhos": [
+              {
+                "nome": "5.1 Perspectivas de direito comparado",
+                "filhos": []
+              },
+              {
+                "nome": "5.2 O abuso do direito como ato ilícito",
+                "filhos": []
+              },
+              {
+                "nome": "5.3 Exige-se o dano para a aferição do abuso do direito?",
+                "filhos": []
+              },
+              {
+                "nome": "5.4 O abuso do direito como cláusula geral",
+                "filhos": []
+              },
+              {
+                "nome": "5.5 O intuito de prejudicar é necessário?",
+                "filhos": []
+              },
+              {
+                "nome": "5.6 As hipóteses legais de abuso de direito",
+                "filhos": [
+                  {
+                    "nome": "5.6.1 Fim econômico ou social",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.6.2 Boa-fé",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.6.3 Bons costumes",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "5.7 A materialização do abuso do direito",
+                "filhos": [
+                  {
+                    "nome": "5.7.1 O adimplemento substancial (inadimplemento mínimo)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.7.2 A proibição de comportamento contraditório (venire contra factum proprium)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.7.3 A supressio (Verwirkung) e a surrectio (Erwirkung)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.7.4 O tu quoque",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.7.5 O duty to mitigate the loss (o dever do credor de mitigar as próprias perdas)",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "6. O DANO",
+            "filhos": [
+              {
+                "nome": "6.1 O dano como elemento nevrálgico da função compensatória da responsabilidade civil",
+                "filhos": []
+              },
+              {
+                "nome": "6.2 O conceito de dano: do dano ao dano juridicamente relevante",
+                "filhos": []
+              },
+              {
+                "nome": "6.3 A travessia do ato ilícito ao dano injusto",
+                "filhos": []
+              },
+              {
+                "nome": "6.4 O dano e a técnica da ponderação de interesses",
+                "filhos": []
+              },
+              {
+                "nome": "6.5 O dano patrimonial",
+                "filhos": [
+                  {
+                    "nome": "6.5.1 Dano patrimonial em oposição ao dano material",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.5.2 As três espécies do dano patrimonial",
+                    "filhos": [
+                      {
+                        "nome": "6.5.2.1 Os danos emergentes",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.5.2.2 Os lucros cessantes",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.5.2.3 O dano econômico puro (ou dano puramente patrimonial)",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.5.2.4 A perda de uma chance",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.5.2.5 Interesse contratual negativo e positivo",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "6.5.3 Compensatio lucri cum damno",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.5.4 Dano indireto, reflexo ou \"por ricochete\"",
+                    "filhos": [
+                      {
+                        "nome": "6.5.4.1 Noções gerais",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.5.4.2 Dano indireto e homicídio",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.5.4.3 Dano indireto e lesões corporais",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.5.4.4 Dano indireto e causalidade",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.5.4.5 Dano indireto e contrato",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.5.4.6 Dano certo ou incerto",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.5.4.7 Danos presentes e futuros",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "6.5.5 A mitigação de danos - irressarcibilidade do dano evitável",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.5.6 A legitimidade para exigir o dano patrimonial",
+                    "filhos": [
+                      {
+                        "nome": "6.5.6.1 A transmissibilidade aos herdeiros do direito de exigir reparação",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.5.6.2 Morte de homem ou mulher responsável pelo sustento do lar",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.5.6.3 Morte de filho menor: a família faz jus a danos patrimoniais?",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "6.5.7 Lesão que cause incapacidade para o trabalho",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.5.8 O resgate e a restituição do lucro ilícito: critérios de quantificação",
+                    "filhos": [
+                      {
+                        "nome": "6.5.8.1 Perspectivas e fundamentos jurídicos",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.5.8.2 Critérios de quantificação",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "6.6 O dano moral (extrapatrimonial)",
+                "filhos": [
+                  {
+                    "nome": "6.6.1 Introdução",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.6.2 O histórico do dano moral no Brasil: dos embates à aceitação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.6.3 O dano moral na experiência europeia",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.6.4 Em busca de um conceito o que é o dano moral?",
+                    "filhos": [
+                      {
+                        "nome": "6.6.4.1 É legítimo o critério do dano moral como a dor e o sofrimento?",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.6.4.2 O dano moral é a lesão à dignidade da pessoa humana?",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.6.4.3 Afinal, o que é o dano moral?",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "6.6.5 Dano moral - reparação ou ressarcimento?",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.6.6 Do dano moral ao dano extrapatrimonial: Uma proposta tipológica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.6.7 O dano estético extrapatrimonial",
+                    "filhos": [
+                      {
+                        "nome": "6.6.7.1. Noções gerais",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.6.7.2 Fundamento constitucional",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "6.7 O dano à imagem extrapatrimonial",
+                "filhos": [
+                  {
+                    "nome": "6.7.1 A tutela da imagem",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.7.2 A proteção jurídica da imagem",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.7.3 Relativização do direito à imagem: consentimento do titular e lugares públicos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.7.4 A função social da imagem",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.7.5 A relativização do direito à imagem das pessoas públicas (celebridades)",
+                    "filhos": [
+                      {
+                        "nome": "6.7.5.1 O dano existencial",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.7.5.2 O estado da arte do dano moral",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "6.7.6 Os limites do dano extrapatrimonial. Onde se encontram os \"novos danos\"?",
+                    "filhos": [
+                      {
+                        "nome": "6.7.6.1 Noções gerais",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.7.6.2 Os novos danos em três episódios",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "6.7.7 A função preventiva do dano moral: a tutela inibitória",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.7.8 A desmonetização da reparação do dano moral",
+                    "filhos": [
+                      {
+                        "nome": "6.7.8.1 Direito de resposta e de retificação",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.7.8.2 Direito à retratação e publicação de sentença condenatória",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.7.8.3 O pedido de desculpas",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.7.8.4 A desmonetização no contexto amplo da responsabilidade civil",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "6.7.9 O dano moral por inadimplemento obrigacional",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.7.10 A titularidade do direito à reparação",
+                    "filhos": [
+                      {
+                        "nome": "6.7.10.1 Noções gerais",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.7.10.2 A pessoa natural como legitimado ativo",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.7.10.3 Os lesados diretos",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.7.10.4 Os lesados indiretos dano moral reflexo",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.7.10.5 O dano moral reflexo e o evento morte quem são os legitimados?",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.7.10.6 A pessoa jurídica como legitimado ativo",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.7.10.7 Os entes jurídicos despersonalizados",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "6.7.11 Dano moral (extrapatrimonial) coletivo",
+                    "filhos": [
+                      {
+                        "nome": "6.7.11.1 Introdução",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.7.11.2 O dano moral coletivo como pena civil",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.7.11.3 Dano moral coletivo como disgorgement",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "6.7.12 Dano social",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "6.8 A pena civil e o dano moral - um diálogo em construção",
+                "filhos": [
+                  {
+                    "nome": "6.8.1 A sanção punitiva e a compensação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.8.2 A urgência da pena civil",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.8.3 As estremas da pena civil com o dano extrapatrimonial",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.8.4 Critérios de aplicação da pena civil",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.8.5 Óbices à incidência da pena civil",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "6.9 A valoração e a quantificação do dano moral",
+                "filhos": [
+                  {
+                    "nome": "6.9.1 Noções gerais",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.9.2 O critério bifásico",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.9.3 O tarifamento do dano moral e a \"técnica tabelar\"",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.9.4 O tempo e o dano moral",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "6.10 Repercussões materiais e processuais do dano extrapatrimonial",
+                "filhos": [
+                  {
+                    "nome": "6.10.1 Incide imposto de renda sobre danos extrapatrimoniais?",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.10.2 Juros e atualização monetária",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.10.3 Cabe pedido genérico de dano extrapatrimonial?",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.10.4 Condenação em valor inferior ao pleiteado. Verbas de sucumbência",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.10.5 Sentença ilíquida",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.10.6 A prescrição da pretensão indenizatória",
+                    "filhos": [
+                      {
+                        "nome": "6.10.6.1 Contagem dos prazos",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.10.6.2 A repercussão do ilícito penal na contagem do prazo",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.10.6.3 O termo inicial no fato do produto e do serviço",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.10.6.4 A expansão do viés subjetivo da teoria da actio nata",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "6.10.7 Pretensões reparatórias não sujeitas a prazos",
+                    "filhos": [
+                      {
+                        "nome": "6.10.7.1 A prescrição da reparação pelo dano extrapatrimonial",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.10.7.2 A imprescritibilidade civil do crime de tortura",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.10.7.3 A imprescritibilidade civil na improbidade administrativa",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.10.7.4 A imprescritibilidade e o dano ambiental",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "6.10.8 O objeto das pretensões reparatórias",
+                    "filhos": [
+                      {
+                        "nome": "6.10.8.1 A prescrição no âmbito negocial",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.10.8.2 A prescrição e o concurso de responsabilidades",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "6.10.9 A prescrição e o diálogo de fontes",
+                    "filhos": [
+                      {
+                        "nome": "6.10.9.1 A demarcação entre o CC e o CDC",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.10.9.2 A demarcação entre o CC e a Lei n. 9.494/97",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "7. O NEXO CAUSAL",
+            "filhos": [
+              {
+                "nome": "7.1 Nexo causal como pressuposto da responsabilidade civil",
+                "filhos": []
+              },
+              {
+                "nome": "7.2 Uma visão comparatista do nexo causal",
+                "filhos": []
+              },
+              {
+                "nome": "7.3 Teorias do nexo causal",
+                "filhos": [
+                  {
+                    "nome": "7.3.1 Teoria da equivalência dos antecedentes causais (conditio sine qua non)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "7.3.2 Teoria da causalidade adequada",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "7.3.3 Teoria da causalidade direta e imediata e a subteoria da necessariedade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "7.3.4 Teoria do escopo (ou fim) de proteção da norma",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "7.3.5 O câmbio da causalidade pela imputação objetiva",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "7.3.6 A caminho de uma causalidade jurídica",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "7.4 Hard Cases na Causalidade",
+                "filhos": [
+                  {
+                    "nome": "7.4.1 Multicausalidade (concausalidade)",
+                    "filhos": [
+                      {
+                        "nome": "7.4.1.1 Multicausalidade real",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.4.1.2 Causalidade virtual (multicausalidade aparente)",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "7.4.2 Dano indireto",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "7.4.3 Perda de uma chance",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "7.5 A ruptura (interrupção) do nexo causal",
+                "filhos": [
+                  {
+                    "nome": "7.5.1 Força maior o fortuito, interno e externo",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "7.5.2 O fato exclusivo da vítima",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "7.5.3 O fato concorrente e a redução de danos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "7.5.4 O fato de terceiro",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "8. O NEXO DE IMPUTAÇÃO",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "nome": "CAPÍTULO VIII - PRESSUPOSTOS DA RESPONSABILIDADE CIVIL - TEORIA OBJETIVA",
+        "filhos": [
+          {
+            "nome": "1. CONTEXTO HISTÓRICO E COMPARATISTA",
+            "filhos": [
+              {
+                "nome": "1.1 As bases da teoria subjetiva",
+                "filhos": []
+              },
+              {
+                "nome": "1.2 O alvorecer da teoria objetiva",
+                "filhos": []
+              },
+              {
+                "nome": "1.3 As primeiras linhas da teoria objetiva",
+                "filhos": []
+              },
+              {
+                "nome": "1.4 A responsabilidade objetiva no direito europeu",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "2. O SUBSTRATO LEGITIMADOR DA RESPONSABILIDADE OBJETIVA",
+            "filhos": [
+              {
+                "nome": "2.1 A multiplicação dos nexos de imputação na obrigação objetiva de indenizar",
+                "filhos": []
+              },
+              {
+                "nome": "2.2 A Solidariedade como fundamento legitimador da imputação objetiva de danos",
+                "filhos": []
+              },
+              {
+                "nome": "2.3 A absorção da ilicitude na responsabilidade objetiva",
+                "filhos": []
+              },
+              {
+                "nome": "2.4 A presunção de causalidade na responsabilidade objetiva",
+                "filhos": []
+              },
+              {
+                "nome": "2.5 O resgate da culpa na responsabilidade objetiva",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "3. EM BUSCA DE PRECISÃO TERMINOLÓGICA",
+            "filhos": [
+              {
+                "nome": "3.1 A doutrina objetiva pode também ser conhecida como teoria da culpa presumida?",
+                "filhos": []
+              },
+              {
+                "nome": "3.2 A responsabilidade objetiva é sinônimo de responsabilidade sem culpa, ou por ato lícito?",
+                "filhos": []
+              },
+              {
+                "nome": "3.3 Responsabilidade objetiva ou obrigação objetiva de indenizar?",
+                "filhos": []
+              },
+              {
+                "nome": "3.4 Responsabilidade objetiva pura e a impura",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "4. TEORIAS DO RISCO NO DIREITO BRASILEIRO",
+            "filhos": [
+              {
+                "nome": "4.1 Noções gerais",
+                "filhos": []
+              },
+              {
+                "nome": "4.2 Fase anterior ao Código Civil de 2002",
+                "filhos": []
+              },
+              {
+                "nome": "4.3 A teoria do risco no parágrafo único do art. 927 do CC/2002",
+                "filhos": [
+                  {
+                    "nome": "4.3.1 A radiografia da Cláusula Geral do risco da atividade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.3.2 A opção legislativa: risco proveito ou risco criado?",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.3.3 O risco criado pela particular potencialidade lesiva da atividade",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "4.4 O risco de empresa ou profissional: o art. 931 do Código Civil",
+                "filhos": []
+              },
+              {
+                "nome": "4.5 O risco e os profissionais liberais",
+                "filhos": []
+              },
+              {
+                "nome": "4.6 Código de Defesa do Consumidor - Incide a teoria do risco?",
+                "filhos": []
+              },
+              {
+                "nome": "4.7 Risco do desenvolvimento",
+                "filhos": []
+              },
+              {
+                "nome": "4.8 Risco integral e risco agravado",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "5. NOVOS DESENVOLVIMENTOS DA TEORIA DO RISCO",
+            "filhos": [
+              {
+                "nome": "5.1 Do risco ao alto risco da atividade",
+                "filhos": []
+              },
+              {
+                "nome": "5.2 Riscos desconhecidos - causa ignota",
+                "filhos": []
+              },
+              {
+                "nome": "5.3 Risco criado e a mitigação da obrigação de indenizar",
+                "filhos": []
+              },
+              {
+                "nome": "5.4 Repartição de riscos o risco concorrente",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "CAPÍTULO IX - A SECURITIZAÇÃO DA RESPONSABILIDADE CIVIL",
+        "filhos": [
+          {
+            "nome": "1. RESPONSABILIDADE: DO INDIVIDUAL AO SOCIAL",
+            "filhos": []
+          },
+          {
+            "nome": "2. O CONTRATO DE SEGURO",
+            "filhos": [
+              {
+                "nome": "2.1 Notas introdutórias e a evolução dos seguros",
+                "filhos": []
+              },
+              {
+                "nome": "2.2 O seguro de dano",
+                "filhos": []
+              },
+              {
+                "nome": "2.3 Escopo, vigência e o teto indenizatório",
+                "filhos": []
+              },
+              {
+                "nome": "2.4 O seguro de responsabilidade civil",
+                "filhos": [
+                  {
+                    "nome": "2.4.1 Conceito, significado e funções",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.2 O seguro de responsabilidade a partir do art. 98 do Marco Legal dos Seguros",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.3 Temas atinentes ao contrato de seguro de responsabilidade",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "3. O SEGURO PRIVADO OBRIGATÓRIO",
+            "filhos": [
+              {
+                "nome": "3.1 DPVAT",
+                "filhos": []
+              },
+              {
+                "nome": "3.2 O seguro obrigatório e as tecnologias digitais emergentes",
+                "filhos": []
+              },
+              {
+                "nome": "3.3 O acidente de trabalho",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "REFERÊNCIAS",
+        "filhos": []
+      }
+    ]
+  }
+}
