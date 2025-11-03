@@ -7,29 +7,29 @@
 "nome": "Da Obrigatoriedade e Erro de Direito",
 "filhos": [
 { "nome": "Princípio da Inescusabilidade da Lei ('Ignorantia iuris neminem excusat')", "filhos": [
-{ "nome": "Previsão no Art. 3º da LICC (atual LINDB)", "filhos": }
+{ "nome": "Previsão no Art. 3º da LICC (atual LINDB)", "filhos": [] }
 ] },
 {
 "nome": "Erro de Direito (Error Iuris)",
 "filhos": [
-{ "nome": "Distinção do Erro de Fato (Error Facti)", "filhos": },
-{ "nome": "Admissibilidade como Vício do Negócio Jurídico (CC Art. 139, III)", "filhos": },
+{ "nome": "Distinção do Erro de Fato (Error Facti)", "filhos": [] },
+{ "nome": "Admissibilidade como Vício do Negócio Jurídico (CC Art. 139, III)", "filhos": [] },
 { "nome": "Requisitos para Anulação", "filhos": [
-{ "nome": "Ser o motivo único ou principal", "filhos": },
-{ "nome": "Não implicar em recusa à aplicação da lei", "filhos": }
+{ "nome": "Ser o motivo único ou principal", "filhos": [] },
+{ "nome": "Não implicar em recusa à aplicação da lei", "filhos": [] }
 ] }
 ]
 },
 {
 "nome": "Conhecimento da Lei (Iura Novit Curia)",
 "filhos": [
-{ "nome": "Lei Nacional (Conhecimento Presumido pelo Juiz)", "filhos": },
+{ "nome": "Lei Nacional (Conhecimento Presumido pelo Juiz)", "filhos": [] },
 { "nome": "Exceções (Necessidade de Prova)", "filhos": [
-{ "nome": "Direito Municipal", "filhos": },
-{ "nome": "Direito Estadual", "filhos": },
-{ "nome": "Direito Estrangeiro", "filhos": },
-{ "nome": "Direito Consuetudinário (Costumes)", "filhos": },
-{ "nome": "Direito Estrangeiro de Países do Mercosul (Conhecimento Presumido)", "filhos": }
+{ "nome": "Direito Municipal", "filhos": [] },
+{ "nome": "Direito Estadual", "filhos": [] },
+{ "nome": "Direito Estrangeiro", "filhos": [] },
+{ "nome": "Direito Consuetudinário (Costumes)", "filhos": [] },
+{ "nome": "Direito Estrangeiro de Países do Mercosul (Conhecimento Presumido)", "filhos": [] }
 ] }
 ]
 }
@@ -41,35 +41,35 @@
 {
 "nome": "Fases de Gênese da Norma",
 "filhos": [
-{ "nome": "Elaboração", "filhos": },
-{ "nome": "Promulgação (Declaração de Existência e Autenticidade)", "filhos": },
-{ "nome": "Publicação (Meio de Comunicação)", "filhos": }
+{ "nome": "Elaboração", "filhos": [] },
+{ "nome": "Promulgação (Declaração de Existência e Autenticidade)", "filhos": [] },
+{ "nome": "Publicação (Meio de Comunicação)", "filhos": [] }
 ]
 },
-{ "nome": "Início da Vigência (Após Publicação)", "filhos": },
-{ "nome": "Vacatio Legis (Período de Espera)", "filhos": },
+{ "nome": "Início da Vigência (Após Publicação)", "filhos": [] },
+{ "nome": "Vacatio Legis (Período de Espera)", "filhos": [] },
 {
 "nome": "Princípio da Irretroatividade",
 "filhos": [
-{ "nome": "Natureza de Norma Cogente para o Legislador e o Juiz", "filhos": },
-{ "nome": "Exceção: Lei Retroativa Expressa (Sempre Excepcional e Não Presumida)", "filhos": }
+{ "nome": "Natureza de Norma Cogente para o Legislador e o Juiz", "filhos": [] },
+{ "nome": "Exceção: Lei Retroativa Expressa (Sempre Excepcional e Não Presumida)", "filhos": [] }
 ]
 },
 {
 "nome": "Garantias Constitucionais Intangíveis",
 "filhos": [
-{ "nome": "Ato Jurídico Perfeito (Lei Nova não rege efeitos futuros de contratos anteriores)", "filhos": },
-{ "nome": "Direito Adquirido", "filhos": },
-{ "nome": "Coisa Julgada (Segurança Prática das Relações Jurídicas)", "filhos": },
-{ "nome": "Relativização da Coisa Julgada (Ações de Estado, Ex: Investigação de Paternidade)", "filhos": }
+{ "nome": "Ato Jurídico Perfeito (Lei Nova não rege efeitos futuros de contratos anteriores)", "filhos": [] },
+{ "nome": "Direito Adquirido", "filhos": [] },
+{ "nome": "Coisa Julgada (Segurança Prática das Relações Jurídicas)", "filhos": [] },
+{ "nome": "Relativização da Coisa Julgada (Ações de Estado, Ex: Investigação de Paternidade)", "filhos": [] }
 ]
 },
-{ "nome": "Lei Aplicável a Contratos (Lei do Tempo da Constituição)", "filhos": },
+{ "nome": "Lei Aplicável a Contratos (Lei do Tempo da Constituição)", "filhos": [] },
 {
 "nome": "Efeito Repristinatório",
 "filhos": [
-{ "nome": "Consequência de Declaração de Inconstitucionalidade (Restauração de Leis Afetadas)", "filhos": },
-{ "nome": "Distinção da Repristinação Legal (Art. 2º, § 3º, LINDB)", "filhos": }
+{ "nome": "Consequência de Declaração de Inconstitucionalidade (Restauração de Leis Afetadas)", "filhos": [] },
+{ "nome": "Distinção da Repristinação Legal (Art. 2º, § 3º, LINDB)", "filhos": [] }
 ]
 }
 ]
@@ -80,27 +80,27 @@
 {
 "nome": "Lacunas do Direito (Vedação ao Non Liquet)",
 "filhos": [
-{ "nome": "Dever do Magistrado de Proferir Decisão", "filhos": },
-{ "nome": "Necessidade de Preenchimento (Colmatação) de Lacunas", "filhos": }
+{ "nome": "Dever do Magistrado de Proferir Decisão", "filhos": [] },
+{ "nome": "Necessidade de Preenchimento (Colmatação) de Lacunas", "filhos": [] }
 ]
 },
 {
 "nome": "Fontes de Integração (Art. 4º LINDB)",
 "filhos": [
-{ "nome": "Analogia (Processo Analógico)", "filhos": },
+{ "nome": "Analogia (Processo Analógico)", "filhos": [] },
 {
 "nome": "Costumes",
 "filhos": [
-{ "nome": "Uso Comum no Direito Empresarial", "filhos": },
-{ "nome": "Costume Contra Legem (Proibido, Ex: Quebra-Molas Irregulares)", "filhos": },
-{ "nome": "Ônus da Prova do Costume (A quem o alega)", "filhos": }
+{ "nome": "Uso Comum no Direito Empresarial", "filhos": [] },
+{ "nome": "Costume Contra Legem (Proibido, Ex: Quebra-Molas Irregulares)", "filhos": [] },
+{ "nome": "Ônus da Prova do Costume (A quem o alega)", "filhos": [] }
 ]
 },
 {
 "nome": "Princípios Gerais de Direito (Postulados da Cultura Jurídica)",
 "filhos": [
-{ "nome": "Função como Fontes Mediatas (Acessórias)", "filhos": },
-{ "nome": "Distinção de Princípios Fundamentais (Normas com Força Vinculante)", "filhos": }
+{ "nome": "Função como Fontes Mediatas (Acessórias)", "filhos": [] },
+{ "nome": "Distinção de Princípios Fundamentais (Normas com Força Vinculante)", "filhos": [] }
 ]
 }
 ]
@@ -113,25 +113,25 @@
 {
 "nome": "Ordem Pública e Soberania Nacional",
 "filhos": [
-{ "nome": "Ordem Constitucional como Anteparo (Barreira à Norma Estrangeira)", "filhos": },
-{ "nome": "Respeito à Boa-fé e Enriquecimento sem Causa (Ex: Dívida de Jogo no Exterior)", "filhos": }
+{ "nome": "Ordem Constitucional como Anteparo (Barreira à Norma Estrangeira)", "filhos": [] },
+{ "nome": "Respeito à Boa-fé e Enriquecimento sem Causa (Ex: Dívida de Jogo no Exterior)", "filhos": [] }
 ]
 },
 {
 "nome": "Homologação de Sentença Estrangeira (Exequatur)",
 "filhos": [
-{ "nome": "Competência (Superior Tribunal de Justiça - STJ)", "filhos": },
-{ "nome": "Natureza (Tipicamente Jurisdicional, Cognição Restrita)", "filhos": },
+{ "nome": "Competência (Superior Tribunal de Justiça - STJ)", "filhos": [] },
+{ "nome": "Natureza (Tipicamente Jurisdicional, Cognição Restrita)", "filhos": [] },
 { "nome": "Requisitos de Homologabilidade", "filhos": [
-{ "nome": "Prolação por Juiz Competente", "filhos": },
-{ "nome": "Citação do Réu ou Configuração Legal de Revelia", "filhos": },
-{ "nome": "Trânsito em Julgado e Cumprimento de Formalidades no Local de Origem", "filhos": },
-{ "nome": "Autenticação pelo Consulado Brasileiro e Tradução Oficial", "filhos": }
+{ "nome": "Prolação por Juiz Competente", "filhos": [] },
+{ "nome": "Citação do Réu ou Configuração Legal de Revelia", "filhos": [] },
+{ "nome": "Trânsito em Julgado e Cumprimento de Formalidades no Local de Origem", "filhos": [] },
+{ "nome": "Autenticação pelo Consulado Brasileiro e Tradução Oficial", "filhos": [] }
 ]
 },
-{ "nome": "Homologação Parcial (Admitida)", "filhos": },
-{ "nome": "Discussão de Mérito (Vedada)", "filhos": },
-{ "nome": "Admissão para Decisões Cautelares e Jurisdição Voluntária", "filhos": }
+{ "nome": "Homologação Parcial (Admitida)", "filhos": [] },
+{ "nome": "Discussão de Mérito (Vedada)", "filhos": [] },
+{ "nome": "Admissão para Decisões Cautelares e Jurisdição Voluntária", "filhos": [] }
 ]
 }
 ]
