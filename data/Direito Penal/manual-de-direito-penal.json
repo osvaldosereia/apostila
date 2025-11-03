@@ -1,7 +1,6 @@
 {
   "titulo": "MANUAL DE DIREITO PENAL - Parte Geral",
     "iaPromptTemplate": "Explique com base em entendimento de autores conceituados do Direito Penal o tema: [TOPIC], dentro do contexto: ([CONTEXT]). Seja didático, organize em titulos e subtitulos, seja exemplificativo, detalhista e fundamente juridicamente suas informações.",
-
   "topicoRaiz": {
     "nome": "SUMÁRIO",
     "filhos": [
