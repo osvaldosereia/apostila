@@ -16,8 +16,6 @@
         }
 
         /* --- Estilos do Mapa Mental (Vertical) --- */
-        /* (Estes são os mesmos estilos de antes, pois funcionam bem) */
-
         .mind-map-container {
             position: relative;
             padding-left: 40px;
@@ -67,13 +65,10 @@
         }
 
         /* --- Estilos do Novo Layout (Sidebar/Header) --- */
-        
-        /* Transição suave para o menu lateral */
         #sidebar {
             transition: transform 0.3s ease-in-out;
         }
 
-        /* Transição para o overlay */
         #overlay {
             transition: opacity 0.3s ease-in-out;
         }
@@ -100,7 +95,6 @@
                         DireitoMap
                     </div>
                 </div>
-                <!-- (Espaço para ícones à direita, se necessário) -->
             </div>
         </div>
     </header>
@@ -126,122 +120,8 @@
     <!-- 4. O Código JavaScript -->
     <script>
         
-        // --- INÍCIO DA SIMULAÇÃO DE DADOS (JSON) ---
-        // Em um projeto real, estes dados viriam de arquivos separados.
-
-        /**
-         * Simula o arquivo "index.json" que lista todas as disciplinas e temas.
-         * É assim que o menu sabe o que mostrar.
-         */
-        const mockMenuData = [
-            {
-                "disciplina": "Direito Civil",
-                "temas": [
-                    { "nome": "Contratos", "path": "data/Direito Civil/Contratos.json" },
-                    { "nome": "Obrigações", "path": "data/Direito Civil/Obrigacoes.json" }
-                ]
-            },
-            {
-                "disciplina": "Direito Penal",
-                "temas": [
-                    { "nome": "Teoria do Crime", "path": "data/Direito Penal/Teoria do Crime.json" },
-                    { "nome": "Tipos de Pena", "path": "data/Direito Penal/Penas.json" }
-                ]
-            },
-            {
-                "disciplina": "Direito Constitucional",
-                "temas": [
-                    { "nome": "Remédios Constitucionais", "path": "data/Direito Constitucional/Remedios.json" }
-                ]
-            }
-        ];
-
-        /**
-         * Define a estrutura de um mapa mental.
-         * Um tópico tem um "nome" e uma lista de "filhos" (subtópicos).
-         * Se "filhos" for uma lista vazia, ele é um tópico final.
-         */
-        function definirTopico(nome, filhos = []) {
-            return { nome, filhos };
-        }
-
-        /**
-         * Simula o banco de dados de mapas mentais.
-         * A "chave" (ex: "data/Direito Civil/Contratos.json") é o mesmo "path"
-         * que definimos no 'mockMenuData'.
-         */
-        const mockMindMapData = {
-            "data/Direito Civil/Contratos.json": {
-                "titulo": "Contratos",
-                "topicoRaiz": definirTopico("Contratos", [
-                    definirTopico("Princípios Contratuais", [
-                        definirTopico("Autonomia da Vontade"),
-                        definirTopico("Boa-Fé Objetiva"),
-                        definirTopico("Função Social do Contrato")
-                    ]),
-                    definirTopico("Formação dos Contratos", [
-                        definirTopico("Proposta (Policitação)"),
-                        definirTopico("Aceitação")
-                    ]),
-                    definirTopico("Extinção dos Contratos", [
-                        definirTopico("Resilição"),
-                        definirTopico("Resolução (por inadimplemento)"),
-                        definirTopico("Rescisão")
-                    ])
-                ])
-            },
-            "data/Direito Civil/Obrigacoes.json": {
-                "titulo": "Obrigações",
-                "topicoRaiz": definirTopico("Obrigações", [
-                    definirTopico("Conceito"),
-                    definirTopico("Modalidades", [
-                        definirTopico("Obrigação de Dar"),
-                        definirTopico("Obrigação de Fazer"),
-                        definirTopico("Obrigação de Não Fazer")
-                    ])
-                ])
-            },
-            "data/Direito Penal/Teoria do Crime.json": {
-                "titulo": "Teoria do Crime",
-                "topicoRaiz": definirTopico("Conceito Analítico de Crime", [
-                    definirTopico("Fato Típico", [
-                        definirTopico("Conduta"),
-                        definirTopico("Resultado"),
-                        definirTopico("Nexo Causal"),
-                        definirTopico("Tipicidade")
-                    ]),
-                    definirTopico("Ilicitude (ou Antijuridicidade)"),
-                    definirTopico("Culpabilidade")
-                ])
-            },
-            "data/Direito Penal/Penas.json": {
-                "titulo": "Tipos de Pena",
-                "topicoRaiz": definirTopico("Penas (Art. 32 CP)", [
-                    definirTopico("Privativas de Liberdade", [
-                        definirTopico("Reclusão"),
-                        definirTopico("Detenção"),
-                    ]),
-                    definirTopico("Restritivas de Direitos"),
-                    definirTopico("Multa")
-                ])
-            },
-            "data/Direito Constitucional/Remedios.json": {
-                "titulo": "Remédios Constitucionais",
-                "topicoRaiz": definirTopico("Remédios Constitucionais", [
-                    definirTopico("Habeas Corpus"),
-                    definirTopico("Habeas Data"),
-                    definirTopico("Mandado de Segurança"),
-                    definirTopico("Mandado de Injunção"),
-                    definirTopico("Ação Popular")
-                ])
-            }
-        };
-
-        // --- FIM DA SIMULAÇÃO DE DADOS ---
-
-
         // Espera a página carregar para executar o script
-        document.addEventListener('DOMContentLoaded', () => {
+        document.addEventListener('DOMContentLoaded', async () => {
             
             // 1. Seleciona os elementos principais da UI
             const sidebar = document.getElementById('sidebar');
@@ -258,105 +138,125 @@
             }
 
             // 3. Função para construir o menu lateral dinamicamente
-            function buildSidebarMenu() {
+            // Esta função agora é 'async' para poder usar 'await'
+            async function buildSidebarMenu() {
                 let menuHtml = '';
                 
-                // Itera sobre cada disciplina no mockMenuData
-                mockMenuData.forEach(disciplina => {
-                    // Adiciona o título da disciplina (ex: Direito Civil)
-                    // Usamos 'details' e 'summary' para criar um grupo "sanfona" (collapsible)
-                    menuHtml += `<details class="group px-2 py-1">`;
-                    menuHtml += `
-                        <summary class="flex justify-between items-center p-2 rounded-md cursor-pointer hover:bg-gray-100">
-                            <span class="font-semibold text-gray-700">${disciplina.disciplina}</span>
-                            <!-- Ícone de seta que gira -->
-                            <svg class="w-4 h-4 transform group-open:rotate-90 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                        </summary>
-                    `;
-                    
-                    // Adiciona os temas (sub-itens)
-                    menuHtml += `<ul class="pl-4 mt-1">`;
-                    disciplina.temas.forEach(tema => {
+                try {
+                    // Busca o arquivo JSON do menu
+                    // Adicionamos um 'cache buster' para garantir que pegamos o arquivo mais recente
+                    const response = await fetch(`data/index_menu.json?v=${new Date().getTime()}`);
+                    if (!response.ok) {
+                        throw new Error(`Erro ao buscar o menu: ${response.statusText}`);
+                    }
+                    const menuData = await response.json();
+
+                    // Itera sobre cada disciplina nos dados buscados
+                    menuData.forEach(disciplina => {
+                        menuHtml += `<details class="group px-2 py-1" open>`; // 'open' deixa o menu aberto por padrão
                         menuHtml += `
-                            <li>
-                                <a href="#" 
-                                   class="block p-2 rounded-md text-gray-600 hover:bg-indigo-50 hover:text-indigo-700"
-                                   data-path="${tema.path}">
-                                    ${tema.nome}
-                                </a>
-                            </li>
+                            <summary class="flex justify-between items-center p-2 rounded-md cursor-pointer hover:bg-gray-100">
+                                <span class="font-semibold text-gray-700">${disciplina.disciplina}</span>
+                                <svg class="w-4 h-4 transform group-open:rotate-90 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                            </summary>
                         `;
+                        
+                        menuHtml += `<ul class="pl-4 mt-1">`;
+                        disciplina.temas.forEach(tema => {
+                            menuHtml += `
+                                <li>
+                                    <a href="#" 
+                                       class="block p-2 rounded-md text-gray-600 hover:bg-indigo-50 hover:text-indigo-700"
+                                       data-path="${tema.path}">
+                                        ${tema.nome}
+                                    </a>
+                                </li>
+                            `;
+                        });
+                        menuHtml += `</ul></details>`;
                     });
-                    menuHtml += `</ul></details>`;
-                });
-                
-                sidebarContent.innerHTML = menuHtml;
+                    
+                    sidebarContent.innerHTML = menuHtml;
+
+                } catch (error) {
+                    console.error("Erro ao construir o menu:", error);
+                    sidebarContent.innerHTML = `<p class="p-4 text-red-500">Não foi possível carregar o menu. Verifique se o arquivo 'data/index_menu.json' existe.</p>`;
+                }
             }
 
             // 4. Função para carregar um mapa mental na tela
-            function loadMindMap(path) {
-                // Busca o dado do mapa no nosso "banco de dados" simulado
-                const mapData = mockMindMapData[path];
+            // Esta função também é 'async'
+            async function loadMindMap(path) {
+                try {
+                    // Busca o arquivo JSON do mapa mental específico
+                    // Adicionamos 'cache buster' aqui também
+                    const response = await fetch(`${path}?v=${new Date().getTime()}`);
+                    if (!response.ok) {
+                        throw new Error(`Erro ao buscar o mapa: ${response.statusText}`);
+                    }
+                    const mapData = await response.json();
 
-                if (!mapData) {
-                    contentArea.innerHTML = `<p class="text-red-500">Erro: Mapa mental não encontrado para o caminho: ${path}</p>`;
-                    return;
+                    // Limpa o conteúdo antigo
+                    contentArea.innerHTML = '';
+
+                    // Cria o título
+                    const title = document.createElement('h1');
+                    title.className = "text-3xl md:text-4xl font-bold text-indigo-600 mb-12 text-center";
+                    title.textContent = mapData.titulo;
+                    contentArea.appendChild(title);
+
+                    // Cria o contêiner principal do mapa
+                    const mapContainer = document.createElement('div');
+                    mapContainer.className = "bg-white p-6 md:p-8 rounded-lg shadow-lg";
+
+                    const mindMapRoot = document.createElement('div');
+                    mindMapRoot.className = "mind-map-container";
+                    
+                    // Chama a função recursiva para construir o mapa
+                    const rootNode = createMapNode(mapData.topicoRaiz);
+                    mindMapRoot.appendChild(rootNode);
+                    
+                    mapContainer.appendChild(mindMapRoot);
+                    contentArea.appendChild(mapContainer);
+
+                } catch (error) {
+                    console.error(`Erro ao carregar o mapa de '${path}':`, error);
+                    contentArea.innerHTML = `<p class="p-4 text-center text-red-500">Não foi possível carregar o mapa mental. Verifique se o arquivo '${path}' existe e está formatado corretamente.</p>`;
                 }
-
-                // Limpa o conteúdo antigo
-                contentArea.innerHTML = '';
-
-                // Cria o título
-                const title = document.createElement('h1');
-                title.className = "text-3xl md:text-4xl font-bold text-indigo-600 mb-12 text-center";
-                title.textContent = mapData.titulo;
-                contentArea.appendChild(title);
-
-                // Cria o contêiner principal do mapa
-                const mapContainer = document.createElement('div');
-                mapContainer.className = "bg-white p-6 md:p-8 rounded-lg shadow-lg";
-
-                const mindMapRoot = document.createElement('div');
-                mindMapRoot.className = "mind-map-container";
-                
-                // Chama a função recursiva para construir o mapa
-                const rootNode = createMapNode(mapData.topicoRaiz);
-                mindMapRoot.appendChild(rootNode);
-                
-                mapContainer.appendChild(mindMapRoot);
-                contentArea.appendChild(mapContainer);
             }
 
             /**
              * 5. Função Recursiva para criar os nós do mapa
-             * "Recursiva" significa que a função chama a si mesma para criar
-             * os filhos, netos, etc.
+             * Esta função já está correta e cria o botão de explicação
+             * para cada tópico e subtópico.
              */
             function createMapNode(nodeData) {
-                // Cria o elemento 'div' principal para este item
                 const item = document.createElement('div');
                 item.className = 'mind-map-item';
 
-                // Cria o 'span' para o texto do tópico
+                // Contêiner para o texto e o botão, para melhor layout
+                const contentWrapper = document.createElement('div');
+                contentWrapper.className = 'flex items-center';
+
                 const text = document.createElement('span');
                 text.className = 'text-lg font-medium text-gray-900';
                 text.textContent = nodeData.nome;
-                text.dataset.topic = nodeData.nome; // Adiciona o data-topic
-                item.appendChild(text);
+                text.dataset.topic = nodeData.nome;
+                contentWrapper.appendChild(text);
 
-                // Cria o botão de explicação
                 const button = document.createElement('button');
-                button.className = 'explain-btn ml-2 text-indigo-500 hover:text-indigo-700';
+                button.className = 'explain-btn ml-2 text-indigo-500 hover:text-indigo-700 flex-shrink-0';
                 button.dataset.topic = nodeData.nome;
                 button.setAttribute('aria-label', `Explicar tópico ${nodeData.nome}`);
                 button.innerHTML = `
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9
+ 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 `;
-                item.appendChild(button);
+                contentWrapper.appendChild(button);
+                item.appendChild(contentWrapper); // Adiciona o wrapper ao item
 
-                // --- A MÁGICA DA RECURSÃO ---
                 // Se este nó tiver filhos, cria um novo contêiner para eles
                 if (nodeData.filhos && nodeData.filhos.length > 0) {
                     const childrenContainer = document.createElement('div');
@@ -384,14 +284,17 @@
 
             // Evento para cliques DENTRO do menu lateral (carregar mapas)
             sidebarContent.addEventListener('click', (event) => {
-                // Procura pelo link 'a' mais próximo que foi clicado
                 const link = event.target.closest('a[data-path]');
                 
                 if (link) {
-                    event.preventDefault(); // Impede o link de navegar
+                    event.preventDefault();
                     const path = link.dataset.path;
-                    loadMindMap(path);
-                    toggleSidebar(); // Fecha o menu após clicar
+                    loadMindMap(path); // Chama a função async
+                    
+                    // Fecha o menu em telas pequenas
+                    if (window.innerWidth < 768) {
+                        toggleSidebar();
+                    }
                 }
             });
 
@@ -407,7 +310,7 @@
                     return;
                 }
 
-                // Mesma lógica de antes para abrir o Google
+                // Adiciona "no direito" para especificar o contexto da busca
                 const query = `explique em detalhes o que é ${topic} no direito`;
                 const encodedQuery = encodeURIComponent(query);
                 const googleUrl = `https://www.google.com/search?q=${encodedQuery}`;
@@ -416,7 +319,8 @@
 
 
             // --- 7. Inicialização ---
-            buildSidebarMenu(); // Constroi o menu assim que a página carrega
+            // Constroi o menu assim que a página carrega
+            await buildSidebarMenu(); 
 
         });
     </script>
