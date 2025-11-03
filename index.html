@@ -328,10 +328,8 @@
                 
                 const encodedQuery = encodeURIComponent(query);
                 
-                // 2. Nova URL apontando para o modo IA do Google (tbm=gai)
-                // O "&ai=50" é um parâmetro que pode estar relacionado à sua experiência,
-                // mas o "&tbm=gai" é o que geralmente ativa o modo IA. Vamos incluir ambos.
-                const googleUrl = `https://www.google.com/search?q=${encodedQuery}&tbm=gai&ai=50`;
+                // 2. Nova URL apontando para o modo IA do Google (udm=50)
+                const googleUrl = `https://www.google.com/search?udm=50&q=${encodedQuery}`;
                 
                 window.open(googleUrl, '_blank');
             });
@@ -346,6 +344,7 @@
 
 </body>
 </html>
+
 
 
 
