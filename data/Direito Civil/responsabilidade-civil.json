@@ -1,7 +1,8 @@
 {
-  "titulo": "Mapa Mental: Sumário - Responsabilidade Civil Teoria Geral",
+  "titulo": "Responsabilidade Civil Teoria Geral",
+        "iaPromptTemplate": "Explique como os autores Nelson Rosenvald e Felipe Braga Netto explicariam o tema: [TOPIC], dentro do contexto: ([CONTEXT]). Seja didático, organize em titulos e subtitulos, seja exemplificativo, detalhista e fundamente juridicamente suas informações.",
   "topicoRaiz": {
-    "nome": "SUMÁRIO - RESPONSABILIDADE CIVIL TEORIA GERAL",
+    "nome": "SUMÁRIO",
     "filhos": [
       {
         "nome": "CAPÍTULO I - INTRODUÇÃO À RESPONSABILIDADE CIVIL",
