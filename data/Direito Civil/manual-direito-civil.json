@@ -1,6 +1,6 @@
 {
   "titulo": "Direito Civil",
-  "iaPromptTemplate": "Você é um professor de Direito Civil. Explique o conceito de [TOPIC] com foco em seu impacto nas obrigações contratuais, utilizando exemplos práticos. [CONTEXT]",
+  "iaPromptTemplate": "Transforme o tema "[TOPIC]" do Livro "Manual de Direito Civil - Vol Unico - 15 Edição - 2025, do autor Flávio Tartuce, em uma apostila didática para universitário com exemplos e fundamentos jurídicos do Direito Civil Brasileiro.",
   "topicoRaiz": {
     "nome": "Sumário - Manual de Direito Civil",
     "filhos": [
