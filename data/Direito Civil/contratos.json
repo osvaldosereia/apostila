@@ -1,0 +1,31 @@
+{
+    "titulo": "Contratos",
+    "topicoRaiz": {
+        "nome": "Contratos",
+        "filhos": [
+            {
+                "nome": "Princípios Contratuais",
+                "filhos": [
+                    { "nome": "Autonomia da Vontade", "filhos": [] },
+                    { "nome": "Boa-Fé Objetiva", "filhos": [] },
+                    { "nome": "Função Social do Contrato", "filhos": [] }
+                ]
+            },
+            {
+                "nome": "Formação dos Contratos",
+                "filhos": [
+                    { "nome": "Proposta (Policitação)", "filhos": [] },
+                    { "nome": "Aceitação", "filhos": [] }
+                ]
+            },
+            {
+                "nome": "Extinção dos Contratos",
+                "filhos": [
+                    { "nome": "Resilição", "filhos": [] },
+                    { "nome": "Resolução (por inadimplemento)", "filhos": [] },
+                    { "nome": "Rescisão", "filhos": [] }
+                ]
+            }
+        ]
+    }
+}
