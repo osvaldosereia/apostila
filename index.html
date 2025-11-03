@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- 2. Estilos CSS customizados e responsivos (Otimizado para Mobile) -->
+    <!-- 2. Estilos CSS customizados e responsivos (Otimizado para Mapa Fixo) -->
     <style>
         /* Fonte padrão */
         body {
@@ -21,64 +21,69 @@
             background-color: #f7f9fb; /* Cor de fundo suave */
         }
 
-        /* Classes de cor para os níveis de profundidade (Para Bordas e ícones) */
-        /* Nível 0 (Raiz) - Azul Principal */
-        .depth-0 { --color-primary: #3b82f6; }
-        /* Nível 1 - Ciano/Verde */
-        .depth-1 { --color-primary: #06b6d4; }
-        /* Nível 2 - Roxo */
-        .depth-2 { --color-primary: #a855f7; }
-        /* Nível 3+ - Cinza */
-        .depth-3 { --color-primary: #4b5563; }
+        /* Classes de cor para os níveis de profundidade (Cores da Barra Lateral e Ícones) */
+        /* Nível 0 (Raiz/Título Principal) */
+        .depth-0 { --color-primary: #1d4ed8; --color-bg: #ffffff; } /* Azul escuro */
+        /* Nível 1 (Grandes Seções) */
+        .depth-1 { --color-primary: #059669; --color-bg: #f5f5f5; } /* Verde Esmeralda */
+        /* Nível 2 (Sub-Seções) */
+        .depth-2 { --color-primary: #d97706; --color-bg: #ffffff; } /* Laranja Pôr do Sol */
+        /* Nível 3+ (Tópicos Detalhados) */
+        .depth-3 { --color-primary: #4b5563; --color-bg: #ffffff; } /* Cinza Neutro */
 
-        /* --- Estilos do Acordeão (Card e Toggle) --- */
+        /* --- Estilos do Mapa Mental Fixo (Vertical) --- */
 
         .map-item-card {
-            /* Padding menor em mobile, maior em desktop */
-            padding: 0.75rem; 
             margin-top: 0.5rem;
             border-radius: 0.5rem;
             transition: all 0.2s ease;
-            cursor: pointer;
-            border-left: 4px solid var(--color-primary); /* Borda colorida */
-            background-color: white;
+            cursor: default; /* Não é mais clicável para expandir/colapsar */
+            border-left: 5px solid var(--color-primary); /* Borda mais grossa para hierarquia */
+            background-color: var(--color-bg); 
             box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05); /* Sombra suave */
         }
-        
+
         /* Estilo do Título/Wrapper */
         .item-header {
             display: flex;
-            align-items: flex-start; /* Alinha o texto do título com o topo */
+            align-items: flex-start; 
+            padding: 0.75rem; /* Padding padrão */
         }
 
-        /* Conteúdo dos filhos (colapsável) */
+        /* Contêiner dos filhos (apenas espaçamento/margem) */
         .children-container {
-            overflow: hidden;
-            transition: max-height 0.4s ease-in-out; /* Transição para o efeito acordeão */
-            padding-left: 0.5rem; /* Respiro esquerdo para mobile */
+            padding-left: 0.5rem; /* Indentação mobile */
             margin-top: 0.75rem;
         }
 
         /* Estilo para Tópicos Finais */
         .leaf-item {
-            /* Tópicos finais parecem mais um link do que um cartão */
             background-color: #f9fafb; /* Cinza bem leve */
-            border-left-width: 2px;
+            border-left-width: 2px; /* Borda mais fina */
             padding: 0.5rem 0.75rem;
             font-size: 0.875rem; /* Texto menor */
+            box-shadow: none;
+            margin-top: 0.3rem;
         }
 
-        /* --- Transições e Responsividade Geral --- */
+        /* Classes de texto por nível */
+        .depth-0 .title-text { font-size: 1.25rem; font-weight: 700; color: #1f2937; } /* Extra-grande, negrito */
+        .depth-1 .title-text { font-size: 1.125rem; font-weight: 600; color: #059669; } /* Grande, seminegrito */
+        .depth-2 .title-text { font-size: 1rem; font-weight: 500; color: #1f2937; } /* Normal */
+        .depth-3 .title-text { font-size: 0.875rem; font-weight: 400; color: #4b5563; } /* Pequeno */
+
+
+        /* --- Responsividade Geral --- */
         #sidebar { transition: transform 0.3s ease-in-out; }
         #overlay { transition: opacity 0.3s ease-in-out; }
 
         @media (min-width: 768px) {
             /* Otimizações para Desktop */
-            .map-item-card {
+            .item-header {
                 padding: 1rem;
             }
-            .item-header {
-                font-size: 1.125rem; /* Aumenta a fonte no desktop */
+             .children-container {
+                padding-left: 1.5rem; /* Indentação maior no desktop */
             }
         }
     </style>
@@ -122,7 +127,7 @@
         </div>
     </main>
 
-    <!-- 4. O Código JavaScript com Lógica de Acordeão e IA -->
+    <!-- 4. O Código JavaScript com Lógica de Renderização Fixo e IA -->
     <script>
         document.addEventListener('DOMContentLoaded', async () => {
 
@@ -132,14 +137,6 @@
             const hamburgerBtn = document.getElementById('hamburger-btn');
             const overlay = document.getElementById('overlay');
             const contentArea = document.getElementById('content-area');
-
-            // Mapeamento de cores de texto para cada nível (para uso na hierarquia)
-            const textColors = [
-                'text-indigo-700', // Nível 0 (Raiz)
-                'text-cyan-600',   // Nível 1
-                'text-purple-600', // Nível 2
-                'text-gray-700',   // Nível 3+
-            ];
 
             // 2. Função para abrir/fechar o menu lateral
             function toggleSidebar() {
@@ -192,28 +189,6 @@
                 }
             }
 
-            // --- FUNÇÃO DE RECALCULAR ALTURA (REVISADA E ROBUSTA PARA CASCATA) ---
-            function recalculateParentsHeight(changedElement) {
-                // Começa a subir a árvore de elementos a partir do PAI do item que foi clicado.
-                // O pai do .map-item-card é o .children-container que precisa ser ajustado.
-                let current = changedElement.parentElement; 
-
-                // Limite a subida ao elemento 'content-area'
-                while (current && current.id !== 'content-area') {
-                    // 1. Verifica se o elemento atual é um children-container
-                    if (current.classList && current.classList.contains('children-container')) {
-                        // 2. Se o container estiver expandido (maxHeight != 0)
-                        if (current.style.maxHeight !== '0px') {
-                            // 3. Recalcula a altura. Este é o passo crítico.
-                            // Usa scrollHeight para obter a altura total do conteúdo atual (incluindo o que acabou de expandir)
-                            current.style.maxHeight = current.scrollHeight + 'px';
-                        }
-                    }
-                    // 4. Sobe para o próximo elemento pai.
-                    current = current.parentElement; 
-                }
-            }
-
 
             // 4. Função para carregar um mapa mental na tela
             let currentPromptTemplate = ''; // Armazena o template do JSON
@@ -257,14 +232,14 @@
                 }
             }
 
-            // 5. Função Recursiva para criar os nós do mapa (Acordeão)
+            // 5. Função Recursiva para criar os nós do mapa (FIXO)
             function createMapNode(nodeData, pathArray, depth) {
                 const item = document.createElement('div');
                 
                 // Define a classe de cor com base na profundidade
                 const colorClass = `depth-${Math.min(depth, 3)}`;
                 
-                // Verifica se tem filhos para determinar se é colapsável
+                // Verifica se tem filhos para determinar o estilo
                 const hasChildren = nodeData.filhos && nodeData.filhos.length > 0;
                 
                 // Classes base do cartão
@@ -281,44 +256,13 @@
                 const header = document.createElement('div');
                 header.className = 'item-header';
                 
-                // Ícone de seta (Apenas se tiver filhos)
-                if (hasChildren) {
-                    const toggleIcon = document.createElement('span');
-                    toggleIcon.className = `toggle-icon mr-2 flex-shrink-0 transition-transform duration-300 ${depth === 0 ? 'rotate-90' : ''}`;
-                    toggleIcon.innerHTML = `<svg class="w-4 h-4 text-[color:var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>`;
-                    header.appendChild(toggleIcon);
-                    
-                    // Adiciona o evento de clique para expandir/colapsar
-                    header.onclick = () => {
-                        const childrenContainer = item.querySelector('.children-container');
-                        if (childrenContainer) {
-                            const isOpen = childrenContainer.style.maxHeight !== '0px';
-                            
-                            if (isOpen) {
-                                // Fechar
-                                childrenContainer.style.maxHeight = '0px';
-                                toggleIcon.classList.remove('rotate-90');
-                            } else {
-                                // Abrir
-                                childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
-                                toggleIcon.classList.add('rotate-90');
-                            }
-                            
-                            // Chama a função de recálculo em cascata com um pequeno atraso (CORREÇÃO)
-                            // Passamos o item, que é o cartão que acabou de ter seu filho (childrenContainer) expandido/colapsado.
-                            setTimeout(() => recalculateParentsHeight(item), 10);
-                        }
-                    };
-                }
-
-                // Título do Tópico
+                // Título do Tópico - Usa a classe title-text para controle de tamanho/cor/negrito via CSS
                 const titleText = document.createElement('span');
-                titleText.className = `flex-grow ${textColors[Math.min(depth, textColors.length - 1)]} font-medium text-base md:text-lg cursor-pointer`;
+                titleText.className = `title-text flex-grow`; // Classe base para os estilos definidos no <style>
                 titleText.textContent = nodeData.nome;
                 header.appendChild(titleText);
 
-
-                // Mini Botão de IA (Sempre presente, mesmo em tópicos finais)
+                // Mini Botão de IA (Sempre presente)
                 const button = document.createElement('button');
                 button.className = 'explain-btn ml-3 flex-shrink-0 p-1 rounded-full hover:bg-indigo-100 transition-colors focus:outline-none';
                 button.dataset.topic = nodeData.nome;
@@ -332,14 +276,13 @@
                 header.appendChild(button);
                 item.appendChild(header);
 
-                // --- 5.2. Contêiner dos Filhos (Acordeão) ---
+                // --- 5.2. Contêiner dos Filhos (FIXO) ---
                 if (hasChildren) {
                     const childrenContainer = document.createElement('div');
                     childrenContainer.className = 'children-container space-y-2';
                     
-                    // O estado inicial para todos é fechado, exceto a raiz
-                    childrenContainer.style.maxHeight = '0px'; 
-
+                    // Não precisamos de maxHeight ou transição, pois está sempre aberto
+                    
                     // Chama esta mesma função (createMapNode) para cada filho
                     const newPathArray = [...pathArray, nodeData.nome];
                     nodeData.filhos.forEach(filhoNode => {
@@ -348,14 +291,6 @@
                     });
 
                     item.appendChild(childrenContainer);
-                    
-                    // Se for a raiz (depth 0), abrimos automaticamente e recalculamos o pai.
-                    if (depth === 0) {
-                        setTimeout(() => {
-                            childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
-                            recalculateParentsHeight(item);
-                        }, 10);
-                    }
                 }
 
                 return item; // Retorna o item completo
