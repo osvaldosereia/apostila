@@ -1,5 +1,7 @@
 {
-  "titulo": "SUMÁRIO - TRATADO DE DIREITO DAS FAMÍLIAS",
+  "titulo": "TRATADO DE DIREITO DAS FAMÍLIAS",
+  "iaPromptTemplate": "Explique como o autor Jaylton Lopes Jr. explicaria o tema: [TOPIC], dentro do contexto: ([CONTEXT]). Seja didático, organize em titulos e subtitulos, seja exemplificativo, detalhista e fundamente juridicamente suas informações.",
+
   "topicoRaiz": {
     "nome": "SUMÁRIO",
     "filhos": [
