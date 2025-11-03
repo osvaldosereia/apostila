@@ -4,179 +4,136 @@
 "nome": "A Lei de Introdução às Normas do Direito Brasileiro",
 "filhos": [
 {
-"nome": "Noções Gerais da LINDB",
+"nome": "Da Obrigatoriedade e Erro de Direito",
 "filhos": [
-{ "nome": "Antiga e Atual Denominação (LICC)", "filhos": [] },
+{ "nome": "Princípio da Inescusabilidade da Lei ('Ignorantia iuris neminem excusat')", "filhos": [
+{ "nome": "Previsão no Art. 3º da LICC (atual LINDB)", "filhos": }
+] },
 {
-"nome": "Natureza Jurídica",
+"nome": "Erro de Direito (Error Iuris)",
 "filhos": [
-{ "nome": "Norma Anexa ao Código Civil", "filhos": },
-{ "nome": "Norma Autônoma e Independente", "filhos": },
-{ "nome": "Status de Lei Ordinária", "filhos": }
+{ "nome": "Distinção do Erro de Fato (Error Facti)", "filhos": },
+{ "nome": "Admissibilidade como Vício do Negócio Jurídico (CC Art. 139, III)", "filhos": },
+{ "nome": "Requisitos para Anulação", "filhos": [
+{ "nome": "Ser o motivo único ou principal", "filhos": },
+{ "nome": "Não implicar em recusa à aplicação da lei", "filhos": }
+] }
 ]
 },
-{ "nome": "Âmbito de Aplicação (Toda e Qualquer Norma Legal)", "filhos": },
 {
-"nome": "Função da Lei",
+"nome": "Conhecimento da Lei (Iura Novit Curia)",
 "filhos": [
-{ "nome": "Parâmetros para Elaboração das Leis", "filhos": },
-{ "nome": "Parâmetros para Vigência e Eficácia das Leis", "filhos": },
-{ "nome": "Regras e Princípios de Aplicação e Interpretação", "filhos": },
-{ "nome": "Regras de Integração do Direito", "filhos": }
+{ "nome": "Lei Nacional (Conhecimento Presumido pelo Juiz)", "filhos": },
+{ "nome": "Exceções (Necessidade de Prova)", "filhos": [
+{ "nome": "Direito Municipal", "filhos": },
+{ "nome": "Direito Estadual", "filhos": },
+{ "nome": "Direito Estrangeiro", "filhos": },
+{ "nome": "Direito Consuetudinário (Costumes)", "filhos": },
+{ "nome": "Direito Estrangeiro de Países do Mercosul (Conhecimento Presumido)", "filhos": }
+] }
 ]
 }
 ]
 },
 {
-"nome": "As Fontes do Direito",
+"nome": "Da Vigência e Aplicação no Tempo",
 "filhos": [
-{ "nome": "Considerações Introdutórias", "filhos": },
 {
-"nome": "Classificação Sociológica e Formal",
+"nome": "Fases de Gênese da Norma",
 "filhos": [
-{ "nome": "Fontes Materiais (Causas da Norma)", "filhos": },
+{ "nome": "Elaboração", "filhos": },
+{ "nome": "Promulgação (Declaração de Existência e Autenticidade)", "filhos": },
+{ "nome": "Publicação (Meio de Comunicação)", "filhos": }
+]
+},
+{ "nome": "Início da Vigência (Após Publicação)", "filhos": },
+{ "nome": "Vacatio Legis (Período de Espera)", "filhos": },
 {
-"nome": "Fontes Formais (Modos de Revelação)",
+"nome": "Princípio da Irretroatividade",
 "filhos": [
-{ "nome": "Lei (Principal)", "filhos": },
-{ "nome": "Analogia (Acessória)", "filhos": },
-{ "nome": "Costumes (Acessória)", "filhos": },
-{ "nome": "Princípios Gerais de Direito (Acessória)", "filhos": },
-{ "nome": "Normas Coletivas (Poder Normativo da Justiça do Trabalho)", "filhos": },
-{ "nome": "Súmulas Vinculantes do STF", "filhos": }
+{ "nome": "Natureza de Norma Cogente para o Legislador e o Juiz", "filhos": },
+{ "nome": "Exceção: Lei Retroativa Expressa (Sempre Excepcional e Não Presumida)", "filhos": }
 ]
 },
 {
-"nome": "Fontes Não-Formais",
+"nome": "Garantias Constitucionais Intangíveis",
 "filhos": [
-{ "nome": "Doutrina", "filhos": },
-{ "nome": "Jurisprudência", "filhos": }
-]
-}
-]
-},
-{
-"nome": "Fontes Imediatas e Mediatas (Art. 4º LINDB)",
-"filhos": [
-{ "nome": "Fonte Imediata (Lei)", "filhos": },
-{
-"nome": "Fontes Mediatas (Secundárias)",
-"filhos": [
-{ "nome": "Analogia", "filhos": },
-{ "nome": "Costumes (Práticas Longevas, Uniformes e Gerais)", "filhos": },
-{ "nome": "Princípios Gerais de Direito (Postulados da Cultura Jurídica)", "filhos": }
-]
-}
-]
-}
-]
-},
-{
-"nome": "Interpretação das Normas",
-"filhos": [
-{ "nome": "Necessidade da Atividade Interpretativa (Hermenêutica)", "filhos": },
-{ "nome": "Inaplicabilidade da máxima 'in claris, interpretatio cessat'", "filhos": },
-{
-"nome": "Técnicas de Interpretação",
-"filhos": [
-{ "nome": "Gramatical/Literal", "filhos": },
-{ "nome": "Lógica", "filhos": },
-{ "nome": "Histórica", "filhos": },
-{ "nome": "Sociológica/Teleológica (Fins Sociais e Exigências da Sociedade)", "filhos": },
-{ "nome": "Sistemática", "filhos": }
-]
-},
-{
-"nome": "Regras Específicas",
-"filhos": [
-{ "nome": "Normas Excepcionais (Interpretação Restritiva)", "filhos": },
-{ "nome": "Direitos Fundamentais (Interpretação Ampliativa)", "filhos": },
-{ "nome": "Direito Administrativo (Interpretação Declarativa)", "filhos": }
-]
-}
-]
-},
-{
-"nome": "Integração das Normas",
-"filhos": [
-{ "nome": "Existência de Lacunas no Direito Positivo", "filhos": },
-{ "nome": "Mecanismos de Integração (Art. 4º da LINDB)", "filhos": },
-{
-"nome": "Limites à Integração Analógica",
-"filhos": [
-{ "nome": "Âmbito Penal (Somente 'in bonam partem')", "filhos": },
-{ "nome": "Âmbito Tributário (Vedada a criação de tributos)", "filhos": },
-{ "nome": "Normas de Ordem Pública/Sancionatórias", "filhos": },
-{ "nome": "Direito Administrativo (Prevalência da Legalidade)", "filhos": }
-]
-}
-]
-},
-{
-"nome": "Vigência das Normas",
-"filhos": [
-{ "nome": "Fases de Formação da Norma (Elaboração, Promulgação, Publicação)", "filhos": },
-{ "nome": "Eficácia das Leis", "filhos": },
-{ "nome": "Revogação da Norma (Expressa, Tácita, Total, Parcial)", "filhos": },
-{ "nome": "Efeito Repristinatório", "filhos": },
-{ "nome": "'Vacatio Legis' (Período de Espera)", "filhos": },
-{ "nome": "'Desuetudo' (Cessação de Vigência por Desuso)", "filhos": }
-]
-},
-{
-"nome": "A Obrigatoriedade das Normas",
-"filhos": [
-{ "nome": "Princípio da Obrigatoriedade ('Ignorantia iuris neminem excusat')", "filhos": },
-{ "nome": "Desnecessidade de Prova da Lei Nacional em Juízo ('Iura novit curia')", "filhos": },
-{ "nome": "Exceção (Erro de Direito)", "filhos": }
-]
-},
-{
-"nome": "A Eficácia das Leis no Tempo (Direito Intertemporal)",
-"filhos": [
-{ "nome": "Conflitos Intertemporais", "filhos": },
-{ "nome": "Retroatividade da Lei (Excepcional e expressa)", "filhos": },
-{
-"nome": "Vedação à Lesão de Garantias Constitucionais",
-"filhos": [
-{ "nome": "Ato Jurídico Perfeito", "filhos": },
+{ "nome": "Ato Jurídico Perfeito (Lei Nova não rege efeitos futuros de contratos anteriores)", "filhos": },
 { "nome": "Direito Adquirido", "filhos": },
-{ "nome": "Coisa Julgada", "filhos": }
+{ "nome": "Coisa Julgada (Segurança Prática das Relações Jurídicas)", "filhos": },
+{ "nome": "Relativização da Coisa Julgada (Ações de Estado, Ex: Investigação de Paternidade)", "filhos": }
+]
+},
+{ "nome": "Lei Aplicável a Contratos (Lei do Tempo da Constituição)", "filhos": },
+{
+"nome": "Efeito Repristinatório",
+"filhos": [
+{ "nome": "Consequência de Declaração de Inconstitucionalidade (Restauração de Leis Afetadas)", "filhos": },
+{ "nome": "Distinção da Repristinação Legal (Art. 2º, § 3º, LINDB)", "filhos": }
 ]
 }
 ]
 },
 {
-"nome": "Eficácia das Leis no Espaço",
+"nome": "Da Aplicação e Integração das Normas",
 "filhos": [
-{ "nome": "Princípio da Territorialidade Mitigada", "filhos": },
-{ "nome": "Respeito à Ordem Pública (Filtro para Lei Estrangeira)", "filhos": },
-{ "nome": "Aplicação da Sentença ou Laudo Arbitral Estrangeiro ('Exequatur' do STJ)", "filhos": },
-{ "nome": "Prova dos Fatos Ocorridos no Exterior", "filhos": },
 {
-"nome": "Estatuto Pessoal (Lei do Domicílio da Pessoa)",
+"nome": "Lacunas do Direito (Vedação ao Non Liquet)",
 "filhos": [
-{ "nome": "Começo e Fim da Personalidade", "filhos": },
-{ "nome": "Nome", "filhos": },
-{ "nome": "Capacidade", "filhos": },
-{ "nome": "Direitos de Família ('Direito Internacional das Famílias')", "filhos": },
-{ "nome": "Capacidade para Suceder", "filhos": }
+{ "nome": "Dever do Magistrado de Proferir Decisão", "filhos": },
+{ "nome": "Necessidade de Preenchimento (Colmatação) de Lacunas", "filhos": }
 ]
 },
 {
-"nome": "Critérios Específicos para Lei Estrangeira",
+"nome": "Fontes de Integração (Art. 4º LINDB)",
 "filhos": [
-{ "nome": "Lei do Lugar da Coisa ('Lex rei sitae') (Posse e Propriedade de Imóveis)", "filhos": },
-{ "nome": "Regra do Lugar em que foi Constituída ('Locus regit actum') (Relações Obrigacionais)", "filhos": }
+{ "nome": "Analogia (Processo Analógico)", "filhos": },
+{
+"nome": "Costumes",
+"filhos": [
+{ "nome": "Uso Comum no Direito Empresarial", "filhos": },
+{ "nome": "Costume Contra Legem (Proibido, Ex: Quebra-Molas Irregulares)", "filhos": },
+{ "nome": "Ônus da Prova do Costume (A quem o alega)", "filhos": }
+]
+},
+{
+"nome": "Princípios Gerais de Direito (Postulados da Cultura Jurídica)",
+"filhos": [
+{ "nome": "Função como Fontes Mediatas (Acessórias)", "filhos": },
+{ "nome": "Distinção de Princípios Fundamentais (Normas com Força Vinculante)", "filhos": }
+]
+}
 ]
 }
 ]
 },
 {
-"nome": "Jurisprudência Sumulada Relacionada (Exemplos)",
+"nome": "Da Aplicação da Lei Estrangeira",
 "filhos": [
-{ "nome": "Súmula Vinculante 25 do STF (Prisão Civil de Depositário Infiel)", "filhos": },
-{ "nome": "Súmula 302 do STJ (Cláusula Abusiva em Plano de Saúde)", "filhos": }
+{
+"nome": "Ordem Pública e Soberania Nacional",
+"filhos": [
+{ "nome": "Ordem Constitucional como Anteparo (Barreira à Norma Estrangeira)", "filhos": },
+{ "nome": "Respeito à Boa-fé e Enriquecimento sem Causa (Ex: Dívida de Jogo no Exterior)", "filhos": }
+]
+},
+{
+"nome": "Homologação de Sentença Estrangeira (Exequatur)",
+"filhos": [
+{ "nome": "Competência (Superior Tribunal de Justiça - STJ)", "filhos": },
+{ "nome": "Natureza (Tipicamente Jurisdicional, Cognição Restrita)", "filhos": },
+{ "nome": "Requisitos de Homologabilidade", "filhos": [
+{ "nome": "Prolação por Juiz Competente", "filhos": },
+{ "nome": "Citação do Réu ou Configuração Legal de Revelia", "filhos": },
+{ "nome": "Trânsito em Julgado e Cumprimento de Formalidades no Local de Origem", "filhos": },
+{ "nome": "Autenticação pelo Consulado Brasileiro e Tradução Oficial", "filhos": }
+]
+},
+{ "nome": "Homologação Parcial (Admitida)", "filhos": },
+{ "nome": "Discussão de Mérito (Vedada)", "filhos": },
+{ "nome": "Admissão para Decisões Cautelares e Jurisdição Voluntária", "filhos": }
+]
+}
 ]
 }
 ]
