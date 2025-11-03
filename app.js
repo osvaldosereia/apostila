@@ -4,8 +4,9 @@
 const database = {
     "Direito Penal": {
         "Crimes contra a Vida": {
-            // Simplificado para conter apenas a entrada solicitada
-            "Visão Geral": "data/direito-penal/crimes-contra-a-vida.json" 
+            // CORRIGIDO: O caminho agora aponta para a raiz do projeto,
+            // de acordo com a sua estrutura de arquivos do GitHub.
+            "Visão Geral": "crimes-contra-a-vida.json" 
         }
     }
 };
