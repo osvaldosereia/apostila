@@ -1,0 +1,289 @@
+{
+  "titulo": "O Diálogo das Fontes no Direito Civil",
+  "topicoRaiz": {
+    "nome": "Teoria do Diálogo das Fontes",
+    "filhos": [
+      {
+        "nome": "Fundamentos e Contextualização",
+        "filhos": [
+          {
+            "nome": "Origem da Teoria (Erik Jayme)",
+            "filhos": []
+          },
+          {
+            "nome": "Desenvolvimento no Direito Brasileiro (Cláudia Lima Marques)",
+            "filhos": []
+          },
+          {
+            "nome": "Contexto Histórico: Pós-Positivismo e Neoconstitucionalismo",
+            "filhos": []
+          },
+          {
+            "nome": "Superação dos Critérios Clássicos de Solução de Antinomias",
+            "filhos": [
+              {
+                "nome": "Critério Hierárquico (Lex Superior)",
+                "filhos": []
+              },
+              {
+                "nome": "Critério da Especialidade (Lex Specialis)",
+                "filhos": []
+              },
+              {
+                "nome": "Critério Cronológico (Lex Posterior)",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "A Crise da Codificação e a Era da "Descodificação"",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "nome": "Conceitos e Finalidades",
+        "filhos": [
+          {
+            "nome": "Conceito de "Diálogo das Fontes"",
+            "filhos": []
+          },
+          {
+            "nome": "Distinção de "Conflito de Normas"",
+            "filhos": []
+          },
+          {
+            "nome": "Finalidades da Teoria",
+            "filhos": [
+              {
+                "nome": "Coerência, Unidade e Integridade do Ordenamento",
+                "filhos": []
+              },
+              {
+                "nome": "Proteção do Vulnerável (Princípio Pro Homine / Pro Consumitore)",
+                "filhos": []
+              },
+              {
+                "nome": "Efetividade das Normas Fundamentais",
+                "filhos": []
+              },
+              {
+                "nome": "Justiça Material no Caso Concreto",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "Pressupostos de Aplicação",
+        "filhos": [
+          {
+            "nome": "Pluralidade de Fontes Normativas Válidas",
+            "filhos": []
+          },
+          {
+            "nome": "Incidência Simultânea sobre a Mesma Situação Fática (Campo de Aplicação)",
+            "filhos": []
+          },
+          {
+            "nome": "Identidade de Hipótese Fática (Fato Gerador)",
+            "filhos": []
+          },
+          {
+            "nome": "Diversidade de Respostas Jurídicas (Consequências)",
+            "filhos": []
+          },
+          {
+            "nome": "Insuficiência dos Critérios Clássicos (Antinomia Aparente vs. Real)",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "nome": "Espécies (Formas) de Diálogo",
+        "filhos": [
+          {
+            "nome": "Diálogo de Influência Sistemática (Interpretação Recíproca)",
+            "filhos": [
+              {
+                "nome": "Função Iluminadora (Ex: CDC ilumina o CC)",
+                "filhos": []
+              },
+              {
+                "nome": "Função Valorativa (Ex: Princípios do CC aplicados a Microssistemas)",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Diálogo de Complementaridade e Subsidiariedade (Aplicação Cumulativa)",
+            "filhos": [
+              {
+                "nome": "Preenchimento de Lacunas",
+                "filhos": []
+              },
+              {
+                "nome": "Integração Normativa (Soma de Proteções)",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Diálogo de Coordenação e Adaptação (Aplicação Coordenada)",
+            "filhos": [
+              {
+                "nome": "Busca da Norma Mais Favorável ao Vulnerável",
+                "filhos": []
+              },
+              {
+                "nome": "Combinação de Dispositivos (Criação da "Terceira Norma")",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Diálogo de Conflito e Exclusão (Antinomia Incoerente)",
+            "filhos": [
+              {
+                "nome": "Prevalência da Norma Protetiva (Ex: CDC)",
+                "filhos": []
+              },
+              {
+                "nome": "Inaplicabilidade da Norma Geral/Anterior",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "O Diálogo no Sistema Jurídico Brasileiro",
+        "filhos": [
+          {
+            "nome": "O Papel do Código Civil (CC/2002)",
+            "filhos": [
+              {
+                "nome": "O CC como Norma Central vs. Norma Subsidiária Geral",
+                "filhos": []
+              },
+              {
+                "nome": "Cláusulas Gerais do CC como Vetores de Diálogo",
+                "filhos": [
+                  {
+                    "nome": "Boa-Fé Objetiva (Art. 422)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "Função Social do Contrato (Art. 421)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "Função Social da Propriedade (Art. 1.228, §1º)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "Abuso de Direito (Art. 187)",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "O Papel do Código de Defesa do Consumidor (CDC)",
+            "filhos": [
+              {
+                "nome": "O CDC como Microssistema de Princípios",
+                "filhos": []
+              },
+              {
+                "nome": "Art. 7º do CDC (Cláusula Geral de Abertura e Diálogo)",
+                "filhos": []
+              },
+              {
+                "nome": "Princípio da Norma Mais Favorável",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Diálogo entre Microssistemas",
+            "filhos": [
+              {
+                "nome": "CDC e Estatuto do Idoso",
+                "filhos": []
+              },
+              {
+                "nome": "CDC e Lei dos Planos de Saúde (Lei 9.656/98)",
+                "filhos": []
+              },
+              {
+                "nome": "CDC e Marco Civil da Internet",
+                "filhos": []
+              },
+              {
+                "nome": "CC e Estatuto da Pessoa com Deficiência",
+                "filhos": []
+              },
+              {
+                "nome": "CC e Lei de Locações (Lei 8.245/91)",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "Aplicações Jurisprudenciais (STJ)",
+        "filhos": [
+          {
+            "nome": "Reconhecimento da Teoria pelo Superior Tribunal de Justiça",
+            "filhos": []
+          },
+          {
+            "nome": "Transporte Aéreo (CDC vs. Convenções de Varsóvia/Montreal)",
+            "filhos": []
+          },
+          {
+            "nome": "Contratos Bancários (CDC vs. Regulação Bacen/CMN)",
+            "filhos": []
+          },
+          {
+            "nome": "Planos de Saúde (CDC vs. Lei 9.656/98 vs. Rol da ANS)",
+            "filhos": []
+          },
+          {
+            "nome": "Contratos Imobiliários (CDC vs. CC vs. Leis Específicas)",
+            "filhos": []
+          },
+          {
+            "nome": "Responsabilidade Civil (Diálogo entre Art. 927 CC e Arts. 12/14 CDC)",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "nome": "Críticas e Desafios à Teoria",
+        "filhos": [
+          {
+            "nome": "Risco de Insegurança Jurídica (Subjetivismo Judicial)",
+            "filhos": []
+          },
+          {
+            "nome": "Crítica ao "Pan-consumerismo" (Expansão Indevida do CDC)",
+            "filhos": []
+          },
+          {
+            "nome": "Dificuldade de Delimitação dos Campos de Aplicação Normativa",
+            "filhos": []
+          },
+          {
+            "nome": "Fragmentação do Sistema de Direito Privado",
+            "filhos": []
+          }
+        ]
+      }
+    ]
+  }
+}
