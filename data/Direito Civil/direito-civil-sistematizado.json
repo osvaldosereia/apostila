@@ -4,7 +4,7 @@
   "titulo": "Direito Civil",
     "iaPromptTemplate": "Explique como o Autor Cristiano Vieira Sobral Pinto explicaria o tema: [TOPIC], dentro do contexto: ([CONTEXT]). Seja didático, organize em titulos e subtitulos, seja exemplificativo, detalhista e fundamente juridicamente suas informações.",
   "topicoRaiz": {
-    "nome": "Direito Civil",
+    "nome": "Direito Civil Sistematizado",
     "filhos": [
       {
         "nome": "CÓDIGO CIVIL: PARTE GERAL",
@@ -3090,11 +3090,5 @@
             ]
           }
         ]
-      },
-      {
-        "nome": "Bibliografia",
-        "filhos": []
       }
-    ]
-  }
-}
+    }
