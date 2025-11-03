@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- 2. Estilos CSS customizados e responsivos (Mapa Fixo + Lógica Retrátil) -->
+    <!-- 2. Estilos CSS customizados e responsivos (Linha do Tempo e Lógica Retrátil) -->
     <style>
         /* Fonte padrão */
         body {
@@ -21,71 +21,94 @@
             background-color: #f7f9fb; /* Cor de fundo suave */
         }
 
-        /* Classes de cor para os níveis de profundidade (Cores da Barra Lateral e Ícones) */
-        /* Nível 0 (Raiz/Título Principal) */
-        .depth-0 { --color-primary: #1d4ed8; --color-bg: #ffffff; } /* Azul escuro */
-        /* Nível 1 (Grandes Seções) */
-        .depth-1 { --color-primary: #059669; --color-bg: #f5f5f5; } /* Verde Esmeralda */
-        /* Nível 2 (Sub-Seções) */
-        .depth-2 { --color-primary: #d97706; --color-bg: #ffffff; } /* Laranja Pôr do Sol */
-        /* Nível 3+ (Tópicos Detalhados) */
-        .depth-3 { --color-primary: #4b5563; --color-bg: #ffffff; } /* Cinza Neutro */
+        /* Cores de Nível para Ícones e Borda (UX para hierarquia) */
+        .depth-0 { --color-primary: #1d4ed8; } /* Azul Escuro (Seção) */
+        .depth-1 { --color-primary: #059669; } /* Verde (Tópico) */
+        .depth-2 { --color-primary: #d97706; } /* Laranja (Sub-Tópico) */
+        .depth-3 { --color-primary: #4b5563; } /* Cinza (Detalhe) */
 
-        /* --- Estilos do Mapa Mental (Vertical e Retrátil) --- */
+        /* --- Estilos da Linha do Tempo --- */
 
+        /* Contêiner da Linha Central */
+        .timeline-container {
+            position: relative;
+            padding-left: 1.5rem; /* Espaço para a linha central (mobile) */
+        }
+
+        /* Linha Central Vertical */
+        .timeline-container::before {
+            content: '';
+            position: absolute;
+            left: 0.5rem; /* Posição no centro da margem */
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background-color: #d1d5db; /* Cor Cinza da Linha */
+            z-index: 1; 
+        }
+
+        /* Estilo do Card do Tópico */
         .map-item-card {
-            margin-top: 0.5rem;
+            position: relative;
+            margin-bottom: 1.25rem; /* Espaço entre os itens da linha do tempo */
+            background-color: #ffffff;
             border-radius: 0.5rem;
-            transition: all 0.2s ease;
-            cursor: pointer; /* Agora é clicável */
-            border-left: 5px solid var(--color-primary); /* Borda mais grossa para hierarquia */
-            background-color: var(--color-bg); 
-            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05); /* Sombra suave */
-        }
-        /* Estilo do Título/Wrapper */
-        .item-header {
-            display: flex;
-            align-items: flex-start; 
-            padding: 0.75rem; /* Padding padrão */
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1); 
+            z-index: 2; /* Sobrepõe a linha central */
         }
 
-        /* Conteúdo dos filhos (colapsável) */
+        /* Ponto (Dot/Icon) na Linha do Tempo */
+        .timeline-dot {
+            position: absolute;
+            left: 0.5rem; /* Alinhado com a linha central */
+            top: 0.75rem;
+            transform: translateX(-50%);
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+            background-color: var(--color-primary); 
+            z-index: 3;
+            border: 3px solid #f7f9fb; /* Borda para destacar do fundo */
+        }
+
+        /* Conteúdo dos filhos (colapsável e independente) */
         .children-container {
             overflow: hidden;
-            transition: max-height 0.4s ease-in-out; /* Transição para o efeito acordeão */
-            padding-left: 0.5rem; /* Indentação mobile */
-            margin-top: 0.75rem;
+            transition: max-height 0.4s ease-in-out; 
+            padding-left: 1rem; /* Indentação dentro do card */
+            padding-right: 0.75rem;
+            padding-bottom: 0.5rem;
+            margin-top: 0.5rem;
         }
 
         /* Estilo para Tópicos Finais (Mantendo o visual leve) */
-        .leaf-item {
-            background-color: #f9fafb; /* Cinza bem leve */
-            border-left-width: 2px; /* Borda mais fina */
-            padding: 0.5rem 0.75rem;
-            font-size: 0.875rem; /* Texto menor */
-            box-shadow: none;
-            margin-top: 0.3rem;
+        .leaf-item .item-header {
+            font-size: 0.875rem; /* Texto menor para folhas */
         }
 
-        /* Classes de texto por nível */
-        .depth-0 .title-text { font-size: 1.25rem; font-weight: 700; color: #1f2937; } /* Extra-grande, negrito */
-        .depth-1 .title-text { font-size: 1.125rem; font-weight: 600; color: #059669; } /* Grande, seminegrito */
-        .depth-2 .title-text { font-size: 1rem; font-weight: 500; color: #1f2937; } /* Normal */
-        .depth-3 .title-text { font-size: 0.875rem; font-weight: 400; color: #4b5563; } /* Pequeno */
+        /* Classes de texto por nível (Mobile-First) */
+        .depth-0 .title-text { font-size: 1.125rem; font-weight: 700; color: #1d4ed8; } 
+        .depth-1 .title-text { font-size: 1rem; font-weight: 600; color: #1f2937; }
+        .depth-2 .title-text { font-size: 0.875rem; font-weight: 500; color: #1f2937; }
+        .depth-3 .title-text { font-size: 0.875rem; font-weight: 400; color: #4b5563; }
 
-
-        /* --- Responsividade Geral --- */
-        #sidebar { transition: transform 0.3s ease-in-out; }
-        #overlay { transition: opacity 0.3s ease-in-out; }
 
         @media (min-width: 768px) {
-            /* Otimizações para Desktop */
-            .item-header {
-                padding: 1rem;
+            /* Otimizações para Desktop: Aumenta o respiro */
+             .timeline-container {
+                padding-left: 2rem; 
             }
-             .children-container {
-                padding-left: 1.5rem; /* Indentação maior no desktop */
+            .timeline-container::before {
+                left: 1rem;
             }
+            .timeline-dot {
+                left: 1rem;
+                top: 1rem; /* Ajusta a posição do dot */
+                width: 1.25rem; /* Dot um pouco maior */
+                height: 1.25rem;
+            }
+             .depth-0 .title-text { font-size: 1.5rem; } 
+             .depth-1 .title-text { font-size: 1.125rem; }
         }
     </style>
 </head>
@@ -128,7 +151,7 @@
         </div>
     </main>
 
-    <!-- 4. O Código JavaScript com Lógica de Renderização Fixo e IA -->
+    <!-- 4. O Código JavaScript com Lógica de Renderização e IA -->
     <script>
         document.addEventListener('DOMContentLoaded', async () => {
 
@@ -145,33 +168,14 @@
                 overlay.classList.toggle('hidden');
             }
             
-            // --- FUNÇÃO DE RECALCULAR ALTURA (CORREÇÃO FINAL PARA CASCATA) ---
-            function recalculateParentsHeight(changedElement) {
-                // Sobe a hierarquia a partir do PAI do item que foi alterado (o children-container).
-                let current = changedElement.parentElement; 
-
-                // Continua subindo enquanto o elemento não for a área principal
-                while (current && current.id !== 'content-area') {
-                    // 1. Verifica se o elemento atual é um children-container
-                    if (current.classList && current.classList.contains('children-container')) {
-                        // 2. Se o container estiver expandido (maxHeight != 0)
-                        if (current.style.maxHeight !== '0px') {
-                            // 3. Recalcula a altura forçando a leitura da nova altura do scroll.
-                            current.style.maxHeight = current.scrollHeight + 'px';
-                        }
-                    }
-                    // 4. Sobe para o próximo elemento pai.
-                    current = current.parentElement; 
-                }
-            }
-
+            // --- FUNÇÃO DE RECALCULAR ALTURA (REMOVIDA! Não é mais necessária devido à independência dos acordeões) ---
+            // A expansão agora é independente, eliminando o problema de cascata de maxHeight.
 
             // 3. Função para construir o menu lateral dinamicamente
             async function buildSidebarMenu() {
                 let menuHtml = '';
 
                 try {
-                    // Busca o arquivo JSON do menu
                     const response = await fetch(`data/index_menu.json?v=${new Date().getTime()}`);
                     if (!response.ok) {
                         throw new Error(`Erro ao buscar o menu: ${response.statusText}`);
@@ -236,23 +240,15 @@
                     title.textContent = mapData.titulo;
                     contentArea.appendChild(title);
 
-                    // 4.2. Contêiner Principal
+                    // 4.2. Contêiner Principal da Linha do Tempo
                     const mapContainer = document.createElement('div');
-                    mapContainer.className = "space-y-4";
+                    mapContainer.className = "timeline-container";
                     
                     // 4.3. Cria o nó raiz (Depth 0)
                     const rootNode = createMapNode(mapData.topicoRaiz, [disciplina], 0);
                     mapContainer.appendChild(rootNode);
                     contentArea.appendChild(mapContainer);
                     
-                    // CORREÇÃO: Após a criação e adição do nó raiz, forçamos a expansão aqui,
-                    // fora do createMapNode, garantindo que o DOM esteja pronto.
-                    const rootChildrenContainer = rootNode.querySelector('.children-container');
-                    if (rootChildrenContainer) {
-                         rootChildrenContainer.style.maxHeight = rootChildrenContainer.scrollHeight + 'px';
-                         // Não precisamos chamar recalculateParentsHeight aqui pois o elemento raiz não tem pais children-container
-                    }
-
                 } catch (error) {
                     console.error(`Erro ao carregar o mapa de '${path}':`, error);
                     contentArea.innerHTML = `<div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mt-8">
@@ -262,7 +258,7 @@
                 }
             }
 
-            // 5. Função Recursiva para criar os nós do mapa (Retrátil)
+            // 5. Função Recursiva para criar os nós do mapa (Linha do Tempo, Retrátil Independente)
             function createMapNode(nodeData, pathArray, depth) {
                 const item = document.createElement('div');
                 
@@ -274,13 +270,19 @@
                 
                 // Classes base do cartão
                 let itemClasses = `map-item-card ${colorClass}`;
-                if (!hasChildren) {
+                if (!hasChildren && depth > 0) {
                     itemClasses += ' leaf-item'; // Estilo mais leve para tópicos finais
-                } else {
-                    itemClasses += ' shadow-md'; // Sombra para tópicos com subníveis
                 }
 
                 item.className = itemClasses;
+
+                // --- 5.0. Dot da Linha do Tempo (Apenas para Tópicos Principais) ---
+                if (depth <= 1) { // Garante que apenas o nível 0 e 1 tenham o Dot proeminente
+                    const dot = document.createElement('span');
+                    dot.className = 'timeline-dot';
+                    item.appendChild(dot);
+                }
+
 
                 // --- 5.1. Header do Tópico (Contém Título e Botões) ---
                 const header = document.createElement('div');
@@ -289,8 +291,9 @@
                 // Ícone de seta (Apenas se tiver filhos)
                 if (hasChildren) {
                     const toggleIcon = document.createElement('span');
-                    // A raiz (depth 0) começa expandida
-                    toggleIcon.className = `toggle-icon mr-2 flex-shrink-0 transition-transform duration-300 ${depth === 0 ? 'rotate-90' : ''}`;
+                    // Todos começam fechados, exceto a raiz (depth 0)
+                    const isRoot = depth === 0;
+                    toggleIcon.className = `toggle-icon mr-2 flex-shrink-0 transition-transform duration-300 ${isRoot ? 'rotate-90' : ''}`;
                     toggleIcon.innerHTML = `<svg class="w-4 h-4 text-[color:var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>`;
                     header.appendChild(toggleIcon);
                     
@@ -309,17 +312,14 @@
                                 childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
                                 toggleIcon.classList.add('rotate-90');
                             }
-                            
-                            // Chama a função de recálculo em cascata com um pequeno atraso.
-                            // O atraso é essencial para o browser medir a nova altura.
-                            setTimeout(() => recalculateParentsHeight(item), 10);
+                            // NÃO PRECISA CHAMAR RECALCULATEParentsHeight, pois a expansão é independente!
                         }
                     };
                 }
 
-                // Título do Tópico - Usa a classe title-text para controle de tamanho/cor/negrito via CSS
+                // Título do Tópico
                 const titleText = document.createElement('span');
-                titleText.className = `title-text flex-grow`; // Classe base para os estilos definidos no <style>
+                titleText.className = `title-text flex-grow`; 
                 titleText.textContent = nodeData.nome;
                 header.appendChild(titleText);
 
@@ -343,11 +343,22 @@
                     const childrenContainer = document.createElement('div');
                     childrenContainer.className = 'children-container space-y-2';
                     
-                    // Se for a raiz (depth 0), começamos com o maxHeight completo, senão, fechado.
-                    childrenContainer.style.maxHeight = depth === 0 ? 'auto' : '0px'; 
-                    childrenContainer.dataset.depth = depth;
+                    // Estado Inicial: Raiz (depth 0) aberta, Outros fechados
+                    childrenContainer.style.maxHeight = depth === 0 ? 'auto' : '0px';
+                    
+                    // Simula a expansão inicial da raiz (depth 0)
+                    if (depth === 0) {
+                        // Força a expansão inicial
+                        setTimeout(() => {
+                            childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
+                        }, 50); // Pequeno atraso para garantir que o DOM esteja totalmente renderizado
 
-                    // Chama esta mesma função (createMapNode) para cada filho
+                        // Adiciona a classe para indentar o conteúdo da raiz
+                        item.classList.add('pl-4', 'md:pl-6');
+                    }
+
+
+                    // Cria os filhos (recursão)
                     const newPathArray = [...pathArray, nodeData.nome];
                     nodeData.filhos.forEach(filhoNode => {
                         const filhoElement = createMapNode(filhoNode, newPathArray, depth + 1);
@@ -355,11 +366,6 @@
                     });
 
                     item.appendChild(childrenContainer);
-                    
-                    // CORREÇÃO FINAL: Se for a raiz, ajustamos para 'auto' para que não haja altura inicial errada.
-                    if (depth === 0) {
-                        childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
-                    }
                 }
 
                 return item; // Retorna o item completo
