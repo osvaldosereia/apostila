@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- 2. Estilos CSS customizados e responsivos (Otimizado para Mapa Fixo) -->
+    <!-- 2. Estilos CSS customizados e responsivos (Mapa Fixo + Lógica Retrátil) -->
     <style>
         /* Fonte padrão */
         body {
@@ -31,18 +31,17 @@
         /* Nível 3+ (Tópicos Detalhados) */
         .depth-3 { --color-primary: #4b5563; --color-bg: #ffffff; } /* Cinza Neutro */
 
-        /* --- Estilos do Mapa Mental Fixo (Vertical) --- */
+        /* --- Estilos do Mapa Mental (Vertical e Retrátil) --- */
 
         .map-item-card {
             margin-top: 0.5rem;
             border-radius: 0.5rem;
             transition: all 0.2s ease;
-            cursor: default; /* Não é mais clicável para expandir/colapsar */
+            cursor: pointer; /* Agora é clicável */
             border-left: 5px solid var(--color-primary); /* Borda mais grossa para hierarquia */
             background-color: var(--color-bg); 
             box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.05); /* Sombra suave */
         }
-
         /* Estilo do Título/Wrapper */
         .item-header {
             display: flex;
@@ -50,13 +49,15 @@
             padding: 0.75rem; /* Padding padrão */
         }
 
-        /* Contêiner dos filhos (apenas espaçamento/margem) */
+        /* Conteúdo dos filhos (colapsável) */
         .children-container {
+            overflow: hidden;
+            transition: max-height 0.4s ease-in-out; /* Transição para o efeito acordeão */
             padding-left: 0.5rem; /* Indentação mobile */
             margin-top: 0.75rem;
         }
 
-        /* Estilo para Tópicos Finais */
+        /* Estilo para Tópicos Finais (Mantendo o visual leve) */
         .leaf-item {
             background-color: #f9fafb; /* Cinza bem leve */
             border-left-width: 2px; /* Borda mais fina */
@@ -143,6 +144,27 @@
                 sidebar.classList.toggle('-translate-x-full');
                 overlay.classList.toggle('hidden');
             }
+            
+            // --- FUNÇÃO DE RECALCULAR ALTURA (CORREÇÃO FINAL PARA CASCATA) ---
+            function recalculateParentsHeight(changedElement) {
+                // Sobe a hierarquia a partir do PAI do item que foi alterado (o children-container).
+                let current = changedElement.parentElement; 
+
+                // Continua subindo enquanto o elemento não for a área principal
+                while (current && current.id !== 'content-area') {
+                    // 1. Verifica se o elemento atual é um children-container
+                    if (current.classList && current.classList.contains('children-container')) {
+                        // 2. Se o container estiver expandido (maxHeight != 0)
+                        if (current.style.maxHeight !== '0px') {
+                            // 3. Recalcula a altura forçando a leitura da nova altura do scroll.
+                            current.style.maxHeight = current.scrollHeight + 'px';
+                        }
+                    }
+                    // 4. Sobe para o próximo elemento pai.
+                    current = current.parentElement; 
+                }
+            }
+
 
             // 3. Função para construir o menu lateral dinamicamente
             async function buildSidebarMenu() {
@@ -232,7 +254,7 @@
                 }
             }
 
-            // 5. Função Recursiva para criar os nós do mapa (FIXO)
+            // 5. Função Recursiva para criar os nós do mapa (Retrátil)
             function createMapNode(nodeData, pathArray, depth) {
                 const item = document.createElement('div');
                 
@@ -256,11 +278,43 @@
                 const header = document.createElement('div');
                 header.className = 'item-header';
                 
+                // Ícone de seta (Apenas se tiver filhos)
+                if (hasChildren) {
+                    const toggleIcon = document.createElement('span');
+                    // A raiz (depth 0) começa expandida
+                    toggleIcon.className = `toggle-icon mr-2 flex-shrink-0 transition-transform duration-300 ${depth === 0 ? 'rotate-90' : ''}`;
+                    toggleIcon.innerHTML = `<svg class="w-4 h-4 text-[color:var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>`;
+                    header.appendChild(toggleIcon);
+                    
+                    // Adiciona o evento de clique para expandir/colapsar
+                    header.onclick = () => {
+                        const childrenContainer = item.querySelector('.children-container');
+                        if (childrenContainer) {
+                            const isExpanded = childrenContainer.style.maxHeight !== '0px';
+                            
+                            if (isExpanded) {
+                                // Fechar
+                                childrenContainer.style.maxHeight = '0px';
+                                toggleIcon.classList.remove('rotate-90');
+                            } else {
+                                // Abrir (usa scrollHeight para obter a altura total)
+                                childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
+                                toggleIcon.classList.add('rotate-90');
+                            }
+                            
+                            // Chama a função de recálculo em cascata com um pequeno atraso.
+                            // O atraso é essencial para o browser medir a nova altura.
+                            setTimeout(() => recalculateParentsHeight(item), 10);
+                        }
+                    };
+                }
+
                 // Título do Tópico - Usa a classe title-text para controle de tamanho/cor/negrito via CSS
                 const titleText = document.createElement('span');
                 titleText.className = `title-text flex-grow`; // Classe base para os estilos definidos no <style>
                 titleText.textContent = nodeData.nome;
                 header.appendChild(titleText);
+
 
                 // Mini Botão de IA (Sempre presente)
                 const button = document.createElement('button');
@@ -276,13 +330,14 @@
                 header.appendChild(button);
                 item.appendChild(header);
 
-                // --- 5.2. Contêiner dos Filhos (FIXO) ---
+                // --- 5.2. Contêiner dos Filhos (Acordeão) ---
                 if (hasChildren) {
                     const childrenContainer = document.createElement('div');
                     childrenContainer.className = 'children-container space-y-2';
                     
-                    // Não precisamos de maxHeight ou transição, pois está sempre aberto
-                    
+                    // O estado inicial para todos é fechado, exceto a raiz
+                    childrenContainer.style.maxHeight = '0px'; 
+
                     // Chama esta mesma função (createMapNode) para cada filho
                     const newPathArray = [...pathArray, nodeData.nome];
                     nodeData.filhos.forEach(filhoNode => {
@@ -291,6 +346,13 @@
                     });
 
                     item.appendChild(childrenContainer);
+                    
+                    // Se for a raiz (depth 0), abrimos automaticamente e recalculamos o pai.
+                    if (depth === 0) {
+                        setTimeout(() => {
+                            childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
+                        }, 20);
+                    }
                 }
 
                 return item; // Retorna o item completo
