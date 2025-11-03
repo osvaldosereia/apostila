@@ -30,12 +30,12 @@
             transition: opacity 0.3s ease-in-out;
         }
 
-        /* --- (NOVO) Estilos do Mapa Retrátil --- */
+        /* --- Estilos do Mapa Retrátil (Acordeão) --- */
         
         /* Ícone da seta (chevron) que gira */
         .chevron-icon {
             transition: transform 0.3s ease;
-            flex-shrink: 0; /* Impede que o ícone seja espremido */
+            flex-shrink: 0; 
         }
         .chevron-icon.open {
             transform: rotate(90deg);
@@ -45,18 +45,19 @@
         .node-children-container {
             max-height: 0;
             overflow: hidden;
+            /* Transição para a animação suave de expansão */
             transition: max-height 0.4s ease-in-out, padding-top 0.4s ease-in-out;
         }
 
         /* Estado "aberto" do contêiner */
         .node-children-container.open {
-            max-height: 5000px; /* Um valor alto para permitir a expansão */
+            max-height: 5000px; /* Valor alto para garantir que o conteúdo caiba */
             padding-top: 8px; /* Adiciona um espaço quando está aberto */
         }
 
         /* Efeito de hover no header do card quando ele é clicável */
         .node-header.clickable:hover {
-            background-color: #f9fafb; /* bg-gray-50 */
+            background-color: #f9fafb; /* Cor suave de hover */
             cursor: pointer;
         }
     </style>
@@ -103,6 +104,10 @@
     <!-- 4. O Código JavaScript -->
     <script>
         
+        // Variável para armazenar o template de prompt do arquivo JSON carregado
+        let currentIaPromptTemplate = "explique como um professor de direito explicaria para seus alunos de modo didático, explicativo e fundamentado sobre o tema: [TOPIC][CONTEXT]";
+
+
         // Espera a página carregar para executar o script
         document.addEventListener('DOMContentLoaded', async () => {
             
@@ -134,12 +139,14 @@
             async function buildSidebarMenu() {
                 let menuHtml = '';
                 try {
+                    // Busca o arquivo de menu (com cache buster para garantir a atualização)
                     const response = await fetch(`data/index_menu.json?v=${new Date().getTime()}`);
                     if (!response.ok) {
                         throw new Error(`Erro ao buscar o menu: ${response.statusText}`);
                     }
                     const menuData = await response.json();
 
+                    // Itera sobre as disciplinas e temas
                     menuData.forEach(disciplina => {
                         menuHtml += `<details class="group px-2 py-1" open>`; 
                         menuHtml += `
@@ -176,11 +183,21 @@
             // 4. Função para carregar um mapa mental na tela
             async function loadMindMap(path, disciplina) {
                 try {
+                    // Busca o arquivo JSON do mapa mental
                     const response = await fetch(`${path}?v=${new Date().getTime()}`);
                     if (!response.ok) {
                         throw new Error(`Erro ao buscar o mapa: ${response.statusText}`);
                     }
                     const mapData = await response.json();
+
+                    // Armazena o template de prompt se existir no JSON, senão usa o padrão.
+                    if (mapData.iaPromptTemplate) {
+                        currentIaPromptTemplate = mapData.iaPromptTemplate;
+                    } else {
+                        // Reseta para o padrão se o novo JSON não tiver template
+                        currentIaPromptTemplate = "explique como um professor de direito explicaria para seus alunos de modo didático, explicativo e fundamentado sobre o tema: [TOPIC][CONTEXT]";
+                    }
+
 
                     contentArea.innerHTML = ''; // Limpa a área
 
@@ -202,8 +219,7 @@
             }
 
             /**
-             * 5. Função Recursiva para criar os nós do mapa
-             * (REFORMULAÇÃO TOTAL) Cria "Cards Retráteis"
+             * 5. Função Recursiva para criar os nós do mapa (Cards Retráteis)
              */
             function createMapNode(nodeData, pathArray, depth) {
                 const item = document.createElement('div');
@@ -225,13 +241,11 @@
                     'text-teal-700 font-medium',         // Nível 3
                     'text-gray-700 font-medium'          // Nível 4+
                 ];
-                // Pega a cor principal (ex: 'text-indigo-700') para usar no ícone
                 const baseTextColor = textColors[depth] ? textColors[depth].split(' ')[0] : 'text-gray-700'; 
                 const textColor = textColors[depth] || textColors[textColors.length - 1];
 
                 // --- 2. Cria o Card (o item) ---
                 const marginClass = depth > 0 ? 'mt-4' : ''; 
-                // Todos os cards têm a borda e sombra
                 item.className = `map-node-card bg-white rounded-lg shadow-lg ${marginClass} border-l-4 ${borderColor}`;
                 
                 const hasChildren = nodeData.filhos && nodeData.filhos.length > 0;
@@ -242,23 +256,23 @@
                 
                 // Wrapper para o conteúdo da esquerda (Ícone + Texto)
                 const textWrapper = document.createElement('div');
-                textWrapper.className = 'flex-1 flex items-center min-w-0'; // min-w-0 previne overflow
+                textWrapper.className = 'flex-1 flex items-center min-w-0'; 
 
-                // (NOVO) Adiciona o Ícone Chevron (seta) se tiver filhos
+                // Adiciona o Ícone Chevron (seta) se tiver filhos
                 if (hasChildren) {
-                    header.classList.add('clickable'); // Faz o header ser clicável
+                    header.classList.add('clickable'); 
                     const chevron = document.createElement('div');
                     chevron.className = `chevron-icon w-5 h-5 mr-3 ${baseTextColor}`;
                     chevron.innerHTML = `<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>`;
                     textWrapper.appendChild(chevron);
                 } else {
                     // Se não tem filhos, adiciona um espaço vazio para manter o alinhamento
-                    textWrapper.className = 'flex-1 flex items-center min-w-0 pl-8'; // pl-8 = (w-5 + mr-3)
+                    textWrapper.className = 'flex-1 flex items-center min-w-0 pl-8'; 
                 }
 
                 // Texto do Tópico
                 const text = document.createElement('span');
-                text.className = `flex-1 text-base ${textColor} truncate`; // 'truncate' impede texto longo de quebrar o layout
+                text.className = `flex-1 text-base ${textColor} truncate`; 
                 text.textContent = nodeData.nome;
                 text.dataset.topic = nodeData.nome;
                 textWrapper.appendChild(text);
@@ -267,7 +281,7 @@
 
                 // Botão de Explicação (Sempre aparece)
                 const button = document.createElement('button');
-                button.className = 'explain-btn ml-3 text-gray-400 hover:text-indigo-600 flex-shrink-0 z-10'; // z-10 p/ ficar acima do clique do header
+                button.className = 'explain-btn ml-3 text-gray-400 hover:text-indigo-600 flex-shrink-0 z-10'; 
                 button.dataset.topic = nodeData.nome;
                 button.setAttribute('aria-label', `Explicar tópico ${nodeData.nome}`);
                 button.dataset.path = JSON.stringify(pathArray);
@@ -283,10 +297,9 @@
                 // --- 4. Cria o Contêiner dos Filhos (se houver) ---
                 if (hasChildren) {
                     const childrenContainer = document.createElement('div');
-                    // O contêiner dos filhos é indentado
-                    childrenContainer.className = `node-children-container px-4 pb-2 pl-12`; // pl-12 = pl-8 do header + p-4
+                    childrenContainer.className = `node-children-container px-4 pb-2 pl-12`; 
                     
-                    // (NOVO) O Tópico Raiz (depth 0) começa aberto
+                    // O Tópico Raiz (depth 0) começa aberto
                     if (depth === 0) {
                         childrenContainer.classList.add('open');
                         header.querySelector('.chevron-icon').classList.add('open');
@@ -326,39 +339,48 @@
                 }
             });
 
-            // (MUDANÇA) Event listener unificado para a área de conteúdo
+            // Event listener unificado para a área de conteúdo
             contentArea.addEventListener('click', (event) => {
                 const explainButton = event.target.closest('.explain-btn');
                 
                 // --- 1. Clique no Botão de Explicação ---
                 if (explainButton) {
-                    event.stopPropagation(); // (MUITO IMPORTANTE) Impede o accordion de fechar
+                    event.stopPropagation(); 
                     
                     const topic = explainButton.dataset.topic;
                     if (!topic) return;
 
                     const pathString = explainButton.dataset.path;
                     const pathArray = pathString ? JSON.parse(pathString) : [];
+                    // Contexto formatado: (Disciplina, Tópico Pai, Subtópico...)
                     const context = pathArray.length > 0 ? ` (${pathArray.join(', ')})` : '';
                     
-                    const query = `Crie uma apostila didática detalhada e explique como um professor de direito explicaria para seus alunos de modo didático, exemplificativo e fundamentado sobre o tema: ${topic}${context}`;
-                    const encodedQuery = encodeURIComponent(query);
+                    // --- MONTAGEM DO PROMPT PERSONALIZADO ---
+                    let queryText = currentIaPromptTemplate.replace('[TOPIC]', topic);
+
+                    // 2. Garante que o contexto é sempre incluído
+                    if (queryText.includes('[CONTEXT]')) {
+                        queryText = queryText.replace('[CONTEXT]', context);
+                    } else {
+                        // Se não houver placeholder [CONTEXT], anexa-o ao final
+                        queryText = queryText + context;
+                    }
+
+                    const encodedQuery = encodeURIComponent(queryText);
                     const googleUrl = `https://www.google.com/search?udm=50&q=${encodedQuery}`;
                     
                     window.open(googleUrl, '_blank');
-                    return; // Encerra a função aqui
+                    return; 
                 }
 
                 // --- 2. Clique no Header para Expandir/Colapsar ---
                 const header = event.target.closest('.node-header.clickable');
                 if (header) {
-                    // Acha o ícone da seta
                     const chevron = header.querySelector('.chevron-icon');
                     if (chevron) {
                         chevron.classList.toggle('open');
                     }
                     
-                    // Acha o contêiner de filhos (que é o "próximo irmão" do header)
                     const childrenContainer = header.nextElementSibling;
                     if (childrenContainer && childrenContainer.classList.contains('node-children-container')) {
                         childrenContainer.classList.toggle('open');
@@ -369,11 +391,10 @@
 
             // --- 7. Inicialização ---
             await buildSidebarMenu(); 
-            showWelcomeMessage(); // Mostra a mensagem inicial ao carregar
+            showWelcomeMessage(); 
 
         });
     </script>
 
 </body>
 </html>
-
