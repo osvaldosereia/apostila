@@ -1,7 +1,7 @@
 
   {
   "titulo": "DIREITO CIVIL SISTEMATIZADO",
-      "iaPromptTemplate": "Explique como o Autor Cristiano Vieira Sobral Pinto explicaria o tema: [TOPIC], dentro do contexto: ([CONTEXT]). Seja didático, organize em titulos e subtitulos, seja exemplificativo, detalhista e fundamente juridicamente suas informações.",
+  "iaPromptTemplate": "Explique com base em entendimento de autores conceituados do Direito Civil o tema: [TOPIC], dentro do contexto: ([CONTEXT]). Seja didático, organize em titulos e subtitulos, seja exemplificativo, detalhista e fundamente juridicamente suas informações.",
   "topicoRaiz": {
     "nome": "ÍNDICE SISTEMÁTICO",
     "filhos": [
