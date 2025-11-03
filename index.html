@@ -59,18 +59,19 @@
             padding-left: 0.75rem; /* Reduzido para 0.75rem */
         }
 
+        /* === ALTERAÇÕES AQUI (MARCADOR MOBILE) === */
         .map-list-item.collapsible::before {
             content: '+'; /* Conteúdo inicial */
             position: absolute;
-            left: -0.3rem; /* Posição ajustada para ser mais compacta - Reduzido para -0.3rem */
+            left: -0.4rem; /* Posição ajustada (era -0.3rem) */
             top: 50%;
             transform: translateY(-50%);
             z-index: 10;
-            width: 16px;
-            height: 16px;
+            width: 18px; /* Aumentado (era 16px) */
+            height: 18px; /* Aumentado (era 16px) */
             text-align: center;
-            line-height: 14px;
-            font-size: 14px; /* Fonte menor para compactação */
+            line-height: 16px; /* Ajustado (era 14px) */
+            font-size: 16px; /* Aumentado (era 14px) */
             font-weight: 600;
             color: var(--color-primary);
             background-color: #f7f9fb; /* Cor de fundo para cobrir a linha */
@@ -86,7 +87,7 @@
         /* Ajuste de posição para UL's internos (mobile) */
         @media (max-width: 767px) {
             .map-list .map-list .map-list-item.collapsible::before {
-                left: calc(-0.75rem - 0.3rem); /* Indentação de 0.75rem + 0.3rem do marcador */
+                left: calc(-0.75rem - 0.4rem); /* Ajustado (era -0.3rem) */
             }
         }
         
@@ -153,14 +154,16 @@
                 padding-left: 1.5rem; /* Reduzido para 1.5rem */
             }
              .map-list .map-list .map-list-item.collapsible::before {
-                left: calc(-1.5rem - 0.75rem); /* Ajuste de posição para desktop (18px marcador) */
+                left: calc(-1.5rem - 0.85rem); /* Ajuste de posição para desktop (era -0.75rem) */
             }
+            
+            /* === ALTERAÇÕES AQUI (MARCADOR DESKTOP) === */
              .map-list-item.collapsible::before {
-                width: 18px;
-                height: 18px;
-                line-height: 16px;
-                font-size: 15px;
-                left: -0.75rem;
+                width: 20px; /* Aumentado (era 18px) */
+                height: 20px; /* Aumentado (era 18px) */
+                line-height: 18px; /* Ajustado (era 16px) */
+                font-size: 18px; /* Aumentado (era 15px) */
+                left: -0.85rem; /* Ajustado (era -0.75rem) */
             }
         }
     </style>
@@ -496,3 +499,4 @@
 
 </body>
 </html>
+
