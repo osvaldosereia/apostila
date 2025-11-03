@@ -46,28 +46,31 @@
 
         /* Linha de Hierarquia (Usando a borda da indentação) */
         .map-list .map-list {
-            padding-left: 1.5rem; /* Aumenta indentação para caber o marcador */
+            padding-left: 1rem; /* Indentação mobile (compacta) */
             border-left: 3px solid #e5e7eb; /* AUMENTADO PARA 3PX */
         }
 
         /* --- Estilos do Marcador + / - (NOVO) --- */
         .map-list-item.collapsible {
-            /* Para itens que podem ser expandidos, ajeitamos o espaço */
-            padding-left: 1.5rem; 
+            padding-left: 1rem; /* Para itens que podem ser expandidos, ajeitamos o espaço */
+        }
+        /* Item não colapsável (folha) */
+        .map-list-item:not(.collapsible) {
+            padding-left: 1rem; 
         }
 
         .map-list-item.collapsible::before {
             content: '+'; /* Conteúdo inicial */
             position: absolute;
-            left: -0.75rem; /* Posiciona no centro da linha vertical do pai */
+            left: -0.5rem; /* Posição ajustada para ser mais compacta */
             top: 50%;
             transform: translateY(-50%);
             z-index: 10;
-            width: 18px;
-            height: 18px;
+            width: 16px;
+            height: 16px;
             text-align: center;
-            line-height: 16px;
-            font-size: 16px;
+            line-height: 14px;
+            font-size: 14px; /* Fonte menor para compactação */
             font-weight: 700;
             color: var(--color-primary);
             background-color: #f7f9fb; /* Cor de fundo para cobrir a linha */
@@ -80,14 +83,10 @@
             content: '–'; /* Muda para - quando aberto */
         }
 
-        /* Ajuste de posição para UL's internos (desktop) */
-        .map-list .map-list .map-list-item.collapsible::before {
-            left: calc(-1.5rem - 0.75rem); /* Ajusta para a indentação do UL aninhado (1.5rem + 0.75rem do marcador) */
-        }
         /* Ajuste de posição para UL's internos (mobile) */
         @media (max-width: 767px) {
             .map-list .map-list .map-list-item.collapsible::before {
-                left: calc(-1rem - 0.75rem); /* Indentação mobile de 1rem */
+                left: calc(-1rem - 0.5rem); /* Indentação de 1rem + 0.5rem do marcador */
             }
         }
         
@@ -123,26 +122,21 @@
         }
 
         /* Classes de texto por nível (Mobile-First) */
-        /* Alinha o título do item não-colapsável à mesma posição do item colapsável */
         .title-text {
             flex-grow: 1;
         }
         
-        /* Define o padding do item não-colapsável para compensar o espaço do marcador */
-        .map-list-item:not(.collapsible) {
-            padding-left: 1.5rem; 
-        }
-
-        .depth-0 .title-text { font-size: 1.25rem; font-weight: 700; color: #1f2937; } /* Raiz - Negrito */
-        .depth-1 .title-text { font-size: 1.125rem; font-weight: 600; color: #059669; } /* Verde */
-        .depth-2 .title-text { font-size: 1rem; font-weight: 500; color: #d97706; } /* Laranja */
-        .depth-3 .title-text { font-size: 0.875rem; font-weight: 400; color: #4b5563; } /* Cinza */
+        .depth-0 .title-text { font-size: 1.15rem; font-weight: 700; color: #1f2937; } /* Raiz - Menor */
+        .depth-1 .title-text { font-size: 1rem; font-weight: 600; color: #059669; } /* Verde - Menor */
+        .depth-2 .title-text { font-size: 0.95rem; font-weight: 500; color: #d97706; } /* Laranja - Menor */
+        .depth-3 .title-text { font-size: 0.85rem; font-weight: 400; color: #4b5563; } /* Cinza - Menor */
 
 
         @media (min-width: 768px) {
-            /* Otimizações para Desktop */
+            /* Otimizações para Desktop (Volta ao espaçamento maior) */
              .depth-0 .title-text { font-size: 1.75rem; } 
              .depth-1 .title-text { font-size: 1.25rem; }
+             
              .map-list .map-list {
                 padding-left: 2rem; /* Indentação maior */
             }
@@ -151,6 +145,16 @@
             }
             .map-list-item:not(.collapsible) {
                 padding-left: 2rem; 
+            }
+             .map-list .map-list .map-list-item.collapsible::before {
+                left: calc(-2rem - 0.75rem); /* Ajuste de posição para desktop (18px marcador) */
+            }
+             .map-list-item.collapsible::before {
+                width: 18px;
+                height: 18px;
+                line-height: 16px;
+                font-size: 16px;
+                left: -0.75rem;
             }
         }
     </style>
@@ -321,6 +325,9 @@
 
                     mapContainer.appendChild(rootList);
                     contentArea.appendChild(mapContainer);
+
+                    // NOVO: Desloca a página para o topo do conteúdo do mapa
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
                     
                 } catch (error) {
                     console.error(`Erro ao carregar o mapa de '${path}':`, error);
