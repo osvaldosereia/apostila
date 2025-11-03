@@ -3,7 +3,7 @@
     "disciplina": "Direito Civil",
     "temas": [
       { "nome": "Contratos", "path": "data/Direito Civil/Contratos.json" },
-      { "nome": "Obrigações", "path": "data/Direito Civil/Obrigacoes.json" },
+      { "nome": "Diálogo das Fontes", "path": "data/Direito Civil/Dialogo-das-fontes.json" },
       { "nome": "LINDB", "path": "data/Direito Civil/LINDB.json" }
     ]
   },
