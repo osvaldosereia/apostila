@@ -1,0 +1,1782 @@
+{
+  "titulo": "SUMÁRIO - TRATADO DE DIREITO DAS FAMÍLIAS",
+  "topicoRaiz": {
+    "nome": "SUMÁRIO",
+    "filhos": [
+      {
+        "nome": "Capítulo 1 - Introdução ao Direito de Família",
+        "filhos": [
+          {
+            "nome": "1. Breve histórico da família",
+            "filhos": []
+          },
+          {
+            "nome": "2. Conceito, evolução e conteúdo do direito de família",
+            "filhos": []
+          },
+          {
+            "nome": "3. Natureza do direito de família",
+            "filhos": []
+          },
+          {
+            "nome": "4. Conceito moderno e função social da família",
+            "filhos": []
+          },
+          {
+            "nome": "5. Pluralidade de modelos de família",
+            "filhos": [
+              {
+                "nome": "5.1. Família conjugal e família parental",
+                "filhos": []
+              },
+              {
+                "nome": "5.2. Família matrimonial",
+                "filhos": []
+              },
+              {
+                "nome": "5.3. Família convivencial (união estável)",
+                "filhos": []
+              },
+              {
+                "nome": "5.4. Família monoparental",
+                "filhos": []
+              },
+              {
+                "nome": "5.5. Família homoafetiva ou isossexual",
+                "filhos": []
+              },
+              {
+                "nome": "5.6. Família natural, ou nuclear, extensa ou ampliada e família substituta",
+                "filhos": []
+              },
+              {
+                "nome": "5.7. Família adotiva",
+                "filhos": []
+              },
+              {
+                "nome": "5.8. Família anaparental",
+                "filhos": []
+              },
+              {
+                "nome": "5.9. Família mosaico ou reconstituída",
+                "filhos": []
+              },
+              {
+                "nome": "5.10. Família eudemonista",
+                "filhos": []
+              },
+              {
+                "nome": "5.11. Família democrática",
+                "filhos": []
+              },
+              {
+                "nome": "5.12. Família multiparental ou pluriparental",
+                "filhos": []
+              },
+              {
+                "nome": "5.13. Família binuclear",
+                "filhos": []
+              },
+              {
+                "nome": "5.14. Família paralela, simultânea ou uniões dúplices",
+                "filhos": []
+              },
+              {
+                "nome": "5.15. Família poliafetiva",
+                "filhos": []
+              },
+              {
+                "nome": "5.16. Família on-line ou iFamily",
+                "filhos": []
+              },
+              {
+                "nome": "5.17. Famílias ectogenéticas",
+                "filhos": []
+              },
+              {
+                "nome": "5.18. Famílias coparentais",
+                "filhos": []
+              },
+              {
+                "nome": "5.19. Famílias multiespécies",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "6. Dos direitos fundamentais e princípios constitucionais norteadores do direito de família",
+            "filhos": [
+              {
+                "nome": "6.1. Dos direitos fundamentais",
+                "filhos": [
+                  {
+                    "nome": "6.1.1. Dos direitos fundamentais verticais",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.1.2. Dos direitos fundamentais horizontais",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "6.2. Dos princípios fundamentais norteadores do direito de família",
+                "filhos": [
+                  {
+                    "nome": "6.2.1. Princípio da dignidade humana",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.2.2. Princípio da afetividade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.2.3. Princípio da liberdade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.2.4. Princípio do pluralismo familiar",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.2.5. Princípio da igualdade jurídica dos cônjuges e companheiros",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.2.6. Princípio da igualdade e isonomia dos filhos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.2.7. Princípio do melhor interesse da criança e do adolescente",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.2.8. Princípio da paternidade responsável e do planejamento familiar",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.2.9. Princípio da solidariedade familiar",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.2.10. Princípio da proteção à pessoa idosa",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "6.3. Do direito fundamental à alteração do prenome e do gênero da pessoa transgênero - Provimento n. 73/2018 do CNJ",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "7. Responsabilidade civil e dano moral no direito de família",
+            "filhos": [
+              {
+                "nome": "7.1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "7.2. Fatos jurídicos, atos jurídicos e ato ilícito",
+                "filhos": []
+              },
+              {
+                "nome": "7.3. Responsabilidade civil",
+                "filhos": [
+                  {
+                    "nome": "7.3.1. Considerações gerais - responsabilidade civil contratual e extracontratual",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "7.3.2. Pressupostos da responsabilidade civil subjetiva",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "7.4. Responsabilidade civil no direito de família",
+                "filhos": []
+              },
+              {
+                "nome": "7.5. Dano moral no direito de família",
+                "filhos": []
+              },
+              {
+                "nome": "7.6. Hipóteses de dano moral no direito de família",
+                "filhos": [
+                  {
+                    "nome": "7.6.1. Dano moral por inadimplemento alimentar",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "7.6.2. Dano moral na ruptura do casamento e da união estável",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "7.6.3. Dano moral por abandono afetivo",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "7.6.4. Dano moral na recusa injustificada de reconhecimento de filho",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "7.6.5. Outras hipóteses de dano moral",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "7.7. Prescrição da reparação civil",
+                "filhos": []
+              },
+              {
+                "nome": "7.8. Teses do STJ sobre dano moral",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "Capítulo 2 - Do direito matrimonial",
+        "filhos": [
+          {
+            "nome": "1. Casamento",
+            "filhos": [
+              {
+                "nome": "1.1. Conceito, fins e natureza jurídica do casamento",
+                "filhos": [
+                  {
+                    "nome": "1.1.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.1.2. Fins do casamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.1.3. Natureza jurídica do casamento",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "1.2. Características e princípios do casamento",
+                "filhos": [
+                  {
+                    "nome": "1.2.1. Comunhão indivisa",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.2.2. Liberdade na escolha do cônjuge",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.2.3. Solenidade do ato nupcial",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.2.4. Regulamentado por normas de ordem pública",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.2.5. União permanente e durável",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.2.6. Monogamia",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "1.3. Desnecessidade de diversidade de sexos para o casamento - casamento homoafetivo",
+                "filhos": []
+              },
+              {
+                "nome": "1.4. Promessa de casamento",
+                "filhos": []
+              },
+              {
+                "nome": "1.5. Condições necessárias à existência, validade e regularidade do casamento",
+                "filhos": []
+              },
+              {
+                "nome": "1.6. Capacidade para o casamento",
+                "filhos": []
+              },
+              {
+                "nome": "1.7. Impedimentos matrimoniais e causas suspensivas",
+                "filhos": [
+                  {
+                    "nome": "1.7.1. Impedimentos públicos ou absolutos para o casamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.7.2. Causas suspensivas ou impedientes para o casamento",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "1.8. Formalidades preliminares ao casamento. Habilitação",
+                "filhos": []
+              },
+              {
+                "nome": "1.9. Celebração do casamento",
+                "filhos": []
+              },
+              {
+                "nome": "1.10. Modalidades do casamento",
+                "filhos": [
+                  {
+                    "nome": "1.10.1. Casamento civil comum",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.10.2. Casamento por procuração",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.10.3. Casamento em caso de moléstia grave",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.10.4. Casamento nuncupativo",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.10.5. Casamento civil celebrado por religioso",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.10.6. Casamento religioso com efeitos civis",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.10.7. Casamento consular ou diplomático",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.10.8. Casamento realizado no exterior e registro no Brasil",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.10.9. Casamento por conversão da união estável",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.10.10. Casamento putativo",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.10.11. Casamento fiduciário",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.10.12. Casamento avuncular",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.10.13. Casamento sorodato ou levirato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.10.14. Casamento póstumo",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "1.11. Provas do casamento",
+                "filhos": [
+                  {
+                    "nome": "1.11.1. Introdução",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.11.2. Prova direta específica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.11.3. Prova direta supletória",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.11.4. Prova indireta ou posse do estado de casados",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "1.12. Casamento inválido",
+                "filhos": [
+                  {
+                    "nome": "1.12.1. Considerações gerais - casamento inexistente e irregular",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.12.2. Casamento nulo",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.12.3. Casamento anulável",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.12.4. Ação de nulidade e ação anulatória do casamento",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "1.13. Efeitos jurídicos do casamento",
+                "filhos": [
+                  {
+                    "nome": "1.13.1. Efeitos sociais do casamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.13.2. Efeitos pessoais do casamento. Deveres do cônjuge",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.13.3. Efeitos patrimoniais do casamento",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "2. Regime de bens",
+            "filhos": [
+              {
+                "nome": "2.1. Considerações gerais",
+                "filhos": [
+                  {
+                    "nome": "2.1.1. Conceito e princípios",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.1.2. Alteração do regime de bens",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.2. Pacto antenupcial - regime legal e convencional",
+                "filhos": []
+              },
+              {
+                "nome": "2.3. Espécies de regimes matrimoniais",
+                "filhos": []
+              },
+              {
+                "nome": "2.4. Regime de comunhão parcial de bens",
+                "filhos": [
+                  {
+                    "nome": "2.4.1. Considerações gerais",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.2. Bens incomunicáveis",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.3. Bens comunicáveis",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.4. Dívidas e administração dos bens",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.5. Regime de comunhão universal",
+                "filhos": [
+                  {
+                    "nome": "2.5.1. Considerações gerais",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.5.2. Bens incomunicáveis",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.5.3. Dívidas e administração dos bens",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.6. Regime de participação final nos aquestos",
+                "filhos": []
+              },
+              {
+                "nome": "2.7. Regime de separação de bens",
+                "filhos": [
+                  {
+                    "nome": "2.7.1. Regime de separação convencional de bens",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.7.2. Regime de separação obrigatória ou legal de bens",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.8. Bens particulares, reservados e regime dotal",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "3. Doações entre os cônjuges",
+            "filhos": []
+          },
+          {
+            "nome": "4. Bem de família",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "nome": "Capítulo 3 - Divórcio e separação jurídica",
+        "filhos": [
+          {
+            "nome": "1. Introdução e história do divórcio no Brasil",
+            "filhos": []
+          },
+          {
+            "nome": "2. Sociedade e vínculo conjugal",
+            "filhos": []
+          },
+          {
+            "nome": "3. Efeitos da separação de fato",
+            "filhos": []
+          },
+          {
+            "nome": "4. Separação jurídica em face da EC n. 66/2010",
+            "filhos": [
+              {
+                "nome": "4.1. A EC n. 66/2010 e a separação no direito pátrio",
+                "filhos": []
+              },
+              {
+                "nome": "4.2. Separação judicial",
+                "filhos": [
+                  {
+                    "nome": "4.2.1. Considerações gerais. Legitimidade e partilha dos bens",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.2.2. Separação consensual",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.2.3. Separação litigiosa",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.2.4. Efeitos da separação judicial",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.2.5. Restabelecimento da sociedade conjugal",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "5. Divórcio judicial",
+            "filhos": [
+              {
+                "nome": "5.1. Considerações gerais",
+                "filhos": []
+              },
+              {
+                "nome": "5.2. Divórcio consensual",
+                "filhos": []
+              },
+              {
+                "nome": "5.3. Divórcio litigioso",
+                "filhos": [
+                  {
+                    "nome": "5.3.1. Considerações gerais e divórcio liminar",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.3.2. Cumulação de pedidos, contestação e reconvenção",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.3.3. Cisão da sentença",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "5.4. Efeitos do divórcio",
+                "filhos": []
+              },
+              {
+                "nome": "5.5. Alimentos no divórcio em face da EC n. 66/2010",
+                "filhos": [
+                  {
+                    "nome": "5.5.1. Dos alimentos no divórcio consensual",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.5.2. Dos alimentos no divórcio litigioso",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.5.3. Alimentos após o divórcio e a EC n. 66/2010",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.5.4. Revisão e exoneração dos alimentos entre os ex-cônjuges",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.5.5. Da excepcionalidade de alimentos para ex-cônjuge",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "6. Partilha de bens",
+            "filhos": [
+              {
+                "nome": "6.1. Partilha de bens no divórcio",
+                "filhos": [
+                  {
+                    "nome": "6.1.1. Introdução",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.1.2. Procedimentos e partilha de bens construídos em terreno alheio",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.1.3. Estado de mancomunhão e condomínio nos bens comuns",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.1.4. Partilha de quotas empresariais",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.1.5. Bens no exterior, sobrepartilha e anulação da partilha",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "6.2. Aplicação da disregard doctrine inversa na partilha de bens e alimentos",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "7. Indenização na dissolução do casamento e culpa na fixação de alimentos",
+            "filhos": [
+              {
+                "nome": "7.1. Considerações gerais",
+                "filhos": []
+              },
+              {
+                "nome": "7.2. Indenização por danos morais e materiais",
+                "filhos": []
+              },
+              {
+                "nome": "7.3. Culpa nos alimentos",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "8. Tutela de urgência na separação e no divórcio",
+            "filhos": [
+              {
+                "nome": "8.1. Considerações gerais",
+                "filhos": []
+              },
+              {
+                "nome": "8.2. Separação de corpos",
+                "filhos": []
+              },
+              {
+                "nome": "8.3. Alimentos provisórios (provisionais)",
+                "filhos": []
+              },
+              {
+                "nome": "8.4. Posse e guarda provisória dos filhos",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "9. Divórcio extrajudicial",
+            "filhos": [
+              {
+                "nome": "9.1. Introdução e divórcio on-line",
+                "filhos": []
+              },
+              {
+                "nome": "9.2. Facultatividade do procedimento",
+                "filhos": []
+              },
+              {
+                "nome": "9.3. Cláusulas obrigatórias",
+                "filhos": []
+              },
+              {
+                "nome": "9.4. Partilha posterior",
+                "filhos": []
+              },
+              {
+                "nome": "9.5. Representação das partes",
+                "filhos": []
+              },
+              {
+                "nome": "9.6. Emolumentos",
+                "filhos": []
+              },
+              {
+                "nome": "9.7. Competência",
+                "filhos": []
+              },
+              {
+                "nome": "9.8. Efeitos da escritura pública",
+                "filhos": []
+              },
+              {
+                "nome": "9.9. EC n. 66/2010 e seus efeitos no divórcio extrajudicial",
+                "filhos": [
+                  {
+                    "nome": "9.9.1. Vigência e efetividade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.9.2. Lapso temporal",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.9.3. Conversão da separação em divórcio",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.9.4. Testemunhas",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.9.5. Reconciliação dos cônjuges",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "10. Divórcio post mortem",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "nome": "Capítulo 4 - Direito convivencial",
+        "filhos": [
+          {
+            "nome": "1. Pluralidade de entidades familiares convivenciais",
+            "filhos": []
+          },
+          {
+            "nome": "2. União estável heteroafetiva",
+            "filhos": [
+              {
+                "nome": "2.1. Conceito",
+                "filhos": []
+              },
+              {
+                "nome": "2.2. Histórico",
+                "filhos": []
+              },
+              {
+                "nome": "2.3. Distinção de união estável e concubinato",
+                "filhos": []
+              },
+              {
+                "nome": "2.4. Elementos caracterizadores da união estável heteroafetiva",
+                "filhos": [
+                  {
+                    "nome": "2.4.1. Convivência",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.2. Diversidade de sexos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.3. Ostensibilidade da convivência ou publicidade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.4. Durabilidade da convivência",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.5. Estabilidade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.6. Inexistência de impedimentos para o casamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.7. Honrabilidade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.8. Coabitação",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.5. Deveres na união estável",
+                "filhos": [
+                  {
+                    "nome": "2.5.1. Dever de lealdade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.5.2. Dever de respeito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.5.3. Dever de assistência",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.5.4. Dever de guarda, sustento e educação dos filhos",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.6. Efeitos jurídicos da união estável",
+                "filhos": [
+                  {
+                    "nome": "2.6.1. Regime de bens",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.6.2. Alimentos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.6.3. Direitos sucessórios",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.6.4. Adoção",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.6.5. Exercício do poder familiar e guarda dos filhos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.6.6. Nome",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.7. Comprovação da união estável",
+                "filhos": []
+              },
+              {
+                "nome": "2.8. Teses do STJ sobre a união estável",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "3. União estável homoafetiva",
+            "filhos": [
+              {
+                "nome": "3.1. Conceito e histórico",
+                "filhos": []
+              },
+              {
+                "nome": "3.2. Reconhecimento jurídico da união homoafetiva",
+                "filhos": []
+              },
+              {
+                "nome": "3.3. Requisitos e efeitos da união homoafetiva",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "4. Concubinato ou famílias paralelas",
+            "filhos": [
+              {
+                "nome": "4.1. Conceito",
+                "filhos": []
+              },
+              {
+                "nome": "4.2. Efeitos nas famílias paralelas e sociedade de fato",
+                "filhos": []
+              },
+              {
+                "nome": "4.3. União estável putativa, família simultânea e concubinato",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "Capítulo 5 - Proteção dos filhos na dissolução do casamento ou da união estável",
+        "filhos": [
+          {
+            "nome": "1. Direito à convivência familiar",
+            "filhos": [
+              {
+                "nome": "1.1. Direito fundamental à convivência familiar",
+                "filhos": []
+              },
+              {
+                "nome": "1.2. Direito à convivência familiar e direito de visitas",
+                "filhos": []
+              },
+              {
+                "nome": "1.3. Dever do genitor guardião de propiciar a convivência familiar",
+                "filhos": []
+              },
+              {
+                "nome": "1.4. Dever de convivência familiar do genitor não guardião e abandono afetivo",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "2. Guarda",
+            "filhos": [
+              {
+                "nome": "2.1. Conceito",
+                "filhos": []
+              },
+              {
+                "nome": "2.2. Modalidades de guarda unilateral e compartilhada",
+                "filhos": []
+              },
+              {
+                "nome": "2.3. Obrigatoriedade da guarda compartilhada",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "3. Alienação parental",
+            "filhos": [
+              {
+                "nome": "3.1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "3.2. Atos de alienação parental",
+                "filhos": []
+              },
+              {
+                "nome": "3.3. Aspectos processuais",
+                "filhos": []
+              },
+              {
+                "nome": "3.4. Autoalienação parental",
+                "filhos": []
+              },
+              {
+                "nome": "3.5. Desafios do judiciário",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "4. Direito à convivência familiar com os avós",
+            "filhos": []
+          },
+          {
+            "nome": "5. Alimentos aos filhos",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "nome": "Capítulo 6 - Direito parental",
+        "filhos": [
+          {
+            "nome": "1. Parentesco",
+            "filhos": [
+              {
+                "nome": "1.1. Considerações gerais vínculos de família",
+                "filhos": []
+              },
+              {
+                "nome": "1.2. Vínculo do parentesco conceito e espécies no Código Civil de 1916 e no de 2002",
+                "filhos": []
+              },
+              {
+                "nome": "1.3. Parentesco biológico, registral e socioafetivo",
+                "filhos": []
+              },
+              {
+                "nome": "1.4. Parentesco na linha reta e colateral",
+                "filhos": []
+              },
+              {
+                "nome": "1.5. Graus de parentesco",
+                "filhos": []
+              },
+              {
+                "nome": "1.6. Ação declaratória de parentesco entre irmãos",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "2. Filiação",
+            "filhos": [
+              {
+                "nome": "2.1. Conceito e evolução histórica da filiação",
+                "filhos": []
+              },
+              {
+                "nome": "2.2. Filiação jurídica",
+                "filhos": [
+                  {
+                    "nome": "2.2.1. Filiação natural ou biológica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.2.2. Filiação civil por outra origem",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.3. Filiação socioafetiva",
+                "filhos": [
+                  {
+                    "nome": "2.3.1. Posse do estado de filho e vínculo jurídico socioafetivo",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.3.2. Reconhecimento e efeitos na filiação socioafetiva",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.4. Filiação múltipla ou multiparentalidade",
+                "filhos": []
+              },
+              {
+                "nome": "2.5. Prova da filiação registral",
+                "filhos": []
+              },
+              {
+                "nome": "2.6. Filiação matrimonial",
+                "filhos": [
+                  {
+                    "nome": "2.6.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.6.2. Presunção da paternidade e técnicas de reprodução medicamente assistida",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.6.3. Negatória de paternidade e maternidade",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.7. Filiação extramatrimonial",
+                "filhos": [
+                  {
+                    "nome": "2.7.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.7.2. Reconhecimento dos filhos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.7.3. Investigação da origem genética",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.7.4. Efeitos do reconhecimento da filiação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.7.5. Investigação avoenga e direito à ancestralidade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.7.6. Investigação na dupla parentalidade: biológica e socioafetiva",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.8. Ações retificatórias da filiação",
+                "filhos": [
+                  {
+                    "nome": "2.8.1. Introdução",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.8.2. Ação negatória de paternidade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.8.3. Ação anulatória do registro civil ou impugnação da paternidade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.8.4. Ação declaratória de paternidade/maternidade socioafetiva",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.8.5. Relativização da coisa julgada na ação investigatória",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.8.6. Desconstituição da paternidade biológica por inexistência do vínculo da socioafetividade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.8.7. Conclusão",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.8.8. Sinopse das ações",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "3. Adoção",
+            "filhos": [
+              {
+                "nome": "3.1. Conceito e histórico da adoção",
+                "filhos": []
+              },
+              {
+                "nome": "3.2. Doutrina da proteção integral da criança e do adolescente",
+                "filhos": []
+              },
+              {
+                "nome": "3.3. Direito à convivência familiar da pessoa em formação",
+                "filhos": []
+              },
+              {
+                "nome": "3.4. Direito à dignidade",
+                "filhos": []
+              },
+              {
+                "nome": "3.5. Caráter subsidiário da adoção",
+                "filhos": []
+              },
+              {
+                "nome": "3.6. Modalidades de adoção",
+                "filhos": [
+                  {
+                    "nome": "3.6.1. Adoção unilateral",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.6.2. Adoção conjunta",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.6.3. Adoção post mortem",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.6.4. Adoção nacional e internacional",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.6.5. Adoção consentida ou intuitu personae",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.6.6. Adoção simulada ou adoção à brasileira",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3.7. Procedimentos na adoção",
+                "filhos": [
+                  {
+                    "nome": "3.7.1. Entrega do recém-nascido e cadastros de adoção",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.7.2. Processo de adoção e requisitos",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3.8. Pessoas que podem adotar e que podem ser adotadas",
+                "filhos": [
+                  {
+                    "nome": "3.8.1. Pessoas que podem adotar",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.8.2. Pessoas que podem ser adotadas",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3.9. Efeitos da adoção",
+                "filhos": [
+                  {
+                    "nome": "3.9.1. Considerações gerais - irrevogabilidade, readoção e invalidação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.9.2. Efeitos de ordem pessoal",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.9.3. Efeitos patrimoniais",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.9.4. Benefícios legais",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.9.5. Inexistência, nulidade e anulação da adoção",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3.10. Adoção internacional",
+                "filhos": []
+              },
+              {
+                "nome": "3.11. O que ocorre com os adolescentes institucionalizados e não adotados ao completarem 18 anos",
+                "filhos": []
+              },
+              {
+                "nome": "3.12. Teses do STJ sobre adoção e guarda",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "4. Poder familiar",
+            "filhos": [
+              {
+                "nome": "4.1. Conceito, histórico e características",
+                "filhos": [
+                  {
+                    "nome": "4.1.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.1.2. Histórico",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.1.3. Características",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "4.2. Titularidade de exercício do poder familiar",
+                "filhos": []
+              },
+              {
+                "nome": "4.3. Conteúdo do poder familiar",
+                "filhos": [
+                  {
+                    "nome": "4.3.1. Poder familiar quanto à pessoa do filho",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.3.2. Poder familiar quanto aos bens dos filhos",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "4.4. Extinção, suspensão e perda do poder familiar",
+                "filhos": [
+                  {
+                    "nome": "4.4.1. Extinção do poder familiar",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.4.2. Suspensão do poder familiar",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.4.3. Perda ou destituição do poder familiar",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "4.5. Procedimento para suspensão ou perda do poder familiar",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "Capítulo 7 - Alimentos",
+        "filhos": [
+          {
+            "nome": "1. Conceito e natureza jurídica",
+            "filhos": []
+          },
+          {
+            "nome": "2. Fontes do direito alimentar",
+            "filhos": [
+              {
+                "nome": "2.1. Parentesco e obrigação complementar",
+                "filhos": []
+              },
+              {
+                "nome": "2.2. Casamento",
+                "filhos": []
+              },
+              {
+                "nome": "2.3. União estável hétero e homoafetiva",
+                "filhos": []
+              },
+              {
+                "nome": "2.4. Contratos",
+                "filhos": []
+              },
+              {
+                "nome": "2.5. Testamento",
+                "filhos": []
+              },
+              {
+                "nome": "2.6. Ato ilícito",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "3. Classificação dos alimentos",
+            "filhos": [
+              {
+                "nome": "3.1. Quanto às fontes ou causa legal",
+                "filhos": []
+              },
+              {
+                "nome": "3.2. Quanto à definitividade ou finalidade",
+                "filhos": []
+              },
+              {
+                "nome": "3.3. Quanto ao objetivo ou natureza da prestação",
+                "filhos": []
+              },
+              {
+                "nome": "3.4. Alimentos avoengos - subsidiários ou complementares",
+                "filhos": []
+              },
+              {
+                "nome": "3.5. Alimentos transitórios ou temporais",
+                "filhos": []
+              },
+              {
+                "nome": "3.6. Alimentos compensatórios",
+                "filhos": [
+                  {
+                    "nome": "3.6.1. Alimentos compensatórios ou ressarcitórios em razão da administração dos bens comuns",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.6.2. Alimentos compensatórios em razão do desequilíbrio econômico do casal",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3.7. Alimentos intuitu personae e intuitu familiae",
+                "filhos": []
+              },
+              {
+                "nome": "3.8. Alimentos gravídicos",
+                "filhos": []
+              },
+              {
+                "nome": "3.9. Alimentos in natura e alimentos impróprios",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "4. Pressupostos da obrigação alimentar",
+            "filhos": [
+              {
+                "nome": "4.1. Necessidade de quem pode reclamar",
+                "filhos": []
+              },
+              {
+                "nome": "4.2. Possibilidade de quem deve prestar",
+                "filhos": []
+              },
+              {
+                "nome": "4.3. Proporcionalidade na fixação",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "5. Mutabilidade do quantum da pensão alimentícia",
+            "filhos": []
+          },
+          {
+            "nome": "6. Características do direito alimentar",
+            "filhos": [
+              {
+                "nome": "6.1. Atualidade",
+                "filhos": []
+              },
+              {
+                "nome": "6.2. Imprescritibilidade do direito",
+                "filhos": []
+              },
+              {
+                "nome": "6.3. Irrenunciabilidade",
+                "filhos": []
+              },
+              {
+                "nome": "6.4. Divisibilidade e obrigação solidária à pessoa idosa",
+                "filhos": [
+                  {
+                    "nome": "6.4.1. Divisibilidade da obrigação alimentar",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.4.2. Obrigação alimentar solidária à pessoa idosa",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "6.5. Direito personalíssimo",
+                "filhos": []
+              },
+              {
+                "nome": "6.6. Indisponibilidade do direito",
+                "filhos": []
+              },
+              {
+                "nome": "6.7. Direito intransferível ou incessível",
+                "filhos": []
+              },
+              {
+                "nome": "6.8. Obrigação incompensável",
+                "filhos": []
+              },
+              {
+                "nome": "6.9. Impenhorabilidade",
+                "filhos": []
+              },
+              {
+                "nome": "6.10. Intransmissibilidade do credor",
+                "filhos": []
+              },
+              {
+                "nome": "6.11. Transmissibilidade da obrigação alimentar aos herdeiros",
+                "filhos": []
+              },
+              {
+                "nome": "6.12. Irrestituíveis ou irrepetíveis",
+                "filhos": []
+              },
+              {
+                "nome": "6.13. Reciprocidade",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "7. Ações que envolvem obrigação alimentar",
+            "filhos": [
+              {
+                "nome": "7.1. Ação cautelar de alimentos provisionais e tutela antecipada de urgência",
+                "filhos": []
+              },
+              {
+                "nome": "7.2. Ação de alimentos",
+                "filhos": []
+              },
+              {
+                "nome": "7.3. Ação de alimentos proposta pelo devedor",
+                "filhos": []
+              },
+              {
+                "nome": "7.4. Ação de investigação de paternidade c/c alimentos",
+                "filhos": []
+              },
+              {
+                "nome": "7.5. Ação de alimentos gravídicos",
+                "filhos": []
+              },
+              {
+                "nome": "7.6. Ação revisional e exoneração de alimentos",
+                "filhos": []
+              },
+              {
+                "nome": "7.7. Ação de cobrança de alimentos",
+                "filhos": []
+              },
+              {
+                "nome": "7.8. Legitimidade do Ministério Público para ajuizar ação de alimentos",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "8. Execução de alimentos",
+            "filhos": [
+              {
+                "nome": "8.1. Desconto em folha de pagamento",
+                "filhos": []
+              },
+              {
+                "nome": "8.2. Recebimento de alugueres ou outros rendimentos",
+                "filhos": []
+              },
+              {
+                "nome": "8.3. Execução indireta ou prisão civil",
+                "filhos": []
+              },
+              {
+                "nome": "8.4. Execução por quantia certa",
+                "filhos": []
+              },
+              {
+                "nome": "8.5. Cumprimento de sentença",
+                "filhos": []
+              },
+              {
+                "nome": "8.6. Inclusão do nome do devedor de alimentos nos cadastros de proteção ao crédito",
+                "filhos": []
+              },
+              {
+                "nome": "8.7. Penhora do FGTS nas execuções de alimentos",
+                "filhos": []
+              },
+              {
+                "nome": "8.8. Execução de alimentos fundada em título extrajudicial no CPC de 2015",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "9. Teses do STJ sobre alimentos",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "nome": "Capítulo 8 - Da tutela, da curatela, da tomada de decisão apoiada e da autocuratela",
+        "filhos": [
+          {
+            "nome": "1. Tutela",
+            "filhos": [
+              {
+                "nome": "1.1. Conceito e natureza jurídica",
+                "filhos": []
+              },
+              {
+                "nome": "1.2. Espécies de tutela",
+                "filhos": [
+                  {
+                    "nome": "1.2.1. Tutela testamentária",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.2.2. Tutela documental",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.2.3. Tutela legítima",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.2.4. Tutela dativa",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.2.5. Tutela interina",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "1.3. Dos incapazes de exercer a tutela",
+                "filhos": []
+              },
+              {
+                "nome": "1.4. Da escusa dos tutores",
+                "filhos": []
+              },
+              {
+                "nome": "1.5. Nomeação do tutor e garantia da tutela",
+                "filhos": []
+              },
+              {
+                "nome": "1.6. Do exercício da tutela e o protutor",
+                "filhos": [
+                  {
+                    "nome": "1.6.1. Exercício da tutela quanto à pessoa do menor",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.6.2. Exercício da tutela quanto aos bens do menor",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.6.3. Responsabilidade civil do tutor, protutor e do juiz",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "1.7. Prestação de contas",
+                "filhos": []
+              },
+              {
+                "nome": "1.8. Cessação da tutela",
+                "filhos": []
+              },
+              {
+                "nome": "1.9. Exoneração e remoção do tutor",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "2. Curatela",
+            "filhos": [
+              {
+                "nome": "2.1. Conceito capacidade de direito e capacidade de fato",
+                "filhos": []
+              },
+              {
+                "nome": "2.2. Revisão da curatela em face do Estatuto das Pessoas com Deficiência",
+                "filhos": []
+              },
+              {
+                "nome": "2.3. A interdição no CPC de 2015, humanização e efeitos",
+                "filhos": []
+              },
+              {
+                "nome": "2.4. Pessoas sujeitas à curatela",
+                "filhos": [
+                  {
+                    "nome": "2.4.1. Pessoas que por causas temporárias ou permanentes não podem exprimir sua vontade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.2. Ébrios habituais e viciados em tóxicos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.3. Pródigos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4.4. Nascituro",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.5. Legitimidade para requerer e processo de curatela",
+                "filhos": []
+              },
+              {
+                "nome": "2.6. Nomeação de curador, curatela conjunta e exercício da curatela",
+                "filhos": [
+                  {
+                    "nome": "2.6.1. Nomeação do curador",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.6.2. Curatela conjunta compartilhada e fracionada",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.6.3. Exercício da curatela",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.7. Levantamento da curatela",
+                "filhos": []
+              },
+              {
+                "nome": "2.8. Curatela provisória ou temporária",
+                "filhos": []
+              },
+              {
+                "nome": "2.9. Curadorias especiais",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "3. Da tomada de decisão apoiada",
+            "filhos": []
+          },
+          {
+            "nome": "4. Autocuratela",
+            "filhos": []
+          }
+        ]
+      },
+      {
+        "nome": "Referências",
+        "filhos": []
+      }
+    ]
+  }
+}
