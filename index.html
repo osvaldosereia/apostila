@@ -245,6 +245,14 @@
                     mapContainer.appendChild(rootNode);
                     contentArea.appendChild(mapContainer);
                     
+                    // CORREÇÃO: Após a criação e adição do nó raiz, forçamos a expansão aqui,
+                    // fora do createMapNode, garantindo que o DOM esteja pronto.
+                    const rootChildrenContainer = rootNode.querySelector('.children-container');
+                    if (rootChildrenContainer) {
+                         rootChildrenContainer.style.maxHeight = rootChildrenContainer.scrollHeight + 'px';
+                         // Não precisamos chamar recalculateParentsHeight aqui pois o elemento raiz não tem pais children-container
+                    }
+
                 } catch (error) {
                     console.error(`Erro ao carregar o mapa de '${path}':`, error);
                     contentArea.innerHTML = `<div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mt-8">
@@ -335,8 +343,9 @@
                     const childrenContainer = document.createElement('div');
                     childrenContainer.className = 'children-container space-y-2';
                     
-                    // O estado inicial para todos é fechado, exceto a raiz
-                    childrenContainer.style.maxHeight = '0px'; 
+                    // Se for a raiz (depth 0), começamos com o maxHeight completo, senão, fechado.
+                    childrenContainer.style.maxHeight = depth === 0 ? 'auto' : '0px'; 
+                    childrenContainer.dataset.depth = depth;
 
                     // Chama esta mesma função (createMapNode) para cada filho
                     const newPathArray = [...pathArray, nodeData.nome];
@@ -347,11 +356,9 @@
 
                     item.appendChild(childrenContainer);
                     
-                    // Se for a raiz (depth 0), abrimos automaticamente e recalculamos o pai.
+                    // CORREÇÃO FINAL: Se for a raiz, ajustamos para 'auto' para que não haja altura inicial errada.
                     if (depth === 0) {
-                        setTimeout(() => {
-                            childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
-                        }, 20);
+                        childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
                     }
                 }
 
