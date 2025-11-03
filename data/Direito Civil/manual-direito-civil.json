@@ -1,6 +1,6 @@
 {
   "titulo": "Direito Civil",
-  "iaPromptTemplate": "Transforme o tema [TOPIC], do Livro Manual de Direito Civil - Vol Unico - 15 Edição - 2025, do autor Flávio Tartuce, em uma apostila didática para universitário com exemplos e fundamentos jurídicos do Direito Civil Brasileiro.",
+  "iaPromptTemplate": "Explique como o Autor Flávio Tartuce explicaria o tema: [TOPIC] ([CONTEXT]), do Livro Manual de Direito Civil - Vol Unico - 15 Edição - 2025, seja didático, organizado, exeplificativo, detalhista e fundamentado.",
   "topicoRaiz": {
     "nome": "Manual de Direito Civil",
     "filhos": [
