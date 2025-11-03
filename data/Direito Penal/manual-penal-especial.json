@@ -1,0 +1,2107 @@
+{
+  "titulo": "SUMÁRIO - MANUAL DE DIREITO PENAL - Parte Geral",
+  "iaPromptTemplate": "Explique com base em entendimento de autores conceituados do Direito Penal o tema: [TOPIC], dentro do contexto: ([CONTEXT]). Seja didático, organize em titulos e subtitulos, seja exemplificativo, detalhista e fundamente juridicamente suas informações.",
+
+  "topicoRaiz": {
+    "nome": "SUMÁRIO",
+    "filhos": [
+      {
+        "nome": "Parte 1 - INTRODUÇÃO AO DIREITO PENAL",
+        "filhos": [
+          {
+            "nome": "Capítulo I - NOÇÕES GERAIS DE DIREITO PENAL",
+            "filhos": [
+              {
+                "nome": "1. Definição",
+                "filhos": []
+              },
+              {
+                "nome": "2. Direito Penal, Ciência do Direito Penal, Criminologia e Política Criminal",
+                "filhos": []
+              },
+              {
+                "nome": "3. Funcionalismo",
+                "filhos": []
+              },
+              {
+                "nome": "4. Categorias do Direito Penal",
+                "filhos": []
+              },
+              {
+                "nome": "5. \"Privatização\" do Direito Penal",
+                "filhos": []
+              },
+              {
+                "nome": "6. As velocidades do Direito Penal",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo II - EVOLUÇÃO HISTÓRICA DO DIREITO PENAL",
+            "filhos": [
+              {
+                "nome": "1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "2. Vingança Penal",
+                "filhos": [
+                  {
+                    "nome": "2.1. Vingança divina",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.2. Vingança privada",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.3. Vingança pública",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3. Direito Penal na Grécia Antiga",
+                "filhos": []
+              },
+              {
+                "nome": "4. Direito Penal em Roma",
+                "filhos": []
+              },
+              {
+                "nome": "5. Direito Penal Germânico",
+                "filhos": []
+              },
+              {
+                "nome": "6. Direito Penal na Idade Média",
+                "filhos": []
+              },
+              {
+                "nome": "7. A Idade Moderna, o período humanitário e o Iluminismo",
+                "filhos": []
+              },
+              {
+                "nome": "8. Escolas Penais",
+                "filhos": [
+                  {
+                    "nome": "8.1. A Escola Clássica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "8.2. A Escola Positiva",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "8.3. A Escola Alemã",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "8.4. A Terza Scuola",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "9. A moderna doutrina penal",
+                "filhos": []
+              },
+              {
+                "nome": "10. História do Direito Penal Brasileiro",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo III - FONTES DO DIREITO PENAL",
+            "filhos": [
+              {
+                "nome": "1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "2. Fonte material do Direito Penal",
+                "filhos": []
+              },
+              {
+                "nome": "3. Fonte formal do Direito Penal",
+                "filhos": [
+                  {
+                    "nome": "3.1. Fonte formal do Direito Penal à luz da doutrina moderna",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "4. Fonte informal do Direito Penal (costumes)",
+                "filhos": []
+              },
+              {
+                "nome": "5. Características e classificação da lei penal",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo IV - INTERPRETAÇÃO DA LEI PENAL",
+            "filhos": [
+              {
+                "nome": "1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "2. Interpretação extensiva",
+                "filhos": []
+              },
+              {
+                "nome": "3. Interpretação analógica",
+                "filhos": []
+              },
+              {
+                "nome": "4. Integração da lei penal (analogia)",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo V - TEORIA GERAL DA NORMA PENAL",
+            "filhos": [
+              {
+                "nome": "1. Princípios e sua relação com o Direito Penal",
+                "filhos": []
+              },
+              {
+                "nome": "2. Princípios gerais do Direito Penal",
+                "filhos": [
+                  {
+                    "nome": "2.1. Princípios relacionados com a missão fundamental do Direito Penal",
+                    "filhos": [
+                      {
+                        "nome": "2.1.1. Princípio da exclusiva proteção de bens jurídicos",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.1.2. Princípio da intervenção mínima",
+                        "filhos": [
+                          {
+                            "nome": "2.1.2.1. Princípio da insignificância (ou bagatela própria)",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "2.1.2.2. Princípio da bagatela imprópria",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "2.1.2.3. Princípio da adequação social",
+                            "filhos": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "2.2. Princípios relacionados com o fato do agente",
+                    "filhos": [
+                      {
+                        "nome": "2.2.1. Princípio da exteriorização ou materialização do fato",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.2.2. Princípio da legalidade",
+                        "filhos": [
+                          {
+                            "nome": "2.2.2.1. Princípio da legalidade, tipo aberto e a norma penal em branco",
+                            "filhos": []
+                          }
+                        ]
+                      },
+                      {
+                        "nome": "2.2.3. Princípio da ofensividade ou lesividade",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "2.3. Princípios relacionados com o agente do fato",
+                    "filhos": [
+                      {
+                        "nome": "2.3.1. Princípio da responsabilidade pessoal",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.3.2. Princípio da responsabilidade subjetiva",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.3.3. Princípio da culpabilidade",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.3.4. Princípio da igualdade",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.3.5. Princípio da presunção de inocência (ou da não culpa)",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "2.4. Princípios relacionados com a pena",
+                    "filhos": [
+                      {
+                        "nome": "2.4.1. Princípio da dignidade da pessoa humana",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.4.2. Princípio da individualização da pena",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.4.3. Princípio da proporcionalidade",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.4.4. Princípio da pessoalidade",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.4.5. Princípio da vedação do \"bis in idem\"",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo VI - EFICÁCIA DA LEI PENAL NO TEMPO",
+            "filhos": [
+              {
+                "nome": "1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "2. Tempo do crime",
+                "filhos": []
+              },
+              {
+                "nome": "3. Sucessão de leis no tempo",
+                "filhos": [
+                  {
+                    "nome": "3.1. Sucessão de lei incriminadora",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.2. Novatio legis in pejus",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.3. Abolitio criminis",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.4. Novatio legis in mellius",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.5. Princípio da continuidade normativo-típica",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "4. Lei temporária e lei excepcional",
+                "filhos": [
+                  {
+                    "nome": "4.1. Constitucionalidade das leis temporárias e excepcionais",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "5. Lei penal no tempo: questões complementares",
+                "filhos": [
+                  {
+                    "nome": "5.1. Retroatividade da jurisprudência",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.2. Retroatividade da lei penal no caso de norma penal em branco",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.3. Lei intermediária",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo VII - EFICÁCIA DA LEI PENAL NO ESPAÇO",
+            "filhos": [
+              {
+                "nome": "1. Princípios aplicáveis e territorialidade",
+                "filhos": []
+              },
+              {
+                "nome": "2. Lugar do crime",
+                "filhos": []
+              },
+              {
+                "nome": "3. Extraterritorialidade",
+                "filhos": []
+              },
+              {
+                "nome": "4. Pena cumprida no estrangeiro",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo VIII - EFICÁCIA DA LEI PENAL EM RELAÇÃO ÀS PESSOAS",
+            "filhos": [
+              {
+                "nome": "1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "2. Imunidades diplomáticas",
+                "filhos": []
+              },
+              {
+                "nome": "3. Imunidades parlamentares",
+                "filhos": [
+                  {
+                    "nome": "3.1. Imunidade parlamentar absoluta (freedom of speech)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.2. Imunidade parlamentar relativa",
+                    "filhos": [
+                      {
+                        "nome": "3.2.1. Relativa ao foro",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "3.2.2. Relativa à prisão",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "3.2.3. Relativa ao processo",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "3.2.4. Relativa à condição de testemunha",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "3.3. Imunidades parlamentares e o estado de sítio",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.4. Imunidades do parlamentar licenciado",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.5. Imunidades dos deputados estaduais",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.6. Imunidades dos vereadores",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.7. Foro por prerrogativa de governadores",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.8. Foro por prerrogativa de membros do Ministério Público e da Magistratura",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.9. Foro por prerrogativa de função x Tribunal do Júri",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo IX - DISPOSIÇÕES FINAIS",
+            "filhos": [
+              {
+                "nome": "1. Eficácia da sentença estrangeira",
+                "filhos": []
+              },
+              {
+                "nome": "2. Contagem do prazo",
+                "filhos": []
+              },
+              {
+                "nome": "3. Frações não computáveis da pena",
+                "filhos": []
+              },
+              {
+                "nome": "4. Conflito aparente de normas",
+                "filhos": [
+                  {
+                    "nome": "4.1. Especialidade (lex specialis derogat legi generali)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.2. Subsidiariedade (lex primaria derogat legi subsidiariae)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.3. Consunção (lex consumens derogat legi consumptae)",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "Parte 2 - TEORIA GERAL DO CRIME",
+        "filhos": [
+          {
+            "nome": "Capítulo I - INTRODUÇÃO À TEORIA GERAL DO CRIME",
+            "filhos": [
+              {
+                "nome": "1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "2. Infração penal, crime, delito e contravenção penal",
+                "filhos": []
+              },
+              {
+                "nome": "3. Diferenças entre crime e contravenção penal",
+                "filhos": [
+                  {
+                    "nome": "3.1. Quanto à pena imposta",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.2. Quanto à espécie de ação penal",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.3. Quanto à admissibilidade da tentativa",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.4. Quanto à extraterritorialidade da lei penal brasileira",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.5. Quanto à competência para processar e julgar",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.6. Quanto ao limite das penas",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.7. Quanto ao período de prova do sursis",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.8. Quanto ao cabimento de prisão preventiva e temporária",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.9. Quanto à possibilidade de confisco",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.10. Quanto à ignorância ou à errada compreensão da lei",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "4. Sujeitos do crime",
+                "filhos": [
+                  {
+                    "nome": "4.1. Sujeito ativo",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.2. Vítima e Sujeito passivo",
+                    "filhos": [
+                      {
+                        "nome": "4.2.1. Vítima",
+                        "filhos": [
+                          {
+                            "nome": "4.2.1.1. Classificações de vítimas",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "4.2.1.2. Vitimização",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "4.2.1.3. Vitimização primária, vitimização secundária e vitimização terciária",
+                            "filhos": []
+                          }
+                        ]
+                      },
+                      {
+                        "nome": "4.2.2. Sujeito passivo",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "5. Objetos (material e jurídico) do crime material",
+                "filhos": []
+              },
+              {
+                "nome": "6. Classificação doutrinária de crimes",
+                "filhos": [
+                  {
+                    "nome": "6.1. Crime material, formal e de mera conduta",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.2. Crime comum, próprio e de mão própria",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.3. Crime doloso, culposo e preterdoloso",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.4. Crime instantâneo, permanente e instantâneo de efeitos permanentes",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.5. Crime consumado e tentado",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.6. Crime de dano e de perigo",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.7. Crime simples, complexo, qualificado e privilegiado",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.8. Crime plurissubjetivo e unissubjetivo",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.9. Crime comissivo e omissivo",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.10. Crime unissubsistente e plurissubsistente",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.11. Crime habitual",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.12. Outras classificações",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "7. Substratos do crime",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo II - FATO TÍPICO",
+            "filhos": [
+              {
+                "nome": "1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "2. Conduta",
+                "filhos": [
+                  {
+                    "nome": "2.1. Teoria Causalista",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.2. Teoria Neokantista",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.3. Teoria Finalista",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4. Teoria social da ação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.5. Teorias funcionalistas",
+                    "filhos": [
+                      {
+                        "nome": "2.5.1. Funcionalismo Teleológico, Dualista, Moderado ou da Política Criminal",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.5.2. Funcionalismo Radical, Sistêmico ou Monista",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "2.6. Teoria da ação significativa",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.7. Características e elementos da conduta",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.8. Causas de exclusão da conduta",
+                    "filhos": [
+                      {
+                        "nome": "2.8.1. Caso Fortuito ou de Força Maior",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.8.2. Involuntariedade",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.8.3. Coação física irresistível (vis absoluta)",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "2.9. Formas de conduta",
+                    "filhos": [
+                      {
+                        "nome": "2.9.1. Quanto à voluntariedade do agente",
+                        "filhos": [
+                          {
+                            "nome": "2.9.1.1. Do crime doloso",
+                            "filhos": [
+                              {
+                                "nome": "2.9.1.1.1. Espécies de dolo",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "2.9.1.1.2. Fases da conduta dolosa",
+                                "filhos": []
+                              }
+                            ]
+                          },
+                          {
+                            "nome": "2.9.1.2. Do crime culposo",
+                            "filhos": [
+                              {
+                                "nome": "2.9.1.2.1. Espécies de culpa",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "2.9.1.2.2. Exclusão da culpa",
+                                "filhos": []
+                              }
+                            ]
+                          },
+                          {
+                            "nome": "2.9.1.3. Do crime preterdoloso",
+                            "filhos": []
+                          }
+                        ]
+                      },
+                      {
+                        "nome": "2.9.2. Erro de tipo",
+                        "filhos": [
+                          {
+                            "nome": "2.9.2.1. Erro de tipo x Erro de proibição",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "2.9.2.2. Erro de tipo: espécies",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "2.9.2.3. Erro de tipo: questões complementares",
+                            "filhos": []
+                          }
+                        ]
+                      },
+                      {
+                        "nome": "2.9.3. Quanto ao modo de execução",
+                        "filhos": [
+                          {
+                            "nome": "2.9.3.1. Crime comissivo",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "2.9.3.2. Crime omissivo",
+                            "filhos": [
+                              {
+                                "nome": "2.9.3.2.1. Crime omissivo impróprio: (in) constitucionalidade",
+                                "filhos": []
+                              }
+                            ]
+                          },
+                          {
+                            "nome": "2.9.3.3. Crime de conduta mista",
+                            "filhos": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "3. Resultado",
+                "filhos": []
+              },
+              {
+                "nome": "4. Nexo causal",
+                "filhos": [
+                  {
+                    "nome": "4.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.2. Concausas",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.3. A teoria da imputação objetiva",
+                    "filhos": [
+                      {
+                        "nome": "4.3.1. Criação ou incremento de um risco proibido",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.3.2. Realização do risco no resultado",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.3.3. Resultado se encontra dentro do alcance do tipo",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "4.4. Causalidade nos crimes omissivos",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "5. Tipicidade penal",
+                "filhos": [
+                  {
+                    "nome": "5.1. Evolução da tipicidade penal",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.2. Tipicidade conglobante",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.3. Espécies de tipicidade formal",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.4. Tipo penal: elementos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.5. Tipo penal: modalidades",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo III - ILICITUDE",
+            "filhos": [
+              {
+                "nome": "1. Conceito",
+                "filhos": []
+              },
+              {
+                "nome": "2. Relação entre tipicidade e ilicitude",
+                "filhos": []
+              },
+              {
+                "nome": "3. Causas excludentes da ilicitude (descriminantes ou justificantes)",
+                "filhos": [
+                  {
+                    "nome": "3.1. Estado de necessidade",
+                    "filhos": [
+                      {
+                        "nome": "3.1.1. Requisitos do estado de necessidade",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "3.1.2. Estado de necessidade e erro na execução",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "3.2. Legítima defesa",
+                    "filhos": [
+                      {
+                        "nome": "3.2.1. Requisitos da legítima defesa",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "3.2.2. Legítima defesa e erro na execução",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "3.2.3. Legítima defesa da honra nos crimes contra a vida",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "3.3. Estrito cumprimento de um dever legal",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.4. Exercício regular de um direito",
+                    "filhos": [
+                      {
+                        "nome": "3.4.1. A problemática dos \"ofendiculos\"",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "3.5. Consentimento do ofendido",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.6. Ticking Bomb Scenario Theory: o emprego da tortura na iminência de um ato terrorista",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "4. Excesso nas justificantes",
+                "filhos": []
+              },
+              {
+                "nome": "5. Descriminante putativa",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo IV - CULPABILIDADE",
+            "filhos": [
+              {
+                "nome": "1. Conceito",
+                "filhos": []
+              },
+              {
+                "nome": "2. Teorias da culpabilidade",
+                "filhos": [
+                  {
+                    "nome": "2.1. Teoria psicológica da culpabilidade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.2. Teoria psicológica normativa",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.3. Teoria normativa pura da culpabilidade (extremada e limitada)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4. Teoria da coculpabilidade",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3. A culpabilidade do autor x culpabilidade do fato",
+                "filhos": []
+              },
+              {
+                "nome": "4. Culpabilidade formal e material",
+                "filhos": []
+              },
+              {
+                "nome": "5. Elementos da culpabilidade",
+                "filhos": [
+                  {
+                    "nome": "5.1. Imputabilidade",
+                    "filhos": [
+                      {
+                        "nome": "5.1.1. Causas de inimputabilidade",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "5.1.2. A imputabilidade do índio (indígena) não integrado",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "5.1.3. A emoção e a paixão",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "5.1.4. A constatação da inimputabilidade",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "5.1.5. Justiça penal consensual na inimputabilidade por doença mental",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "5.2. Potencial consciência da ilicitude",
+                    "filhos": [
+                      {
+                        "nome": "5.2.1. Erro de proibição",
+                        "filhos": [
+                          {
+                            "nome": "5.2.1.1. Espécies de erro de proibição",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "5.2.1.2. Erro de proibição e erro de tipo",
+                            "filhos": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "5.3. Exigibilidade de conduta",
+                    "filhos": [
+                      {
+                        "nome": "5.3.1. Coação irresistível",
+                        "filhos": [
+                          {
+                            "nome": "5.3.1.1. Requisitos da coação irresistível",
+                            "filhos": []
+                          }
+                        ]
+                      },
+                      {
+                        "nome": "5.3.2. Obediência hierárquica",
+                        "filhos": [
+                          {
+                            "nome": "5.3.2.1. Requisitos da obediência hierárquica",
+                            "filhos": []
+                          }
+                        ]
+                      },
+                      {
+                        "nome": "5.3.3. Dirimentes supralegais",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "5.4. Síntese das causas legais de exclusão da culpabilidade",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo V - PUNIBILIDADE",
+            "filhos": [
+              {
+                "nome": "1. Conceito",
+                "filhos": []
+              },
+              {
+                "nome": "2. Causas de extinção da punibilidade",
+                "filhos": [
+                  {
+                    "nome": "2.1. Morte do agente",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.2. Anistia, graça e indulto",
+                    "filhos": [
+                      {
+                        "nome": "2.2.1. Anistia, graça e indulto e os crimes hediondos e equiparados",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "2.3. \"Abolitio criminis\"",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4. Decadência",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.5. Perempção",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.6. Prescrição",
+                    "filhos": [
+                      {
+                        "nome": "2.6.1. Conceito",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.6.2. Hipóteses de imprescritibilidade",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.6.3. Prescrição: fundamentos",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.6.4. Prescrição: espécies",
+                        "filhos": [
+                          {
+                            "nome": "2.6.4.1. Prescrição da pretensão punitiva",
+                            "filhos": [
+                              {
+                                "nome": "2.6.4.1.1. Prescrição da pretensão punitiva propriamente dita ou prescrição em abstrato (PPPA)",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "2.6.4.1.2. Prescrição da pretensão punitiva superveniente ou intercorrente (PPPS ou PPPI)",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "2.6.4.1.3. Prescrição da pretensão punitiva retroativa (PPPR)",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "2.6.4.1.4. Prescrição da pretensão punitiva em perspectiva, virtual, antecipada ou por prognose (PPPV)",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "2.6.4.1.5. PPPA, PPPS e PPPR: resumo",
+                                "filhos": []
+                              }
+                            ]
+                          },
+                          {
+                            "nome": "2.6.4.2. Prescrição da pretensão executória (PPE)",
+                            "filhos": [
+                              {
+                                "nome": "2.6.4.2.1. PPE: consequências",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "2.6.4.2.2. PPE: termo inicial",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "2.6.4.2.3. PPE: exemplo",
+                                "filhos": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "nome": "2.6.5. Prescrição e atos infracionais",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.6.6. A prescrição da pena de multa",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.6.7. A redução dos prazos prescricionais (art. 115 do CP)",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "2.7. Renúncia ao direito de agir",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.8. Perdão (aceito) do ofendido",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.9. Retratação do agressor",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.10. Perdão judicial",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo VI - \"ITER CRIMINIS\"",
+            "filhos": [
+              {
+                "nome": "1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "2. Fases do crime",
+                "filhos": [
+                  {
+                    "nome": "2.1. Cogitação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.2. Atos preparatórios",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.3. Atos executórios",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.4. Consumação",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3. Crime consumado",
+                "filhos": []
+              },
+              {
+                "nome": "4. Da tentativa",
+                "filhos": [
+                  {
+                    "nome": "4.1. Infrações penais que não admitem tentativa",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "5. Desistência voluntária e arrependimento eficaz",
+                "filhos": [
+                  {
+                    "nome": "5.1. Desistência voluntária",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.2. Arrependimento eficaz",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "6. Arrependimento posterior",
+                "filhos": [
+                  {
+                    "nome": "6.1. Situações especiais de reparação do dano ou restituição da coisa",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "7. Crime impossível",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo VII - CONCURSO DE PESSOAS NA PRÁTICA DE CRIMES",
+            "filhos": [
+              {
+                "nome": "1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "2. Conceito",
+                "filhos": []
+              },
+              {
+                "nome": "3. Requisitos",
+                "filhos": []
+              },
+              {
+                "nome": "4. Formas de praticar o crime quanto ao sujeito",
+                "filhos": [
+                  {
+                    "nome": "4.1. Autoria (Animus auctoris)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.2. Autoria mediata",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.3. Autoria colateral",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.4. Multidão delinquente",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.5. Coautoria",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.6. Participação (Animus socii)",
+                    "filhos": [
+                      {
+                        "nome": "4.6.1. Participação em cadeia e participação sucessiva",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.6.2. Participação negativa",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "5. Concurso de pessoas em crimes culposos",
+                "filhos": []
+              },
+              {
+                "nome": "6. Concurso de pessoas em crimes omissivos",
+                "filhos": []
+              },
+              {
+                "nome": "7. Punibilidade no concurso de pessoas",
+                "filhos": []
+              },
+              {
+                "nome": "8. Participação de menor importância",
+                "filhos": []
+              },
+              {
+                "nome": "9. Participação dolosamente distinta",
+                "filhos": []
+              },
+              {
+                "nome": "10. Comunicabilidade das circunstâncias, condições e elementares",
+                "filhos": []
+              },
+              {
+                "nome": "11. Participação impunível",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "Parte 3 - TEORIA GERAL DA PENA",
+        "filhos": [
+          {
+            "nome": "Capítulo I - CONCEITO E FUNDAMENTOS DA PENA",
+            "filhos": [
+              {
+                "nome": "1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "2. Finalidades (ou funções) da pena",
+                "filhos": [
+                  {
+                    "nome": "2.1. Finalidade da pena no Brasil",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3. Justiça restaurativa, justiça reparatória e justiça negociada",
+                "filhos": []
+              },
+              {
+                "nome": "4. Princípios informadores da pena",
+                "filhos": []
+              },
+              {
+                "nome": "5. Penas proibidas no Brasil",
+                "filhos": []
+              },
+              {
+                "nome": "6. Penas permitidas no Brasil",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo II - APLICAÇÃO DA PENA",
+            "filhos": [
+              {
+                "nome": "1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "2. Fixação da pena privativa de liberdade",
+                "filhos": []
+              },
+              {
+                "nome": "3. Primeira fase de aplicação da pena",
+                "filhos": [
+                  {
+                    "nome": "3.1. Culpabilidade do agente",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.2. Antecedentes do agente",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.3. Conduta social do agente",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.4. Personalidade do agente",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.5. Motivos do crime",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.6. Circunstâncias do crime",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.7. Consequências do crime",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.8. Comportamento da vítima",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "4. Segunda fase de aplicação da pena",
+                "filhos": [
+                  {
+                    "nome": "4.1. Das agravantes",
+                    "filhos": [
+                      {
+                        "nome": "4.1.1. Reincidência (art. 61, I)",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.1.2. Motivo fútil ou torpe (art. 61, II, \"a\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.1.3. Crime cometido para facilitar ou assegurar a execução ou ocultação, a impunidade ou a vantagem de outro crime (art. 61, II, \"b\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.1.4. Crime cometido com traição, emboscada, dissimulação ou outro recurso que dificultou ou tornou impossível a defesa do ofendido (art. 61, II, \"c\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.1.5. Crime praticado com emprego de veneno, fogo, explosivo, tortura ou outro meio insidioso ou cruel, ou de que possa resultar perigo comum (art. 61, II, \"d\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.1.6. Crime praticado contra descendente, ascendente, irmão ou cônjuge (art. 61, II, \"e\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.1.7. Crime praticado com abuso de autoridade ou prevalecendo-se de relações domésticas, de coabitação ou de hospitalidade ou com violência contra a mulher, na forma da lei específica (art. 61, II, \"f\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.1.8. Crime praticado com abuso de poder ou violação de dever inerente a cargo, ofício, ministério ou profissão (art. 61, II, \"g\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.1.9. Crime praticado contra criança, maior de 60 anos, enfermo ou mulher grávida (art. 61, II, \"h\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.1.10. Crime praticado quando o ofendido estava sob imediata proteção da autoridade (art. 61, II, \"i\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.1.11. Crime praticado em ocasião de incêndio, naufrágio, inundação ou qualquer calamidade pública ou desgraça particular do ofendido (art. 61, II, \"j\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.1.12. Crime praticado em estado de embriaguez preordenada (art. 61, II, \"l\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.1.13. Agravantes nos crimes praticados por duas ou mais pessoas (art. 62)",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "4.2. Das atenuantes",
+                    "filhos": [
+                      {
+                        "nome": "4.2.1. Menoridade (art. 65, I, 1ª parte)",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.2.2. Senilidade (art. 65, I, 2ª parte)",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.2.3. O desconhecimento da lei (art. 65, II)",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.2.4. Motivo de relevante valor moral ou social (art. 65, III, \"a\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.2.5. Ter o agente procurado, por sua espontânea vontade e com eficiência, logo após o crime, evitar-lhe ou minorar-lhe as consequências, ou ter, antes do julgamento, reparado o dano (art. 65, III, \"b\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.2.6. Ter o agente cometido o crime sob coação a que podia resistir, ou em cumprimento de ordem de autoridade superior, ou sob a influência de violenta emoção, provocada por ato injusto da vítima (art. 65, III, \"c\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.2.7. Ter o agente confessado espontaneamente, perante a autoridade, a autoria do crime (art. 65, III, \"d\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.2.8. Ter o agente cometido o crime sob a influência de multidão em tumulto, se não o provocou (art. 65, III, \"e\")",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.2.9. Circunstâncias atenuantes inominadas (art. 66)",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "5. Terceira fase de aplicação da pena",
+                "filhos": [
+                  {
+                    "nome": "5.1. Concurso (homogêneo) de causas de aumento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.2. Concurso (homogêneo) de causas de diminuição",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.3. Concurso (heterogêneo) de causas de aumento e de diminuição",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "6. Regime inicial de cumprimento da pena privativa de liberdade",
+                "filhos": [
+                  {
+                    "nome": "6.1. Regime fechado",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.2. Regime semiaberto",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.3. Regime aberto",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.4. Pena de reclusão",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.5. Pena de detenção",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.6. Pena de prisão simples",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.7. Regime de cumprimento de pena do índio",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.8. Regime especial para o cumprimento de pena pela mulher",
+                    "filhos": [
+                      {
+                        "nome": "6.8.1. Mulheres privadas de liberdade nos países da América",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "6.9. Fixação do regime inicial de cumprimento da pena e detração",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.10. Sistema progressivo de cumprimento da pena privativa de liberdade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.11. Limite das penas",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "7. Penas e medidas alternativas à prisão",
+                "filhos": [
+                  {
+                    "nome": "7.1. As penas restritivas de direitos",
+                    "filhos": [
+                      {
+                        "nome": "7.1.1. Introdução",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.1.2. Restritivas de direitos: espécies",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.1.3. Restritivas de direitos: características",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.1.4. Restritivas de direitos: requisitos",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.1.5. Penas restritivas de direitos x crimes hediondos (ou equiparados)",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.1.6. Penas restritivas de direitos x delitos de ameaça, lesão corporal leve e constrangimento ilegal",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.1.7. Penas restritivas de direitos x crime de roubo",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.1.8. Penas restritivas de direitos x crimes militares",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.1.9. Penas restritivas de direitos na Lei de Abuso de Autoridade",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.1.10. Restritivas de direitos: regras da substituição",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.1.11. Restritivas de direitos: conversão",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.1.12. Restritivas de direitos: momento de execução",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "7.2. A pena de multa",
+                    "filhos": [
+                      {
+                        "nome": "7.2.1. Introdução",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.2.2. Aplicação da pena de multa",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.2.3. Pagamento (voluntário) da multa",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.2.4. Não pagamento da pena de multa",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.2.5. Cumulação de penas de multa",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.2.6. A multa e a Lei Maria da Penha",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.2.7. A multa no tráfico de drogas",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.2.8. Pena de multa e prestação pecuniária: distinções",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "7.3. A suspensão condicional da pena (\"sursis\")",
+                    "filhos": [
+                      {
+                        "nome": "7.3.1. Conceito e natureza jurídica",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.3.2. Sistemas",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.3.3. Espécies, requisitos e condições",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.3.4. Revogação",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.3.5. Cassação",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.3.6. Prorrogação",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.3.7. Extinção",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "7.4. Livramento condicional",
+                    "filhos": [
+                      {
+                        "nome": "7.4.1. Conceito e natureza jurídica",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.4.2. Requisitos",
+                        "filhos": [
+                          {
+                            "nome": "7.4.2.1. Objetivos",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "7.4.2.2. Subjetivos",
+                            "filhos": []
+                          }
+                        ]
+                      },
+                      {
+                        "nome": "7.4.3. Condições",
+                        "filhos": [
+                          {
+                            "nome": "7.4.3.1. Obrigatórias",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "7.4.3.2. Facultativas",
+                            "filhos": []
+                          }
+                        ]
+                      },
+                      {
+                        "nome": "7.4.4. Concessão e execução",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.4.5. Revogação",
+                        "filhos": [
+                          {
+                            "nome": "7.4.5.1. Obrigatória",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "7.4.5.2. Facultativa",
+                            "filhos": []
+                          }
+                        ]
+                      },
+                      {
+                        "nome": "7.4.6. Prorrogação",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "7.4.7. Extinção",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo III - CONCURSO DE CRIMES",
+            "filhos": [
+              {
+                "nome": "1. Conceito",
+                "filhos": []
+              },
+              {
+                "nome": "2. Sistemas de aplicação da pena para o concurso de crimes",
+                "filhos": []
+              },
+              {
+                "nome": "3. Concurso material",
+                "filhos": [
+                  {
+                    "nome": "3.1. Condenação a penas de reclusão e detenção",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.2. Condenação a pena privativa de liberdade e restritiva de direitos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.3. Concurso material e penas restritivas de direitos",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "4. Concurso formal",
+                "filhos": []
+              },
+              {
+                "nome": "5. Continuidade delitiva",
+                "filhos": [
+                  {
+                    "nome": "5.1. Crime continuado genérico ou comum",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.2. Crime continuado específico",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "6. Questões complementares",
+                "filhos": [
+                  {
+                    "nome": "6.1. Concurso de crimes e prescrição",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.2. Concurso de crimes e suspensão condicional do processo",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.3. Concurso de crimes e pena de multa",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.4. Concurso de crimes e Juizados Especiais Criminais",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.5. Concurso de crimes, prisão preventiva e fiança",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.6. Concurso de crimes na execução penal",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo IV - DAS MEDIDAS DE SEGURANÇA",
+            "filhos": [
+              {
+                "nome": "1. Conceito, fundamentos e finalidade das medidas de segurança",
+                "filhos": []
+              },
+              {
+                "nome": "2. Princípios informadores das medidas de segurança",
+                "filhos": []
+              },
+              {
+                "nome": "3. Espécies de medida de segurança",
+                "filhos": []
+              },
+              {
+                "nome": "4. Pressupostos da medida de segurança",
+                "filhos": []
+              },
+              {
+                "nome": "5. Aplicação das medidas de segurança",
+                "filhos": [
+                  {
+                    "nome": "5.1. Duração da medida de segurança",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "5.2. Perícia médica",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "6. Desinternação ou liberação condicional",
+                "filhos": []
+              },
+              {
+                "nome": "7. Reinternação do agente",
+                "filhos": []
+              },
+              {
+                "nome": "8. Conversão da pena em medida de segurança",
+                "filhos": []
+              },
+              {
+                "nome": "9. Internação cível",
+                "filhos": []
+              },
+              {
+                "nome": "10. Extinção da punibilidade e medida de segurança",
+                "filhos": []
+              },
+              {
+                "nome": "11. Medida de segurança provisória",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo V - EFEITOS DA CONDENAÇÃO",
+            "filhos": [
+              {
+                "nome": "1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "2. Efeitos extrapenais genéricos",
+                "filhos": [
+                  {
+                    "nome": "2.1. Tornar certa a obrigação de indenizar",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.2. Confisco dos instrumentos e produtos do crime",
+                    "filhos": [
+                      {
+                        "nome": "2.2.1. Confisco em decorrência do tráfico de drogas",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.2.2. Confisco em decorrência da lavagem de capitais",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "2.3. Confisco alargado",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3. Efeitos extrapenais específicos",
+                "filhos": [
+                  {
+                    "nome": "3.1. Perda de cargo, função pública ou mandato eletivo",
+                    "filhos": [
+                      {
+                        "nome": "3.1.1. Efeitos administrativos da condenação",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "3.1.2. Efeitos políticos da condenação",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "3.2. Incapacidade para o exercício do poder familiar, tutela ou curatela",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.3. A inabilitação para dirigir veículo, quando utilizado como meio para a prática de crime doloso",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "4. Efeito da condenação na legislação extravagante",
+                "filhos": [
+                  {
+                    "nome": "4.1. Lei de Tortura",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.2. Lei de Organização Criminosa",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.3. Lei nº 7.716/89 - Preconceito Racial",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.4. Lei de Lavagem de Capitais",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.5. Lei de Falência",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.6. Lei nº 10.695 - alteração ao Código de Processo Penal",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.7. Lei de Abuso de Autoridade",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo VI - REABILITAÇÃO",
+            "filhos": [
+              {
+                "nome": "1. Conceito e Cabimento",
+                "filhos": [
+                  {
+                    "nome": "1.1. Assegurar sigilo das condenações",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1.2. Suspensão condicional dos efeitos extrapenais específicos da condenação (art. 92 do CP)",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2. Requisitos",
+                "filhos": []
+              },
+              {
+                "nome": "3. Revogação",
+                "filhos": []
+              },
+              {
+                "nome": "4. Competência e recurso",
+                "filhos": []
+              },
+              {
+                "nome": "5. Reabilitação e pluralidade de condenações",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo VII - AÇÃO PENAL",
+            "filhos": [
+              {
+                "nome": "1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "2. Características do direito de ação",
+                "filhos": []
+              },
+              {
+                "nome": "3. Condições da ação",
+                "filhos": []
+              },
+              {
+                "nome": "4. Classificação da ação penal",
+                "filhos": [
+                  {
+                    "nome": "4.1. Ação penal pública incondicionada",
+                    "filhos": []
+                  },
+                  {
+                    "nome":As": "4.2. Ação penal pública condicionada",
+                    "filhos": [
+                      {
+                        "nome": "4.2.1. Da representação do ofendido",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.2.2. Da requisição do Ministro da Justiça",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "4.3. Ação penal de iniciativa privada",
+                    "filhos": [
+                      {
+                        "nome": "4.3.1. Ação penal exclusivamente privada",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.3.2. Ação penal privada personalíssima",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.3.3. Ação penal privada subsidiária da pública",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "4.3.4. Institutos que ensejam a extinção da punibilidade nos crimes perseguidos mediante ação penal privada",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "4.4. Ação penal nos crimes complexos (art. 101 do CP)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.5. Ação penal nos crimes contra a honra",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "4.6. Ação penal nos crimes contra a dignidade sexual",
+                    "filhos": []
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "BIBLIOGRAFIA",
+        "filhos": []
+      }
+    ]
+  }
+}
