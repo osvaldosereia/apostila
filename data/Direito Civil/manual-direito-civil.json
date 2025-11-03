@@ -1,5 +1,6 @@
 {
   "titulo": "Direito Civil",
+  "iaPromptTemplate": "Você é um professor de Direito Civil. Explique o conceito de [TOPIC] com foco em seu impacto nas obrigações contratuais, utilizando exemplos práticos. [CONTEXT]",
   "topicoRaiz": {
     "nome": "Sumário - Manual de Direito Civil",
     "filhos": [
