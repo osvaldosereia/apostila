@@ -294,8 +294,8 @@
                 // Ícone de seta (Apenas se for colapsável)
                 if (hasChildren) {
                     const toggleIcon = document.createElement('span');
-                    // Todos começam abertos (rotate-90)
-                    toggleIcon.className = `toggle-icon mr-2 flex-shrink-0 transition-transform duration-300 rotate-90`;
+                    // CORREÇÃO: Todos começam FECHADOS (sem rotate-90)
+                    toggleIcon.className = `toggle-icon mr-2 flex-shrink-0 transition-transform duration-300`; 
                     toggleIcon.innerHTML = `<svg class="w-4 h-4 text-[color:var(--color-primary)]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>`;
                     header.appendChild(toggleIcon);
                     
@@ -337,7 +337,8 @@
                 // --- 5.2. Contêiner dos Filhos (Acordeão) ---
                 if (hasChildren) {
                     const childrenContainer = document.createElement('div');
-                    childrenContainer.className = 'collapsible-content open'; // Começa aberto
+                    // CORREÇÃO: Começa FECHADO (sem a classe 'open')
+                    childrenContainer.className = 'collapsible-content'; 
                     
                     const innerWrapper = document.createElement('div');
                     innerWrapper.className = 'collapsible-inner';
