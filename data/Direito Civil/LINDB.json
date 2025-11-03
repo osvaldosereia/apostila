@@ -1,240 +1,339 @@
 {
-"titulo": "Lei de Introdução às Normas do Direito Brasileiro (LINDB)",
+"titulo": "Direito Civil: Contratos e LINDB",
 "topicoRaiz": {
-"nome": "LINDB (Decreto-Lei nº 4.657/1942)",
+"nome": "Direito Civil",
 "filhos": [
 {
-"nome": "I. Fundamentos, Histórico e Natureza Jurídica",
+"nome": "A Lei de Introdução às Normas do Direito Brasileiro (LINDB)",
 "filhos": [
-{ "nome": "Instituição e Nomenclatura", "filhos": [
-{ "nome": "Instituição (Decreto-Lei nº 4.657/1942)", "filhos": [] },
-{ "nome": "Antiga Nomenclatura (Lei de Introdução ao Código Civil - LIC)", "filhos": },
-{ "nome": "Atual Nomenclatura", "filhos": }
-] },
-{ "nome": "Status e Funções", "filhos": [
-{ "nome": "Status de Lei Ordinária", "filhos": },
-{ "nome": "Norma de Sobredireito (Regula a Lei, não o Comportamento)", "filhos": },
-{ "nome": "Abrangência (Todos os Ramos do Direito)", "filhos": }
-] },
-{ "nome": "Finalidade Primordial", "filhos": [
-{ "nome": "Segurança Jurídica e Previsibilidade", "filhos": },
-{ "nome": "Orientar Aplicação, Interpretação e Integração das Normas", "filhos": }
-] }
+{
+"nome": "Introdução e Noções Gerais",
+"filhos": [
+{ "nome": "Antiga e atual denominação (Fundamentos)" },
+{ "nome": "Natureza jurídica (Norma anexa, autônoma, lei ordinária)" },
+{ "nome": "O que são normas de sobredireito" },
+{ "nome": "Âmbito de aplicação (e possíveis exceções)" }
 ]
 },
 {
-"nome": "II. Aplicação da Norma no Tempo (Vigência)",
+"nome": "Fontes do Direito",
 "filhos": [
+{ "nome": "Considerações introdutórias (Origem e nascedouro do Direito)" },
+{ "nome": "Fontes materiais, formais e não-formais" },
 {
-"nome": "Começo da Existência e Obrigatoriedade",
+"nome": "Fontes Formais",
 "filhos": [
-{ "nome": "Promulgação (Autentica a Lei e Marca a Existência)", "filhos": },
-{ "nome": "Publicação (Condição de Vigência)", "filhos": },
-{ "nome": "Princípio da Continuidade das Leis (Vigor Contínuo)", "filhos": },
-{ "nome": "Princípio da Obrigatoriedade (Art. 3º LINDB)", "filhos": },
-{ "nome": "Teorias da Obrigatoriedade", "filhos": }
+{ "nome": "Lei (Principal)" },
+{ "nome": "Analogia (Acessória/Secundária)" },
+{ "nome": "Costumes (Acessória/Secundária)" },
+{ "nome": "Princípios gerais de direito (Acessória/Secundária)" },
+{ "nome": "Normas coletivas (Poder normativo da JT)" },
+{ "nome": "Súmulas vinculantes do STF" }
+]
+},
+{ "nome": "Fontes não-formais (Doutrina e Jurisprudência)" }
 ]
 },
 {
-"nome": "Vacatio Legis",
+"nome": "Interpretação e Integração das Normas",
 "filhos": [
-{ "nome": "Conceito (Intervalo entre Publicação e Vigência)", "filhos": },
-{ "nome": "Prazos em Caso de Omissão (Art. 1º LINDB)", "filhos": },
-{ "nome": "Vigência Sincrônica (Obrigatoriedade Simultânea)", "filhos": },
-{ "nome": "Recontagem de Prazo (Correção na Vacatio Legis)", "filhos": },
-{ "nome": "Espécies (Direta e Indireta)", "filhos": }
+{
+"nome": "Interpretação das Normas (Técnicas)",
+"filhos": [
+{ "nome": "Gramatical" },
+{ "nome": "Lógica (ou Racional)" },
+{ "nome": "Histórica" },
+{ "nome": "Sociológica (ou Teleológica)" },
+{ "nome": "Sistemática" }
 ]
 },
 {
-"nome": "Cessação da Vigência (Revogação)",
+"nome": "Integração das Normas (Lacunas)",
 "filhos": [
-{ "nome": "Formas de Revogação", "filhos": },
-{ "nome": "Espécies de Extensão", "filhos": },
-{ "nome": "Ultravatividade da Norma (Lei Revogada Produz Efeitos)", "filhos": },
-{ "nome": "Repristinação (Recuperação da Vigência)", "filhos": },
-{ "nome": "Regra (Não é Automática - Exige Previsão Expressa no Revogador)", "filhos": }
-]
-},
-{
-"nome": "Conflito de Leis no Tempo (Irretroatividade)",
-"filhos": [
-{ "nome": "Princípio da Irretroatividade (Art. 6º LINDB)", "filhos": },
-{ "nome": "Limites à Retroatividade", "filhos": },
-{ "nome": "Ato Jurídico Perfeito", "filhos": },
-{ "nome": "Direito Adquirido", "filhos": },
-{ "nome": "Coisa Julgada", "filhos": }
+{ "nome": "Analogia" },
+{ "nome": "Costumes" },
+{ "nome": "Princípios Gerais de Direito" }
 ]
 }
 ]
 },
 {
-"nome": "III. Interpretação da Norma",
+"nome": "Vigência, Obrigatoriedade e Eficácia",
 "filhos": [
+{ "nome": "Vigência, Revogação, Vacatio Legis e Desuetudo" },
+{ "nome": "A Obrigatoriedade das Normas (Ignorantia iuris neminem excusat)" },
 {
-"nome": "Finalidade da Interpretação",
+"nome": "Eficácia das Leis no Tempo (Direito Intertemporal)",
 "filhos": [
-{ "nome": "Buscar Sentido (Significado dos Vocábulos)", "filhos": },
-{ "nome": "Buscar Alcance (Âmbito de Aplicação)", "filhos": },
-{ "nome": "Hermenêutica (Ciência da Interpretação)", "filhos": }
+{ "nome": "Ato Jurídico Perfeito" },
+{ "nome": "Direito Adquirido" },
+{ "nome": "Coisa Julgada" }
 ]
 },
 {
-"nome": "Meios de Interpretação",
+"nome": "Eficácia das Leis no Espaço (Direito Internacional Privado)",
 "filhos": [
-{ "nome": "Gramatical ou Literal", "filhos": },
-{ "nome": "Lógica", "filhos": },
-{ "nome": "Sistemática (Lógico-Sistemática)", "filhos": },
-{ "nome": "Histórica", "filhos": },
-{ "nome": "Ontológica (Ratio Legis)", "filhos": },
-{ "nome": "Sociológica ou Teleológica (Fins Sociais e Bem Comum - Art. 5º LINDB)", "filhos": }
+{ "nome": "Aplicação da lei estrangeira e princípio da territorialidade mitigada" },
+{ "nome": "Respeito à ordem pública como filtro" },
+{ "nome": "Homologação de sentença ou laudo arbitral estrangeiro" }
 ]
-},
-{
-"nome": "Fontes da Interpretação",
-"filhos": [
-{ "nome": "Autêntica (Pelo Legislador)", "filhos": },
-{ "nome": "Doutrinária", "filhos": },
-{ "nome": "Jurisprudencial", "filhos": }
-]
-},
-{
-"nome": "Resultados da Interpretação",
-"filhos": [
-{ "nome": "Declarativa (Exatamente o Pensamento do Legislador)", "filhos": },
-{ "nome": "Extensiva (Legislador Disse Menos)", "filhos": },
-{ "nome": "Restritiva (Legislador Disse Mais)", "filhos": }
+}
 ]
 }
 ]
 },
 {
-"nome": "IV. Integração da Norma (Lacunas e Antinomias)",
+"nome": "Contratos",
 "filhos": [
 {
-"nome": "Integração (Art. 4º LINDB)",
+"nome": "Generalidades e Generalidades Contratuais",
 "filhos": [
-{ "nome": "Princípio da Inafastabilidade da Jurisdição (Juiz não pode se eximir de julgar)", "filhos": },
-{ "nome": "Métodos de Integração Sucessivos", "filhos": },
-{ "nome": "Equidade (Não é Método do Art. 4º)", "filhos": }
-]
-},
+{ "nome": "Generalidades, conceituação, caracterização" },
+{ "nome": "Elementos do contrato" },
+{ "nome": "Aspecto material do contrato, cláusulas contratuais" },
+{ "nome": "Funções do contrato" },
 {
-"nome": "Espécies de Lacuna",
+"nome": "Princípios Contratuais (Função Social e Boa-Fé)",
 "filhos": [
-{ "nome": "Normativa (Omissão Total/Propriamente Dita)", "filhos": },
-{ "nome": "Ontológica (Norma sem Eficácia Social)", "filhos": },
-{ "nome": "Axiológica (Norma que Enseja Injustiça)", "filhos": },
-{ "nome": "De Conflito (Antinomia)", "filhos": }
-]
-},
-{
-"nome": "Analogia",
-"filhos": [
-{ "nome": "Conceito (Aplicação de Norma para Hipótese Semelhante)", "filhos": },
-{ "nome": "Diferença para Interpretação Extensiva (Analogia é Integração, Extensiva é Interpretação)", "filhos": }
-]
-},
-{
-"nome": "Costumes",
-"filhos": [
-{ "nome": "Conceito (Prática Longa, Geral, Pública, Reiterada)", "filhos": },
-{ "nome": "Elemento Objetivo (A Conduta)", "filhos": },
-{ "nome": "Elemento Subjetivo (Convicção de Obrigatoriedade)", "filhos": },
-{ "nome": "Espécies e Função", "filhos": [
-{ "nome": "Secundum Legem (Conforme a Lei)", "filhos": },
-{ "nome": "Praeter Legem (Além da Lei / Integrativo)", "filhos": },
-{ "nome": "Contra Legem (Contrário à Lei)", "filhos": }
-] }
-]
-},
-{
-"nome": "Princípios Gerais de Direito",
-"filhos": [
-{ "nome": "Conceito (Regras Norteadoras e Universalmente Aceitas)", "filhos": },
-{ "nome": "Exemplos (Igualdade, Legalidade, Boa-fé, Dignidade da Pessoa Humana)", "filhos": }
-]
-},
-{
-"nome": "Antinomia (Lacuna de Conflito)",
-"filhos": [
-{ "nome": "Conceito (Conflito entre Duas ou Mais Normas Válidas)", "filhos": },
-{ "nome": "Antinomia Aparente (1º Grau)", "filhos": },
-{ "nome": "Critérios de Solução de Antinomia Aparente", "filhos": },
-{ "nome": "Antinomia Real (2º Grau / Conflito entre Critérios)", "filhos": }
+{ "nome": "Boa-Fé Objetiva (Como regra interpretativa e limite)" },
+{ "nome": "Função Social do Contrato (Limitação ao poder de contratar)" },
+{ "nome": "Irretratabilidade" },
+{ "nome": "Relatividade (Relatividade dos efeitos contratuais)" }
 ]
 }
 ]
 },
 {
-"nome": "V. Aplicação da Norma no Espaço (Direito Internacional)",
+"nome": "Formação dos Contratos",
 "filhos": [
-{ "nome": "Princípio Adotado (Territorialidade Moderada ou Temperada)", "filhos": },
-{ "nome": "Regra Geral (Lei Brasileira em Território Nacional)", "filhos": },
-{ "nome": "Exceções (Lei Estrangeira)", "filhos": },
+{ "nome": "Fase de negociações preliminares ou de puntuação" },
 {
-"nome": "Lei do Domicílio da Pessoa (Art. 7º LINDB)",
+"nome": "Proposta (Policitação ou Oblação)",
 "filhos": [
-{ "nome": "Regulamenta Começo e Fim da Personalidade", "filhos": },
-{ "nome": "Regulamenta Nome", "filhos": },
-{ "nome": "Regulamenta Capacidade", "filhos": },
-{ "nome": "Regulamenta Direitos de Família", "filhos": }
+{ "nome": "O que é" },
+{ "nome": "Quando não é obrigatória" },
+{ "nome": "Sua forma" }
 ]
 },
 {
-"nome": "Homologação de Sentença Estrangeira (STJ)",
+"nome": "Aceitação",
 "filhos": [
-{ "nome": "Não Pode Ofender a Soberania Nacional", "filhos": },
-{ "nome": "Não Pode Ofender a Ordem Pública", "filhos": },
-{ "nome": "Não Pode Ofender os Bons Costumes", "filhos": }
+{ "nome": "O que é" },
+{ "nome": "Como deve ser feita" },
+{ "nome": "Aceitação tardia" },
+{ "nome": "Aceitação com ressalvas" }
+]
+},
+{ "nome": "Retratação" },
+{ "nome": "Contratos por correspondência, telefone, fax, mensageiro, etc." },
+{ "nome": "Lugar e tempo da formação do contrato" },
+{ "nome": "Fase de contrato preliminar" },
+{ "nome": "Fase de contrato definitivo" }
+]
+},
+{
+"nome": "Classificação dos Contratos",
+"filhos": [
+{
+"nome": "Quanto aos direitos e deveres das partes",
+"filhos": [
+{ "nome": "Unilaterais" },
+{ "nome": "Bilaterais simples" },
+{ "nome": "Bilaterais sinalagmáticos" }
+]
+},
+{
+"nome": "Quanto ao sacrifício patrimonial",
+"filhos": [
+{ "nome": "Onerosos" },
+{ "nome": "Gratuitos" },
+{ "nome": "Comutativos" },
+{ "nome": "Aleatórios" }
+]
+},
+{
+"nome": "Quanto ao aperfeiçoamento e forma",
+"filhos": [
+{ "nome": "Consensuais" },
+{ "nome": "Reais" },
+{ "nome": "Solenes" },
+{ "nome": "Não solenes" }
+]
+},
+{
+"nome": "Outras Classificações",
+"filhos": [
+{ "nome": "Nominados" },
+{ "nome": "Inominados" },
+{ "nome": "De adesão" },
+{ "nome": "Principais" },
+{ "nome": "Acessórios" },
+{ "nome": "De execução imediata" },
+{ "nome": "De execução continuada" }
+]
+},
+{
+"nome": "Tipologias Específicas",
+"filhos": [
+{ "nome": "Contratos Atípicos" },
+{ "nome": "Contratos Fiduciários" },
+{ "nome": "Contratos Coligados" },
+{ "nome": "Contratos Aleatórios X Comutativos (Comparação e efeitos)" }
+]
+},
+{ "nome": "Importância prática das distinções entre os contratos" }
+]
+},
+{
+"nome": "Manifestação da Vontade e Vícios",
+"filhos": [
+{ "nome": "Consentimento tácito" },
+{ "nome": "Consentimento expresso" },
+{ "nome": "Vontade defeituosa" },
+{
+"nome": "Defeitos do Negócio Jurídico (Vícios)",
+"filhos": [
+{ "nome": "Erro (Definição, categorias, erro de fato e de direito)" },
+{ "nome": "Dolo (Principal e acidental)" },
+{ "nome": "Coação (Requisitos, temor reverencial, ameaça de exercício regular de direito)" },
+{ "nome": "Lesão (Espécies, elementos objetivo e subjetivo, desproporção)" },
+{ "nome": "Estado de Perigo" },
+{ "nome": "Fraude Contra Credores" }
+]
+},
+{ "nome": "Simulação" }
+]
+},
+{
+"nome": "Efeitos dos Contratos e Institutos Anexos",
+"filhos": [
+{ "nome": "Princípios gerais (Irretratabilidade, relatividade)" },
+{ "nome": "Estipulação em favor de terceiro" },
+{ "nome": "Direito de arrependimento" },
+{ "nome": "Exceção de contrato não cumprido" },
+{ "nome": "Arras" },
+{ "nome": "Vícios redibitórios e Ações Redibitórias" },
+{ "nome": "Evicção" },
+{ "nome": "Contratos aleatórios" },
+{ "nome": "Enriquecimento sem causa" }
+]
+},
+{
+"nome": "Interpretação dos Contratos",
+"filhos": [
+{ "nome": "Regras gerais de interpretação" },
+{ "nome": "Regras específicas" },
+{ "nome": "Importância da interpretação" },
+{ "nome": "Boa-fé objetiva como cânone interpretativo" }
+]
+},
+{
+"nome": "Extinção da Relação Contratual",
+"filhos": [
+{ "nome": "Extinção da relação contratual (Geral)" },
+{
+"nome": "Rescisão (Gênero)",
+"filhos": [
+{ "nome": "Resilição (Denúncia, denúncia vazia, demissão sem justa causa)" },
+{ "nome": "Resolução (por inadimplemento)" }
+]
+},
+{
+"nome": "Teoria da Imprevisão",
+"filhos": [
+{ "nome": "Evento imprevisível" },
+{ "nome": "Circunstâncias externas e radicais" },
+{ "nome": "Enriquecimento inesperado e injusto ao credor" },
+{ "nome": "Excessiva onerosidade ao devedor (cunho objetivo)" },
+{ "nome": "Contrato de duração (Exceção para contratos instantâneos de execução diferida)" }
+]
+},
+{ "nome": "Adimplemento substancial (Substancial performance)" },
+{ "nome": "Violação positiva do contrato (Adimplemento fraco ou ruim)" }
+]
+},
+{
+"nome": "Contratos em Espécie (Modelos Contratuais)",
+"filhos": [
+{ "nome": "Modalidades contratuais previstas no Código Civil" },
+{ "nome": "Análise detida e comparação entre eles" },
+{ "nome": "Confecção de inominados" },
+{
+"nome": "Novas Figuras Contratuais",
+"filhos": [
+{ "nome": "Leasing" },
+{ "nome": "Engineering" },
+{ "nome": "Factoring" },
+{ "nome": "Franchising" },
+{ "nome": "Shopping" },
+{ "nome": "Hedging" },
+{ "nome": "Know-how ou contrato de importação de tecnologia" },
+{ "nome": "Contratos eletrônicos" },
+{ "nome": "Consórcio" },
+{ "nome": "Comissão" },
+{ "nome": "Agência" },
+{ "nome": "Capitalização" },
+{ "nome": "Contrato bancário" },
+{ "nome": "Parceria rural" },
+{ "nome": "Mediação" }
+]
+},
+{
+"nome": "Contrato Estimatório ou Consignatório",
+"filhos": [
+{ "nome": "Noções conceituais sobre a venda por consignação" },
+{ "nome": "Elementos caracterizadores" },
+{ "nome": "Classificação" },
+{ "nome": "Natureza jurídica da obrigação do consignatário" },
+{ "nome": "Inversão da teoria dos riscos" },
+{ "nome": "Extinção e falência do consignatário" }
+]
+},
+{
+"nome": "Contratos de Empréstimo",
+"filhos": [
+{
+"nome": "Comodato",
+"filhos": [
+{ "nome": "Elementos caracterizadores" },
+{ "nome": "Promessa de comodato (pactum de commodando)" },
+{ "nome": "Comodato de bem público" },
+{ "nome": "Teoria dos riscos no contrato de comodato" }
+]
+},
+{
+"nome": "Mútuo",
+"filhos": [
+{ "nome": "Elementos caracterizadores" },
+{ "nome": "Mútuo em dinheiro (mútuo feneratício)" }
 ]
 }
 ]
 },
 {
-"nome": "VI. Contribuições da Lei 13.655/18 (Direito Público)",
+"nome": "Contrato de Depósito",
 "filhos": [
-{ "nome": "Objetivo (Segurança Jurídica e Eficiência na Gestão Pública)", "filhos": },
-{ "nome": "Aplicação (Direito Administrativo, Financeiro, Orçamentário, Tributário)", "filhos": },
-{
-"nome": "Consequências Práticas da Decisão (Art. 20)",
-"filhos": [
-{ "nome": "Vedação a Decisões Apenas com Valores Jurídicos Abstratos", "filhos": },
-{ "nome": "Motivação (Necessidade e Adequação da Medida)", "filhos": }
+{ "nome": "Características fundamentais" },
+{ "nome": "Classificação e Espécies de depósito" }
 ]
 },
 {
-"nome": "Invalidação de Atos (Art. 21)",
+"nome": "Contrato de Mandato",
 "filhos": [
-{ "nome": "Indicação Expressa das Consequências Jurídicas e Administrativas", "filhos": },
-{ "nome": "Indicar Condições para Regularização Proporcional e Equânime", "filhos": }
+{ "nome": "Distinções (Mandato, representação e procuração)" },
+{ "nome": "Classificação do contrato de mandato" },
+{ "nome": "Sujeitos do contrato de mandato" }
 ]
 },
 {
-"nome": "Interpretação de Normas sobre Gestão Pública (Art. 22)",
+"nome": "Contrato de Corretagem",
 "filhos": [
-{ "nome": "Considerar Obstáculos e Dificuldades Reais do Gestor", "filhos": },
-{ "nome": "Considerar Exigências das Políticas Públicas", "filhos": },
-{ "nome": "Sanções (Natureza, Gravidade, Danos, Antecedentes)", "filhos": }
+{ "nome": "Espécies de corretagem" },
+{ "nome": "Natureza da obrigação (Meio ou Resultado)" }
 ]
-},
-{
-"nome": "Orientação Nova e Regime de Transição (Art. 23)",
-"filhos": [
-{ "nome": "Exigência de Prever Regime de Transição", "filhos": },
-{ "nome": "Consagração do Princípio da Não Surpresa", "filhos": }
+}
 ]
-},
-{
-"nome": "Revisão de Atos Completados (Art. 24)",
-"filhos": [
-{ "nome": "Levar em Conta Orientações Gerais da Época", "filhos": },
-{ "nome": "Vedada a Invalidação por Mudança Posterior de Orientação Geral", "filhos": },
-{ "nome": "Conceito de Orientações Gerais (Atos, Jurisprudência Majoritária, Prática Reiterada)", "filhos": }
-]
-},
-{ "nome": "Compensação (Benefícios Indevidos ou Prejuízos Anormais/Injustos - Art. 27)", "filhos": },
-{ "nome": "Responsabilidade do Agente Público (Dolo ou Erro Grosseiro - Art. 28)", "filhos": },
-{ "nome": "Consulta Pública (Edição de Atos Normativos - Art. 29)", "filhos": }
+}
 ]
 }
 ]
