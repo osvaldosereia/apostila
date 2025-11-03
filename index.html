@@ -192,17 +192,22 @@
                 }
             }
 
-            // --- FUNÇÃO DE RECALCULAR ALTURA ---
-            // Recalcula a altura de todos os pais que estão abertos
+            // --- FUNÇÃO DE RECALCULAR ALTURA (CORRIGIDA PARA CASCATA) ---
             function recalculateParentsHeight(targetElement) {
                 let current = targetElement.parentNode;
                 
-                // Limite a busca para dentro da área de conteúdo (para não quebrar a página)
+                // Limite a busca para dentro da área de conteúdo
                 while (current && current.id !== 'content-area') {
-                    if (current.classList.contains('children-container') && current.style.maxHeight !== '0px') {
-                        // Garante que o scrollHeight é medido corretamente
-                        current.style.maxHeight = current.scrollHeight + 'px';
+                    if (current.classList.contains('children-container')) {
+                        // Verifica se o contêiner PAI está expandido (se não for a raiz, que pode ter max-height: 'auto')
+                        const isExpanded = current.style.maxHeight !== '0px';
+
+                        if (isExpanded) {
+                            // Calcula a altura real do conteúdo
+                            current.style.maxHeight = current.scrollHeight + 'px';
+                        }
                     }
+                    // Sobe um nível para recalcular o próximo pai na cascata
                     current = current.parentNode;
                 }
             }
@@ -237,7 +242,6 @@
                     mapContainer.className = "space-y-4";
                     
                     // 4.3. Cria o nó raiz (Depth 0)
-                    // Passa a disciplina como o caminho inicial e 0 como profundidade
                     const rootNode = createMapNode(mapData.topicoRaiz, [disciplina], 0);
                     mapContainer.appendChild(rootNode);
                     contentArea.appendChild(mapContainer);
@@ -293,14 +297,14 @@
                                 childrenContainer.style.maxHeight = '0px';
                                 toggleIcon.classList.remove('rotate-90');
                             } else {
-                                // Abrir
+                                // Abrir: Definir uma altura temporária grande o suficiente
                                 childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
                                 toggleIcon.classList.add('rotate-90');
                             }
                             
-                            // *** NOVA CHAMADA PARA CORREÇÃO DO BOX PRIMÁRIO ***
-                            // Recalcula a altura de todos os pais abertos para ajustar o layout
-                            recalculateParentsHeight(item);
+                            // Chama a função de recálculo em cascata com um pequeno atraso (CORREÇÃO)
+                            // Isso permite que o navegador calcule a nova altura do filho
+                            setTimeout(() => recalculateParentsHeight(item), 10);
                         }
                     };
                 }
@@ -331,8 +335,8 @@
                     const childrenContainer = document.createElement('div');
                     childrenContainer.className = 'children-container space-y-2';
                     
-                    // Define o estado inicial: Aberto (Root) ou Fechado (Subníveis)
-                    childrenContainer.style.maxHeight = depth === 0 ? childrenContainer.scrollHeight + 'px' : '0px';
+                    // O estado inicial para todos é fechado, exceto a raiz
+                    childrenContainer.style.maxHeight = '0px'; 
 
                     // Chama esta mesma função (createMapNode) para cada filho
                     const newPathArray = [...pathArray, nodeData.nome];
@@ -343,13 +347,12 @@
 
                     item.appendChild(childrenContainer);
                     
-                    // Ajuste inicial de maxHeight para a transição
+                    // Se for a raiz (depth 0), abrimos automaticamente e recalculamos o pai.
                     if (depth === 0) {
-                         // Necessário para iniciar a altura correta antes que o overflow:hidden seja aplicado
-                         setTimeout(() => {
+                        setTimeout(() => {
                             childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
                             recalculateParentsHeight(item);
-                         }, 0);
+                        }, 10);
                     }
                 }
 
