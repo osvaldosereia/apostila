@@ -1,0 +1,3100 @@
+
+
+{
+  "titulo": "Direito Civil",
+    "iaPromptTemplate": "Explique como o Autor Cristiano Vieira Sobral Pinto explicaria o tema: [TOPIC], dentro do contexto: ([CONTEXT]). Seja didático, organize em titulos e subtitulos, seja exemplificativo, detalhista e fundamente juridicamente suas informações.",
+  "topicoRaiz": {
+    "nome": "Direito Civil",
+    "filhos": [
+      {
+        "nome": "CÓDIGO CIVIL: PARTE GERAL",
+        "filhos": [
+          {
+            "nome": "Capítulo 1 - Lei de Introdução às Normas do Direito Brasileiro",
+            "filhos": [
+              {
+                "nome": "1.1. Estrutura do Decreto-Lei n. 4.657/1942",
+                "filhos": []
+              },
+              {
+                "nome": "1.2. Conceito da Lei de Introdução às normas do Direito Brasileiro (LINDB)",
+                "filhos": []
+              },
+              {
+                "nome": "1.3. Direito objetivo e direito subjetivo",
+                "filhos": []
+              },
+              {
+                "nome": "1.4. Fontes do Direito",
+                "filhos": [
+                  {
+                    "nome": "1.4.1. Existência ou inexistência de lacuna na lei",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "1.5. Vigência da lei",
+                "filhos": []
+              },
+              {
+                "nome": "1.6. Eficácia das leis",
+                "filhos": []
+              },
+              {
+                "nome": "1.7. Revogação e derrogação da lei",
+                "filhos": []
+              },
+              {
+                "nome": "1.8. Repristinação",
+                "filhos": []
+              },
+              {
+                "nome": "1.9. Integração ou colmatação da lei",
+                "filhos": []
+              },
+              {
+                "nome": "1.10. Aplicação e interpretação das normas jurídicas",
+                "filhos": []
+              },
+              {
+                "nome": "1.11. Conflito das leis no tempo",
+                "filhos": []
+              },
+              {
+                "nome": "1.12. Direito internacional privado",
+                "filhos": []
+              },
+              {
+                "nome": "1.13. Segurança jurídica e eficiência na criação e na aplicação do direito público",
+                "filhos": []
+              },
+              {
+                "nome": "1.14. Fluxograma 1 e fluxograma de súmulas",
+                "filhos": []
+              },
+              {
+                "nome": "Breve suma",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo 2 - Das Pessoas",
+            "filhos": [
+              {
+                "nome": "2.1. Das pessoas naturais: da personalidade e da capacidade",
+                "filhos": [
+                  {
+                    "nome": "2.1.1. Personalidade",
+                    "filhos": [
+                      {
+                        "nome": "2.1.1.1. Momento de aquisição da personalidade jurídica",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.1.1.2. Registro civil das pessoas naturais",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "2.1.2. Capacidade",
+                    "filhos": [
+                      {
+                        "nome": "2.1.2.1. Capacidade de direito, de gozo ou jurídica",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.1.2.2. Capacidade de fato, de exercício ou de ação",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.1.2.3. Capacidade plena",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "2.1.3. Da incapacidade",
+                    "filhos": [
+                      {
+                        "nome": "2.1.3.1. Os absolutamente incapazes",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.1.3.2. Os relativamente incapazes",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "2.1.3.3. Questões processuais",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "2.1.4. Emancipação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.1.5. Extinção da pessoa física",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.1.6. Comoriência",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.2. Direitos da personalidade",
+                "filhos": [
+                  {
+                    "nome": "2.2.1. Teoria do direito da personalidade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.2.2. A tutela dos direitos da personalidade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.2.3. O direito fundamental da identidade. Nome civil",
+                    "filhos": [
+                      {
+                        "nome": "2.2.3.1. Nome civil",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "2.2.4. A proteção do nome",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.2.5. Da proteção da imagem",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "2.2.6. Proteção da privacidade da pessoa natural",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.3. Da ausência",
+                "filhos": [
+                  {
+                    "nome": "2.3.1. A morte presumida com a declaração de ausência (diferente da regra do art. 7º do Código Civil de 2002)",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "2.4. Fluxograma 2",
+                "filhos": []
+              },
+              {
+                "nome": "Breve suma",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo 3 - Pessoas Jurídicas",
+            "filhos": [
+              {
+                "nome": "3.1. Personalidade",
+                "filhos": []
+              },
+              {
+                "nome": "3.2. Espécies",
+                "filhos": [
+                  {
+                    "nome": "3.2.1. Associações",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.2.2. Sociedades",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.2.3. Fundações",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.2.4. Organizações religiosas e partidos políticos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.2.5. Empreendimentos de economia solidária",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.2.6. Sociedades de economia mista",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.2.7. Empresas públicas",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.2.8. Serviços sociais autônomos",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3.3. Responsabilidade civil da pessoa jurídica",
+                "filhos": [
+                  {
+                    "nome": "3.3.1. A responsabilidade civil das pessoas jurídicas de direito público interno",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "3.3.2. Representação",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "3.4. Extinção da pessoa jurídica",
+                "filhos": []
+              },
+              {
+                "nome": "3.5. Entes ou grupos despersonalizados",
+                "filhos": []
+              },
+              {
+                "nome": "3.6. Fluxograma 3",
+                "filhos": []
+              },
+              {
+                "nome": "Breve suma",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo 4 - Domicílio",
+            "filhos": [
+              {
+                "nome": "4.1. Fluxograma 4",
+                "filhos": []
+              },
+              {
+                "nome": "Breve suma",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo 5 - Bens",
+            "filhos": [
+              {
+                "nome": "5.1. Classificação dos bens",
+                "filhos": [
+                  {
+                    "nome": "5.1.1. Bens considerados em si mesmos",
+                    "filhos": [
+                      {
+                        "nome": "5.1.1.1. Dos bens imóveis",
+                        "filhos": [
+                          {
+                            "nome": "5.1.1.1.1. Bem de família",
+                            "filhos": [
+                              {
+                                "nome": "5.1.1.1.1.1. O bem de família de acordo com a jurisprudência",
+                                "filhos": []
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "nome": "5.1.1.2. Dos bens móveis",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "5.1.1.3. Dos bens fungíveis e consumíveis",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "5.1.1.4. Dos bens divisíveis",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "5.1.1.5. Dos bens singulares e coletivos",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "5.1.2. Dos bens reciprocamente considerados",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "5.2. Dos bens públicos",
+                "filhos": []
+              },
+              {
+                "nome": "5.3. Fluxograma 5",
+                "filhos": []
+              },
+              {
+                "nome": "Breve suma",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo 6 - Fatos Jurídicos, Ato Jurídico, Negócio Jurídico",
+            "filhos": [
+              {
+                "nome": "6.1. Explicação sobre a classificação dos fatos jurídicos",
+                "filhos": [
+                  {
+                    "nome": "6.1.1. Validade do negócio jurídico",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.1.2. Elementos essenciais do negócio jurídico",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "6.2. Da representação",
+                "filhos": []
+              },
+              {
+                "nome": "6.3. Elementos acidentais: condição, termo e encargo",
+                "filhos": [
+                  {
+                    "nome": "6.3.1. Condição",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.3.2. Termo",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "6.3.3. Encargo ou modo",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "6.4. Vícios do negócio jurídico",
+                "filhos": [
+                  {
+                    "nome": "6.4.1. Dos vícios de consentimento",
+                    "filhos": [
+                      {
+                        "nome": "6.4.1.1. Erro",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.4.1.2. Dolo",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.4.1.3. Coação",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.4.1.4. Estado de perigo",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.4.1.5. Da lesão",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "6.4.2. Dos vícios sociais",
+                    "filhos": [
+                      {
+                        "nome": "6.4.2.1. Fraude contra credores",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "6.4.2.2. Simulação",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "6.5. Invalidade do negócio jurídico",
+                "filhos": []
+              },
+              {
+                "nome": "6.6. Fluxograma 6",
+                "filhos": []
+              },
+              {
+                "nome": "Breve suma",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo 7 - Da Prescrição e da Decadência",
+            "filhos": [
+              {
+                "nome": "7.1. Prescrição",
+                "filhos": [
+                  {
+                    "nome": "7.1.1. Da Prescrição Intercorrente",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "7.2. Direito intertemporal. Prescrição e decadência. Aplicação às hipóteses de redução e aumento de prazos",
+                "filhos": []
+              },
+              {
+                "nome": "7.3. Decadência",
+                "filhos": []
+              },
+              {
+                "nome": "7.4. Fluxograma 7",
+                "filhos": []
+              },
+              {
+                "nome": "Breve suma",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo 8 - Da Prova",
+            "filhos": [
+              {
+                "nome": "8.1. Dos meios de prova",
+                "filhos": []
+              },
+              {
+                "nome": "8.2. Da confissão",
+                "filhos": []
+              },
+              {
+                "nome": "8.3. Dos documentos",
+                "filhos": []
+              },
+              {
+                "nome": "8.4. Da testemunha",
+                "filhos": []
+              },
+              {
+                "nome": "8.5. Da Perícia",
+                "filhos": []
+              },
+              {
+                "nome": "8.6. Fluxograma 8",
+                "filhos": []
+              },
+              {
+                "nome": "Breve suma",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "CÓDIGO CIVIL: PARTE ESPECIAL",
+        "filhos": [
+          {
+            "nome": "Capítulo 9 - Direito das Obrigações",
+            "filhos": [
+              {
+                "nome": "9.1. Conceito",
+                "filhos": []
+              },
+              {
+                "nome": "9.2. Elementos da relação obrigacional",
+                "filhos": []
+              },
+              {
+                "nome": "9.3. Obrigação de pagamento de dívida prescrita",
+                "filhos": []
+              },
+              {
+                "nome": "9.4. Obrigação de pagamento de dívida de jogo",
+                "filhos": []
+              },
+              {
+                "nome": "9.5. Fontes das obrigações",
+                "filhos": []
+              },
+              {
+                "nome": "9.6. Características das obrigações",
+                "filhos": []
+              },
+              {
+                "nome": "9.7. Classificação das obrigações",
+                "filhos": [
+                  {
+                    "nome": "9.7.1. Obrigação civil e natural",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.7.2. Obrigação propter rem (por causa do bem)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.7.3. Obrigação de meio",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.7.4. Obrigação de resultado",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.7.5. Obrigações de garantia",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.7.6. Obrigações puras, condicionais, a termo e modais",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.7.7. Obrigação de dar",
+                    "filhos": [
+                      {
+                        "nome": "9.7.7.1. Coisa certa",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "9.7.7.2. Coisa incerta",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "9.7.8. Obrigação de fazer",
+                    "filhos": [
+                      {
+                        "nome": "9.7.8.1. Diferenças entre obrigações de fazer fungíveis e infungíveis",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "9.7.9. Obrigações de não fazer",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.7.10. Obrigação cumulativa ou conjuntiva",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.7.11. Obrigações alternativa e facultativa",
+                    "filhos": [
+                      {
+                        "nome": "9.7.11.1. Inadimplemento da obrigação alternativa",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "9.7.12. Obrigações divisíveis e indivisíveis",
+                    "filhos": [
+                      {
+                        "nome": "9.7.12.1. A regra do cuncursu partes fiunt na obrigação divisível",
+                        "filhos": [
+                          {
+                            "nome": "9.7.12.1.1. Espécies de divisibilidade",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "9.7.12.1.2. Espécies de indivisibilidade",
+                            "filhos": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "9.7.13. Obrigação solidária",
+                    "filhos": [
+                      {
+                        "nome": "9.7.13.1. Da solidariedade ativa",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "9.7.13.2. Da solidariedade passiva",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "9.7.13.3. Da obrigação solidária mista",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "9.8. Da transmissão das obrigações",
+                "filhos": [
+                  {
+                    "nome": "9.8.1. Da cessão de crédito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.8.2. Da assunção de dívida (cessão de débito)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.8.3. Da cessão de contrato",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "9.9. Do adimplemento das obrigações",
+                "filhos": [
+                  {
+                    "nome": "9.9.1. Efeito principal do pagamento ou adimplemento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.9.2. Modalidades",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.9.3. Natureza jurídica do pagamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.9.4. Requisitos de validade do pagamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.9.5. Daqueles a quem se deve pagar",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.9.6. O objeto e a prova do pagamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.9.7. Elementos para a quitação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.9.8. Lugar do pagamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.9.9. Tempo do pagamento",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "9.10. Formas especiais/indireto de pagamento",
+                "filhos": [
+                  {
+                    "nome": "9.10.1. Pagamento em consignação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.10.2. Pagamento com sub-rogação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.10.3. Imputação do pagamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.10.4. Dação em pagamento",
+                    "filhos": [
+                      {
+                        "nome": "9.10.4.1. Requisitos para a dação",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "9.11. Da extinção das obrigações sem a ocorrência do pagamento",
+                "filhos": [
+                  {
+                    "nome": "9.11.1. Novação",
+                    "filhos": [
+                      {
+                        "nome": "9.11.1.1. Requisitos",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "9.11.1.2. Espécies",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "9.11.2. Compensação",
+                    "filhos": [
+                      {
+                        "nome": "9.11.2.1. Pressupostos da compensação",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "9.11.2.2. Espécies",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "9.11.3. Confusão",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.11.4. Remissão das dívidas",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "9.12. Outros casos da extinção da obrigação sem o pagamento",
+                "filhos": []
+              },
+              {
+                "nome": "9.13. Contratos típicos que geram a extinção das obrigações",
+                "filhos": [
+                  {
+                    "nome": "9.13.1. Transação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.13.2. Compromisso",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "9.14. Do inadimplemento das obrigações",
+                "filhos": [
+                  {
+                    "nome": "9.14.1. Da mora",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.14.2. Dos juros legais",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "9.14.3. Da cláusula penal",
+                    "filhos": [
+                      {
+                        "nome": "9.14.3.1. Cláusula penal compensatória",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "9.14.3.2. Cláusula penal moratória",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "9.14.3.3. Limitação da cláusula penal",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "9.15. Das arras ou sinal",
+                "filhos": [
+                  {
+                    "nome": "9.15.1. Espécies",
+                    "filhos": [
+                      {
+                        "nome": "9.15.1.1. Arras confirmatórias",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "9.15.1.2. Arras penitenciais",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "9.15.1.3. Arras assecuratórias",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "9.16. Fluxograma 9",
+                "filhos": []
+              },
+              {
+                "nome": "Breve suma",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo 10 - Teoria Geral dos Contratos",
+            "filhos": [
+              {
+                "nome": "10.1. Conceito",
+                "filhos": []
+              },
+              {
+                "nome": "10.2. Elementos do contrato",
+                "filhos": []
+              },
+              {
+                "nome": "10.3. Requisitos de validade",
+                "filhos": []
+              },
+              {
+                "nome": "10.4. Classificação",
+                "filhos": []
+              },
+              {
+                "nome": "10.5. Princípios contratuais",
+                "filhos": [
+                  {
+                    "nome": "10.5.1. Princípio da autonomia privada",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "10.5.2. Princípio da obrigatoriedade da convenção (pacta sunt servanda)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "10.5.3. Princípio da relatividade dos efeitos dos contratos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "10.5.4. Princípio da função social",
+                    "filhos": [
+                      {
+                        "nome": "10.5.4.1. Eficácias interna e externa",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "10.5.5. Princípio da boa-fé",
+                    "filhos": [
+                      {
+                        "nome": "10.5.5.1. Funções tríplice da boa-fé",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "10.5.5.2. Figuras parcelares",
+                        "filhos": [
+                          {
+                            "nome": "10.5.5.2.1. Venire contra factum proprium",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "10.5.5.2.2. Supressio",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "10.5.5.2.3. Surrectio",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "10.5.5.2.4. Tu quoque",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "10.5.5.2.5. Duty to mitigate the loss",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "10.5.5.2.6. Adimplemento substancial",
+                            "filhos": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "10.5.6. Princípio da interpretação mais favorável ao aderente",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "10.5.7. Tópicos relevantes",
+                    "filhos": [
+                      {
+                        "nome": "10.5.7.1. A nulidade de cláusula que renuncie antecipadamente ao direito da parte",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "10.5.7.2. A licitude de realizações de contratos atípicos",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "10.5.7.3. A proibição da pacta corvina",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "10.5.7.4. Diferenciação de preços de bens e serviços oferecidos ao público",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "10.6. Formação dos contratos no Código Civil",
+                "filhos": [
+                  {
+                    "nome": "10.6.1. Negociações preliminares ou fase de puntuação ou tratativas",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "10.6.2. Fase de proposta",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "10.6.3. Contrato preliminar",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "10.6.4. Contrato definitivo",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "10.7. Formação dos contratos no Código de Defesa do Consumidor",
+                "filhos": []
+              },
+              {
+                "nome": "10.8. A via eletrônica. Um contrato entre presentes ou ausentes?",
+                "filhos": []
+              },
+              {
+                "nome": "10.9. Da estipulação em favor de terceiro",
+                "filhos": []
+              },
+              {
+                "nome": "10.10. Da promessa de fato de terceiro",
+                "filhos": []
+              },
+              {
+                "nome": "10.11. Do contrato com pessoa a declarar",
+                "filhos": []
+              },
+              {
+                "nome": "10.12. Vícios redibitórios",
+                "filhos": []
+              },
+              {
+                "nome": "10.13. Evicção",
+                "filhos": [
+                  {
+                    "nome": "10.13.1. Partes na evicção",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "10.13.2. Evicção de coisa adquirida em hasta pública",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "10.14. Contratos aleatórios",
+                "filhos": []
+              },
+              {
+                "nome": "10.15. Extinção do contrato",
+                "filhos": [
+                  {
+                    "nome": "10.15.1. Distrato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "10.15.2. Cláusula resolutiva",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "10.15.3. Exceção de contrato não cumprido",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "10.15.4. Onerosidade excessiva",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "10.16. Fluxograma 10",
+                "filhos": [
+                  {
+                    "nome": "10.16.1. Fluxograma 10-A",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "Breve suma",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo 11 - Contratos em Espécie",
+            "filhos": [
+              {
+                "nome": "11.1. Compra e venda",
+                "filhos": [
+                  {
+                    "nome": "11.1.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.1.2. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.1.3. Elementos constitutivos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.1.4. As despesas e riscos do contrato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.1.5. Restrições à compra e venda",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.1.6. Regras especiais da compra e venda",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.1.7. Cláusulas especiais ou pactos adjetos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.1.8. Fluxograma 11",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.2. Troca ou permuta",
+                "filhos": [
+                  {
+                    "nome": "11.2.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.2.2. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.2.3. Fluxograma 11-A",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.3. Contrato estimatório",
+                "filhos": [
+                  {
+                    "nome": "11.3.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.3.2. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.3.3. Efeitos e regras",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.3.4. Fluxograma 11-B",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.4. Doação",
+                "filhos": [
+                  {
+                    "nome": "11.4.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.4.2. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.4.3. Espécies de doação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.4.4. Revogação da doação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.4.5. Hipóteses de irrevogabilidade por ingratidão",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.4.6. Fluxograma 11-C",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.5. Locação de coisas",
+                "filhos": [
+                  {
+                    "nome": "11.5.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.5.2. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.5.3. Pressupostos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.5.4. Dos deveres do locador",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.5.5. O direito potestativo da redução proporcional do aluguel ou a resolução do contrato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.5.6. Dos deveres do locatário",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.5.7. Locação por prazo determinado",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.5.8. Aluguel pena",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.5.9. A aquisição do bem por terceiro e a cláusula de vigência",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.5.10. A sucessão na locação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.5.11. Indenização pelas benfeitorias",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.5.12. A locação na Lei n. 8.245/91",
+                    "filhos": [
+                      {
+                        "nome": "11.5.12.1. Ações inquilinárias ou locatícias",
+                        "filhos": [
+                          {
+                            "nome": "11.5.12.1.1. Conceito",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "11.5.12.1.2. Lei do Inquilinato: aspectos gerais",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "11.5.12.1.3. Espécies",
+                            "filhos": [
+                              {
+                                "nome": "11.5.12.1.3.1. Ação de despejo",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "11.5.12.1.3.2. Ação consignatória de aluguéis e acessórios na locação",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "11.5.12.1.3.3. Ação revisional de aluguel",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "11.5.12.1.3.4. Ação renovatória de contrato",
+                                "filhos": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "11.5.13. Fluxograma 11-D",
+                    "filhos": [
+                      {
+                        "nome": "11.5.13.1. Fluxograma 11-E",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "11.6. Empréstimo",
+                "filhos": [
+                  {
+                    "nome": "11.6.1. Aspectos gerais",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.6.2. Do comodato (empréstimo de uso)",
+                    "filhos": [
+                      {
+                        "nome": "11.6.2.1. Conceito",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "11.6.2.2. Natureza jurídica",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "11.6.2.3. Legitimação para celebrar o contrato",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "11.6.2.4. Prazo determinado e indeterminado",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "11.6.2.5. Obrigações do comodatário e o chamado aluguel pena",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "11.6.2.6. Responsabilidade do comodatário",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "11.6.2.7. Despesas do contrato",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "11.6.2.8. A solidariedade no contrato",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "11.6.3. Do mútuo (empréstimo de consumo)",
+                    "filhos": [
+                      {
+                        "nome": "11.6.3.1. Conceito",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "11.6.3.2. Natureza jurídica",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "11.6.3.3. A transferência da coisa",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "11.6.3.4. Mútuo feito a pessoa menor",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "11.6.3.5. A garantia no mútuo e a exceptio non rite adimpleti contractus",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "11.6.3.6. O mútuo feneratício ou mercantil e a limitação de juros",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "11.6.3.7. Prazo para a realização do pagamento do mútuo",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "11.6.4. Fluxograma 11-F",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.7. Da prestação de serviço",
+                "filhos": [
+                  {
+                    "nome": "11.7.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.7.2. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.7.3. Objeto do contrato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.7.4. A remuneração (a não presunção de gratuidade)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.7.5. Prazo máximo de duração do contrato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.7.6. Resilição do contrato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.7.7. Inexecução do contrato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.7.8. Amplitude do contrato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.7.9. Responsabilidade pela ruptura culposa do contrato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.7.10. Perdas e danos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.7.11. A declaração formal da dissolução do contrato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.7.12. Exigência de capacitação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.7.13. Formas de extinção do contrato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.7.14. Aliciamento do prestador de serviço",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.7.15. Alienação do prédio agrícola e suas consequências",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.7.16. Fluxograma 11-G",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.8. Empreitada",
+                "filhos": [
+                  {
+                    "nome": "11.8.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.8.2. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.8.3. Espécies",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.8.4. Deveres e direitos do dono da obra",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.8.5. Responsabilidade do empreiteiro",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.8.6. Subempreitada. O que é?",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.8.7. Fluxograma 11-H",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.9. Depósito",
+                "filhos": [
+                  {
+                    "nome": "11.9.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.9.2. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.9.3. Modalidades",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.9.4. Direitos e deveres do depositário",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.9.5. Direitos e deveres do depositante",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.9.6. Da prisão do depositário infiel",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.9.7. Extinção do depósito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.9.8. Fluxograma 11-I",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.10. Do mandato",
+                "filhos": [
+                  {
+                    "nome": "11.10.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.10.2. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.10.3. Espécies",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.10.4. Submandato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.10.5. Obrigações do mandatário",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.10.6. Obrigações do mandante",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.10.7. Extinção do contrato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.10.8. Fluxograma 11-J",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.11. Contrato de comissão",
+                "filhos": [
+                  {
+                    "nome": "11.11.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.11.2. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.11.3. Espécies",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.11.4. Obrigações do comissário",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.11.5. Remuneração",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.11.6. Fluxograma 11-K",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.12. Contrato de agência e distribuição",
+                "filhos": [
+                  {
+                    "nome": "11.12.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.12.2. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.12.3. Obrigação e Remuneração do agente ou distribuidor",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.12.4. Extinção do contrato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.12.5. Fluxograma 11-L",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.13. Contrato de corretagem",
+                "filhos": [
+                  {
+                    "nome": "11.13.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.13.2. Natureza Jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.13.3. Espécies",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.13.4. Obrigações e remuneração do corretor",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.13.5. Fluxograma 11-M",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.14. Contrato de transporte",
+                "filhos": [
+                  {
+                    "nome": "11.14.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.14.2. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.14.3. Regras do contrato de transporte",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.14.4. O transporte de pessoas",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.14.5. Do transporte de coisas",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.14.6. Fluxogramas 11-N e 11-O",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.15. Contrato de seguro",
+                "filhos": [
+                  {
+                    "nome": "11.15.1. Conceito e a sua função de socializar riscos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.15.2. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.15.3. Regras do contrato",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.15.4. Do seguro de dano",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.15.5. Do seguro de pessoa",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.15.6. Fluxograma 11-P",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.16. Contrato de fiança",
+                "filhos": [
+                  {
+                    "nome": "11.16.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.16.2. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.16.3. Seus efeitos e regras",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.16.4. Extinção da fiança",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.16.5. Fluxograma 11-Q",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.17. Contrato de transação",
+                "filhos": [
+                  {
+                    "nome": "11.17.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.17.2. Natureza Jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.17.3. Espécies",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.17.4. Efeitos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.17.5. Fluxograma 11-R",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.18. Contrato de compromisso",
+                "filhos": [
+                  {
+                    "nome": "11.18.1. Conceito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.18.2. Natureza Jurídica e Espécies",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "11.18.3. Fluxograma 11-S",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "11.19. Contrato de administração fiduciária de garantias",
+                "filhos": []
+              },
+              {
+                "nome": "Breve suma",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo 12 - Da Responsabilidade Civil",
+            "filhos": [
+              {
+                "nome": "12.1. Conceito",
+                "filhos": []
+              },
+              {
+                "nome": "12.2. Pressupostos",
+                "filhos": [
+                  {
+                    "nome": "12.2.1. Ato ilícito",
+                    "filhos": [
+                      {
+                        "nome": "12.2.1.1. Espécies",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "12.2.2. Culpa",
+                    "filhos": [
+                      {
+                        "nome": "12.2.2.1. Espécies de culpa stricto sensu",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "12.2.3. Dano",
+                    "filhos": [
+                      {
+                        "nome": "12.2.3.1. Espécies",
+                        "filhos": [
+                          {
+                            "nome": "12.2.3.1.1. Dano material",
+                            "filhos": [
+                              {
+                                "nome": "12.2.3.1.1.1. Dano emergente e lucro cessante",
+                                "filhos": []
+                              }
+                            ]
+                          },
+                          {
+                            "nome": "12.2.3.1.2. Perda de uma chance",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "12.2.3.1.3. Dano incerto",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "12.2.3.1.4. Dano material futuro",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "12.2.3.1.5. Dano moral",
+                            "filhos": [
+                              {
+                                "nome": "12.2.3.1.5.1. Formas de fixação",
+                                "filhos": [
+                                  {
+                                    "nome": "12.2.3.1.5.1.1. Compensatória",
+                                    "filhos": []
+                                  },
+                                  {
+                                    "nome": "12.2.3.1.5.1.2. Punitiva",
+                                    "filhos": [
+                                      {
+                                        "nome": "12.2.3.1.5.1.2.1. Punitive damages",
+                                        "filhos": []
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "nome": "12.2.3.1.5.2. Dano moral direto e o indireto ou ricochete",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "12.2.3.1.5.3. Dano moral à pessoa jurídica",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "12.2.3.1.5.4. Dano moral e a Súmula n. 385 do STJ",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "12.2.3.1.5.5. A não possibilidade de incidência de Imposto de Renda",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "12.2.3.1.5.6. Dano moral coletivo e social. Diferenças. Posicionamento da jurisprudência do STJ",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "12.2.3.1.5.7. Prova do dano moral",
+                                "filhos": []
+                              },
+                              {
+                                "nome": "12.2.3.1.5.8. A quantificação dos danos morais",
+                                "filhos": []
+                              }
+                            ]
+                          },
+                          {
+                            "nome": "12.2.3.1.6. Dano estético e sua natureza extrapatrimonial",
+                            "filhos": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "12.2.4. Nexo causal",
+                    "filhos": [
+                      {
+                        "nome": "12.2.4.1. Concorrências de causas",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "12.3. O risco",
+                "filhos": []
+              },
+              {
+                "nome": "12.4. Responsabilidade por ato próprio",
+                "filhos": []
+              },
+              {
+                "nome": "12.5. Responsabilidade por ato de outrem ou responsabilidade indireta",
+                "filhos": [
+                  {
+                    "nome": "12.5.1. Independência das responsabilidades civil e criminal",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "12.6. Responsabilidade por fato da coisa ou do animal",
+                "filhos": []
+              },
+              {
+                "nome": "12.7. Responsabilidade nas relações de família",
+                "filhos": []
+              },
+              {
+                "nome": "12.8. Responsabilidade do transportador",
+                "filhos": [
+                  {
+                    "nome": "12.8.1. Responsabilidade pelas pessoas e bagagens",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "12.8.2. Excludentes de responsabilidade",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "12.9. Responsabilidade civil no Código de Defesa do Consumidor",
+                "filhos": [
+                  {
+                    "nome": "12.9.1. Elementos",
+                    "filhos": [
+                      {
+                        "nome": "12.9.1.1. Elementos subjetivos",
+                        "filhos": [
+                          {
+                            "nome": "12.9.1.1.1. Consumidor",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "12.9.1.1.2. Consumidor equiparado",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "12.9.1.1.3. Fornecedor",
+                            "filhos": []
+                          }
+                        ]
+                      },
+                      {
+                        "nome": "12.9.1.2. Elementos objetivos da relação de consumo",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "12.9.2. Modalidades de responsabilidade civil",
+                    "filhos": [
+                      {
+                        "nome": "12.9.2.1. A ocorrência do vício do produto e do serviço",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "12.9.2.2. A ocorrência de fato do produto e do serviço",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "12.9.3. Inversão do ônus da prova",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "12.9.4. Juízo competente para a propositura da ação indenizatória por fato e por vício",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "12.10. Responsabilidade civil do Estado",
+                "filhos": [
+                  {
+                    "nome": "12.10.1. Denunciação da lide. Possibilidade ou não?",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "12.11. Responsabilidade civil por danos ambientais",
+                "filhos": []
+              },
+              {
+                "nome": "12.12. Excludentes de ilicitude e excludentes de responsabilidade",
+                "filhos": [
+                  {
+                    "nome": "12.12.1. Estado de necessidade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "12.12.2. Legítima defesa",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "12.12.3. Exercício regular do direito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "12.12.4. Caso fortuito e força maior",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "12.12.5. Culpa exclusiva da vítima",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "12.12.6. Fato de terceiro",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "12.12.7. Cláusula de não indenizar",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "12.13. Fluxograma 12",
+                "filhos": []
+              },
+              {
+                "nome": "Breve suma",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo 13 - Direito das Coisas",
+            "filhos": [
+              {
+                "nome": "13.1. Direitos reais",
+                "filhos": [
+                  {
+                    "nome": "13.1.1. Teorias",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.1.2. Princípios que regem os direitos reais",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "13.2. Posse",
+                "filhos": [
+                  {
+                    "nome": "13.2.1. Teorias",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.2.2. Detenção",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.2.3. Diferença da transmudação para a interversão da posse",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.2.4. Composse ou compossessão",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.2.5. Espécies de posse",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.2.6. Aquisição e perda da posse",
+                    "filhos": [
+                      {
+                        "nome": "13.2.6.1. Modos de aquisição",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.2.6.2. Quem pode adquirir a posse",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.2.6.3. Sucessão hereditária",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.2.6.4. Perda da posse",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "13.2.7. Efeitos da posse",
+                    "filhos": [
+                      {
+                        "nome": "13.2.7.1. A proteção possessória",
+                        "filhos": [
+                          {
+                            "nome": "13.2.7.1.1. Legítima defesa ou desforço imediato",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "13.2.7.1.2. Ações possessórias: manutenção de posse; reintegração de posse; interdito proibitório",
+                            "filhos": [
+                              {
+                                "nome": "13.2.7.1.2.1. Da manutenção e da reintegração de posse",
+                                "filhos": [
+                                  {
+                                    "nome": "13.2.7.1.2.1.1. Requisitos",
+                                    "filhos": []
+                                  }
+                                ]
+                              },
+                              {
+                                "nome": "13.2.7.1.2.2. O interdito proibitório",
+                                "filhos": [
+                                  {
+                                    "nome": "13.2.7.1.2.2.1. Requisitos",
+                                    "filhos": []
+                                  }
+                                ]
+                              },
+                              {
+                                "nome": "13.2.7.1.2.3. A possibilidade de outros interditos possessórios",
+                                "filhos": []
+                              }
+                            ]
+                          },
+                          {
+                            "nome": "13.2.7.1.3. Aspectos relevantes das ações possessórias",
+                            "filhos": []
+                          }
+                        ]
+                      },
+                      {
+                        "nome": "13.2.7.2. A percepção dos frutos",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.2.7.3. A responsabilidade pela perda ou deterioração da coisa",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.2.7.4. A indenização pelas benfeitorias e o direito de retenção",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "13.3. Da propriedade",
+                "filhos": [
+                  {
+                    "nome": "13.3.1. Características do direito de propriedade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.3.2. Função social do direito de propriedade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.3.3. Fundamento jurídico do direito de propriedade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.3.4. Extensão da propriedade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.3.5. Limitações da propriedade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.3.6. Da descoberta",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.3.7. Aquisição da propriedade imóvel",
+                    "filhos": [
+                      {
+                        "nome": "13.3.7.1. A Usucapião",
+                        "filhos": [
+                          {
+                            "nome": "13.3.7.1.1. Espécies",
+                            "filhos": []
+                          }
+                        ]
+                      },
+                      {
+                        "nome": "13.3.7.2. Aquisição pelo registro imobiliário",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.3.7.3. Acessão",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.3.7.4. Direito hereditário",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "13.3.8. Aquisição da propriedade móvel",
+                    "filhos": [
+                      {
+                        "nome": "13.3.8.1. Usucapião",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.3.8.2. Ocupação",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.3.8.3. Achado de tesouro",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.3.8.4. Tradição",
+                        "filhos": [
+                          {
+                            "nome": "13.3.8.4.1. Espécies",
+                            "filhos": []
+                          }
+                        ]
+                      },
+                      {
+                        "nome": "13.3.8.5. A venda a non domino",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.3.8.6. Direito hereditário",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.3.8.7. Especificação",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.3.8.8. Confusão, comistão e adjunção",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "13.3.9. Perda da propriedade",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "13.4. Direitos de vizinhança",
+                "filhos": [
+                  {
+                    "nome": "13.4.1. Natureza jurídica do direito",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.4.2. Os direitos em si",
+                    "filhos": [
+                      {
+                        "nome": "13.4.2.1. Do uso anormal da propriedade",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.4.2.2. Das árvores limítrofes",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.4.2.3. Da passagem forçada",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.4.2.4. Da passagem de cabos e tubulações",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.4.2.5. Das águas",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.4.2.6. Dos limites entre os prédios e do direito de tapagem",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.4.2.7. Do direito de construir",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "13.5. Do condomínio geral",
+                "filhos": [
+                  {
+                    "nome": "13.5.1. Espécies disciplinadas no Código Civil",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.5.2. Quanto à origem",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.5.3. Quanto à forma",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.5.4. Quanto ao objeto",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.5.5. Direitos e deveres dos condôminos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.5.6. Extinção do condomínio",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.5.7. Administração do condomínio",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.5.8. Do condomínio necessário",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "13.6. Do condomínio edilício",
+                "filhos": [
+                  {
+                    "nome": "13.6.1. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.6.2. Característica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.6.3. Instituição do condomínio",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.6.4. Constituição do condomínio",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.6.5. Condômino nocivo e a disposição legal",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.6.6. Estrutura interna do condomínio",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.6.7. Administração do condomínio",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "13.7. Condomínio de lotes, Loteamento de Acesso Controlado e Condomínio urbano Simples",
+                "filhos": []
+              },
+              {
+                "nome": "13.8. Condomínio em multipropriedade (arts. 1.358-B a 1.358-U do CC)",
+                "filhos": []
+              },
+              {
+                "nome": "13.9. Da propriedade resolúvel (análise da propriedade ad tempus)",
+                "filhos": []
+              },
+              {
+                "nome": "13.10. Da propriedade fiduciária",
+                "filhos": [
+                  {
+                    "nome": "13.10.1. Direitos e obrigações do fiduciante",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.10.2. Obrigações do credor fiduciário",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.10.3. Procedimento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "1Pos.10.4. Aplicação do art. 53 do Código de Defesa do Consumidor. Cláusula de decaimento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.10.5. Vedação do pacto comissório",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "13.11. Do fundo de investimento (arts. 1.368-C a 1.368-F, do CC)",
+                "filhos": []
+              },
+              {
+                "nome": "13.12. Da propriedade aparente",
+                "filhos": []
+              },
+              {
+                "nome": "13.13. Direitos reais limitados",
+                "filhos": [
+                  {
+                    "nome": "13.13.1. Da superfície",
+                    "filhos": [
+                      {
+                        "nome": "13.13.1.1. Extinção do direito de superfície",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "13.13.2. Da servidão",
+                    "filhos": [
+                      {
+                        "nome": "13.13.2.1. Características",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.13.2.2. Espécies",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.13.2.3. Do exercício das servidões",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.13.2.4. Extinção das servidões",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "13.13.3. Do usufruto",
+                    "filhos": [
+                      {
+                        "nome": "13.13.3.1. Diferenças para outros institutos",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.13.3.2. Espécies",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.13.3.3. Dos direitos do usufrutuário",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.13.3.4. Dos deveres do usufrutuário",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.13.3.5. Extinção do usufruto",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "13.13.4. Do uso",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.13.5. Da habitação",
+                    "filhos": [
+                      {
+                        "nome": "13.13.5.1. Espécies de direito real de habitação",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "13.13.6. Direito do promitente comprador",
+                    "filhos": [
+                      {
+                        "nome": "13.13.6.1. Extinção do compromisso",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "13.13.7. Da enfiteuse",
+                    "filhos": [
+                      {
+                        "nome": "13.13.7.1. Extinção",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "13.14. Direitos reais de garantia sobre coisa alheia",
+                "filhos": [
+                  {
+                    "nome": "13.14.1. Os direitos reais de garantia apresentados pelo Código Civil",
+                    "filhos": [
+                      {
+                        "nome": "13.14.1.1. Requisitos de validade para a constituição do direito real de garantia",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.14.1.2. Os bens que podem ser dados como garantia",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.14.1.3. Princípios dos direitos reais de garantia",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "13.14.2. O estudo do penhor",
+                    "filhos": [
+                      {
+                        "nome": "13.14.2.1. Espécies",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.14.2.2. Dos direitos do credor pignoratício",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.14.2.3. Das obrigações do credor pignoratício",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.14.2.4. Da extinção do penhor",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "13.14.3. Hipoteca",
+                    "filhos": [
+                      {
+                        "nome": "13.14.3.1. Características",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.14.3.2. Requisitos",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.14.3.3. Modalidades",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.14.3.4. A possibilidade da venda de um bem hipotecado",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.14.3.5. Pluralidade de hipotecas",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.14.3.6. A hipoteca e a necessidade de outorga conjugal",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.14.3.7. Direito de remição",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.14.3.8. A hipoteca para garantia de dívida futura ou condicionada e extensão da hipoteca",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.14.3.9. A extinção da hipoteca",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "13.14.4. Anticrese",
+                    "filhos": [
+                      {
+                        "nome": "13.14.4.1. Modalidades de se executar a garantia anticrética",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "13.14.4.2. Extinção da anticrese",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "13.15. Do Direito Real de Laje",
+                "filhos": []
+              },
+              {
+                "nome": "13.16. Da imissão provisória na posse",
+                "filhos": []
+              },
+              {
+                "nome": "13.17. Fluxograma 13",
+                "filhos": [
+                  {
+                    "nome": "13.17.1. Fluxograma 13-A",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.17.2. Fluxograma 13-B",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "13.17.3. Fluxograma 13-C",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "Breve suma",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo 14 - Direito das Famílias",
+            "filhos": [
+              {
+                "nome": "14.1. Sua visão constitucional",
+                "filhos": []
+              },
+              {
+                "nome": "14.2. Princípios",
+                "filhos": [
+                  {
+                    "nome": "14.2.1. De proteção à dignidade da pessoa humana",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.2.2. Princípio da solidariedade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.2.3. Da igualdade entre os cônjuges e companheiros",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.2.4. Princípio da igualdade entre o homem e a mulher",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.2.5. Princípio da proibição de interferência",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.2.6. Princípio do melhor interesse da criança",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.2.7. Princípio da afetividade",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.2.8. Princípio da função social",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "14.3. O direito de família: direito público ou privado?",
+                "filhos": []
+              },
+              {
+                "nome": "14.4. O conceito ampliado de família",
+                "filhos": []
+              },
+              {
+                "nome": "14.5. O casamento",
+                "filhos": [
+                  {
+                    "nome": "14.5.1. Natureza jurídica",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.2. Pressupostos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.3. Da capacidade para o casamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.4. Causas impeditivas do matrimônio",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.5. Causas suspensivas do matrimônio",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.6. Esponsais",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.7. Habilitação para o casamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.8. Da celebração do casamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.9. Casamento nos casos de moléstia grave",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.10. O casamento nuncupativo (in extremis vitae)",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.11. O casamento pode ocorrer por procuração?",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.12. Casamento religioso e seus efeitos civis",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.13. Casamento perante a autoridade consular",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.14. Invalidade do matrimônio",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.15. O casamento putativo",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.16. Das provas do casamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.17. Da eficácia do casamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.5.18. Regime de bens",
+                    "filhos": [
+                      {
+                        "nome": "14.5.18.1. Do pacto antenupcial",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "14.5.18.2. Da classificação dos regimes",
+                        "filhos": [
+                          {
+                            "nome": "14.5.18.2.1. Do regime da comunhão parcial de bens",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "14.5.18.2.2. Do regime de comunhão universal",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "14.5.18.2.3. Regime de participação final nos aquestos",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "14.5.18.2.4. Do regime da separação de bens",
+                            "filhos": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "14.5.19. Da dissolução do casamento e da sociedade conjugal. Análise da Emenda Constitucional n. 66/10",
+                    "filhos": [
+                      {
+                        "nome": "14.5.19.1. Modalidades de separação (antes do advento da Emenda Constitucional n. 66/10)",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "14.5.19.2. O divórcio",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "14.6. Da proteção da pessoa dos filhos",
+                "filhos": []
+              },
+              {
+                "nome": "14.7. Da união estável",
+                "filhos": [
+                  {
+                    "nome": "14.7.1. Os efeitos da união estável",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "14.8. Relações de parentesco",
+                "filhos": [
+                  {
+                    "nome": "14.8.1. O parentesco",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.8.2. Filiação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.8.3. Do reconhecimento dos filhos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.8.4. Da adoção",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.8.5. Poder familiar",
+                    "filhos": [
+                      {
+                        "nome": "14.8.5.1. Do exercício do poder familiar",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "14.8.5.2. Da suspensão do poder familiar",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "14.8.6. Do usufruto e da administração dos bens de filhos menores",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "14.9. Dos alimentos",
+                "filhos": [
+                  {
+                    "nome": "14.9.1. Alimentos gravídicos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.9.2. Requisitos para a prestação de alimentos",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "14.10. Do bem de família",
+                "filhos": []
+              },
+              {
+                "nome": "14.11. Do direito assistencial: Da Tutela, da Curatela e da Tomada de Decisão Apoiada",
+                "filhos": [
+                  {
+                    "nome": "14.11.1. Da tutela",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "14.11.2. Da curatela",
+                    "filhos": [
+                      {
+                        "nome": "14.11.2.1. Da curatela do nascituro e do enfermo ou portador de deficiência física",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "14.11.3. Da Tomada de Decisão Apoiada",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "14.12. Alterações processuais no direito das famílias",
+                "filhos": []
+              },
+              {
+                "nome": "14.13. Fluxograma 14",
+                "filhos": []
+              },
+              {
+                "nome": "Breve suma",
+                "filhos": []
+              }
+            ]
+          },
+          {
+            "nome": "Capítulo 15 - Do Direito das Sucessões",
+            "filhos": [
+              {
+                "nome": "15.1. Introdução",
+                "filhos": []
+              },
+              {
+                "nome": "15.2. Da herança e sua administração",
+                "filhos": []
+              },
+              {
+                "nome": "15.3. Da vocação hereditária",
+                "filhos": []
+              },
+              {
+                "nome": "15.4. Da aceitação e da renúncia da herança",
+                "filhos": []
+              },
+              {
+                "nome": "15.5. Dos excluídos da sucessão",
+                "filhos": []
+              },
+              {
+                "nome": "15.6. Da herança jacente",
+                "filhos": []
+              },
+              {
+                "nome": "15.7. Da petição da herança",
+                "filhos": []
+              },
+              {
+                "nome": "15.8. Da sucessão legítima",
+                "filhos": [
+                  {
+                    "nome": "15.8.1. Da ordem da vocação hereditária",
+                    "filhos": [
+                      {
+                        "nome": "15.8.1.1. Dos herdeiros necessários",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "15.8.1.2. Direito de representação",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "15.9. Da sucessão testamentária",
+                "filhos": [
+                  {
+                    "nome": "15.9.1. Da capacidade de testar",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "15.9.2. Do testamento",
+                    "filhos": [
+                      {
+                        "nome": "15.9.2.1. Características do testamento",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "15.9.2.2. Das formas ordinárias do testamento",
+                        "filhos": [
+                          {
+                            "nome": "15.9.2.2.1. Do testamento público",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "15.9.2.2.2. Do testamento cerrado",
+                            "filhos": []
+                          },
+                          {
+                            "nome": "15.9.2.2.3. Do testamento particular ou hológrafo",
+                            "filhos": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "15.9.3. Dos codicilos",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "15.9.4. Dos testamentos especiais",
+                    "filhos": [
+                      {
+                        "nome": "15.9.4.1. Do testamento marítimo e do aeronáutico",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "15.9.4.2. Do testamento militar",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "15.9.5. Das disposições testamentárias",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "15.9.6. Dos legados",
+                    "filhos": [
+                      {
+                        "nome": "15.9.6.1. Modalidades",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "15.9.6.2. Da responsabilidade pelo pagamento do legado",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "15.9.6.3. Da caducidade dos legados",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "15.9.7. Do direito de acrescer entre os herdeiros e legatários",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "15.9.8. Das substituições",
+                    "filhos": [
+                      {
+                        "nome": "15.9.8.1. Da substituição vulgar",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "15.9.8.2. Da substituição recíproca",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "15.9.8.3. Da substituição fideicomissária",
+                        "filhos": [
+                          {
+                            "nome": "15.9.8.3.1. Figurantes do fideicomisso",
+                            "filhos": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "15.9.9. Da deserdação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "15.9.10. Da redução das disposições testamentárias",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "15.9.11. Da revogação do testamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "15.9.12. Do rompimento do testamento",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "15.9.13. Do testamenteiro",
+                    "filhos": []
+                  }
+                ]
+              },
+              {
+                "nome": "15.10. Do inventário e da partilha",
+                "filhos": [
+                  {
+                    "nome": "15.10.1. Conceito de inventário",
+                    "filhos": [
+                      {
+                        "nome": "15.10.1.1. O inventariante",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "15.10.1.2. Espécies de inventário",
+                        "filhos": []
+                      },
+                      {
+                        "nome": "15.10.1.3. Legitimados",
+                        "filhos": []
+                      }
+                    ]
+                  },
+                  {
+                    "nome": "15.10.2. Dos sonegados",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "15.10.3. Do pagamento das dívidas",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "15.10.4. Da colação",
+                    "filhos": []
+                  },
+                  {
+                    "nome": "15.10.5. Da partilha",
+                    "filhos": [
+                      {
+                        "nome": "15.10.5.1. Da anulação da partilha",
+                        "filhos": []
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "nome": "15.11. Alterações processuais no direito das sucessões",
+                "filhos": []
+              },
+              {
+                "nome": "15.12. Fluxograma 15",
+                "filhos": []
+              },
+              {
+                "nome": "Breve suma",
+                "filhos": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nome": "Bibliografia",
+        "filhos": []
+      }
+    ]
+  }
+}
