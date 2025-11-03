@@ -341,7 +341,7 @@
                     const pathArray = pathString ? JSON.parse(pathString) : [];
                     const context = pathArray.length > 0 ? ` (${pathArray.join(', ')})` : '';
                     
-                    const query = `explique como um professor de direito explicaria para seus alunos de modo didático, explicativo e fundamentado sobre o tema: ${topic}${context}`;
+                    const query = `Pesquisem em artigos acadêmicos, Manuais de Direito, Vídeos do Youtube e Doutrinas famosas e explique como um professor de direito explicaria para seus alunos de modo didático, exemplificativo e fundamentado sobre o tema: ${topic}${context}`;
                     const encodedQuery = encodeURIComponent(query);
                     const googleUrl = `https://www.google.com/search?udm=50&q=${encodedQuery}`;
                     
