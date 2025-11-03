@@ -1,0 +1,22 @@
+[
+    {
+        "disciplina": "Direito Civil",
+        "temas": [
+            { "nome": "Contratos", "path": "data/Direito Civil/Contratos.json" },
+            { "nome": "Obrigações", "path": "data/Direito Civil/Obrigacoes.json" }
+        ]
+    },
+    {
+        "disciplina": "Direito Penal",
+        "temas": [
+            { "nome": "Teoria do Crime", "path": "data/Direito Penal/Teoria do Crime.json" },
+            { "nome": "Tipos de Pena", "path": "data/Direito Penal/Penas.json" }
+        ]
+    },
+    {
+        "disciplina": "Direito Constitucional",
+        "temas": [
+            { "nome": "Remédios Constitucionais", "path": "data/Direito Constitucional/Remedios.json" }
+        ]
+    }
+]
