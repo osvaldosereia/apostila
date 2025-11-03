@@ -1,8 +1,9 @@
-{
-  "titulo": "Direito Civil",
-    "iaPromptTemplate": "Explique como o Autor Cristiano Vieira Sobral Pinto explicaria o tema: [TOPIC], dentro do contexto: ([CONTEXT]). Seja didático, organize em titulos e subtitulos, seja exemplificativo, detalhista e fundamente juridicamente suas informações.",
+
+  {
+  "titulo": "DIREITO CIVIL SISTEMATIZADO",
+      "iaPromptTemplate": "Explique como o Autor Cristiano Vieira Sobral Pinto explicaria o tema: [TOPIC], dentro do contexto: ([CONTEXT]). Seja didático, organize em titulos e subtitulos, seja exemplificativo, detalhista e fundamente juridicamente suas informações.",
   "topicoRaiz": {
-    "nome": "Direito Civil Sistematizado",
+    "nome": "ÍNDICE SISTEMÁTICO",
     "filhos": [
       {
         "nome": "CÓDIGO CIVIL: PARTE GERAL",
@@ -3084,9 +3085,15 @@
               {
                 "nome": "Breve suma",
                 "filhos": []
-            }
+              }
             ]
           }
         ]
-      } // <- Fecha o objeto "topicoRaiz"
-    } // <- Fecha o objeto principal (raiz). O arquivo deve terminar aqui.
+      },
+      {
+        "nome": "Bibliografia",
+        "filhos": []
+      }
+    ]
+  }
+}
