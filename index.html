@@ -30,11 +30,35 @@
             transition: opacity 0.3s ease-in-out;
         }
 
-        /* * NOTA DE DESIGN:
-         * Removemos todos os estilos antigos do mapa mental (.mind-map-container, .mind-map-item)
-         * O novo visual de "cartões aninhados" será 100% construído
-         * pelo JavaScript usando classes do Tailwind.
-        */
+        /* --- (NOVO) Estilos do Mapa Retrátil --- */
+        
+        /* Ícone da seta (chevron) que gira */
+        .chevron-icon {
+            transition: transform 0.3s ease;
+            flex-shrink: 0; /* Impede que o ícone seja espremido */
+        }
+        .chevron-icon.open {
+            transform: rotate(90deg);
+        }
+
+        /* O contêiner dos "filhos" que anima */
+        .node-children-container {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-in-out, padding-top 0.4s ease-in-out;
+        }
+
+        /* Estado "aberto" do contêiner */
+        .node-children-container.open {
+            max-height: 5000px; /* Um valor alto para permitir a expansão */
+            padding-top: 8px; /* Adiciona um espaço quando está aberto */
+        }
+
+        /* Efeito de hover no header do card quando ele é clicável */
+        .node-header.clickable:hover {
+            background-color: #f9fafb; /* bg-gray-50 */
+            cursor: pointer;
+        }
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
@@ -96,7 +120,7 @@
                 overlay.classList.toggle('hidden');
             }
 
-            // (NOVA MUDANÇA) Função para mostrar a mensagem de boas-vindas
+            // Função para mostrar a mensagem de boas-vindas
             function showWelcomeMessage() {
                 contentArea.innerHTML = `
                     <div class="bg-white p-8 rounded-lg shadow-lg text-center">
@@ -150,7 +174,6 @@
             }
 
             // 4. Função para carregar um mapa mental na tela
-            // (MUDANÇA) Agora ela limpa a área e adiciona o nó raiz diretamente
             async function loadMindMap(path, disciplina) {
                 try {
                     const response = await fetch(`${path}?v=${new Date().getTime()}`);
@@ -159,31 +182,28 @@
                     }
                     const mapData = await response.json();
 
-                    // Limpa a msg de boas-vindas ou mapa anterior
-                    contentArea.innerHTML = '';
+                    contentArea.innerHTML = ''; // Limpa a área
 
                     // Adiciona o título principal
                     const title = document.createElement('h1');
-                    title.className = "text-3xl md:text-4xl font-bold text-indigo-600 mb-8 text-center"; // Menos margem
+                    title.className = "text-3xl md:text-4xl font-bold text-indigo-600 mb-8 text-center";
                     title.textContent = mapData.titulo;
                     contentArea.appendChild(title);
                     
                     // Chama a função recursiva para construir o mapa
-                    // O nó raiz (nível 0) é o primeiro card
                     const rootNode = createMapNode(mapData.topicoRaiz, [disciplina], 0); 
                     contentArea.appendChild(rootNode); // Adiciona o card raiz direto na área de conteúdo
 
                 } catch (error) {
                     console.error(`Erro ao carregar o mapa de '${path}':`, error);
                     contentArea.innerHTML = `<p class="p-4 text-center text-red-500">Não foi possível carregar o mapa mental. Verifique se o arquivo '${path}' existe e está formatado corretamente.</p>`;
-                    // (MUDANÇA) Mostra a msg de boas-vindas se der erro
-                    setTimeout(showWelcomeMessage, 3000); // Mostra msg de boas-vindas após 3s
+                    setTimeout(showWelcomeMessage, 3000); 
                 }
             }
 
             /**
              * 5. Função Recursiva para criar os nós do mapa
-             * (REFORMULAÇÃO TOTAL) Cria "Cartões Aninhados" com cores por nível
+             * (REFORMULAÇÃO TOTAL) Cria "Cards Retráteis"
              */
             function createMapNode(nodeData, pathArray, depth) {
                 const item = document.createElement('div');
@@ -205,26 +225,49 @@
                     'text-teal-700 font-medium',         // Nível 3
                     'text-gray-700 font-medium'          // Nível 4+
                 ];
+                // Pega a cor principal (ex: 'text-indigo-700') para usar no ícone
+                const baseTextColor = textColors[depth] ? textColors[depth].split(' ')[0] : 'text-gray-700'; 
                 const textColor = textColors[depth] || textColors[textColors.length - 1];
 
                 // --- 2. Cria o Card (o item) ---
-                // O card raiz (depth 0) não tem margem superior. Os filhos terão.
                 const marginClass = depth > 0 ? 'mt-4' : ''; 
-                item.className = `map-node-card bg-white rounded-lg shadow-lg p-4 border-l-4 ${borderColor} ${marginClass}`;
+                // Todos os cards têm a borda e sombra
+                item.className = `map-node-card bg-white rounded-lg shadow-lg ${marginClass} border-l-4 ${borderColor}`;
                 
-                // --- 3. Cria o Conteúdo (Texto + Botão) ---
-                const contentWrapper = document.createElement('div');
-                contentWrapper.className = 'flex justify-between items-center';
+                const hasChildren = nodeData.filhos && nodeData.filhos.length > 0;
+                
+                // --- 3. Cria o Header (Texto + Botões) ---
+                const header = document.createElement('div');
+                header.className = `node-header flex justify-between items-center w-full p-4`;
+                
+                // Wrapper para o conteúdo da esquerda (Ícone + Texto)
+                const textWrapper = document.createElement('div');
+                textWrapper.className = 'flex-1 flex items-center min-w-0'; // min-w-0 previne overflow
 
+                // (NOVO) Adiciona o Ícone Chevron (seta) se tiver filhos
+                if (hasChildren) {
+                    header.classList.add('clickable'); // Faz o header ser clicável
+                    const chevron = document.createElement('div');
+                    chevron.className = `chevron-icon w-5 h-5 mr-3 ${baseTextColor}`;
+                    chevron.innerHTML = `<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>`;
+                    textWrapper.appendChild(chevron);
+                } else {
+                    // Se não tem filhos, adiciona um espaço vazio para manter o alinhamento
+                    textWrapper.className = 'flex-1 flex items-center min-w-0 pl-8'; // pl-8 = (w-5 + mr-3)
+                }
+
+                // Texto do Tópico
                 const text = document.createElement('span');
-                text.className = `flex-1 text-base ${textColor} mr-2`; // flex-1 para o texto ocupar espaço
+                text.className = `flex-1 text-base ${textColor} truncate`; // 'truncate' impede texto longo de quebrar o layout
                 text.textContent = nodeData.nome;
                 text.dataset.topic = nodeData.nome;
-                contentWrapper.appendChild(text);
+                textWrapper.appendChild(text);
+                
+                header.appendChild(textWrapper);
 
+                // Botão de Explicação (Sempre aparece)
                 const button = document.createElement('button');
-                // Botão mais sutil, que acende ao passar o mouse
-                button.className = 'explain-btn ml-3 text-gray-400 hover:text-indigo-600 flex-shrink-0'; 
+                button.className = 'explain-btn ml-3 text-gray-400 hover:text-indigo-600 flex-shrink-0 z-10'; // z-10 p/ ficar acima do clique do header
                 button.dataset.topic = nodeData.nome;
                 button.setAttribute('aria-label', `Explicar tópico ${nodeData.nome}`);
                 button.dataset.path = JSON.stringify(pathArray);
@@ -233,15 +276,21 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                     </svg>
                 `;
-                contentWrapper.appendChild(button);
+                header.appendChild(button);
                 
-                item.appendChild(contentWrapper); 
+                item.appendChild(header); // Adiciona o header ao card
 
                 // --- 4. Cria o Contêiner dos Filhos (se houver) ---
-                if (nodeData.filhos && nodeData.filhos.length > 0) {
+                if (hasChildren) {
                     const childrenContainer = document.createElement('div');
-                    // Este contêiner aplica a indentação e o espaço
-                    childrenContainer.className = 'map-node-children-container pl-6 pt-2'; // pl-6 para indentar
+                    // O contêiner dos filhos é indentado
+                    childrenContainer.className = `node-children-container px-4 pb-2 pl-12`; // pl-12 = pl-8 do header + p-4
+                    
+                    // (NOVO) O Tópico Raiz (depth 0) começa aberto
+                    if (depth === 0) {
+                        childrenContainer.classList.add('open');
+                        header.querySelector('.chevron-icon').classList.add('open');
+                    }
 
                     const newPathArray = [...pathArray, nodeData.nome];
                     const newDepth = depth + 1;
@@ -250,7 +299,7 @@
                         childrenContainer.appendChild(filhoElement);
                     });
                     
-                    item.appendChild(childrenContainer);
+                    item.appendChild(childrenContainer); // Adiciona o contêiner de filhos ao card
                 }
 
                 return item; 
@@ -277,28 +326,44 @@
                 }
             });
 
+            // (MUDANÇA) Event listener unificado para a área de conteúdo
             contentArea.addEventListener('click', (event) => {
-                const button = event.target.closest('.explain-btn');
-                if (!button) {
-                    return;
+                const explainButton = event.target.closest('.explain-btn');
+                
+                // --- 1. Clique no Botão de Explicação ---
+                if (explainButton) {
+                    event.stopPropagation(); // (MUITO IMPORTANTE) Impede o accordion de fechar
+                    
+                    const topic = explainButton.dataset.topic;
+                    if (!topic) return;
+
+                    const pathString = explainButton.dataset.path;
+                    const pathArray = pathString ? JSON.parse(pathString) : [];
+                    const context = pathArray.length > 0 ? ` (${pathArray.join(', ')})` : '';
+                    
+                    const query = `explique como um professor de direito explicaria para seus alunos de modo didático, explicativo e fundamentado sobre o tema: ${topic}${context}`;
+                    const encodedQuery = encodeURIComponent(query);
+                    const googleUrl = `https://www.google.com/search?udm=50&q=${encodedQuery}`;
+                    
+                    window.open(googleUrl, '_blank');
+                    return; // Encerra a função aqui
                 }
 
-                const topic = button.dataset.topic;
-                if (!topic) {
-                    return;
+                // --- 2. Clique no Header para Expandir/Colapsar ---
+                const header = event.target.closest('.node-header.clickable');
+                if (header) {
+                    // Acha o ícone da seta
+                    const chevron = header.querySelector('.chevron-icon');
+                    if (chevron) {
+                        chevron.classList.toggle('open');
+                    }
+                    
+                    // Acha o contêiner de filhos (que é o "próximo irmão" do header)
+                    const childrenContainer = header.nextElementSibling;
+                    if (childrenContainer && childrenContainer.classList.contains('node-children-container')) {
+                        childrenContainer.classList.toggle('open');
+                    }
                 }
-
-                const pathString = button.dataset.path;
-                const pathArray = pathString ? JSON.parse(pathString) : [];
-                const context = pathArray.length > 0 ? ` (${pathArray.join(', ')})` : '';
-                
-                const query = `explique como um professor de direito explicaria para seus alunos de modo didático, explicativo e fundamentado sobre o tema: ${topic}${context}`;
-                
-                const encodedQuery = encodeURIComponent(query);
-                
-                const googleUrl = `https://www.google.com/search?udm=50&q=${encodedQuery}`;
-                
-                window.open(googleUrl, '_blank');
             });
 
 
