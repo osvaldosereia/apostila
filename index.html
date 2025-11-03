@@ -192,27 +192,25 @@
                 }
             }
 
-            // --- FUNÇÃO DE RECALCULAR ALTURA (CORRIGIDA PARA CASCATA) ---
-            function recalculateParentsHeight(targetElement) {
-                // targetElement é o .map-item-card cujo filho (children-container) acabou de ser alterado
-                let currentItem = targetElement; 
-                
-                // Climb up the structure, recalculating heights of ancestor children-containers
-                while (currentItem && currentItem.id !== 'content-area') {
-                    // Encontra o contêiner 'children-container' do ANCESTRAL mais próximo
-                    // Excluindo o container do próprio item que está sendo processado
-                    let parentContainer = currentItem.closest('.children-container');
+            // --- FUNÇÃO DE RECALCULAR ALTURA (REVISADA E ROBUSTA PARA CASCATA) ---
+            function recalculateParentsHeight(changedElement) {
+                // Começa a subir a árvore de elementos a partir do PAI do item que foi clicado.
+                // O pai do .map-item-card é o .children-container que precisa ser ajustado.
+                let current = changedElement.parentElement; 
 
-                    if (!parentContainer) {
-                        break; // Chegou ao elemento raiz (fora da estrutura do mapa)
+                // Limite a subida ao elemento 'content-area'
+                while (current && current.id !== 'content-area') {
+                    // 1. Verifica se o elemento atual é um children-container
+                    if (current.classList && current.classList.contains('children-container')) {
+                        // 2. Se o container estiver expandido (maxHeight != 0)
+                        if (current.style.maxHeight !== '0px') {
+                            // 3. Recalcula a altura. Este é o passo crítico.
+                            // Usa scrollHeight para obter a altura total do conteúdo atual (incluindo o que acabou de expandir)
+                            current.style.maxHeight = current.scrollHeight + 'px';
+                        }
                     }
-                    
-                    // Recalcula a altura do contêiner PAI
-                    parentContainer.style.maxHeight = parentContainer.scrollHeight + 'px';
-                    
-                    // Sobe um nível: O próximo item a verificar é o cartão pai desse container
-                    // parentNode é o próximo .map-item-card ancestral
-                    currentItem = parentContainer.parentNode; 
+                    // 4. Sobe para o próximo elemento pai.
+                    current = current.parentElement; 
                 }
             }
 
@@ -301,12 +299,13 @@
                                 childrenContainer.style.maxHeight = '0px';
                                 toggleIcon.classList.remove('rotate-90');
                             } else {
-                                // Abrir: Definir uma altura temporária grande o suficiente
+                                // Abrir
                                 childrenContainer.style.maxHeight = childrenContainer.scrollHeight + 'px';
                                 toggleIcon.classList.add('rotate-90');
                             }
                             
                             // Chama a função de recálculo em cascata com um pequeno atraso (CORREÇÃO)
+                            // Passamos o item, que é o cartão que acabou de ter seu filho (childrenContainer) expandido/colapsado.
                             setTimeout(() => recalculateParentsHeight(item), 10);
                         }
                     };
