@@ -3,7 +3,8 @@
     "disciplina": "Direito Civil",
     "temas": [
       { "nome": "Manual de Direito Civil 2025", "path": "data/Direito Civil/manual-direito-civil.json" },
-      { "nome": "Direito Civil Sistematizado 2025", "path": "data/Direito Civil/direito-civil-sistematizado.json" }
+      { "nome": "Direito Civil Sistematizado 2025", "path": "data/Direito Civil/direito-civil-sistematizado.json" },
+      { "nome": "Responsabilidade Civil", "path": "data/Direito Civil/responsabilidade-civil.json" }
     ]
   },
   {
