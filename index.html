@@ -12,58 +12,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     
-    <!-- 2. Estilos CSS customizados (Estilo NotebookLM Minimalista) -->
+    <!-- 2. Estilos CSS customizados (Apenas o essencial) -->
     <style>
         /* Fonte padrão */
         body {
             font-family: 'Inter', sans-serif;
             overflow-x: hidden; /* Previne scroll horizontal */
             background-color: #f9fafb; /* bg-gray-50 */
-        }
-
-        /* --- Estilos do Mapa Mental (Minimalista) --- */
-        .mind-map-container {
-            position: relative;
-            padding-left: 24px; /* Mais perto */
-        }
-
-        /* Linha vertical principal */
-        .mind-map-container::before {
-            content: '';
-            position: absolute;
-            left: 10px; /* Alinhado com o centro do marcador */
-            top: 0;
-            bottom: 0;
-            width: 1px; /* Linha fina */
-            background-color: #e5e7eb; /* gray-200 */
-        }
-
-        .mind-map-item {
-            position: relative;
-            padding-top: 8px; /* Mais junto */
-            margin-top: 0;
-        }
-
-        /* Linha horizontal conectora */
-        .mind-map-item::before {
-            content: '';
-            position: absolute;
-            left: 10px;
-            top: 19px; /* Alinhado com o centro do texto */
-            width: 14px; /* Mais curta */
-            height: 1px;
-            background-color: #d1d5db; /* gray-300 */
-        }
-
-        /* Remove o círculo azul (estilo antigo) */
-        .mind-map-item::after {
-            display: none; 
-        }
-
-        .mind-map-item .mind-map-container {
-            padding-left: 24px;
-            padding-top: 8px;
-            margin-top: 0;
         }
 
         /* --- Estilos do Layout (Sidebar/Header) --- */
@@ -74,6 +29,12 @@
         #overlay {
             transition: opacity 0.3s ease-in-out;
         }
+
+        /* * NOTA DE DESIGN:
+         * Removemos todos os estilos antigos do mapa mental (.mind-map-container, .mind-map-item)
+         * O novo visual de "cartões aninhados" será 100% construído
+         * pelo JavaScript usando classes do Tailwind.
+        */
     </style>
 </head>
 <body class="bg-gray-50 text-gray-800">
@@ -112,11 +73,7 @@
 
     <!-- Área de Conteúdo Principal -->
     <main id="content-area" class="pt-24 pb-12 max-w-4xl mx-auto px-4">
-        <!-- O mapa mental será carregado aqui -->
-        <div class="bg-white p-8 rounded-lg shadow text-center">
-            <h2 class="text-2xl font-semibold text-gray-700">Bem-vindo(a) ao DireitoMap!</h2>
-            <p class="mt-4 text-gray-500">Selecione uma disciplina e um tema no menu lateral para começar a estudar.</p>
-        </div>
+        <!-- O mapa mental ou a msg de bem-vindo serão carregados aqui -->
     </main>
 
     <!-- 4. O Código JavaScript -->
@@ -137,6 +94,16 @@
                 sidebar.classList.toggle('-translate-x-full');
                 sidebar.classList.toggle('translate-x-0');
                 overlay.classList.toggle('hidden');
+            }
+
+            // (NOVA MUDANÇA) Função para mostrar a mensagem de boas-vindas
+            function showWelcomeMessage() {
+                contentArea.innerHTML = `
+                    <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+                        <h2 class="text-2xl font-semibold text-gray-700">Bem-vindo(a) ao DireitoMap!</h2>
+                        <p class="mt-4 text-gray-500">Selecione uma disciplina e um tema no menu lateral para começar a estudar.</p>
+                    </div>
+                `;
             }
 
             // 3. Função para construir o menu lateral dinamicamente
@@ -183,6 +150,7 @@
             }
 
             // 4. Função para carregar um mapa mental na tela
+            // (MUDANÇA) Agora ela limpa a área e adiciona o nó raiz diretamente
             async function loadMindMap(path, disciplina) {
                 try {
                     const response = await fetch(`${path}?v=${new Date().getTime()}`);
@@ -191,63 +159,72 @@
                     }
                     const mapData = await response.json();
 
+                    // Limpa a msg de boas-vindas ou mapa anterior
                     contentArea.innerHTML = '';
 
+                    // Adiciona o título principal
                     const title = document.createElement('h1');
-                    title.className = "text-3xl md:text-4xl font-bold text-indigo-600 mb-12 text-center";
+                    title.className = "text-3xl md:text-4xl font-bold text-indigo-600 mb-8 text-center"; // Menos margem
                     title.textContent = mapData.titulo;
                     contentArea.appendChild(title);
-
-                    const mapContainer = document.createElement('div');
-                    mapContainer.className = "bg-white p-6 md:p-8 rounded-lg shadow-lg";
-
-                    const mindMapRoot = document.createElement('div');
-                    mindMapRoot.className = "mind-map-container";
                     
                     // Chama a função recursiva para construir o mapa
-                    // (NOVA MUDANÇA) Passa a profundidade inicial (nível 0)
+                    // O nó raiz (nível 0) é o primeiro card
                     const rootNode = createMapNode(mapData.topicoRaiz, [disciplina], 0); 
-                    mindMapRoot.appendChild(rootNode);
-                    
-                    mapContainer.appendChild(mindMapRoot);
-                    contentArea.appendChild(mapContainer);
+                    contentArea.appendChild(rootNode); // Adiciona o card raiz direto na área de conteúdo
 
                 } catch (error) {
                     console.error(`Erro ao carregar o mapa de '${path}':`, error);
                     contentArea.innerHTML = `<p class="p-4 text-center text-red-500">Não foi possível carregar o mapa mental. Verifique se o arquivo '${path}' existe e está formatado corretamente.</p>`;
+                    // (MUDANÇA) Mostra a msg de boas-vindas se der erro
+                    setTimeout(showWelcomeMessage, 3000); // Mostra msg de boas-vindas após 3s
                 }
             }
 
             /**
              * 5. Função Recursiva para criar os nós do mapa
-             * (NOVA MUDANÇA) Aceita 'depth' para aplicar cores por nível
+             * (REFORMULAÇÃO TOTAL) Cria "Cartões Aninhados" com cores por nível
              */
             function createMapNode(nodeData, pathArray, depth) {
                 const item = document.createElement('div');
-                item.className = 'mind-map-item';
-
-                // (NOVA MUDANÇA) Define cores com base na profundidade
-                const colorClasses = [
-                    'text-indigo-600 font-semibold', // Nível 0 (Raiz)
-                    'text-gray-900 font-medium',     // Nível 1
-                    'text-gray-700 font-normal',     // Nível 2
-                    'text-gray-600 font-normal'      // Nível 3+
+                
+                // --- 1. Define Cores por Nível ---
+                const borderColors = [
+                    'border-indigo-500', // Nível 0 (Raiz)
+                    'border-blue-500',   // Nível 1
+                    'border-cyan-500',   // Nível 2
+                    'border-teal-500',   // Nível 3
+                    'border-gray-400'    // Nível 4+
                 ];
-                // Pega a cor ou usa a última cor se for muito profundo
-                const colorClass = colorClasses[depth] || colorClasses[colorClasses.length - 1];
+                const borderColor = borderColors[depth] || borderColors[borderColors.length - 1];
 
+                const textColors = [
+                    'text-indigo-700 font-semibold text-lg', // Nível 0 (Raiz)
+                    'text-blue-700 font-semibold',       // Nível 1
+                    'text-cyan-700 font-medium',         // Nível 2
+                    'text-teal-700 font-medium',         // Nível 3
+                    'text-gray-700 font-medium'          // Nível 4+
+                ];
+                const textColor = textColors[depth] || textColors[textColors.length - 1];
+
+                // --- 2. Cria o Card (o item) ---
+                // O card raiz (depth 0) não tem margem superior. Os filhos terão.
+                const marginClass = depth > 0 ? 'mt-4' : ''; 
+                item.className = `map-node-card bg-white rounded-lg shadow-lg p-4 border-l-4 ${borderColor} ${marginClass}`;
+                
+                // --- 3. Cria o Conteúdo (Texto + Botão) ---
                 const contentWrapper = document.createElement('div');
-                contentWrapper.className = 'flex items-center';
+                contentWrapper.className = 'flex justify-between items-center';
 
                 const text = document.createElement('span');
-                // (NOVA MUDANÇA) Aplica a classe de cor e ajusta o tamanho
-                text.className = `text-base ${colorClass}`; 
+                text.className = `flex-1 text-base ${textColor} mr-2`; // flex-1 para o texto ocupar espaço
                 text.textContent = nodeData.nome;
                 text.dataset.topic = nodeData.nome;
                 contentWrapper.appendChild(text);
 
                 const button = document.createElement('button');
-                button.className = 'explain-btn ml-2 text-indigo-500 hover:text-indigo-700 flex-shrink-0';
+                // Botão mais sutil, que acende ao passar o mouse
+                button.className = 'explain-btn ml-3 text-gray-400 hover:text-indigo-600 flex-shrink-0'; 
                 button.dataset.topic = nodeData.nome;
                 button.setAttribute('aria-label', `Explicar tópico ${nodeData.nome}`);
                 button.dataset.path = JSON.stringify(pathArray);
@@ -257,13 +234,15 @@
                     </svg>
                 `;
                 contentWrapper.appendChild(button);
+                
                 item.appendChild(contentWrapper); 
 
+                // --- 4. Cria o Contêiner dos Filhos (se houver) ---
                 if (nodeData.filhos && nodeData.filhos.length > 0) {
                     const childrenContainer = document.createElement('div');
-                    childrenContainer.className = 'mind-map-container';
+                    // Este contêiner aplica a indentação e o espaço
+                    childrenContainer.className = 'map-node-children-container pl-6 pt-2'; // pl-6 para indentar
 
-                    // (NOVA MUDANÇA) Passa a profundidade + 1 para os filhos
                     const newPathArray = [...pathArray, nodeData.nome];
                     const newDepth = depth + 1;
                     nodeData.filhos.forEach(filhoNode => {
@@ -325,6 +304,7 @@
 
             // --- 7. Inicialização ---
             await buildSidebarMenu(); 
+            showWelcomeMessage(); // Mostra a mensagem inicial ao carregar
 
         });
     </script>
