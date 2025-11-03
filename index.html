@@ -223,24 +223,39 @@
                 const item = event.target.closest('.map-list-item');
                 if (!item) return;
 
-                // Encontra o contêiner colapsável (o ul dos filhos)
                 const childrenContainer = item.querySelector('.collapsible-content');
                 if (!childrenContainer) return;
 
-                // O item LI pai controla o estado visual para o pseudo-elemento + / -
-                const isExpanded = childrenContainer.classList.contains('open');
+                const parentList = item.parentElement; // O <ul> pai
+                const isCurrentlyOpen = childrenContainer.classList.contains('open');
                 
-                if (isExpanded) {
-                    // Fechar
+                // Lógica de fechamento de irmãos (siblings) - NOVO: Garante o foco
+                if (!isCurrentlyOpen) {
+                    Array.from(parentList.children).forEach(sibling => {
+                        // Verifica se o irmão é colapsável e não é o item clicado
+                        if (sibling !== item && sibling.classList.contains('collapsible')) {
+                            const siblingChildren = sibling.querySelector('.collapsible-content');
+                            if (siblingChildren && siblingChildren.classList.contains('open')) {
+                                // Fecha o irmão
+                                siblingChildren.classList.remove('open');
+                                sibling.classList.remove('open');
+                            }
+                        }
+                    });
+                }
+
+
+                // Lógica para abrir/fechar o item clicado
+                if (isCurrentlyOpen) {
+                    // Fechar o item clicado
                     childrenContainer.classList.remove('open');
                     item.classList.remove('open');
                 } else {
-                    // Abrir (empurra o conteúdo para baixo)
+                    // Abrir o item clicado (após fechar os irmãos)
                     childrenContainer.classList.add('open');
                     item.classList.add('open');
                 }
                 
-                // Impede que o clique suba e ative a lógica do pai (se houver)
                 event.stopPropagation();
             }
 
