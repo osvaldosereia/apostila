@@ -46,23 +46,23 @@
 
         /* Linha de Hierarquia (Usando a borda da indentação) */
         .map-list .map-list {
-            padding-left: 1rem; /* Indentação mobile (compacta) */
+            padding-left: 0.75rem; /* Indentação mobile (compacta) - Reduzido para 0.75rem */
             border-left: 3px solid #e5e7eb; /* AUMENTADO PARA 3PX */
         }
 
         /* --- Estilos do Marcador + / - (NOVO) --- */
         .map-list-item.collapsible {
-            padding-left: 1rem; /* Para itens que podem ser expandidos, ajeitamos o espaço */
+            padding-left: 0.75rem; /* Para itens que podem ser expandidos, ajeitamos o espaço - Reduzido para 0.75rem */
         }
         /* Item não colapsável (folha) */
         .map-list-item:not(.collapsible) {
-            padding-left: 1rem; 
+            padding-left: 0.75rem; /* Reduzido para 0.75rem */
         }
 
         .map-list-item.collapsible::before {
             content: '+'; /* Conteúdo inicial */
             position: absolute;
-            left: -0.5rem; /* Posição ajustada para ser mais compacta */
+            left: -0.3rem; /* Posição ajustada para ser mais compacta - Reduzido para -0.3rem */
             top: 50%;
             transform: translateY(-50%);
             z-index: 10;
@@ -86,7 +86,7 @@
         /* Ajuste de posição para UL's internos (mobile) */
         @media (max-width: 767px) {
             .map-list .map-list .map-list-item.collapsible::before {
-                left: calc(-1rem - 0.5rem); /* Indentação de 1rem + 0.5rem do marcador */
+                left: calc(-0.75rem - 0.3rem); /* Indentação de 0.75rem + 0.3rem do marcador */
             }
         }
         
@@ -138,16 +138,16 @@
              .depth-1 .title-text { font-size: 1.25rem; }
              
              .map-list .map-list {
-                padding-left: 2rem; /* Indentação maior */
+                padding-left: 1.5rem; /* Indentação Reduzida para 1.5rem */
             }
              .map-list-item.collapsible {
-                padding-left: 2rem; 
+                padding-left: 1.5rem; /* Reduzido para 1.5rem */
             }
             .map-list-item:not(.collapsible) {
-                padding-left: 2rem; 
+                padding-left: 1.5rem; /* Reduzido para 1.5rem */
             }
              .map-list .map-list .map-list-item.collapsible::before {
-                left: calc(-2rem - 0.75rem); /* Ajuste de posição para desktop (18px marcador) */
+                left: calc(-1.5rem - 0.75rem); /* Ajuste de posição para desktop (18px marcador) */
             }
              .map-list-item.collapsible::before {
                 width: 18px;
