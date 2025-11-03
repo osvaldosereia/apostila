@@ -11,7 +11,7 @@
   {
     "disciplina": "Direito Penal",
     "temas": [
-      { "nome": "Teoria do Crime", "path": "data/Direito Penal/Teoria_do_Crime.json" },
+      { "nome": "Manual de Direito Penal", "path": "data/Direito Penal/manual-de-direito-penal.json" },
       { "nome": "Tipos de Pena", "path": "data/Direito Penal/Penas.json" }
     ]
   },
