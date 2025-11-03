@@ -4,7 +4,7 @@
         "temas": [
             { "nome": "Contratos", "path": "data/Direito Civil/Contratos.json" },
             { "nome": "Obrigações", "path": "data/Direito Civil/Obrigacoes.json" },
-            { "nome": "LINDB", "path": "data/Direito Civil/LINDB.json" }
+            { "nome": "LINDB", "path": "data/Direito Civil/Lindb.json" }
         ]
     },
     {
