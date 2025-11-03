@@ -1,81 +1,70 @@
 {
-"titulo": "Direito Civil: Contratos e LINDB",
+"titulo": "Lei de Introdução às Normas do Direito Brasileiro (LINDB)",
 "topicoRaiz": {
-"nome": "Direito Civil",
+"nome": "A Lei de Introdução às Normas do Direito Brasileiro",
 "filhos": [
 {
-"nome": "A Lei de Introdução às Normas do Direito Brasileiro (LINDB)",
+"nome": "Noções Gerais da LINDB",
 "filhos": [
+{ "nome": "Antiga e Atual Denominação (LICC)", "filhos": [] },
 {
-"nome": "Introdução e Noções Gerais",
+"nome": "Natureza Jurídica",
 "filhos": [
-{ "nome": "Antiga e atual denominação (Fundamentos)" },
-{ "nome": "Natureza jurídica (Norma anexa, autônoma, lei ordinária)" },
-{ "nome": "O que são normas de sobredireito" },
-{ "nome": "Âmbito de aplicação (e possíveis exceções)" }
+{ "nome": "Norma Anexa ao Código Civil", "filhos": },
+{ "nome": "Norma Autônoma e Independente", "filhos": },
+{ "nome": "Status de Lei Ordinária", "filhos": }
 ]
 },
+{ "nome": "Âmbito de Aplicação (Toda e Qualquer Norma Legal)", "filhos": },
 {
-"nome": "Fontes do Direito",
+"nome": "Função da Lei",
 "filhos": [
-{ "nome": "Considerações introdutórias (Origem e nascedouro do Direito)" },
-{ "nome": "Fontes materiais, formais e não-formais" },
-{
-"nome": "Fontes Formais",
-"filhos": [
-{ "nome": "Lei (Principal)" },
-{ "nome": "Analogia (Acessória/Secundária)" },
-{ "nome": "Costumes (Acessória/Secundária)" },
-{ "nome": "Princípios gerais de direito (Acessória/Secundária)" },
-{ "nome": "Normas coletivas (Poder normativo da JT)" },
-{ "nome": "Súmulas vinculantes do STF" }
-]
-},
-{ "nome": "Fontes não-formais (Doutrina e Jurisprudência)" }
-]
-},
-{
-"nome": "Interpretação e Integração das Normas",
-"filhos": [
-{
-"nome": "Interpretação das Normas (Técnicas)",
-"filhos": [
-{ "nome": "Gramatical" },
-{ "nome": "Lógica (ou Racional)" },
-{ "nome": "Histórica" },
-{ "nome": "Sociológica (ou Teleológica)" },
-{ "nome": "Sistemática" }
-]
-},
-{
-"nome": "Integração das Normas (Lacunas)",
-"filhos": [
-{ "nome": "Analogia" },
-{ "nome": "Costumes" },
-{ "nome": "Princípios Gerais de Direito" }
+{ "nome": "Parâmetros para Elaboração das Leis", "filhos": },
+{ "nome": "Parâmetros para Vigência e Eficácia das Leis", "filhos": },
+{ "nome": "Regras e Princípios de Aplicação e Interpretação", "filhos": },
+{ "nome": "Regras de Integração do Direito", "filhos": }
 ]
 }
 ]
 },
 {
-"nome": "Vigência, Obrigatoriedade e Eficácia",
+"nome": "As Fontes do Direito",
 "filhos": [
-{ "nome": "Vigência, Revogação, Vacatio Legis e Desuetudo" },
-{ "nome": "A Obrigatoriedade das Normas (Ignorantia iuris neminem excusat)" },
+{ "nome": "Considerações Introdutórias", "filhos": },
 {
-"nome": "Eficácia das Leis no Tempo (Direito Intertemporal)",
+"nome": "Classificação Sociológica e Formal",
 "filhos": [
-{ "nome": "Ato Jurídico Perfeito" },
-{ "nome": "Direito Adquirido" },
-{ "nome": "Coisa Julgada" }
+{ "nome": "Fontes Materiais (Causas da Norma)", "filhos": },
+{
+"nome": "Fontes Formais (Modos de Revelação)",
+"filhos": [
+{ "nome": "Lei (Principal)", "filhos": },
+{ "nome": "Analogia (Acessória)", "filhos": },
+{ "nome": "Costumes (Acessória)", "filhos": },
+{ "nome": "Princípios Gerais de Direito (Acessória)", "filhos": },
+{ "nome": "Normas Coletivas (Poder Normativo da Justiça do Trabalho)", "filhos": },
+{ "nome": "Súmulas Vinculantes do STF", "filhos": }
 ]
 },
 {
-"nome": "Eficácia das Leis no Espaço (Direito Internacional Privado)",
+"nome": "Fontes Não-Formais",
 "filhos": [
-{ "nome": "Aplicação da lei estrangeira e princípio da territorialidade mitigada" },
-{ "nome": "Respeito à ordem pública como filtro" },
-{ "nome": "Homologação de sentença ou laudo arbitral estrangeiro" }
+{ "nome": "Doutrina", "filhos": },
+{ "nome": "Jurisprudência", "filhos": }
+]
+}
+]
+},
+{
+"nome": "Fontes Imediatas e Mediatas (Art. 4º LINDB)",
+"filhos": [
+{ "nome": "Fonte Imediata (Lei)", "filhos": },
+{
+"nome": "Fontes Mediatas (Secundárias)",
+"filhos": [
+{ "nome": "Analogia", "filhos": },
+{ "nome": "Costumes (Práticas Longevas, Uniformes e Gerais)", "filhos": },
+{ "nome": "Princípios Gerais de Direito (Postulados da Cultura Jurídica)", "filhos": }
 ]
 }
 ]
@@ -83,257 +72,111 @@
 ]
 },
 {
-"nome": "Contratos",
+"nome": "Interpretação das Normas",
 "filhos": [
+{ "nome": "Necessidade da Atividade Interpretativa (Hermenêutica)", "filhos": },
+{ "nome": "Inaplicabilidade da máxima 'in claris, interpretatio cessat'", "filhos": },
 {
-"nome": "Generalidades e Generalidades Contratuais",
+"nome": "Técnicas de Interpretação",
 "filhos": [
-{ "nome": "Generalidades, conceituação, caracterização" },
-{ "nome": "Elementos do contrato" },
-{ "nome": "Aspecto material do contrato, cláusulas contratuais" },
-{ "nome": "Funções do contrato" },
+{ "nome": "Gramatical/Literal", "filhos": },
+{ "nome": "Lógica", "filhos": },
+{ "nome": "Histórica", "filhos": },
+{ "nome": "Sociológica/Teleológica (Fins Sociais e Exigências da Sociedade)", "filhos": },
+{ "nome": "Sistemática", "filhos": }
+]
+},
 {
-"nome": "Princípios Contratuais (Função Social e Boa-Fé)",
+"nome": "Regras Específicas",
 "filhos": [
-{ "nome": "Boa-Fé Objetiva (Como regra interpretativa e limite)" },
-{ "nome": "Função Social do Contrato (Limitação ao poder de contratar)" },
-{ "nome": "Irretratabilidade" },
-{ "nome": "Relatividade (Relatividade dos efeitos contratuais)" }
+{ "nome": "Normas Excepcionais (Interpretação Restritiva)", "filhos": },
+{ "nome": "Direitos Fundamentais (Interpretação Ampliativa)", "filhos": },
+{ "nome": "Direito Administrativo (Interpretação Declarativa)", "filhos": }
 ]
 }
 ]
 },
 {
-"nome": "Formação dos Contratos",
+"nome": "Integração das Normas",
 "filhos": [
-{ "nome": "Fase de negociações preliminares ou de puntuação" },
+{ "nome": "Existência de Lacunas no Direito Positivo", "filhos": },
+{ "nome": "Mecanismos de Integração (Art. 4º da LINDB)", "filhos": },
 {
-"nome": "Proposta (Policitação ou Oblação)",
+"nome": "Limites à Integração Analógica",
 "filhos": [
-{ "nome": "O que é" },
-{ "nome": "Quando não é obrigatória" },
-{ "nome": "Sua forma" }
-]
-},
-{
-"nome": "Aceitação",
-"filhos": [
-{ "nome": "O que é" },
-{ "nome": "Como deve ser feita" },
-{ "nome": "Aceitação tardia" },
-{ "nome": "Aceitação com ressalvas" }
-]
-},
-{ "nome": "Retratação" },
-{ "nome": "Contratos por correspondência, telefone, fax, mensageiro, etc." },
-{ "nome": "Lugar e tempo da formação do contrato" },
-{ "nome": "Fase de contrato preliminar" },
-{ "nome": "Fase de contrato definitivo" }
-]
-},
-{
-"nome": "Classificação dos Contratos",
-"filhos": [
-{
-"nome": "Quanto aos direitos e deveres das partes",
-"filhos": [
-{ "nome": "Unilaterais" },
-{ "nome": "Bilaterais simples" },
-{ "nome": "Bilaterais sinalagmáticos" }
-]
-},
-{
-"nome": "Quanto ao sacrifício patrimonial",
-"filhos": [
-{ "nome": "Onerosos" },
-{ "nome": "Gratuitos" },
-{ "nome": "Comutativos" },
-{ "nome": "Aleatórios" }
-]
-},
-{
-"nome": "Quanto ao aperfeiçoamento e forma",
-"filhos": [
-{ "nome": "Consensuais" },
-{ "nome": "Reais" },
-{ "nome": "Solenes" },
-{ "nome": "Não solenes" }
-]
-},
-{
-"nome": "Outras Classificações",
-"filhos": [
-{ "nome": "Nominados" },
-{ "nome": "Inominados" },
-{ "nome": "De adesão" },
-{ "nome": "Principais" },
-{ "nome": "Acessórios" },
-{ "nome": "De execução imediata" },
-{ "nome": "De execução continuada" }
-]
-},
-{
-"nome": "Tipologias Específicas",
-"filhos": [
-{ "nome": "Contratos Atípicos" },
-{ "nome": "Contratos Fiduciários" },
-{ "nome": "Contratos Coligados" },
-{ "nome": "Contratos Aleatórios X Comutativos (Comparação e efeitos)" }
-]
-},
-{ "nome": "Importância prática das distinções entre os contratos" }
-]
-},
-{
-"nome": "Manifestação da Vontade e Vícios",
-"filhos": [
-{ "nome": "Consentimento tácito" },
-{ "nome": "Consentimento expresso" },
-{ "nome": "Vontade defeituosa" },
-{
-"nome": "Defeitos do Negócio Jurídico (Vícios)",
-"filhos": [
-{ "nome": "Erro (Definição, categorias, erro de fato e de direito)" },
-{ "nome": "Dolo (Principal e acidental)" },
-{ "nome": "Coação (Requisitos, temor reverencial, ameaça de exercício regular de direito)" },
-{ "nome": "Lesão (Espécies, elementos objetivo e subjetivo, desproporção)" },
-{ "nome": "Estado de Perigo" },
-{ "nome": "Fraude Contra Credores" }
-]
-},
-{ "nome": "Simulação" }
-]
-},
-{
-"nome": "Efeitos dos Contratos e Institutos Anexos",
-"filhos": [
-{ "nome": "Princípios gerais (Irretratabilidade, relatividade)" },
-{ "nome": "Estipulação em favor de terceiro" },
-{ "nome": "Direito de arrependimento" },
-{ "nome": "Exceção de contrato não cumprido" },
-{ "nome": "Arras" },
-{ "nome": "Vícios redibitórios e Ações Redibitórias" },
-{ "nome": "Evicção" },
-{ "nome": "Contratos aleatórios" },
-{ "nome": "Enriquecimento sem causa" }
-]
-},
-{
-"nome": "Interpretação dos Contratos",
-"filhos": [
-{ "nome": "Regras gerais de interpretação" },
-{ "nome": "Regras específicas" },
-{ "nome": "Importância da interpretação" },
-{ "nome": "Boa-fé objetiva como cânone interpretativo" }
-]
-},
-{
-"nome": "Extinção da Relação Contratual",
-"filhos": [
-{ "nome": "Extinção da relação contratual (Geral)" },
-{
-"nome": "Rescisão (Gênero)",
-"filhos": [
-{ "nome": "Resilição (Denúncia, denúncia vazia, demissão sem justa causa)" },
-{ "nome": "Resolução (por inadimplemento)" }
-]
-},
-{
-"nome": "Teoria da Imprevisão",
-"filhos": [
-{ "nome": "Evento imprevisível" },
-{ "nome": "Circunstâncias externas e radicais" },
-{ "nome": "Enriquecimento inesperado e injusto ao credor" },
-{ "nome": "Excessiva onerosidade ao devedor (cunho objetivo)" },
-{ "nome": "Contrato de duração (Exceção para contratos instantâneos de execução diferida)" }
-]
-},
-{ "nome": "Adimplemento substancial (Substancial performance)" },
-{ "nome": "Violação positiva do contrato (Adimplemento fraco ou ruim)" }
-]
-},
-{
-"nome": "Contratos em Espécie (Modelos Contratuais)",
-"filhos": [
-{ "nome": "Modalidades contratuais previstas no Código Civil" },
-{ "nome": "Análise detida e comparação entre eles" },
-{ "nome": "Confecção de inominados" },
-{
-"nome": "Novas Figuras Contratuais",
-"filhos": [
-{ "nome": "Leasing" },
-{ "nome": "Engineering" },
-{ "nome": "Factoring" },
-{ "nome": "Franchising" },
-{ "nome": "Shopping" },
-{ "nome": "Hedging" },
-{ "nome": "Know-how ou contrato de importação de tecnologia" },
-{ "nome": "Contratos eletrônicos" },
-{ "nome": "Consórcio" },
-{ "nome": "Comissão" },
-{ "nome": "Agência" },
-{ "nome": "Capitalização" },
-{ "nome": "Contrato bancário" },
-{ "nome": "Parceria rural" },
-{ "nome": "Mediação" }
-]
-},
-{
-"nome": "Contrato Estimatório ou Consignatório",
-"filhos": [
-{ "nome": "Noções conceituais sobre a venda por consignação" },
-{ "nome": "Elementos caracterizadores" },
-{ "nome": "Classificação" },
-{ "nome": "Natureza jurídica da obrigação do consignatário" },
-{ "nome": "Inversão da teoria dos riscos" },
-{ "nome": "Extinção e falência do consignatário" }
-]
-},
-{
-"nome": "Contratos de Empréstimo",
-"filhos": [
-{
-"nome": "Comodato",
-"filhos": [
-{ "nome": "Elementos caracterizadores" },
-{ "nome": "Promessa de comodato (pactum de commodando)" },
-{ "nome": "Comodato de bem público" },
-{ "nome": "Teoria dos riscos no contrato de comodato" }
-]
-},
-{
-"nome": "Mútuo",
-"filhos": [
-{ "nome": "Elementos caracterizadores" },
-{ "nome": "Mútuo em dinheiro (mútuo feneratício)" }
+{ "nome": "Âmbito Penal (Somente 'in bonam partem')", "filhos": },
+{ "nome": "Âmbito Tributário (Vedada a criação de tributos)", "filhos": },
+{ "nome": "Normas de Ordem Pública/Sancionatórias", "filhos": },
+{ "nome": "Direito Administrativo (Prevalência da Legalidade)", "filhos": }
 ]
 }
 ]
 },
 {
-"nome": "Contrato de Depósito",
+"nome": "Vigência das Normas",
 "filhos": [
-{ "nome": "Características fundamentais" },
-{ "nome": "Classificação e Espécies de depósito" }
+{ "nome": "Fases de Formação da Norma (Elaboração, Promulgação, Publicação)", "filhos": },
+{ "nome": "Eficácia das Leis", "filhos": },
+{ "nome": "Revogação da Norma (Expressa, Tácita, Total, Parcial)", "filhos": },
+{ "nome": "Efeito Repristinatório", "filhos": },
+{ "nome": "'Vacatio Legis' (Período de Espera)", "filhos": },
+{ "nome": "'Desuetudo' (Cessação de Vigência por Desuso)", "filhos": }
 ]
 },
 {
-"nome": "Contrato de Mandato",
+"nome": "A Obrigatoriedade das Normas",
 "filhos": [
-{ "nome": "Distinções (Mandato, representação e procuração)" },
-{ "nome": "Classificação do contrato de mandato" },
-{ "nome": "Sujeitos do contrato de mandato" }
+{ "nome": "Princípio da Obrigatoriedade ('Ignorantia iuris neminem excusat')", "filhos": },
+{ "nome": "Desnecessidade de Prova da Lei Nacional em Juízo ('Iura novit curia')", "filhos": },
+{ "nome": "Exceção (Erro de Direito)", "filhos": }
 ]
 },
 {
-"nome": "Contrato de Corretagem",
+"nome": "A Eficácia das Leis no Tempo (Direito Intertemporal)",
 "filhos": [
-{ "nome": "Espécies de corretagem" },
-{ "nome": "Natureza da obrigação (Meio ou Resultado)" }
+{ "nome": "Conflitos Intertemporais", "filhos": },
+{ "nome": "Retroatividade da Lei (Excepcional e expressa)", "filhos": },
+{
+"nome": "Vedação à Lesão de Garantias Constitucionais",
+"filhos": [
+{ "nome": "Ato Jurídico Perfeito", "filhos": },
+{ "nome": "Direito Adquirido", "filhos": },
+{ "nome": "Coisa Julgada", "filhos": }
 ]
 }
 ]
+},
+{
+"nome": "Eficácia das Leis no Espaço",
+"filhos": [
+{ "nome": "Princípio da Territorialidade Mitigada", "filhos": },
+{ "nome": "Respeito à Ordem Pública (Filtro para Lei Estrangeira)", "filhos": },
+{ "nome": "Aplicação da Sentença ou Laudo Arbitral Estrangeiro ('Exequatur' do STJ)", "filhos": },
+{ "nome": "Prova dos Fatos Ocorridos no Exterior", "filhos": },
+{
+"nome": "Estatuto Pessoal (Lei do Domicílio da Pessoa)",
+"filhos": [
+{ "nome": "Começo e Fim da Personalidade", "filhos": },
+{ "nome": "Nome", "filhos": },
+{ "nome": "Capacidade", "filhos": },
+{ "nome": "Direitos de Família ('Direito Internacional das Famílias')", "filhos": },
+{ "nome": "Capacidade para Suceder", "filhos": }
+]
+},
+{
+"nome": "Critérios Específicos para Lei Estrangeira",
+"filhos": [
+{ "nome": "Lei do Lugar da Coisa ('Lex rei sitae') (Posse e Propriedade de Imóveis)", "filhos": },
+{ "nome": "Regra do Lugar em que foi Constituída ('Locus regit actum') (Relações Obrigacionais)", "filhos": }
+]
 }
+]
+},
+{
+"nome": "Jurisprudência Sumulada Relacionada (Exemplos)",
+"filhos": [
+{ "nome": "Súmula Vinculante 25 do STF (Prisão Civil de Depositário Infiel)", "filhos": },
+{ "nome": "Súmula 302 do STJ (Cláusula Abusiva em Plano de Saúde)", "filhos": }
 ]
 }
 ]
