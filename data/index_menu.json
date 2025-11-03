@@ -11,8 +11,8 @@
   {
     "disciplina": "Direito Penal",
     "temas": [
-      { "nome": "Manual de Direito Penal", "path": "data/Direito Penal/manual-de-direito-penal.json" },
-      { "nome": "Tipos de Pena", "path": "data/Direito Penal/Penas.json" }
+      { "nome": "Manual de Direito Penal - Geral", "path": "data/Direito Penal/manual-de-direito-penal.json" },
+      { "nome": "Manual de Direito Penal - Especial", "path": "data/Direito Penal/manual-penal-especial.json" }
     ]
   },
   {
