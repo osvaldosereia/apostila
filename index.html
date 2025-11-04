@@ -412,7 +412,13 @@
 
                     const perguntaText = document.createElement('p');
                     perguntaText.className = 'question-text text-base text-gray-800 leading-relaxed text-justify'; // Texto justificado
-                    perguntaText.textContent = perguntaConteudo;
+                    
+                    // --- MUDANÇA AQUI ---
+                    // Converte *texto* em <strong>texto</strong>
+                    // Usei classes do Tailwind para garantir que o negrito seja mais escuro
+                    const htmlComNegrito = perguntaConteudo.replace(/\*(.*?)\*/g, '<strong class="font-semibold text-gray-900">$1</strong>');
+                    perguntaText.innerHTML = htmlComNegrito; // Usa innerHTML para renderizar o negrito
+                    // --- FIM DA MUDANÇA ---
 
                     card.appendChild(headerWrapper);
                     card.appendChild(perguntaText);
@@ -421,7 +427,7 @@
                     // --- Adiciona a pergunta ao Schema de SEO ---
                     const questionSchema = {
                         "@type": "Question",
-                        "name": perguntaConteudo,
+                        "name": perguntaConteudo, // O 'name' no schema continua com os asteriscos (é inofensivo)
                         "acceptedAnswer": {
                             "@type": "Answer",
                             "text": "Clique para ver a explicação detalhada gerada por IA.",
