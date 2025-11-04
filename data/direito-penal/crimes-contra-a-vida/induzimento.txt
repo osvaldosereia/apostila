@@ -1,5 +1,36 @@
 @@PROMPT: Responda como um professor de Direito Penal muito experiente em temas sobre Induzimento, instigação ou auxílio a suicídio ou a automutilação: "{{PERGUNTA}}" @@
 
+@@SOURCES_START@@
+BRASIL. Constituição da República Federativa do Brasil. Brasília, DF: Presidência da República, 1988.
+BRASIL. Código Penal. Decreto-Lei nº 2.848, de 7 de dezembro de 1940. (Diversas edições e acessos, 2021-2023).
+BRASIL. Lei nº 13.968, de 26 de dezembro de 2019. (Altera o Código Penal).
+BRASIL. Lei nº 12.965, de 23 de abril de 2014. (Marco Civil da Internet).
+BITENCOURT, Cezar Roberto. Tratado de direito penal: parte especial: crimes contra a pessoa (arts. 121 a 154-B). Vol. 2. (Edições 2020, 2021, 2023) São Paulo: Saraiva Educação.
+CAPEZ, Fernando. Curso de direito penal: parte especial (arts. 121 a 212). Vol. 2. (Edições 2020, 2021, 2022) São Paulo: Saraiva Educação.
+CONVENÇÃO AMERICANA DE DIREITOS HUMANOS. Pacto de San Jose da Costa Rica. 1969
+ESTEFAM, André. Direito Penal: Parte Especial – Arts. 121 a 234-C. Vol. 2. 9. ed. São Paulo: SaraivaJur, 2022.
+GONÇALVES, Victor Eduardo Rios. Curso de direito penal: parte especial (arts. 121 a 183). Vol. 2. 5. ed. São Paulo: Saraiva Educação, 2021.
+GRECO, Rogério. Curso de direito penal: parte especial artigos 121 a 212 do Código Penal. Vol. 2. 19 ed. Barueri: Atlas, 2022.
+HUNGRIA, Nélson. Comentários ao Código Penal. Vol. 5. Rio de Janeiro: Forense, 1978/1979.
+JESUS, Damásio E. de; ESTEFAM, André. Direito Penal: parte especial: crimes contra a pessoa a crimes contra o patrimônio (arts. 121 a 183). Vol. 2. 36. ed. São Paulo: Saraiva Educação, 2020.
+KELSEN, Hans. Teoria geral do direito e do Estado. São Paulo: Martins Fontes, 2000.
+MAGGIO, Vicente de Paula Rodrigues. O crime de induzimento, instigação ou auxílio a suicídio ou a automutilação (código penal, art. 122). Prolegis, 13 de outubro de 2021.
+MARTINS, Nadma Talia Lopes. Instigação, indução e auxílio ao suicídio em ambientes virtuais. Revista Ibero-Americana de Humanidades, Ciências e Educação- REASE, 2023.
+MELO, Cínthia; ASSIS, Ana Elisa. O suicídio assistido sob um olhar normativo e social. Argumenta Journal Law, Jacarezinho – PR, Brasil, n. 39, 2023.
+MIANES, Andriele Rosilda; SILVA, Pollyanna Maria da. A (im)possibilidade de prestação de auxílio ao suicídio por omissão. Revista Eletrônica de Iniciação Científica. Itajaí, UNIVALI, 2012.
+MIRABETE, Júlio Fabbrini; FABBRINI, Renato N. Manual de Direito Penal. Vol. II. São Paulo: Atlas, 2013.
+NORONHA, Edgard Magalhães. Direito Penal: dos crimes contra a pessoa. 26. ed. São Paulo: Saraiva, 1994.
+NUCCI, Guilherme de Souza. Curso de Direito Penal: Parte Especial – Arts. 121 a 212 do Código Penal. Vol. 2. 6ª. ed. Rio de Janeiro: Forense, 2021.
+PRADO, Luiz Regis. Curso de direito penal brasileiro: parte geral e parte especial. 18. ed. Rio de Janeiro: Forense, 2020.
+SCHAFFERMAN, Karina Cesana. Instigação ao suicídio por dolo eventual: uma breve análise jurisprudencial. Jus.com.br, 04/01/2023.
+SILVA, Lorena Cristina. O auxílio ao suicídio por omissão: a possibilidade da conduta omissiva no artigo 122 do Código Penal.
+SOUZA, Artur de Brito Gueiros; JAPIASSÚ, Carlos Eduardo Adriano. Direito penal. 2. ed. São Paulo: Atlas, 2020.
+STF, Habeas Corpus nº 72049, Relator: Ministro Marco Aurélio, j. 28 de março de 1995 (Publicação 18/05/2001).
+STJ, Recurso Especial Nº 1.444.372 - RS, Relator: Ministro Rogerio Schietti Cruz (Voto 2016).
+TJ-RJ - RSE: 00081814220068190206, Relator: DES. CLAUDIO TAVARES DE OLIVEIRA JUNIOR, j. 01/07/2015.
+TJMG- Rec em Sentido Estrito 1.0343.13.001109-5/001, Relator(a): Des.(a) Catta Preta, j. 16/08/2018.
+@@SOURCES_END@@
+
 # Induzimento, Instigação ou Auxílio a Suicídio ou a Automutilação
 
 ## Considerações Iniciais e Natureza Jurídica (Art. 122, CP)
