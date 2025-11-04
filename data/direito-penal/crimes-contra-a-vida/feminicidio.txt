@@ -1,4 +1,4 @@
-@@PROMPT: Responda como um professor de Direito Penal muito experiente em temas sobre Homicídio: "{{PERGUNTA}}" @@
+@@PROMPT: Responda como um professor de Direito Penal muito experiente em temas sobre Feminicídio: "{{PERGUNTA}}" @@
 
 # Feminicídio
 
