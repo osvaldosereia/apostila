@@ -1,3 +1,5 @@
+@@PROMPT: [Aqui você insere o seu prompt personalizado. Use {{PERGUNTA}} onde a pergunta específica deve ser inserida. Por exemplo: "Aja como um professor de Direito Penal e explique didaticamente: {{PERGUNTA}}"] @@
+
 # Homicídio
 ## Considerações iniciais
 - Diferencie, sob a ótica doutrinária, a classificação do homicídio (crime material, comum, de dano, etc.) e analise, com base em cenário prático, a (im)possibilidade de sua ocorrência na forma omissiva imprópria, indicando os requisitos jurisprudenciais do STJ para a imputação ao garantidor (art. 13, §2º).
