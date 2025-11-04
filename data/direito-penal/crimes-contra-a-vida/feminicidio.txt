@@ -5,165 +5,165 @@
 
 ## Conceitos Fundamentais e Histórico
 
-- [Conceito e Distinção] **Diferencie, sob a ótica da dogmática penal e do contexto social, os termos “Femicídio” e “Feminicídio”** e explique qual das nomenclaturas foi adotada pelo legislador brasileiro e qual a sua implicação jurídica.
-- [Origem Histórica] **Descreva o contexto internacional do surgimento do conceito de feminicídio**, citando a contribuição de Diana Russell e o impacto do caso "Campo Algodonero" (México) para o reconhecimento da violência de gênero em sistemas regionais de direitos humanos.
-- [Natureza Sociológica] **Analise o conceito sociológico de feminicídio** como um contínuo de terror antifeminino e sua dificuldade de transposição integral para o âmbito jurídico-penal, dada a exigência dos princípios da legalidade e culpabilidade.
-- [Violência de Gênero] **Explique o conceito de violência de gênero** e como ele fundamenta a tipificação do feminicídio, diferenciando-o de homicídios comuns de mulheres.
-- [Modelos Internacionais] **Compare o modelo de tipificação adotado pelo Brasil (circunstancial/autônomo)** com outros modelos latino-americanos (restritivo, extensivo, punitivista), sob a perspectiva da precisão e do princípio da legalidade.
-- [Bens Jurídicos] **Identifique o principal bem jurídico tutelado pelo crime de feminicídio (Art. 121-A do CP)** e discorra sobre a tese da pluriofensividade, que adiciona a proteção do bem jurídico "igualdade" ao conteúdo do injusto.
-- [Vulnerabilidade] **Discorra sobre a condição de vulnerabilidade da mulher** como um fator estrutural que facilita a prática do feminicídio e a importância do reconhecimento desse contexto pelo Direito Penal.
-- [Hate Crime Debate] **Posicione o feminicídio em relação à categoria dos "crimes de ódio" (hate crimes)**, destacando se a motivação de ódio, desprezo ou discriminação é o elemento central ou se o fundamento principal reside no controle e dominação de gênero.
-- [Compromisso Estatal] **Descreva o papel da Convenção sobre a Eliminação de Todas as Formas de Discriminação contra a Mulher (CEDAW) e da Convenção de Belém do Pará** no contexto da obrigação do Estado brasileiro em proteger e tipificar o feminicídio.
-- [Direito Penal Simbólico] **Avalie a crítica doutrinária de que a Lei do Feminicídio representa o "Direito Penal Simbólico"** e se a sua eficácia se restringe a acalmar o clamor social sem produzir medidas preventivas e estruturais efetivas.
+- [Conceito e Distinção] *Diferencie, sob a ótica da dogmática penal e do contexto social, os termos “Femicídio” e “Feminicídio”* e explique qual das nomenclaturas foi adotada pelo legislador brasileiro e qual a sua implicação jurídica.
+- [Origem Histórica] *Descreva o contexto internacional do surgimento do conceito de feminicídio*, citando a contribuição de Diana Russell e o impacto do caso "Campo Algodonero" (México) para o reconhecimento da violência de gênero em sistemas regionais de direitos humanos.
+- [Natureza Sociológica] *Analise o conceito sociológico de feminicídio* como um contínuo de terror antifeminino e sua dificuldade de transposição integral para o âmbito jurídico-penal, dada a exigência dos princípios da legalidade e culpabilidade.
+- [Violência de Gênero] *Explique o conceito de violência de gênero* e como ele fundamenta a tipificação do feminicídio, diferenciando-o de homicídios comuns de mulheres.
+- [Modelos Internacionais] *Compare o modelo de tipificação adotado pelo Brasil (circunstancial/autônomo)* com outros modelos latino-americanos (restritivo, extensivo, punitivista), sob a perspectiva da precisão e do princípio da legalidade.
+- [Bens Jurídicos] *Identifique o principal bem jurídico tutelado pelo crime de feminicídio (Art. 121-A do CP)* e discorra sobre a tese da pluriofensividade, que adiciona a proteção do bem jurídico "igualdade" ao conteúdo do injusto.
+- [Vulnerabilidade] *Discorra sobre a condição de vulnerabilidade da mulher* como um fator estrutural que facilita a prática do feminicídio e a importância do reconhecimento desse contexto pelo Direito Penal.
+- [Hate Crime Debate] *Posicione o feminicídio em relação à categoria dos "crimes de ódio" (hate crimes)*, destacando se a motivação de ódio, desprezo ou discriminação é o elemento central ou se o fundamento principal reside no controle e dominação de gênero.
+- [Compromisso Estatal] *Descreva o papel da Convenção sobre a Eliminação de Todas as Formas de Discriminação contra a Mulher (CEDAW) e da Convenção de Belém do Pará* no contexto da obrigação do Estado brasileiro em proteger e tipificar o feminicídio.
+- [Direito Penal Simbólico] *Avalie a crítica doutrinária de que a Lei do Feminicídio representa o "Direito Penal Simbólico"* e se a sua eficácia se restringe a acalmar o clamor social sem produzir medidas preventivas e estruturais efetivas.
 
 ## Tipificação Autônoma (Lei nº 14.994/2024)
 
-- [Inovação Legal] **Explique a principal alteração introduzida pela Lei nº 14.994/2024 no Código Penal**, detalhando a mudança da natureza jurídica do feminicídio de qualificadora do homicídio para crime autônomo (Art. 121-A).
-- [Preceito Secundário] **Indique a pena mínima e máxima cominada ao feminicídio simples (Art. 121-A, caput)** e compare-a com a pena do homicídio qualificado da legislação anterior.
-- [Tentativa] **Analise a admissibilidade da tentativa no crime de feminicídio** (Art. 121-A c/c Art. 14, II do CP) e quais elementos devem ser provados no contexto da violência de gênero.
-- [Natureza do Delito] **Determine a natureza do feminicídio quanto ao dolo**, afirmando se é um crime doloso ou se admite modalidade culposa, e qual a sua competência de julgamento.
-- [Tipificação Genérica] **Explicite a fórmula adotada pelo legislador no Art. 121-A do CP** ("Matar mulher por razões da condição do sexo feminino") e a importância da delimitação precisa das elementares para a obediência ao princípio da legalidade.
-- [Lei no Tempo] **Discorra sobre o princípio da irretroatividade da lei penal mais severa (novatio legis in pejus)** no contexto da Lei nº 14.994/2024 e o aumento da pena para o feminicídio.
-- [Natureza da Pena] **Analise a constitucionalidade da pena máxima de 40 (quarenta) anos** (chegando a 60 anos com majorantes) para o feminicídio autônomo, sob a ótica do princípio da proporcionalidade e da ressocialização.
-- [Crime Hediondo] **Confirme se o crime de feminicídio, na sua nova tipificação (Art. 121-A do CP)**, permanece incluído no rol de crimes hediondos e as implicações dessa classificação.
-- [Criminologia] **Sob a perspectiva da criminologia**, como o legislador justifica a criação de um tipo penal autônomo e de um regime mais rigoroso para o feminicídio, reconhecendo o seu caráter de violência estrutural.
-- [Diferença Conceitual] **Qual a relevância dogmática de o feminicídio ser classificado como um tipo penal autônomo (*delictum sui generis*)**, em contraste com sua antiga posição de qualificadora do homicídio.
-- [Tipos Penais Neutros] **Justifique a insuficiência dos "tipos penais neutros" (como o homicídio simples)** para o combate efetivo ao feminicídio, à luz da necessidade de nomear o fenômeno da violência de gênero.
-- [Prova Material] **Qual o papel da perícia criminal e do laudo de exame de corpo de delito no feminicídio**, especialmente na comprovação da materialidade e na busca por vestígios que indiquem a motivação de gênero.
-- [Injusto e Culpabilidade] **Na ótica da Teoria do Delito e da Teoria das Circunstâncias**, de que forma a tipificação do feminicídio autônomo deve ser interpretada (Art. 121-A) em relação ao incremento do conteúdo de injusto do homicídio simples.
-- [Menosprezo Tautológico] **Critique a redação do Art. 121-A, § 1º, II, no que concerne à referência à "discriminação à condição de mulher"** em conjunto com a expressão "razões da condição de sexo feminino", avaliando a possível tautologia e o impacto na clareza do tipo penal.
-- [Dever de Determinação] **Avalie se o Art. 121-A do CP, ao utilizar conceitos abertos como "menosprezo"**, fere o princípio constitucional da legalidade (reserva legal e taxatividade), conforme a crítica doutrinária.
+- [Inovação Legal] *Explique a principal alteração introduzida pela Lei nº 14.994/2024 no Código Penal*, detalhando a mudança da natureza jurídica do feminicídio de qualificadora do homicídio para crime autônomo (Art. 121-A).
+- [Preceito Secundário] *Indique a pena mínima e máxima cominada ao feminicídio simples (Art. 121-A, caput)* e compare-a com a pena do homicídio qualificado da legislação anterior.
+- [Tentativa] *Analise a admissibilidade da tentativa no crime de feminicídio* (Art. 121-A c/c Art. 14, II do CP) e quais elementos devem ser provados no contexto da violência de gênero.
+- [Natureza do Delito] *Determine a natureza do feminicídio quanto ao dolo*, afirmando se é um crime doloso ou se admite modalidade culposa, e qual a sua competência de julgamento.
+- [Tipificação Genérica] *Explicite a fórmula adotada pelo legislador no Art. 121-A do CP* ("Matar mulher por razões da condição do sexo feminino") e a importância da delimitação precisa das elementares para a obediência ao princípio da legalidade.
+- [Lei no Tempo] *Discorra sobre o princípio da irretroatividade da lei penal mais severa (novatio legis in pejus)* no contexto da Lei nº 14.994/2024 e o aumento da pena para o feminicídio.
+- [Natureza da Pena] *Analise a constitucionalidade da pena máxima de 40 (quarenta) anos* (chegando a 60 anos com majorantes) para o feminicídio autônomo, sob a ótica do princípio da proporcionalidade e da ressocialização.
+- [Crime Hediondo] *Confirme se o crime de feminicídio, na sua nova tipificação (Art. 121-A do CP)*, permanece incluído no rol de crimes hediondos e as implicações dessa classificação.
+- [Criminologia] *Sob a perspectiva da criminologia*, como o legislador justifica a criação de um tipo penal autônomo e de um regime mais rigoroso para o feminicídio, reconhecendo o seu caráter de violência estrutural.
+- [Diferença Conceitual] *Qual a relevância dogmática de o feminicídio ser classificado como um tipo penal autônomo (*delictum sui generis*)*, em contraste com sua antiga posição de qualificadora do homicídio.
+- [Tipos Penais Neutros] *Justifique a insuficiência dos "tipos penais neutros" (como o homicídio simples)* para o combate efetivo ao feminicídio, à luz da necessidade de nomear o fenômeno da violência de gênero.
+- [Prova Material] *Qual o papel da perícia criminal e do laudo de exame de corpo de delito no feminicídio*, especialmente na comprovação da materialidade e na busca por vestígios que indiquem a motivação de gênero.
+- [Injusto e Culpabilidade] *Na ótica da Teoria do Delito e da Teoria das Circunstâncias*, de que forma a tipificação do feminicídio autônomo deve ser interpretada (Art. 121-A) em relação ao incremento do conteúdo de injusto do homicídio simples.
+- [Menosprezo Tautológico] *Critique a redação do Art. 121-A, § 1º, II, no que concerne à referência à "discriminação à condição de mulher"* em conjunto com a expressão "razões da condição de sexo feminino", avaliando a possível tautologia e o impacto na clareza do tipo penal.
+- [Dever de Determinação] *Avalie se o Art. 121-A do CP, ao utilizar conceitos abertos como "menosprezo"*, fere o princípio constitucional da legalidade (reserva legal e taxatividade), conforme a crítica doutrinária.
 
 ## Elementares Típicas: Razões da Condição do Sexo Feminino
 
-- [Definição Legal] **Quais são os dois contextos previstos no Art. 121-A, § 1º, do Código Penal** que configuram o crime de feminicídio, caracterizando as "razões da condição do sexo feminino"?.
-- [Violência Doméstica] **Interprete o conceito de "violência doméstica e familiar" (Art. 121-A, § 1º, I)** e sua vinculação com o Art. 5º da Lei Maria da Penha (Lei nº 11.340/2006).
-- [Relações Afetivas] **O crime de feminicídio pode ser configurado quando há uma relação íntima de afeto extinta (ex-namorado/ex-companheiro)?** Justifique com base na interpretação sistemática da Lei Maria da Penha.
-- [Sujeito Ativo Feminino] **É possível que o feminicídio seja cometido por uma mulher contra outra mulher (sujeito ativo feminino)?** Em caso afirmativo, cite um exemplo que se enquadre na elementar do Art. 121-A, § 1º, I.
-- [Menosprezo] **Defina o que se entende por "menosprezo à condição de mulher" (Art. 121-A, § 1º, II)** e se este elemento exige uma valoração da atitude interna (sentimento) do agente ou se é passível de constatação objetiva.
-- [Ciúme e Posse] **Analise se ciúme ou sentimento de posse, em um contexto de violência de gênero, pode configurar o elemento "menosprezo"**, e se essa motivação poderia ser valorada como circunstância judicial desfavorável na dosimetria da pena.
-- [Discriminação Ampla] **Exemplifique uma situação de feminicídio por "discriminação à condição de mulher" (Art. 121-A, § 1º, II)** fora do contexto de violência doméstica ou familiar, como nos casos de misoginia por questões profissionais ou sociais.
-- [Natureza Híbrida] **Discuta a posição doutrinária que classifica o feminicídio (antiga qualificadora) como de natureza jurídica híbrida** (objetiva no inciso I e subjetiva no inciso II do § 1º do Art. 121-A) e quais as consequências dessa classificação para a comunicabilidade e compatibilidade com o privilégio.
-- [Posição STJ/FONAVID] **Qual a posição majoritária do Superior Tribunal de Justiça (STJ) e do FONAVID (Enunciado 39 - redação anterior)** sobre a natureza jurídica do feminicídio decorrente de violência doméstica e familiar (Art. 121, §2º-A, I - redação anterior), e qual a relevância dessa definição.
-- [Motivação vs. Contexto] **Distinga o móvel imediato da conduta (ex: motivo fútil)** da motivação de gênero (razões da condição de sexo feminino) e explique por que a distinção é crucial para a aplicação da elementar.
-- [Violência Sexual] **Argumente se a ocorrência de violência sexual anterior ou concomitante ao homicídio** se enquadra automaticamente como feminicídio, e em qual dos incisos do § 1º do Art. 121-A essa situação se subsumiria.
-- [Provas e Dúvidas] **Em casos de dúvida sobre a existência das "razões da condição do sexo feminino"**, como o princípio do *in dubio pro reo* deve ser aplicado na decisão de pronúncia, considerando que o julgamento do mérito cabe ao Tribunal do Júri.
-- [Aborto e Morte] **Analise o conflito normativo e a possibilidade de *bis in idem*** ao aplicar uma majorante que considera o desvalor do abortamento (se a vítima está grávida) com o crime autônomo de aborto provocado sem consentimento da gestante (Art. 125, CP).
-- [Autonomia Decisória] **De que forma a violação da autonomia decisória da mulher** (controle sobre suas escolhas de vida, corpo ou relacionamento) se relaciona com o fundamento material da discriminação de gênero no feminicídio.
-- [Erro de Tipo/Dolo] **Considerando que o feminicídio é um crime doloso**, quais são os elementos subjetivos (vontade e conhecimento) necessários para a configuração do tipo penal autônomo (Art. 121-A), especialmente o conhecimento do contexto discriminatório.
+- [Definição Legal] *Quais são os dois contextos previstos no Art. 121-A, § 1º, do Código Penal* que configuram o crime de feminicídio, caracterizando as "razões da condição do sexo feminino"?.
+- [Violência Doméstica] *Interprete o conceito de "violência doméstica e familiar" (Art. 121-A, § 1º, I)* e sua vinculação com o Art. 5º da Lei Maria da Penha (Lei nº 11.340/2006).
+- [Relações Afetivas] *O crime de feminicídio pode ser configurado quando há uma relação íntima de afeto extinta (ex-namorado/ex-companheiro)?* Justifique com base na interpretação sistemática da Lei Maria da Penha.
+- [Sujeito Ativo Feminino] *É possível que o feminicídio seja cometido por uma mulher contra outra mulher (sujeito ativo feminino)?* Em caso afirmativo, cite um exemplo que se enquadre na elementar do Art. 121-A, § 1º, I.
+- [Menosprezo] *Defina o que se entende por "menosprezo à condição de mulher" (Art. 121-A, § 1º, II)* e se este elemento exige uma valoração da atitude interna (sentimento) do agente ou se é passível de constatação objetiva.
+- [Ciúme e Posse] *Analise se ciúme ou sentimento de posse, em um contexto de violência de gênero, pode configurar o elemento "menosprezo"*, e se essa motivação poderia ser valorada como circunstância judicial desfavorável na dosimetria da pena.
+- [Discriminação Ampla] *Exemplifique uma situação de feminicídio por "discriminação à condição de mulher" (Art. 121-A, § 1º, II)* fora do contexto de violência doméstica ou familiar, como nos casos de misoginia por questões profissionais ou sociais.
+- [Natureza Híbrida] *Discuta a posição doutrinária que classifica o feminicídio (antiga qualificadora) como de natureza jurídica híbrida* (objetiva no inciso I e subjetiva no inciso II do § 1º do Art. 121-A) e quais as consequências dessa classificação para a comunicabilidade e compatibilidade com o privilégio.
+- [Posição STJ/FONAVID] *Qual a posição majoritária do Superior Tribunal de Justiça (STJ) e do FONAVID (Enunciado 39 - redação anterior)* sobre a natureza jurídica do feminicídio decorrente de violência doméstica e familiar (Art. 121, §2º-A, I - redação anterior), e qual a relevância dessa definição.
+- [Motivação vs. Contexto] *Distinga o móvel imediato da conduta (ex: motivo fútil)* da motivação de gênero (razões da condição de sexo feminino) e explique por que a distinção é crucial para a aplicação da elementar.
+- [Violência Sexual] *Argumente se a ocorrência de violência sexual anterior ou concomitante ao homicídio* se enquadra automaticamente como feminicídio, e em qual dos incisos do § 1º do Art. 121-A essa situação se subsumiria.
+- [Provas e Dúvidas] *Em casos de dúvida sobre a existência das "razões da condição do sexo feminino"*, como o princípio do *in dubio pro reo* deve ser aplicado na decisão de pronúncia, considerando que o julgamento do mérito cabe ao Tribunal do Júri.
+- [Aborto e Morte] *Analise o conflito normativo e a possibilidade de *bis in idem** ao aplicar uma majorante que considera o desvalor do abortamento (se a vítima está grávida) com o crime autônomo de aborto provocado sem consentimento da gestante (Art. 125, CP).
+- [Autonomia Decisória] *De que forma a violação da autonomia decisória da mulher* (controle sobre suas escolhas de vida, corpo ou relacionamento) se relaciona com o fundamento material da discriminação de gênero no feminicídio.
+- [Erro de Tipo/Dolo] *Considerando que o feminicídio é um crime doloso*, quais são os elementos subjetivos (vontade e conhecimento) necessários para a configuração do tipo penal autônomo (Art. 121-A), especialmente o conhecimento do contexto discriminatório.
 
 ## Sujeitos do Crime e Concurso de Agentes
 
-- [Sujeito Passivo] **Defina quem pode ser o sujeito passivo do crime de feminicídio (Art. 121-A)**, e se o termo "mulher" deve ser interpretado pelo critério científico-biológico, jurídico-cível ou psicológico (identidade de gênero).
-- [Mulher Trans] **O feminicídio se aplica às mulheres transexuais (mulheres trans)?** Justifique a resposta com base na jurisprudência e no conceito amplo de mulher adotado para fins da Lei Maria da Penha.
-- [Sujeito Ativo] **O crime de feminicídio é um crime próprio ou comum quanto ao sujeito ativo?** Argumente se a elementar "razões da condição do sexo feminino" restringe a autoria ao homem.
-- [Erro na Execução] **Em um caso de *aberratio ictus* (erro na execução)**, onde o agente, visando matar sua ex-companheira (vítima virtual), atinge uma vizinha (vítima real) que não tinha relação de afeto, qual crime será imputado ao agente?.
-- [Erro Sobre a Pessoa] **Em um caso de *aberratio personae* (erro sobre a pessoa)**, o agente, buscando matar um homem, atinge uma mulher (em contexto que configuraria feminicídio se a intenção fosse matá-la). Qual a imputação penal?.
-- [Comunicabilidade Geral] **Explique a regra do Art. 30 do Código Penal sobre a comunicabilidade das circunstâncias e condições de caráter pessoal** e como essa regra se aplica às elementares do feminicídio.
-- [Comunicabilidade Específica] **Analise o Art. 121-A, § 3º, do CP (Lei 14.994/2024)**, que trata da comunicabilidade das elementares do crime ao coautor ou partícipe, e explique por que o legislador incluiu essa previsão, considerada redundante por alguns doutrinadores.
-- [Concurso de Agentes] **Em um cenário de concurso de agentes**, se um dos autores age por motivo de menosprezo à condição de mulher (subjetivo) e o coautor age por vingança pessoal, ambos responderão por feminicídio? Justifique.
-- [Conhecimento da Elementar] **Qual o requisito subjetivo indispensável para que a elementar do feminicídio se comunique ao coautor ou partícipe**, especialmente na hipótese de violência doméstica ou familiar.
-- [Teoria Monista] **De que forma o Art. 121-A, § 3º, do CP corrobora a aplicação mitigada da teoria monista** no concurso de pessoas para o crime de feminicídio.
+- [Sujeito Passivo] *Defina quem pode ser o sujeito passivo do crime de feminicídio (Art. 121-A)*, e se o termo "mulher" deve ser interpretado pelo critério científico-biológico, jurídico-cível ou psicológico (identidade de gênero).
+- [Mulher Trans] *O feminicídio se aplica às mulheres transexuais (mulheres trans)?* Justifique a resposta com base na jurisprudência e no conceito amplo de mulher adotado para fins da Lei Maria da Penha.
+- [Sujeito Ativo] *O crime de feminicídio é um crime próprio ou comum quanto ao sujeito ativo?* Argumente se a elementar "razões da condição do sexo feminino" restringe a autoria ao homem.
+- [Erro na Execução] *Em um caso de *aberratio ictus* (erro na execução)*, onde o agente, visando matar sua ex-companheira (vítima virtual), atinge uma vizinha (vítima real) que não tinha relação de afeto, qual crime será imputado ao agente?.
+- [Erro Sobre a Pessoa] *Em um caso de *aberratio personae* (erro sobre a pessoa)*, o agente, buscando matar um homem, atinge uma mulher (em contexto que configuraria feminicídio se a intenção fosse matá-la). Qual a imputação penal?.
+- [Comunicabilidade Geral] *Explique a regra do Art. 30 do Código Penal sobre a comunicabilidade das circunstâncias e condições de caráter pessoal* e como essa regra se aplica às elementares do feminicídio.
+- [Comunicabilidade Específica] *Analise o Art. 121-A, § 3º, do CP (Lei 14.994/2024)*, que trata da comunicabilidade das elementares do crime ao coautor ou partícipe, e explique por que o legislador incluiu essa previsão, considerada redundante por alguns doutrinadores.
+- [Concurso de Agentes] *Em um cenário de concurso de agentes*, se um dos autores age por motivo de menosprezo à condição de mulher (subjetivo) e o coautor age por vingança pessoal, ambos responderão por feminicídio? Justifique.
+- [Conhecimento da Elementar] *Qual o requisito subjetivo indispensável para que a elementar do feminicídio se comunique ao coautor ou partícipe*, especialmente na hipótese de violência doméstica ou familiar.
+- [Teoria Monista] *De que forma o Art. 121-A, § 3º, do CP corrobora a aplicação mitigada da teoria monista* no concurso de pessoas para o crime de feminicídio.
 
 ## Causas de Aumento de Pena (Majorantes)
 
-- [Regra Geral] **Qual o intervalo de aumento de pena (fração) previsto no Art. 121-A, § 2º, do CP** para as causas de aumento do feminicídio, e como esse cálculo pode levar a uma pena máxima inédita.
-- [Vulnerabilidade I] **Descreva a majorante do inciso I do § 2º do Art. 121-A** (gestação, pós-parto, mãe/responsável por vulnerável) e qual o fundamento de política criminal para a exasperação da pena nestes casos.
-- [Vulnerabilidade II] **Especifique as condições de idade e saúde da vítima** que configuram a majorante prevista no inciso II do § 2º do Art. 121-A (menor de 14, maior de 60, deficiência, doenças degenerativas).
-- [Definição de Deficiente] **Qual o parâmetro legal deve ser utilizado para definir "pessoa com deficiência"** para fins de aplicação da majorante do feminicídio.
-- [Idade e Tempo do Crime] **Em relação à vítima menor de 14 anos**, qual o momento (ação/resultado) deve ser considerado para aferir a idade, segundo a teoria da atividade (Art. 4º do CP).
-- [Presença Familiar] **Analise a majorante da prática do crime na presença física ou virtual de descendente ou ascendente da vítima (inciso III)** e discuta a crítica de que esta majorante pune a "consequência do crime" em terceiros.
-- [Presença Virtual] **Defina o que se entende por "presença virtual"** (Art. 121-A, § 2º, III) e como essa previsão busca abranger novas formas de violência.
-- [MPU Descumprida] **Quais são as Medidas Protetivas de Urgência (MPU) específicas do Art. 22 da Lei Maria da Penha** cujo descumprimento pode majorar a pena do feminicídio (inciso IV)?.
-- [Concurso com Art. 24-A] **O descumprimento de MPU (inciso IV do § 2º do Art. 121-A)** pode ser punido cumulativamente com o crime autônomo de descumprimento de MPU (Art. 24-A da Lei nº 11.340/06)? Justifique.
-- [Meio Cruel] **Enumere as qualificadoras objetivas do homicídio (Art. 121, § 2º, incisos III, IV e VIII)** que foram convertidas em causas de aumento de pena do feminicídio (inciso V do § 2º do Art. 121-A).
-- [Conceito de Veneno] **Qual o conceito de "veneno" (Art. 121, § 2º, III)** e se ele exige o desconhecimento da vítima sobre a substância para a incidência da majorante do feminicídio.
-- [Arma de Fogo] **Em relação ao emprego de arma de fogo**, qual a restrição legal para que a circunstância se configure como majorante do feminicídio.
-- [Meio Cruel e Tortura] **Analise a diferença dogmática entre a majorante de "emprego de tortura"** (Art. 121-A, § 2º, V c/c Art. 121, § 2º, III) e o crime autônomo de Tortura, e a possibilidade de concurso aparente de normas.
-- [Majorantes Desnecessárias] **Avalie a crítica doutrinária sobre a criação de causas de aumento exclusivas para o feminicídio**, questionando a racionalidade e se as hipóteses não poderiam ser aplicadas a outros homicídios qualificados.
-- [Feminicídio Qualificado] **Em que medida a nova lei transformou o feminicídio em um crime de "dupla qualificação"** ao utilizar qualificadoras objetivas do homicídio como majorantes.
+- [Regra Geral] *Qual o intervalo de aumento de pena (fração) previsto no Art. 121-A, § 2º, do CP* para as causas de aumento do feminicídio, e como esse cálculo pode levar a uma pena máxima inédita.
+- [Vulnerabilidade I] *Descreva a majorante do inciso I do § 2º do Art. 121-A* (gestação, pós-parto, mãe/responsável por vulnerável) e qual o fundamento de política criminal para a exasperação da pena nestes casos.
+- [Vulnerabilidade II] *Especifique as condições de idade e saúde da vítima* que configuram a majorante prevista no inciso II do § 2º do Art. 121-A (menor de 14, maior de 60, deficiência, doenças degenerativas).
+- [Definição de Deficiente] *Qual o parâmetro legal deve ser utilizado para definir "pessoa com deficiência"* para fins de aplicação da majorante do feminicídio.
+- [Idade e Tempo do Crime] *Em relação à vítima menor de 14 anos*, qual o momento (ação/resultado) deve ser considerado para aferir a idade, segundo a teoria da atividade (Art. 4º do CP).
+- [Presença Familiar] *Analise a majorante da prática do crime na presença física ou virtual de descendente ou ascendente da vítima (inciso III)* e discuta a crítica de que esta majorante pune a "consequência do crime" em terceiros.
+- [Presença Virtual] *Defina o que se entende por "presença virtual"* (Art. 121-A, § 2º, III) e como essa previsão busca abranger novas formas de violência.
+- [MPU Descumprida] *Quais são as Medidas Protetivas de Urgência (MPU) específicas do Art. 22 da Lei Maria da Penha* cujo descumprimento pode majorar a pena do feminicídio (inciso IV)?.
+- [Concurso com Art. 24-A] *O descumprimento de MPU (inciso IV do § 2º do Art. 121-A)* pode ser punido cumulativamente com o crime autônomo de descumprimento de MPU (Art. 24-A da Lei nº 11.340/06)? Justifique.
+- [Meio Cruel] *Enumere as qualificadoras objetivas do homicídio (Art. 121, § 2º, incisos III, IV e VIII)* que foram convertidas em causas de aumento de pena do feminicídio (inciso V do § 2º do Art. 121-A).
+- [Conceito de Veneno] *Qual o conceito de "veneno" (Art. 121, § 2º, III)* e se ele exige o desconhecimento da vítima sobre a substância para a incidência da majorante do feminicídio.
+- [Arma de Fogo] *Em relação ao emprego de arma de fogo*, qual a restrição legal para que a circunstância se configure como majorante do feminicídio.
+- [Meio Cruel e Tortura] *Analise a diferença dogmática entre a majorante de "emprego de tortura"* (Art. 121-A, § 2º, V c/c Art. 121, § 2º, III) e o crime autônomo de Tortura, e a possibilidade de concurso aparente de normas.
+- [Majorantes Desnecessárias] *Avalie a crítica doutrinária sobre a criação de causas de aumento exclusivas para o feminicídio*, questionando a racionalidade e se as hipóteses não poderiam ser aplicadas a outros homicídios qualificados.
+- [Feminicídio Qualificado] *Em que medida a nova lei transformou o feminicídio em um crime de "dupla qualificação"* ao utilizar qualificadoras objetivas do homicídio como majorantes.
 
 ## Conflitos Normativos e Compatibilidade
 
-- [Incompatibilidade Fútil/Torpe] **Explique por que o motivo fútil e o motivo torpe (Art. 121, § 2º, I e II)** foram excluídos como causas de aumento de pena do feminicídio (Art. 121-A) e quais as razões de política criminal para essa exclusão.
-- [Motivo Torpe Remanescente] **Como deve ser tratado o motivo torpe ou fútil em um crime de feminicídio (Art. 121-A)** se ele não é mais uma majorante: como agravante genérica (Art. 61, CP) ou como elemento absorvido pela elementar do feminicídio?.
-- [Feminicídio Privilegiado] **É compatível a figura do feminicídio (Art. 121-A) com o homicídio privilegiado (Art. 121, § 1º)?** Analise o impacto da autonomia do tipo penal nesse conflito.
-- [Privilégio e Natureza] **Na vigência da antiga lei**, qual era a solução doutrinária e jurisprudencial para a compatibilidade entre o feminicídio (qualificadora) e o privilégio (diminuição de pena) e como isso dependia da natureza (objetiva/subjetiva) da qualificadora.
-- [Injusta Provocação] **O ciúme ou a infidelidade da vítima podem configurar "injusta provocação"** para a aplicação da causa de diminuição de pena no feminicídio (Art. 121, § 1º)? Mencione a jurisprudência do STF sobre a "legítima defesa da honra".
-- [Semi-imputabilidade] **O feminicídio é compatível com a redução de pena por semi-imputabilidade** (Art. 26, parágrafo único, CP)? Justifique o posicionamento.
-- [Bis in Idem Qualificadoras] **Sob o prisma do *bis in idem***, analise a possibilidade de cúmulo entre o feminicídio por menosprezo (subjetivo) e a agravante de motivo torpe (se considerada aplicável), e se a nova lei resolveu esse conflito.
-- [Absorção] **Argumente se a qualificadora objetiva de "meio cruel" (Art. 121, § 2º, III)** pode ser absorvida pela elementar do feminicídio por violência de gênero ou se devem coexistir como majorantes e elementares.
-- [Feminicídio por Conexão] **Defina o "feminicídio por conexão"** e se essa classificação doutrinária ainda é útil no contexto da Lei nº 14.994/2024.
-- [Direito Intertemporal] **Quais as implicações do direito intertemporal** para os processos de feminicídio iniciados sob a vigência da Lei nº 13.104/2015, mas julgados após a entrada em vigor da Lei nº 14.994/2024.
-- [Lei Maria da Penha e Dano] **De que forma o Art. 7º da Lei Maria da Penha (Lei nº 11.340/2006)**, ao elencar as formas de violência (física, psicológica, moral, etc.), influencia a interpretação e a prova da elementar do feminicídio.
-- [Homicídio Simples Desclassificação] **Se os jurados negarem a existência das "razões da condição do sexo feminino" (elementar do Art. 121-A)**, qual a consequência jurídica imediata em relação ao tipo penal imputado.
-- [Esvaziamento do Art. 16 LMP] **Comente sobre o possível "esvaziamento" do Art. 16 da Lei Maria da Penha** (audiência de retratação) em decorrência da mudança na modalidade da ação penal do crime de Ameaça, e como isso afeta o contexto da violência doméstica.
-- [Competência Cível e Júri] **As Varas do Tribunal do Júri têm competência para aplicar as Medidas Protetivas de Urgência (MPU)** em casos de feminicídio, conforme entendimento do FONAVID?.
-- [Aplicação às Mulheres Trans] **De que modo o Enunciado 46 do FONAVID** sobre a aplicação da Lei Maria da Penha às mulheres trans auxilia na interpretação do sujeito passivo no Art. 121-A do CP.
+- [Incompatibilidade Fútil/Torpe] *Explique por que o motivo fútil e o motivo torpe (Art. 121, § 2º, I e II)* foram excluídos como causas de aumento de pena do feminicídio (Art. 121-A) e quais as razões de política criminal para essa exclusão.
+- [Motivo Torpe Remanescente] *Como deve ser tratado o motivo torpe ou fútil em um crime de feminicídio (Art. 121-A)* se ele não é mais uma majorante: como agravante genérica (Art. 61, CP) ou como elemento absorvido pela elementar do feminicídio?.
+- [Feminicídio Privilegiado] *É compatível a figura do feminicídio (Art. 121-A) com o homicídio privilegiado (Art. 121, § 1º)?* Analise o impacto da autonomia do tipo penal nesse conflito.
+- [Privilégio e Natureza] *Na vigência da antiga lei*, qual era a solução doutrinária e jurisprudencial para a compatibilidade entre o feminicídio (qualificadora) e o privilégio (diminuição de pena) e como isso dependia da natureza (objetiva/subjetiva) da qualificadora.
+- [Injusta Provocação] *O ciúme ou a infidelidade da vítima podem configurar "injusta provocação"* para a aplicação da causa de diminuição de pena no feminicídio (Art. 121, § 1º)? Mencione a jurisprudência do STF sobre a "legítima defesa da honra".
+- [Semi-imputabilidade] *O feminicídio é compatível com a redução de pena por semi-imputabilidade* (Art. 26, parágrafo único, CP)? Justifique o posicionamento.
+- [Bis in Idem Qualificadoras] *Sob o prisma do *bis in idem**, analise a possibilidade de cúmulo entre o feminicídio por menosprezo (subjetivo) e a agravante de motivo torpe (se considerada aplicável), e se a nova lei resolveu esse conflito.
+- [Absorção] *Argumente se a qualificadora objetiva de "meio cruel" (Art. 121, § 2º, III)* pode ser absorvida pela elementar do feminicídio por violência de gênero ou se devem coexistir como majorantes e elementares.
+- [Feminicídio por Conexão] *Defina o "feminicídio por conexão"* e se essa classificação doutrinária ainda é útil no contexto da Lei nº 14.994/2024.
+- [Direito Intertemporal] *Quais as implicações do direito intertemporal* para os processos de feminicídio iniciados sob a vigência da Lei nº 13.104/2015, mas julgados após a entrada em vigor da Lei nº 14.994/2024.
+- [Lei Maria da Penha e Dano] *De que forma o Art. 7º da Lei Maria da Penha (Lei nº 11.340/2006)*, ao elencar as formas de violência (física, psicológica, moral, etc.), influencia a interpretação e a prova da elementar do feminicídio.
+- [Homicídio Simples Desclassificação] *Se os jurados negarem a existência das "razões da condição do sexo feminino" (elementar do Art. 121-A)*, qual a consequência jurídica imediata em relação ao tipo penal imputado.
+- [Esvaziamento do Art. 16 LMP] *Comente sobre o possível "esvaziamento" do Art. 16 da Lei Maria da Penha* (audiência de retratação) em decorrência da mudança na modalidade da ação penal do crime de Ameaça, e como isso afeta o contexto da violência doméstica.
+- [Competência Cível e Júri] *As Varas do Tribunal do Júri têm competência para aplicar as Medidas Protetivas de Urgência (MPU)* em casos de feminicídio, conforme entendimento do FONAVID?.
+- [Aplicação às Mulheres Trans] *De que modo o Enunciado 46 do FONAVID* sobre a aplicação da Lei Maria da Penha às mulheres trans auxilia na interpretação do sujeito passivo no Art. 121-A do CP.
 
 ## Aspectos Processuais e Execução Penal
 
-- [Quesitação Júri] **Descreva a ordem de quesitos proposta pela doutrina majoritária e minoritária** no Tribunal do Júri após a Lei nº 14.994/2024 (Materialidade, Autoria/Participação, Caracterização do Feminicídio) e quais as críticas à falta de regulamentação legal.
-- [Quesito Aglutinado] **Critique a sugestão de aglutinar o quesito da materialidade com a caracterização do feminicídio em uma única pergunta** e o risco de não espelhar a vontade dos jurados (falha no julgamento).
-- [Defesa no Júri] **Qual o limite da plenitude da defesa no Tribunal do Júri** em casos de feminicídio, conforme o Enunciado 47 do FONAVID, visando à proteção dos direitos humanos das mulheres.
-- [Prova Testemunhal] **Em crimes de violência doméstica e familiar que culminam em feminicídio**, qual a relevância e o valor probatório do depoimento da vítima sobrevivente (em casos de tentativa) ou dos familiares/testemunhas, especialmente na ausência de exame pericial.
-- [Depoimento Especial] **É cabível o uso do depoimento especial (Lei nº 13.431/2017)** para a escuta da mulher em situação de violência ou testemunhas no processo de feminicídio?.
-- [Absolvição e MPU] **A absolvição do réu no processo penal de feminicídio determina, automaticamente, a revogação das Medidas Protetivas de Urgência?** Justifique com base na autonomia das MPU.
-- [Oitiva da Vítima] **Qual a importância da oitiva da vítima (ou familiares, em caso de morte)** para a manutenção ou prorrogação das MPU, mesmo após a extinção da punibilidade do agressor.
-- [Competência MPU] **Em qual foro é definida a competência para a apreciação de Medida Protetiva de Urgência** (foro do domicílio da vítima ou do ilícito penal) e o papel da opção da mulher nessa definição.
-- [Prisão Cautelar] **Analise a possibilidade de decretação da prisão preventiva** do autor de feminicídio (ou tentativa), independentemente da concessão ou descumprimento de MPU.
-- [Prioridade Processual] **O processo de feminicídio possui prioridade de tramitação?** E quais as regras sobre isenção de custas processuais.
+- [Quesitação Júri] *Descreva a ordem de quesitos proposta pela doutrina majoritária e minoritária* no Tribunal do Júri após a Lei nº 14.994/2024 (Materialidade, Autoria/Participação, Caracterização do Feminicídio) e quais as críticas à falta de regulamentação legal.
+- [Quesito Aglutinado] *Critique a sugestão de aglutinar o quesito da materialidade com a caracterização do feminicídio em uma única pergunta* e o risco de não espelhar a vontade dos jurados (falha no julgamento).
+- [Defesa no Júri] *Qual o limite da plenitude da defesa no Tribunal do Júri* em casos de feminicídio, conforme o Enunciado 47 do FONAVID, visando à proteção dos direitos humanos das mulheres.
+- [Prova Testemunhal] *Em crimes de violência doméstica e familiar que culminam em feminicídio*, qual a relevância e o valor probatório do depoimento da vítima sobrevivente (em casos de tentativa) ou dos familiares/testemunhas, especialmente na ausência de exame pericial.
+- [Depoimento Especial] *É cabível o uso do depoimento especial (Lei nº 13.431/2017)* para a escuta da mulher em situação de violência ou testemunhas no processo de feminicídio?.
+- [Absolvição e MPU] *A absolvição do réu no processo penal de feminicídio determina, automaticamente, a revogação das Medidas Protetivas de Urgência?* Justifique com base na autonomia das MPU.
+- [Oitiva da Vítima] *Qual a importância da oitiva da vítima (ou familiares, em caso de morte)* para a manutenção ou prorrogação das MPU, mesmo após a extinção da punibilidade do agressor.
+- [Competência MPU] *Em qual foro é definida a competência para a apreciação de Medida Protetiva de Urgência* (foro do domicílio da vítima ou do ilícito penal) e o papel da opção da mulher nessa definição.
+- [Prisão Cautelar] *Analise a possibilidade de decretação da prisão preventiva* do autor de feminicídio (ou tentativa), independentemente da concessão ou descumprimento de MPU.
+- [Prioridade Processual] *O processo de feminicídio possui prioridade de tramitação?* E quais as regras sobre isenção de custas processuais.
 
 ## Efeitos Extrapenais e Políticas Públicas
 
-- [Perda de Cargo] **Quais são os efeitos extrapenais automáticos da condenação por feminicídio (Art. 121-A, § 1º, CP)**, especialmente em relação à perda de cargo, função pública ou mandato eletivo (Art. 92, II, CP).
-- [Visita Íntima LEP] **Descreva a alteração promovida pela Lei nº 14.994/2024 na Lei de Execução Penal (LEP)** em relação ao direito de visita íntima ou conjugal do preso condenado por feminicídio.
-- [Programas de Reeducação] **Qual a relevância dos programas de atendimento psicossocial e pedagógico (Grupos Reflexivos) para os agressores** e a possibilidade de serem impostos como MPU.
-- [Constelação Familiar] **O uso de práticas como a Constelação Familiar ou Sistêmica é permitido** no âmbito da violência doméstica e familiar contra as mulheres, conforme as diretrizes atuais.
-- [Inaplicabilidade de Benefícios] **Quais benefícios da execução penal, tradicionalmente aplicáveis, são vedados** ao condenado por feminicídio.
-- [Impacto em Outros Crimes] **Mencione outros crimes contra a mulher que tiveram a pena agravada ou alterada pela Lei nº 14.994/2024**, como Lesão Corporal, Ameaça e Crimes contra a Honra, e o foco do legislador na violência moral/psicológica.
-- [Ação Penal Honra] **Quais as críticas à manutenção da ação penal privada para crimes contra a honra** (injúria, calúnia, difamação) no contexto da Lei nº 14.994/2024, mesmo com o aumento da pena, sob a perspectiva da vulnerabilidade da vítima.
-- [Necessidade de Políticas Públicas] **Argumente a tese de que o combate eficiente ao feminicídio exige mais do que o aumento da pena**, demandando a implementação de políticas públicas preventivas, educacionais e estruturais.
-- [Recursos Estruturais] **Qual o papel da Equipe Multidisciplinar nos Juizados de Violência Doméstica** e a importância do fortalecimento desses recursos para o enfrentamento da violência.
-- [Avaliação de Risco] **Explique o papel do Formulário Nacional de Avaliação de Risco** e se a concessão de MPU está condicionada ao seu preenchimento.
+- [Perda de Cargo] *Quais são os efeitos extrapenais automáticos da condenação por feminicídio (Art. 121-A, § 1º, CP)*, especialmente em relação à perda de cargo, função pública ou mandato eletivo (Art. 92, II, CP).
+- [Visita Íntima LEP] *Descreva a alteração promovida pela Lei nº 14.994/2024 na Lei de Execução Penal (LEP)* em relação ao direito de visita íntima ou conjugal do preso condenado por feminicídio.
+- [Programas de Reeducação] *Qual a relevância dos programas de atendimento psicossocial e pedagógico (Grupos Reflexivos) para os agressores* e a possibilidade de serem impostos como MPU.
+- [Constelação Familiar] *O uso de práticas como a Constelação Familiar ou Sistêmica é permitido* no âmbito da violência doméstica e familiar contra as mulheres, conforme as diretrizes atuais.
+- [Inaplicabilidade de Benefícios] *Quais benefícios da execução penal, tradicionalmente aplicáveis, são vedados* ao condenado por feminicídio.
+- [Impacto em Outros Crimes] *Mencione outros crimes contra a mulher que tiveram a pena agravada ou alterada pela Lei nº 14.994/2024*, como Lesão Corporal, Ameaça e Crimes contra a Honra, e o foco do legislador na violência moral/psicológica.
+- [Ação Penal Honra] *Quais as críticas à manutenção da ação penal privada para crimes contra a honra* (injúria, calúnia, difamação) no contexto da Lei nº 14.994/2024, mesmo com o aumento da pena, sob a perspectiva da vulnerabilidade da vítima.
+- [Necessidade de Políticas Públicas] *Argumente a tese de que o combate eficiente ao feminicídio exige mais do que o aumento da pena*, demandando a implementação de políticas públicas preventivas, educacionais e estruturais.
+- [Recursos Estruturais] *Qual o papel da Equipe Multidisciplinar nos Juizados de Violência Doméstica* e a importância do fortalecimento desses recursos para o enfrentamento da violência.
+- [Avaliação de Risco] *Explique o papel do Formulário Nacional de Avaliação de Risco* e se a concessão de MPU está condicionada ao seu preenchimento.
 
 ## Questões Doutrinárias e Críticas de Racionalidade
 
-- [Crítica de Racionalidade] **Analise a crítica sobre a "irracionalidade legislativa" do feminicídio (Art. 121-A)**, no sentido de que a figura construída é híbrida, mistura elementos objetivos e subjetivos, e gera insegurança interpretativa.
-- [Sugestão *de Lege Ferenda*] **Apresente uma proposta doutrinária para a redação do Art. 121-A** (proposta de tipo autônomo baseado no modelo extensivo circunstancial) que garanta maior clareza e racionalidade, distanciando-se de elementos subjetivos.
-- [Inclusão de Outros Grupos] **Discuta a necessidade de ampliar a proteção penal para outras vítimas de violência de gênero**, como indivíduos transexuais e travestis, e se a lei atual permite essa interpretação (analogia *in malam partem*).
-- [Inconstitucionalidade Argumentativa] **Quais os principais argumentos doutrinários (por violação da isonomia e legalidade)** levantados contra a constitucionalidade do feminicídio em sua redação original (Lei 13.104/2015).
-- [Controle Dogmático] **Qual a função dogmática do estudo das circunstâncias modificativas do delito (Art. 59, CP)** na análise do feminicídio, mesmo sendo ele um tipo qualificado/autônomo.
-- [Inversão Ônus da Prova] **Analise a crítica de que a tipificação do feminicídio por "menosprezo"** pode gerar, na prática, uma espécie de inversão do ônus da prova, exigindo que o acusado prove que não agiu com a motivação discriminatória.
-- [Lacunas no Processo] **Explicite as principais lacunas processuais deixadas pela Lei nº 14.994/2024** no que tange à regulamentação dos quesitos no Tribunal do Júri e o papel esperado dos Tribunais Superiores.
-- [Feminicídio e Dano Emocional] **O exame pericial é indispensável para a prova do dano emocional** no crime de violência psicológica (Art. 147-B, CP), que precede o feminicídio?.
-- [Jurisprudência Fútil/Torpe (Antiga)] **Como o Tribunal de Justiça do Distrito Federal e Territórios (TJDFT) e o STJ se posicionaram (na vigência da lei anterior)** sobre a coexistência das qualificadoras de motivo torpe e feminicídio, e por que a compatibilidade era aceita.
-- [Crítica de Eficácia] **Em que medida a alteração legislativa (Lei 14.994/2024)**, ao focar no aumento da sanção, reflete uma política criminal punitivista, insuficiente para a erradicação de um problema estrutural como o feminicídio.
+- [Crítica de Racionalidade] *Analise a crítica sobre a "irracionalidade legislativa" do feminicídio (Art. 121-A)*, no sentido de que a figura construída é híbrida, mistura elementos objetivos e subjetivos, e gera insegurança interpretativa.
+- [Sugestão *de Lege Ferenda*] *Apresente uma proposta doutrinária para a redação do Art. 121-A* (proposta de tipo autônomo baseado no modelo extensivo circunstancial) que garanta maior clareza e racionalidade, distanciando-se de elementos subjetivos.
+- [Inclusão de Outros Grupos] *Discuta a necessidade de ampliar a proteção penal para outras vítimas de violência de gênero*, como indivíduos transexuais e travestis, e se a lei atual permite essa interpretação (analogia *in malam partem*).
+- [Inconstitucionalidade Argumentativa] *Quais os principais argumentos doutrinários (por violação da isonomia e legalidade)* levantados contra a constitucionalidade do feminicídio em sua redação original (Lei 13.104/2015).
+- [Controle Dogmático] *Qual a função dogmática do estudo das circunstâncias modificativas do delito (Art. 59, CP)* na análise do feminicídio, mesmo sendo ele um tipo qualificado/autônomo.
+- [Inversão Ônus da Prova] *Analise a crítica de que a tipificação do feminicídio por "menosprezo"* pode gerar, na prática, uma espécie de inversão do ônus da prova, exigindo que o acusado prove que não agiu com a motivação discriminatória.
+- [Lacunas no Processo] *Explicite as principais lacunas processuais deixadas pela Lei nº 14.994/2024* no que tange à regulamentação dos quesitos no Tribunal do Júri e o papel esperado dos Tribunais Superiores.
+- [Feminicídio e Dano Emocional] *O exame pericial é indispensável para a prova do dano emocional* no crime de violência psicológica (Art. 147-B, CP), que precede o feminicídio?.
+- [Jurisprudência Fútil/Torpe (Antiga)] *Como o Tribunal de Justiça do Distrito Federal e Territórios (TJDFT) e o STJ se posicionaram (na vigência da lei anterior)* sobre a coexistência das qualificadoras de motivo torpe e feminicídio, e por que a compatibilidade era aceita.
+- [Crítica de Eficácia] *Em que medida a alteração legislativa (Lei 14.994/2024)*, ao focar no aumento da sanção, reflete uma política criminal punitivista, insuficiente para a erradicação de um problema estrutural como o feminicídio.
 
 ## Questões Investigativas e de Polícia Judiciária
 
-- [Protocolo Investigativo] **Qual a importância da perspectiva de gênero e da capacitação de agentes públicos** na investigação do feminicídio, referenciando o Protocolo Nacional de Investigação e Perícia em Crimes de Feminicídio.
-- [Coleta de Dados] **Qual o impacto da tipificação do feminicídio na coleta e apuração de dados estatísticos** sobre violência de gênero, e qual a importância desses dados para a formulação de políticas preventivas.
-- [Invisibilidade] **Discorra sobre a "invisibilidade da violência contra a mulher"** e como a Lei do Feminicídio busca romper com a cultura que tratava esses crimes como meros "crimes passionais".
-- [Perda de Direitos] **Além da perda de cargo e da restrição de visitas na LEP**, cite outros direitos que o condenado por feminicídio pode perder, conforme a legislação.
-- [Autonomia MPU] **A palavra da mulher em situação de violência, mesmo na ausência de outros elementos probantes**, é suficiente para o deferimento autônomo de Medidas Protetivas de Urgência (MPU)?.
-- [Reincidência e Progressão] **Como a reincidência, especialmente a não específica, deve ser valorada** para fins de progressão de regime no crime de feminicídio (crime hediondo).
-- [Oitiva do Réu Remota] **É possível a oitiva de mulheres em situação de violência ou testemunhas sem a presença física do réu** (audiência por videoconferência), conforme o Art. 217 do CPP sob a perspectiva de gênero.
-- [Crime Continuado/Habitual] **Qual a relação entre o feminicídio (evento letal)** e o *continuum* de violência que o antecede (ameaça, lesão, violência psicológica) e como o padrão habitual do agressor é analisado no processo.
-- [Vínculo Virtual Afetivo] **As relações íntimas de afeto mantidas exclusivamente em redes sociais ou meios virtuais** são protegidas pela Lei Maria da Penha e, consequentemente, podem configurar feminicídio íntimo?.
-- [Políticas Estruturais] **Quais as sugestões de medidas complementares de natureza preventiva e estrutural** (além do Direito Penal) que são consideradas essenciais para a erradicação do feminicídio.
-- [Exemplo Estrangeiro] **Mencione as principais características do tipo penal de feminicídio no Código Penal do México**, destacando as circunstâncias de gênero consideradas.
-- [Risco à Vida] **O que significa o Princípio da Proibição de Proteção Insuficiente (*Verbot der untermäßigen Protektion*)** no contexto do enfrentamento à violência de gênero e à morte de mulheres.
-- [Competência Recursal] **Qual a competência para apreciar os recursos** contra as decisões proferidas nos Juizados de Violência Doméstica contra a Mulher (TJ ou Tribunal Recursal).
-- [Gênero e Patologização] **De que forma a tipificação do feminicídio ajuda a romper com enfoques individualizantes ou patologizantes** (como "perda de controle") que frequentemente culpabilizam a vítima.
-- [Fomento de Políticas] **Qual o papel do Juiz ou Juíza no fomento de políticas públicas locais** para a prevenção e combate à violência doméstica.
-- [Condução Coercitiva] **É cabível a condução coercitiva da pessoa autora de violências para a colocação de dispositivo de monitoração eletrônica** (tornozeleira), como medida coercitiva de MPU?.
-- [Causas Majoradas] **Em relação à majorante do Art. 121-A, § 2º, I**, analise se a menção à "responsável por criança, adolescente ou pessoa com deficiência" exige que a responsabilidade seja comprovadamente legal.
-- [Inconstitucionalidade Material] **Discorra sobre a violação dos critérios materiais de constitucionalidade** apontada por parte da doutrina em relação à Lei do Feminicídio, baseada na quebra da isonomia.
-- [Conceito de Mulher Jurídico] **Na perspectiva de Rogério Greco**, como a mulher transexual poderia ser considerada sujeito passivo do feminicídio com base na alteração registral.
-- [Função da MPU] **Qual a natureza jurídica das Medidas Protetivas de Urgência (MPU)** e por que o seu arquivamento não está necessariamente vinculado à absolvição do autor da violência.
-- [Conceito Restritivo] **Por que a doutrina penal defende que o conceito de feminicídio deve ser o mais restrito possível** na lei penal, dada a exigência do princípio da legalidade.
-- [Justiça Restaurativa] **A Justiça Restaurativa ou Mediação** é recomendável em casos que envolvam violência doméstica, conforme os enunciados do FONAVID.
-- [Impacto Psicológico] **De que forma a violência praticada contra a mulher na presença de filhos** pode ser valorada como circunstância judicial desfavorável (Art. 59 do CP).
-- [Finalidade Legislativa] **Qual a principal finalidade da Lei nº 14.994/2024** ao transformar o feminicídio em crime autônomo e agravar suas penas.
-- [Terminologia Criminológica] **Diferencie os termos "feminicídio" e "femigenocídio"** na criminologia e a relevância deste último para o Direito Internacional.
+- [Protocolo Investigativo] *Qual a importância da perspectiva de gênero e da capacitação de agentes públicos* na investigação do feminicídio, referenciando o Protocolo Nacional de Investigação e Perícia em Crimes de Feminicídio.
+- [Coleta de Dados] *Qual o impacto da tipificação do feminicídio na coleta e apuração de dados estatísticos* sobre violência de gênero, e qual a importância desses dados para a formulação de políticas preventivas.
+- [Invisibilidade] *Discorra sobre a "invisibilidade da violência contra a mulher"* e como a Lei do Feminicídio busca romper com a cultura que tratava esses crimes como meros "crimes passionais".
+- [Perda de Direitos] *Além da perda de cargo e da restrição de visitas na LEP*, cite outros direitos que o condenado por feminicídio pode perder, conforme a legislação.
+- [Autonomia MPU] *A palavra da mulher em situação de violência, mesmo na ausência de outros elementos probantes*, é suficiente para o deferimento autônomo de Medidas Protetivas de Urgência (MPU)?.
+- [Reincidência e Progressão] *Como a reincidência, especialmente a não específica, deve ser valorada* para fins de progressão de regime no crime de feminicídio (crime hediondo).
+- [Oitiva do Réu Remota] *É possível a oitiva de mulheres em situação de violência ou testemunhas sem a presença física do réu* (audiência por videoconferência), conforme o Art. 217 do CPP sob a perspectiva de gênero.
+- [Crime Continuado/Habitual] *Qual a relação entre o feminicídio (evento letal)* e o *continuum* de violência que o antecede (ameaça, lesão, violência psicológica) e como o padrão habitual do agressor é analisado no processo.
+- [Vínculo Virtual Afetivo] *As relações íntimas de afeto mantidas exclusivamente em redes sociais ou meios virtuais* são protegidas pela Lei Maria da Penha e, consequentemente, podem configurar feminicídio íntimo?.
+- [Políticas Estruturais] *Quais as sugestões de medidas complementares de natureza preventiva e estrutural* (além do Direito Penal) que são consideradas essenciais para a erradicação do feminicídio.
+- [Exemplo Estrangeiro] *Mencione as principais características do tipo penal de feminicídio no Código Penal do México*, destacando as circunstâncias de gênero consideradas.
+- [Risco à Vida] *O que significa o Princípio da Proibição de Proteção Insuficiente (*Verbot der untermäßigen Protektion*)* no contexto do enfrentamento à violência de gênero e à morte de mulheres.
+- [Competência Recursal] *Qual a competência para apreciar os recursos* contra as decisões proferidas nos Juizados de Violência Doméstica contra a Mulher (TJ ou Tribunal Recursal).
+- [Gênero e Patologização] *De que forma a tipificação do feminicídio ajuda a romper com enfoques individualizantes ou patologizantes* (como "perda de controle") que frequentemente culpabilizam a vítima.
+- [Fomento de Políticas] *Qual o papel do Juiz ou Juíza no fomento de políticas públicas locais* para a prevenção e combate à violência doméstica.
+- [Condução Coercitiva] *É cabível a condução coercitiva da pessoa autora de violências para a colocação de dispositivo de monitoração eletrônica* (tornozeleira), como medida coercitiva de MPU?.
+- [Causas Majoradas] *Em relação à majorante do Art. 121-A, § 2º, I*, analise se a menção à "responsável por criança, adolescente ou pessoa com deficiência" exige que a responsabilidade seja comprovadamente legal.
+- [Inconstitucionalidade Material] *Discorra sobre a violação dos critérios materiais de constitucionalidade* apontada por parte da doutrina em relação à Lei do Feminicídio, baseada na quebra da isonomia.
+- [Conceito de Mulher Jurídico] *Na perspectiva de Rogério Greco*, como a mulher transexual poderia ser considerada sujeito passivo do feminicídio com base na alteração registral.
+- [Função da MPU] *Qual a natureza jurídica das Medidas Protetivas de Urgência (MPU)* e por que o seu arquivamento não está necessariamente vinculado à absolvição do autor da violência.
+- [Conceito Restritivo] *Por que a doutrina penal defende que o conceito de feminicídio deve ser o mais restrito possível* na lei penal, dada a exigência do princípio da legalidade.
+- [Justiça Restaurativa] *A Justiça Restaurativa ou Mediação* é recomendável em casos que envolvam violência doméstica, conforme os enunciados do FONAVID.
+- [Impacto Psicológico] *De que forma a violência praticada contra a mulher na presença de filhos* pode ser valorada como circunstância judicial desfavorável (Art. 59 do CP).
+- [Finalidade Legislativa] *Qual a principal finalidade da Lei nº 14.994/2024* ao transformar o feminicídio em crime autônomo e agravar suas penas.
+- [Terminologia Criminológica] *Diferencie os termos "feminicídio" e "femigenocídio"* na criminologia e a relevância deste último para o Direito Internacional.
