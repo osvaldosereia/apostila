@@ -1,0 +1,45 @@
+@@PROMPT: Responda como um professor de Direito Penal muito experiente em temas sobre Aborto Provocado pela gestante ou com seu consentimento: "{{PERGUNTA}}" @@
+
+# Aborto provocado pela gestante ou com seu consentimento
+
+## Considerações iniciais
+- [Bem Jurídico] Defina o bem jurídico tutelado no art. 124 (auto-aborto e aborto consentido), explicando se a tutela recai exclusivamente sobre a "vida do feto/embrião" (bem indisponível) ou se tutela também a "autonomia da gestante" contra uma decisão precipitada.
+- [Classificação Doutrinária - Auto-aborto] Classifique o crime de auto-aborto (art. 124, 1ª parte) quanto ao sujeito ativo (crime de mão própria), conduta (forma livre, comissivo/omissivo) e resultado (material).
+- [Classificação Doutrinária - Consentido] Classifique o crime de aborto consentido (art. 124, 2ª parte), explicando a natureza da conduta da gestante (crime comissivo por omissão? participação?) e sua relação com o art. 126.
+- [Distinção Legal (Art. 124 vs. 126)] Diferencie a conduta da gestante que consente (art. 124, 2ª parte) da conduta do terceiro que executa o aborto com consentimento (art. 126, *caput*), explicando por que o Código Penal adotou uma exceção à teoria monista do concurso de agentes.
+- [Marco Inicial da Tutela] Discuta o marco inicial da proteção penal do art. 124. A tutela se inicia na nidação (implantação do óvulo fecundado no útero) ou desde a fecundação? Analise, sob essa ótica, a (a)tipicidade do uso de métodos contraceptivos de emergência (pílula do dia seguinte) ou DIU.
+- [ADPF 54] Explique como a decisão do STF na ADPF 54 (interrupção da gestação de feto anencéfalo) impacta a tipicidade da conduta da gestante (art. 124), definindo a natureza jurídica daquela decisão (atipicidade da conduta ou excludente de ilicitude?).
+- [ADPF 442] Discuta o objeto da ADPF 442 (descriminalização do aborto até a 12ª semana) e quais os principais argumentos constitucionais (dignidade humana da gestante, direitos reprodutivos, saúde pública) utilizados para questionar a recepção do art. 124 pela CF/88.
+
+## Sujeitos do crime
+- [Sujeito Ativo - Auto-aborto] Explique por que o auto-aborto (art. 124, 1ª parte) é classificado como crime de *mão própria* (ou *próprio*) e quem é a única pessoa que pode figurar como sujeito ativo.
+- [Sujeito Ativo - Aborto Consentido] No aborto consentido (art. 124, 2ª parte), quem figura como sujeito ativo desta infração específica?
+- [Sujeito Passivo] Defina o sujeito passivo imediato (o feto ou embrião) e mediato (o Estado) do crime de aborto.
+- [Participação no Auto-aborto] Sendo o auto-aborto (1ª parte) um crime de mão própria, discorra sobre a (im)possibilidade de coautoria. Como responde o terceiro (ex: namorado) que *instiga* ou *auxilia* (fornece o dinheiro/remédio) a gestante a praticar o auto-aborto? (Art. 124 c/c art. 29 ou art. 126?)
+- [Gestante Incapaz] Se a gestante que consente (art. 124, 2ª parte) é menor de 14 anos ou alienada mental, ela responde pelo art. 124? E o terceiro que nela executa o aborto, responde pelo art. 126 (*caput*) ou pela forma qualificada do art. 125?
+- [Erro sobre a Pessoa] Se a gestante consente que um terceiro lhe provoque o aborto (art. 124), mas este, por erro na execução (aberratio ictus), acaba provocando aborto em outra gestante que estava ao lado, como a primeira gestante responde?
+
+## Conduta
+- [Verbo Nuclear - Auto-aborto] Defina a conduta "provocar aborto em si mesma", exemplificando os meios (químicos, físicos, psíquicos) e explicando por que se trata de crime de forma livre.
+- [Verbo Nuclear - Consentir] Defina a conduta "consentir que outrem lho provoque". Esse consentimento precisa ser expresso e inequívoco, ou o consentimento tácito (ex: não resistir, sabendo da manobra) é suficiente para tipificar o art. 124, 2ª parte?
+- [Auto-aborto Omissivo] Discuta a (controvertida) possibilidade de auto-aborto na forma omissiva imprópria. A gestante que, dolosamente, deixa de tomar um remédio essencial para a manutenção da gravidez, visando a morte do feto, comete o crime?
+- [Consentimento Viciado] Analise a consequência de um consentimento viciado (obtido mediante coação, fraude ou erro). Se a gestante consente com a manobra abortiva acreditando ser outro procedimento, ela responde pelo art. 124? (E o terceiro, responde por art. 126 ou 125?)
+- [Conduta Indireta] A gestante que contrata um "curandeiro" para realizar uma "simpatia" (meio absolutamente inidôneo) para provocar o aborto, pratica qual crime?
+
+## Voluntariedade
+- [Elemento Subjetivo] Defina o elemento subjetivo exigido no art. 124 (dolo direto). Explique, fundamentadamente, a (in)admissibilidade do dolo eventual no auto-aborto.
+- [Inexistência de Aborto Culposo] Explique por que não existe a figura do "auto-aborto culposo". Se a gestante, por imprudência (ex: praticando esporte radical), causa a morte do feto, qual a consequência jurídico-penal? (Fato atípico).
+- [Erro de Tipo] Analise a hipótese de erro de tipo: a gestante ingere uma substância acreditando ser uma vitamina, mas era um abortivo fornecido por terceiro. Ela responde pelo art. 124?
+- [Gravidez Putativa] Se a mulher, acreditando falsamente estar grávida (gravidez putativa), pratica manobras abortivas em si mesma (ex: ingere citotec), qual a tipificação da conduta? (Crime impossível por absoluta impropriedade do objeto).
+- [Estado de Necessidade] Discuta a (in)aplicabilidade da excludente de ilicitude do estado de necessidade (art. 24, CP) no auto-aborto, quando a gestante alega "dificuldades financeiras extremas" para criar o filho (estado de necessidade exculpante?).
+
+## Consumação e tentativa
+- [Momento Consumativo] Sendo um crime material, defina o momento consumativo do aborto (art. 124): basta a expulsão do feto, ou exige-se a interrupção da gravidez com a *morte* do feto/embrião?
+- [Tentativa de Auto-aborto] Explique por que o auto-aborto (art. 124, 1ª parte) admite tentativa (art. 14, II). Exemplifique um cenário fático (ex: gestante ingere substância abortiva eficaz, mas é socorrida a tempo e a gravidez é salva).
+- [Tentativa e Parto Prematuro] Se a gestante pratica manobras abortivas (auto-aborto), o feto é expulso prematuramente, mas sobrevive (parto prematuro), ela responde por tentativa de aborto (art. 124 c/c 14, II) ou por tentativa de homicídio (se o bebê morrer dias depois em decorrência da prematuridade)?
+- [Tentativa no Consentimento] Discuta a (difícil) configuração da tentativa na modalidade "consentir" (art. 124, 2ª parte). O mero ato de consentir verbalmente, antes do início da execução pelo terceiro, já configura tentativa?
+
+## Ação penal
+- [Natureza da Ação] Defina a natureza da ação penal para o crime de auto-aborto (art. 124), explicando por que ela é pública incondicionada.
+- [Competência] Defina a competência para julgamento do art. 124. Por ser um crime doloso contra a vida, é da competência do Tribunal do Júri ou do Juízo Singular?
+- [Sigilo Médico e Prova] Discuta o conflito ético-penal do médico que atende uma paciente com hemorragia decorrente de auto-aborto (art. 124). O médico tem o dever de comunicar o fato à autoridade (justa causa para quebra do sigilo) ou deve guardar sigilo profissional (art. 154, CP)? A prova obtida por essa comunicação é lícita?
