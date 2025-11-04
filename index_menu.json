@@ -12,6 +12,10 @@
                     {
                         "subtema": "Feminicídio",
                         "arquivo": "data/direito-penal/crimes-contra-a-vida/feminicidio.txt"
+                    },
+                     {
+                        "subtema": "Induzimento, instigação ou auxílio a suicídio ou a automutilação",
+                        "arquivo": "data/direito-penal/crimes-contra-a-vida/induzimento.txt"
                     }
                 ]
             },
