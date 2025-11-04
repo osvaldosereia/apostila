@@ -1,0 +1,46 @@
+@@PROMPT: Responda como um professor de Direito Penal muito experiente em temas sobre Aborto provocado por terceiro, sem o consentimento da gestante: "{{PERGUNTA}}" @@
+
+# Aborto provocado por terceiro, sem o consentimento da gestante
+
+## Considerações iniciais
+- [Bem Jurídico] Defina o bem jurídico tutelado pelo art. 125 do CP, explicando por que a doutrina o considera um crime de dupla subjetividade passiva (feto e gestante) e como isso justifica a pena (reclusão, de 3 a 10 anos) ser drasticamente mais elevada que a do art. 126 (consentido).
+- [Classificação Doutrinária] Classifique o crime de aborto sem consentimento (art. 125) quanto: (1) ao sujeito ativo (comum); (2) ao resultado (material); (3) à conduta (forma livre); (4) à voluntariedade (doloso); e (5) à necessidade de nexo causal.
+- [Princípio da Especialidade] Diferencie fundamentalmente a conduta do art. 125 (dolo de abortar) da conduta de lesão corporal gravíssima que *resulta* em aborto (art. 129, § 2º, V), analisando o elemento volitivo (dolo direto/eventual vs. preterdolo) em cada caso.
+- [Natureza do Dissenso] Explique o que constitui a elementar "sem o consentimento da gestante", detalhando se ela abrange apenas o dissenso expresso ou se inclui o dissenso presumido (ex: vítima em coma) e o consentimento viciado (obtido por fraude ou coação).
+- [Conflito de Normas] Analise a (a)tipicidade da conduta do médico que, em situação de risco de morte iminente da gestante (e sem tempo para colher consentimento), realiza o aborto terapêutico (art. 128, I). A conduta se amolda ao art. 125 ou há exclusão da ilicitude (estado de necessidade de terceiro)?
+
+## Sujeitos do crime
+- [Sujeito Ativo] Defina quem pode ser o sujeito ativo do crime do art. 125, explicando por que se trata de crime comum, e se o executor (ex: médico) que age sob coação moral irresistível do terceiro (ex: namorado) responde pelo delito.
+- [Sujeito Passivo] Discorra sobre a duplicidade de sujeitos passivos no art. 125: o feto (titular do bem jurídico vida intrauterina) e a gestante (titular da liberdade, autonomia e integridade física).
+- [Concurso de Pessoas] Em um cenário onde 'A' (marido) paga 'B' (médico) para realizar o aborto em 'C' (gestante) sem o conhecimento dela, analise a responsabilidade penal de 'A' e 'B', e a comunicabilidade de eventuais agravantes (ex: paga ou recompensa).
+- [Autoria Mediata] É possível a configuração do art. 125 por autoria mediata? Exemplifique um cenário onde o agente se vale de um inimputável (ex: enfermeiro com doença mental) para ministrar o abortivo à gestante.
+- [Mãe como Sujeito Ativo] Seria juridicamente possível (embora faticamente improvável) que a própria gestante figurasse como sujeito ativo do art. 125, por exemplo, em um contexto de autoria mediata onde ela força um médico a realizar o ato?
+
+## Conduta
+- [Verbo Nuclear] Defina o alcance do verbo "provocar" (causar, originar), indicando se a conduta exige manobras invasivas (cirúrgicas) ou se pode ser praticada por meios químicos (ministrar substância na bebida), físicos (agressão abdominal dolosa) ou morais/psíquicos (provocar susto intenso com dolo inequívoco de abortar).
+- [Conduta Omissiva] Analise a (plenamente possível) ocorrência do art. 125 na forma omissiva imprópria (art. 13, §2º). Exemplifique como um médico (garantidor) poderia praticar o crime ao, dolosamente, deixar de ministrar um remédio essencial para a manutenção da gravidez, visando a interrupção.
+- [Consentimento Viciado (Fraude)] Se o agente obtém o consentimento da gestante mediante fraude (ex: médico que realiza manobra abortiva alegando ser um exame de rotina), a conduta se tipifica no art. 126 (consentido) ou no art. 125 (sem consentimento)? Fundamente.
+- [Consentimento Viciado (Coação)] Se o agente coage moralmente a gestante (grave ameaça) a aceitar o aborto, e ela "consente" por medo (art. 126), o agente responde pelo art. 126 em concurso com constrangimento ilegal (art. 146), ou o consentimento é considerado nulo, atraindo a pena do art. 125?
+- [Dissenso Tácito] O dissenso da gestante precisa ser expresso ("Eu não quero")? A mera ausência de consentimento válido (ex: gestante dormindo ou sedada para outro procedimento) é suficiente para configurar a elementar "sem consentimento"?
+
+## Voluntariedade
+- [Elemento Subjetivo (Dolo)] Defina o elemento subjetivo do art. 125. É necessário o dolo direto ou admite-se o dolo eventual? O dolo deve abranger apenas o ato de "provocar o aborto" ou também a circunstância "sem o consentimento"?
+- [Dolo Eventual] Exemplifique um cenário fático onde o agente responderia pelo art. 125 a título de dolo eventual (ex: agressor que espanca brutalmente a região abdominal da gestante, sem querer diretamente o aborto, mas assumindo o risco de produzi-lo e sabendo que ela não consentiria).
+- [Aborto Culposo] Explique por que não existe a figura do "aborto provocado por terceiro" na modalidade culposa. Se um médico, por negligência (erro médico), provoca o aborto, qual a tipificação correta? (Art. 129, §6º c/c §7º?).
+- [Erro de Tipo sobre o Consentimento] Analise a hipótese de erro de tipo (art. 20) sobre a elementar "sem consentimento". O agente (ex: namorado) contrata um médico para o aborto, acreditando (erroneamente, por má interpretação) que a gestante consentia. Ele responde pelo art. 125 ou há desclassificação para o art. 126?
+- [Erro de Tipo sobre a Gravidez] Se o agente, desconhecendo totalmente a gravidez da vítima, a agride (dolo de lesão), e o aborto ocorre (resultado preterdoloso), qual a tipificação correta e por que não é o art. 125?
+- [Dolo e Resultado Morte] Se o agente, com dolo de praticar o art. 125, utiliza um meio que causa a morte da gestante (ex: clínica clandestina sem higiene), ele responde por art. 125 em concurso com homicídio culposo (art. 121, §3º) ou pelo art. 127 (forma qualificada)?
+
+## Consumação e tentativa
+- [Momento Consumativo] Sendo um crime material, defina o momento consumativo do art. 125. Basta a expulsão do feto (ainda que com vida) ou exige-se a interrupção da gravidez com a efetiva *morte* do feto ou embrião?
+- [Tentativa] Explique a admissibilidade da tentativa (art. 14, II) no art. 125. Exemplifique um cenário (ex: agente ministra substância abortiva na bebida da gestante, que passa mal, é socorrida, e a gravidez é salva).
+- [Tentativa e Lesão Corporal] Se o agente tenta praticar o art. 125 (dolo de abortar), mas não consegue (gravidez prossegue), porém causa lesões corporais graves na gestante (ex: perfuração uterina), ele responde por tentativa de aborto (art. 125) em concurso material com lesão corporal grave (art. 129, §1º)?
+- [Crime Impossível (Objeto)] Se o agente pratica as manobras do art. 125 em uma mulher que ele acredita estar grávida, mas ela não está, qual a consequência jurídico-penal?
+- [Crime Impossível (Meio)] Se o agente tenta praticar o art. 125 utilizando um meio absolutamente ineficaz (ex: "simpatia" ou dose ínfima de substância), ele responde por tentativa?
+- [Desistência Voluntária] Se o agente inicia a manobra abortiva (art. 125) e, no meio do procedimento, arrepende-se e reverte a situação, salvando o feto (art. 15), ele responde pelos atos já praticados (ex: lesão corporal)?
+
+## Ação penal
+- [Natureza da Ação] Defina a natureza da ação penal para o crime do art. 125, explicando por que ela é pública incondicionada, dada a gravidade da violação e a indisponibilidade dos bens jurídicos tutelados.
+- [Competência] Defina a competência para processo e julgamento do art. 125, justificando se é do Juiz Singular ou do Tribunal do Júri (art. 5º, XXXVIII, CF/88).
+- [Concurso (Art. 125 vs. 127)] Se, em decorrência das manobras abortivas (art. 125), a gestante sofre lesão corporal grave ou morte, o agente responde pelo art. 125 em concurso com lesão grave/homicídio, ou aplica-se a forma qualificada pelo resultado (art. 127)?
+- [Prescrição] Compare o prazo prescricional (art. 109, CP) do art. 125 (pena máxima de 10 anos) com o do art. 126 (pena máxima de 4 anos), destacando a relevância da prova do (dis)senso da gestante para a pretensão punitiva estatal.
