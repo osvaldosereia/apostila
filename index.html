@@ -3,11 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Novo Título -->
     <title>50 Perguntas Sobre...</title>
-    <!-- Carrega o Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Fonte Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -18,137 +15,135 @@
             -webkit-font-smoothing: antialiased;
             -moz-osx-font-smoothing: grayscale;
         }
-        /* Estilo para a barra de rolagem no menu (Webkit) */
         .sidebar-scroll::-webkit-scrollbar {
             width: 4px;
         }
         .sidebar-scroll::-webkit-scrollbar-thumb {
-            background-color: #cbd5e1; /* cinza-300 */
+            background-color: #cbd5e1;
             border-radius: 4px;
         }
         .sidebar-scroll::-webkit-scrollbar-track {
             background-color: transparent;
         }
 
-        /* --- NOVOS ESTILOS PARA SIDEBAR --- */
-        /* Estilo para o <summary> (Disciplina) */
+        /* --- ESTILOS SIDEBAR --- */
         #menu-content summary {
             transition: background-color 0.15s ease-in-out;
-            border-radius: 0.5rem; /* rounded-lg */
+            border-radius: 0.5rem;
         }
         #menu-content details[open] > summary {
-            background-color: #f9fafb; /* gray-50 */
+            background-color: #f9fafb;
         }
-
-        /* Estilo para o Título do Tema (ex: "Controle de Constitucionalidade") */
         #menu-content .tema-title {
-            font-size: 0.8rem; /* 12px */
-            font-weight: 600; /* semibold */
-            color: #6b7280; /* gray-500 */
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #6b7280;
             text-transform: uppercase;
             letter-spacing: 0.05em;
-            padding-left: 0.5rem; /* pl-2 */
-            margin-top: 0.75rem; /* mt-3 */
-            margin-bottom: 0.25rem; /* mb-1 */
+            padding-left: 0.5rem;
+            margin-top: 0.75rem;
+            margin-bottom: 0.25rem;
         }
-
-        /* Estilo para o Link do Subtema (ex: "Conceitos Iniciais") */
         #menu-content .subtema-link {
-            padding: 0.6rem 0.75rem; /* py-2.5 px-3 */
-            font-size: 0.9rem; /* 14px */
-            border-radius: 0.5rem; /* rounded-md */
+            padding: 0.6rem 0.75rem;
+            font-size: 0.9rem;
+            border-radius: 0.5rem;
             transition: all 0.15s ease-in-out;
             display: block;
-            color: #374151; /* gray-700 */
+            color: #374151;
         }
         #menu-content .subtema-link:hover {
-            background-color: #eff6ff; /* blue-50 */
-            color: #2563eb; /* blue-600 */
+            background-color: #eff6ff;
+            color: #2563eb;
             transform: translateX(4px);
         }
-        
-        /* Estilo para o link ATIVO */
         #menu-content .subtema-link[data-active="true"] {
-            background-color: #dbeafe; /* blue-100 */
-            color: #1d4ed8; /* blue-700 */
-            font-weight: 600; /* semibold */
+            background-color: #dbeafe;
+            color: #1d4ed8;
+            font-weight: 600;
         }
         
-        /* --- NOVOS ESTILOS PARA CONTEÚDO --- */
-        /* Card da Pergunta */
+        /* --- ESTILOS CONTEÚDO --- */
         .question-card {
-            /* Mudar para items-start para alinhar botão ao topo em texto longo */
             align-items: flex-start;
         }
-        
-        /* Texto da Pergunta com mais "respiro" */
         .question-text {
-            line-height: 1.6; /* leading-relaxed */
+            line-height: 1.6;
         }
+
+        /* --- ESTILO: Tag Badge --- */
+        .tag-badge {
+            display: inline-block;
+            font-size: 0.75rem; /* 12px */
+            font-weight: 500; /* medium */
+            color: #4b5563; /* gray-600 */
+            background-color: #f3f4f6; /* gray-100 */
+            padding: 0.125rem 0.5rem; /* py-0.5 px-2 */
+            border-radius: 9999px; /* rounded-full */
+            border: 1px solid #e5e7eb; /* border-gray-200 */
+            line-height: 1.25;
+            margin-bottom: 0.5rem; /* mb-2 */
+        }
+
     </style>
 </head>
 <body class="bg-gray-100 h-full overflow-hidden">
 
-    <!-- Estrutura principal com layout flexível -->
     <div class="flex h-full">
 
-        <!-- 
-          Menu Lateral (Sidebar) 
-        -->
+        <!-- Sidebar -->
         <nav id="sidebar" class="bg-white/95 backdrop-blur-sm border-r border-gray-200 w-72 h-full fixed lg:static left-0 top-0 z-30
                            transform -translate-x-full lg:translate-x-0
                            transition-transform duration-300 ease-in-out
                            flex flex-col shadow-lg lg:shadow-none">
             
-            <!-- Cabeçalho do Menu (Atualizado com Logo e Título) -->
+            <!-- Cabeçalho do Menu -->
             <div class="flex items-center gap-3 p-4 border-b border-gray-200">
-                <!-- Logo SVG Simples (Exemplo) -->
                 <div class="bg-blue-600 p-2 rounded-lg">
                     <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
                     </svg>
                 </div>
                 <h1 class="text-xl font-bold text-gray-800">50 Perguntas</h1>
-
-                <!-- Botão de fechar (Apenas visível no mobile) -->
                 <button id="close-menu-btn" class="lg:hidden text-gray-500 hover:text-gray-800 ml-auto">
                     <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
                 </button>
             </div>
 
-            <!-- Conteúdo do Menu (com rolagem) -->
+            <!-- Conteúdo do Menu -->
             <div id="menu-content" class="flex-1 overflow-y-auto sidebar-scroll p-4 space-y-2">
-                <!-- O menu será populado dinamicamente aqui -->
+                <!-- O menu será populado dinamicamente aqui vindo do JSON -->
+                <div class="text-center text-gray-500 pt-10">
+                    <svg class="animate-spin h-6 w-6 text-blue-600 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <p class="mt-3 text-sm">Carregando menu...</p>
+                </div>
             </div>
         </nav>
 
-        <!-- Backdrop (fundo escuro) para o menu mobile -->
+        <!-- Backdrop -->
         <div id="sidebar-backdrop" class="fixed inset-0 bg-black/50 z-20 hidden lg:hidden" aria-hidden="true"></div>
 
-        <!-- 
-          Conteúdo Principal 
-        -->
+        <!-- Conteúdo Principal -->
         <main class="flex-1 flex flex-col h-full overflow-hidden">
             
-            <!-- Cabeçalho Principal (Header) -->
+            <!-- Cabeçalho Principal -->
             <header class="bg-white/95 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-10">
                 <div class="flex items-center justify-between p-4 max-w-4xl mx-auto">
-                    <!-- Botão de abrir menu (Apenas visível no mobile) -->
                     <button id="open-menu-btn" class="lg:hidden text-gray-600 hover:text-gray-900">
                         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                     </button>
-                    <!-- Título do Subtema (atualizado dinamicamente) -->
                     <h2 id="subtema-title" class="text-lg font-semibold text-gray-900 truncate">
                         Selecione um tópico
                     </h2>
-                    <!-- Ícone de placeholder para alinhar o título ao centro -->
                     <div class="w-6 lg:hidden"></div>
                 </div>
             </header>
 
             <!-- Área de Conteúdo (Perguntas) -->
             <div id="content-area" class="flex-1 overflow-y-auto p-4 md:p-6 lg:p-8">
-                <!-- A lista de perguntas parseada do TXT será injetada aqui -->
                 <div id="questions-list" class="max-w-4xl mx-auto">
                     <div id="welcome-message" class="text-center text-gray-500 pt-10">
                         <svg class="w-12 h-12 mx-auto text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
@@ -160,155 +155,11 @@
         </main>
     </div>
     
-    <!-- MODAL REMOVIDO -->
-
-
     <!-- ====================================================== -->
     <!-- JAVASCRIPT -->
     <!-- ====================================================== -->
     <script type="module">
-        // --- 1. Estrutura de Dados (Simulação de Conteúdo) ---
-        // A estrutura agora aponta para os arquivos .txt
-        const estruturaDireito = [
-            {
-                disciplina: "Direito Constitucional",
-                temas: [
-                    {
-                        tema: "Controle de Constitucionalidade",
-                        subtemas: [
-                            {
-                                subtema: "Conceitos Iniciais",
-                                arquivo: "data/constitucional/controle/conceitos.txt"
-                            },
-                            {
-                                subtema: "Ações de Controle Concentrado",
-                                arquivo: "data/constitucional/controle/acoes.txt"
-                            }
-                        ]
-                    },
-                    {
-                        tema: "Direitos Fundamentais",
-                        subtemas: [
-                            {
-                                subtema: "Teoria Geral",
-                                arquivo: "data/constitucional/fundamentais/teoria.txt"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                disciplina: "Direito Penal",
-                temas: [
-                    {
-                        tema: "Teoria do Crime",
-                        subtemas: [
-                            {
-                                subtema: "Conceito e Elementos",
-                                arquivo: "data/penal/crime/conceito.txt"
-                            },
-                            {
-                                subtema: "Ilicitude",
-                                arquivo: "data/penal/crime/ilicitude.txt"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ];
-
-        // --- SIMULAÇÃO DE ARQUIVOS TXT ---
-        // Em um app real, você faria fetch() desses arquivos do seu servidor.
-        const arquivosTxtSimulados = {
-            "data/constitucional/controle/conceitos.txt": `
-@@PROMPT: Aja como um professor de Direito Constitucional e explique de forma aprofundada o seguinte conceito para um estudante de graduação: "{{PERGUNTA}}" @@
-
-# CONTROLE DE CONSTITUCIONALIDADE
-## Conceitos Iniciais
-- O que é o princípio da supremacia da Constituição?
-- Quais são os pressupostos do controle de constitucionalidade?
-
-## Sistema Difuso vs. Concentrado
-- Diferencie controle difuso e controle concentrado.
-- Explique o que é o 'parâmetro' no controle de constitucionalidade.
-- Quais as diferenças entre os efeitos da decisão no controle difuso e no concentrado?
-`,
-            "data/constitucional/controle/acoes.txt": `
-@@PROMPT: Explique didaticamente, como um professor de Direito, o que é e como funciona a seguinte ação de controle concentrado: "{{PERGUNTA}}" @@
-
-# AÇÕES DE CONTROLE
-## Ação Direta de Inconstitucionalidade (ADI)
-- O que é uma ADI (Ação Direta de Inconstitucionalidade)?
-- Quem são os legitimados para propor uma ADI perante o STF?
-- O que é uma ADI por Omissão (ADO)?
-
-## Outras Ações
-- O que é uma ADPF (Arguição de Descumprimento de Preceito Fundamental)?
-- Explique os efeitos de uma decisão em ADI (ex tunc, vinculante).
-- O que é Ação Declaratória de Constitucionalidade (ADC)?
-`,
-            "data/constitucional/fundamentais/teoria.txt": `
-@@PROMPT: Discorra sobre o seguinte tópico de Teoria Geral dos Direitos Fundamentais, como um jurista renomado em um seminário: "{{PERGUNTA}}" @@
-
-# TEORIA GERAL
-## Conceitos e Gerações
-- Qual a diferença entre direitos humanos e direitos fundamentais?
-- O que são as 'gerações' ou 'dimensões' dos direitos fundamentais?
-
-## Eficácia
-- O que significa a 'eficácia horizontal' dos direitos fundamentais?
-- Explique a teoria dos limites dos limites (Schranken-Schranken).
-- O que é o princípio da proibição do retrocesso social?
-`,
-            "data/penal/crime/conceito.txt": `
-@@PROMPT: Você é um professor de Direito Penal. Explique para um aluno do 2º ano o seguinte instituto da Teoria do Crime: "{{PERGUNTA}}" @@
-
-# TEORIA DO CRIME
-## Conceito e Elementos
-- Qual o conceito analítico de crime na teoria tripartida?
-- Diferencie dolo direto de dolo eventual.
-- O que é o princípio da insignificância e qual sua natureza jurídica?
-- O que é erro de tipo e quais suas consequências?
-
-## Iter Criminis
-- Quais são as fases do 'iter criminis'?
-- O que é tentativa e quais seus elementos?
-- Diferencie desistência voluntária de arrependimento eficaz.
-`,
-            "data/penal/crime/ilicitude.txt": `
-@@PROMPT: Você é um professor de Direito Penal. Explique para um aluno do 2º ano a seguinte causa de exclusão da ilicitude: "{{PERGUNTA}}" @@
-
-# EXCLUDENTES DE ILICITUDE
-## Legítima Defesa
-- O que é legítima defesa e quais são seus requisitos?
-- O que é legítima defesa putativa?
-
-## Estado de Necessidade
-- O que é estado de necessidade e quais seus requisitos?
-- Diferencie estado de necessidade de legítima defesa.
-- O que é o estado de necessidade exculpante?
-`
-        };
-
-        // Função de simulação de fetch (substitua por fetch() real)
-        function fetchSimulado(url) {
-            return new Promise((resolve, reject) => {
-                setTimeout(() => {
-                    if (arquivosTxtSimulados[url]) {
-                        resolve({
-                            ok: true,
-                            text: () => Promise.resolve(arquivosTxtSimulados[url])
-                        });
-                    } else {
-                        reject(new Error(`Arquivo não encontrado: ${url}`));
-                    }
-                }, 200); // Simula 200ms de delay de rede
-            });
-        }
-        // --- FIM DA SIMULAÇÃO ---
-
-
-        // --- 2. Seletores de Elementos do DOM ---
+        // --- 1. Seletores de Elementos do DOM ---
         const sidebar = document.getElementById('sidebar');
         const sidebarBackdrop = document.getElementById('sidebar-backdrop');
         const openMenuBtn = document.getElementById('open-menu-btn');
@@ -318,8 +169,7 @@
         const subtemaTitle = document.getElementById('subtema-title');
         const welcomeMessage = document.getElementById('welcome-message');
         
-        // --- 3. Lógica do Menu Lateral (Sidebar) ---
-
+        // --- 2. Lógica do Menu Lateral (Sidebar) ---
         function openSidebar() {
             sidebar.classList.remove('-translate-x-full');
             sidebarBackdrop.classList.remove('hidden');
@@ -334,95 +184,100 @@
         closeMenuBtn.addEventListener('click', closeSidebar);
         sidebarBackdrop.addEventListener('click', closeSidebar);
         
-        // --- 4. Renderização Dinâmica do Conteúdo ---
+        // --- 3. Renderização Dinâmica do Conteúdo ---
 
         /**
-         * Renderiza o menu lateral a partir da estrutura de dados.
+         * Carrega a estrutura do menu a partir do JSON e o renderiza.
          */
-        function renderizarMenu() {
-            menuContent.innerHTML = ''; // Limpa o conteúdo existente
-            
-            estruturaDireito.forEach((disciplina, i) => {
-                const disciplinaElement = document.createElement('div');
-                disciplinaElement.className = 'py-1';
+        async function carregarEAmbienteMenu() {
+            try {
+                // Tenta buscar o arquivo index_menu.json
+                const response = await fetch('index_menu.json');
+                if (!response.ok) {
+                    throw new Error(`Falha ao carregar index_menu.json (status: ${response.status})`);
+                }
+                const estruturaDireito = await response.json();
 
-                const detailsElement = document.createElement('details');
-                detailsElement.className = 'group';
-                if (i === 0) detailsElement.setAttribute('open', ''); 
-
-                const summaryElement = document.createElement('summary');
-                summaryElement.className = 'flex items-center justify-between p-2 rounded-lg cursor-pointer hover:bg-gray-100 list-none';
-                summaryElement.innerHTML = `
-                    <span class="text-base font-semibold text-gray-700">${disciplina.disciplina}</span>
-                    <svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200 group-open:rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                `;
+                // Limpa a mensagem "Carregando"
+                menuContent.innerHTML = ''; 
                 
-                const temasContainer = document.createElement('div');
-                temasContainer.className = 'pl-4 mt-1 space-y-1';
+                // Itera sobre a estrutura do JSON para criar o menu
+                estruturaDireito.forEach((disciplina, i) => {
+                    const disciplinaElement = document.createElement('div');
+                    disciplinaElement.className = 'py-1';
 
-                disciplina.temas.forEach(tema => {
-                    const temaElement = document.createElement('div');
-                    
-                    const temaTitle = document.createElement('h4');
-                    // Classe atualizada
-                    temaTitle.className = 'tema-title';
-                    temaTitle.textContent = tema.tema;
-                    temaElement.appendChild(temaTitle);
+                    const detailsElement = document.createElement('details');
+                    detailsElement.className = 'group';
+                    if (i === 0) detailsElement.setAttribute('open', ''); 
 
-                    const subtemasLista = document.createElement('ul');
-                    subtemasLista.className = 'space-y-1';
+                    const summaryElement = document.createElement('summary');
+                    summaryElement.className = 'flex items-center justify-between p-2 rounded-lg cursor-pointer hover:bg-gray-100 list-none';
+                    summaryElement.innerHTML = `
+                        <span class="text-base font-semibold text-gray-700">${disciplina.disciplina}</span>
+                        <svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200 group-open:rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    `;
                     
-                    tema.subtemas.forEach(subtema => {
-                        const subtemaItem = document.createElement('li');
-                        const subtemaLink = document.createElement('a');
-                        subtemaLink.href = '#';
-                        // Classe atualizada
-                        subtemaLink.className = 'subtema-link';
-                        subtemaLink.textContent = subtema.subtema;
+                    const temasContainer = document.createElement('div');
+                    temasContainer.className = 'pl-4 mt-1 space-y-1';
+
+                    disciplina.temas.forEach(tema => {
+                        const temaElement = document.createElement('div');
                         
-                        // Adiciona o evento de clique para carregar as perguntas
-                        subtemaLink.addEventListener('click', (e) => {
-                            e.preventDefault();
+                        const temaTitle = document.createElement('h4');
+                        temaTitle.className = 'tema-title';
+                        temaTitle.textContent = tema.tema;
+                        temaElement.appendChild(temaTitle);
 
-                            // --- LÓGICA DE ESTADO ATIVO ---
-                            // 1. Remove o estado ativo de todos os links
-                            document.querySelectorAll('#menu-content .subtema-link').forEach(link => {
-                                link.removeAttribute('data-active');
+                        const subtemasLista = document.createElement('ul');
+                        subtemasLista.className = 'space-y-1';
+                        
+                        tema.subtemas.forEach(subtema => {
+                            const subtemaItem = document.createElement('li');
+                            const subtemaLink = document.createElement('a');
+                            subtemaLink.href = '#';
+                            subtemaLink.className = 'subtema-link';
+                            subtemaLink.textContent = subtema.subtema;
+                            
+                            subtemaLink.addEventListener('click', (e) => {
+                                e.preventDefault();
+                                document.querySelectorAll('#menu-content .subtema-link').forEach(link => {
+                                    link.removeAttribute('data-active');
+                                });
+                                subtemaLink.setAttribute('data-active', 'true');
+                                // Passa o objeto subtema (que contém 'arquivo')
+                                carregarPerguntasDoArquivo(subtema); 
+                                if (window.innerWidth < 1024) {
+                                    closeSidebar();
+                                }
                             });
-                            // 2. Adiciona o estado ativo no link clicado
-                            subtemaLink.setAttribute('data-active', 'true');
-                            // --- FIM DA LÓGICA ---
-
-                            // Passa o objeto subtema inteiro
-                            carregarPerguntasDoArquivo(subtema); 
-                            if (window.innerWidth < 1024) {
-                                closeSidebar();
-                            }
+                            
+                            subtemaItem.appendChild(subtemaLink);
+                            subtemasLista.appendChild(subtemaItem);
                         });
                         
-                        subtemaItem.appendChild(subtemaLink);
-                        subtemasLista.appendChild(subtemaItem);
+                        temaElement.appendChild(subtemasLista);
+                        temasContainer.appendChild(temaElement);
                     });
-                    
-                    temaElement.appendChild(subtemasLista);
-                    temasContainer.appendChild(temaElement);
+
+                    detailsElement.appendChild(summaryElement);
+                    detailsElement.appendChild(temasContainer);
+                    disciplinaElement.appendChild(detailsElement);
+                    menuContent.appendChild(disciplinaElement);
                 });
 
-                detailsElement.appendChild(summaryElement);
-                detailsElement.appendChild(temasContainer);
-                disciplinaElement.appendChild(detailsElement);
-                menuContent.appendChild(disciplinaElement);
-            });
+            } catch (error) {
+                console.error("Erro fatal ao carregar menu:", error);
+                menuContent.innerHTML = `<p class="p-4 text-red-600"><b>Erro ao carregar o menu.</b><br>Verifique o console e o arquivo index_menu.json.</p>`;
+            }
         }
 
         /**
-         * Busca o arquivo .txt, parseia e renderiza as perguntas.
+         * Carrega as perguntas de um arquivo .txt real.
          */
         async function carregarPerguntasDoArquivo(subtema) {
-            subtemaTitle.textContent = subtema.subtema; // Atualiza o título no header
-            welcomeMessage.classList.add('hidden'); // Esconde msg de boas-vindas
+            subtemaTitle.textContent = subtema.subtema;
+            welcomeMessage.classList.add('hidden');
             
-            // Mostra um estado de carregamento
             questionsList.innerHTML = `
                 <div class="text-center text-gray-500 pt-10">
                     <svg class="animate-spin h-8 w-8 text-blue-600 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -433,24 +288,24 @@
                 </div>`;
 
             try {
-                // Em um app real: const response = await fetch(subtema.arquivo);
-                const response = await fetchSimulado(subtema.arquivo);
+                // --- MUDANÇA PRINCIPAL: Usa o fetch real ---
+                const response = await fetch(subtema.arquivo);
                 
                 if (!response.ok) {
-                    throw new Error("Não foi possível carregar o arquivo de perguntas.");
+                    throw new Error(`Arquivo não encontrado ou falha ao carregar: ${subtema.arquivo} (Status: ${response.status})`);
                 }
                 
                 const texto = await response.text();
                 parsearERenderizarTxt(texto);
 
             } catch (error) {
-                console.error("Erro ao carregar arquivo:", error);
-                questionsList.innerHTML = `<p class="text-red-600 text-center pt-10">Erro ao carregar perguntas. Tente novamente.</p>`;
+                console.error("Erro ao carregar arquivo .txt:", error);
+                questionsList.innerHTML = `<p class="text-red-600 text-center pt-10"><b>Erro ao carregar perguntas.</b><br>${error.message}</p>`;
             }
         }
 
         /**
-         * Faz o parse do arquivo .txt e renderiza o HTML.
+         * Faz o parse do arquivo .txt e renderiza o HTML, com suporte a [tags].
          */
         function parsearERenderizarTxt(texto) {
             questionsList.innerHTML = ''; // Limpa o loading
@@ -476,58 +331,89 @@
                     h3.textContent = titulo;
                     questionsList.appendChild(h3);
 
-                } else if (linha.startsWith('- ')) {
+                } 
+                // Aceita '*' ou '-'
+                else if (linha.startsWith('- ') || linha.startsWith('* ')) {
                     // É uma pergunta
-                    const pergunta = linha.substring(2).trim();
-                    if (!pergunta) return; // Ignora linhas vazias
+                    let linhaConteudo = linha.substring(2).trim();
+                    if (!linhaConteudo) return; // Ignora linhas vazias
+
+                    const tagRegex = /^\[(.*?)\]\s*(.*)/;
+                    const match = linhaConteudo.match(tagRegex);
+
+                    let tagConteudo = null;
+                    let perguntaConteudo = "";
+
+                    if (match && match[1] && match[2]) {
+                        // A linha TEM um tag
+                        tagConteudo = match[1];
+                        perguntaConteudo = match[2];
+                    } else {
+                        // A linha NÃO tem tag
+                        perguntaConteudo = linhaConteudo;
+                    }
+                    
+                    if (!perguntaConteudo) return; // Se a pergunta estiver vazia, pula
 
                     const card = document.createElement('div');
-                    // Classe 'question-card' adicionada e 'items-start'
                     card.className = 'bg-white p-4 rounded-xl shadow-sm border border-gray-200 flex items-start justify-between space-x-3 question-card';
                     
-                    const perguntaText = document.createElement('p');
-                    // Classe 'question-text' adicionada e 'leading-relaxed'
-                    perguntaText.className = 'flex-1 text-base text-gray-800 question-text leading-relaxed';
-                    perguntaText.textContent = pergunta;
+                    // Wrapper para o texto (tag + pergunta)
+                    const textWrapper = document.createElement('div');
+                    textWrapper.className = 'flex-1 min-w-0'; 
 
-                    // O novo "mini botão"
+                    // Renderiza o Tag (se existir)
+                    if (tagConteudo) {
+                        const tagElement = document.createElement('span');
+                        tagElement.className = 'tag-badge';
+                        tagElement.textContent = tagConteudo;
+                        textWrapper.appendChild(tagElement);
+                    }
+                    
+                    const perguntaText = document.createElement('p');
+                    perguntaText.className = 'question-text text-base text-gray-800 leading-relaxed';
+                    // Adiciona margem superior na pergunta APENAS se houver tag
+                    if (tagConteudo) {
+                        perguntaText.classList.add('mt-2');
+                    }
+                    perguntaText.textContent = perguntaConteudo;
+                    textWrapper.appendChild(perguntaText);
+
+
+                    // O "mini botão" (Link do Google)
                     const googleLink = document.createElement('a');
-                    googleLink.href = construirUrlGoogle(promptTemplate, pergunta);
-                    googleLink.target = '_blank'; // Abrir em nova aba
+                    googleLink.href = construirUrlGoogle(promptTemplate, perguntaConteudo);
+                    googleLink.target = '_blank';
                     googleLink.rel = 'noopener noreferrer';
                     googleLink.className = 'flex-shrink-0 w-9 h-9 flex items-center justify-center bg-gray-100 text-gray-500 rounded-full hover:bg-blue-100 hover:text-blue-600 transition-all duration-150 transform active:scale-90';
                     googleLink.title = 'Buscar explicação no Google IA';
-                    // Ícone SVG de "pesquisa" ou "IA"
                     googleLink.innerHTML = `
                         <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                         </svg>
                     `;
                     
-                    card.appendChild(perguntaText);
+                    card.appendChild(textWrapper); 
                     card.appendChild(googleLink);
                     questionsList.appendChild(card);
                 }
-                // Linhas com # (Título Principal) ou vazias são ignoradas
             });
         }
 
         /**
-         * Monta a URL de busca do Google com o prompt formatado.
+         * Cria o link de busca do Google.
          */
         function construirUrlGoogle(template, pergunta) {
             const promptFinal = template.replace('{{PERGUNTA}}', pergunta);
             const queryCodificada = encodeURIComponent(promptFinal);
-            // ATUALIZADO para usar o link udm=50
             return `https://www.google.com/search?udm=50&q=${queryCodificada}`;
         }
 
-        // --- 5. Inicialização ---
-        renderizarMenu();
+        // --- 4. Inicialização ---
+        // Agora, a primeira coisa que fazemos é carregar e renderizar o menu.
+        carregarEAmbienteMenu();
 
     </script>
 </body>
 </html>
-
-
 
