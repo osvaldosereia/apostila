@@ -1,85 +1,335 @@
-@@PROMPT: Responda como um professor de Direito Penal muito experiente em temas sobre Homicídio: "{{PERGUNTA}}" @@
-
-
 # Homicídio
 
-## Considerações Iniciais e Teoria do Crime
+## Considerações iniciais
 
-- **[Considerações Iniciais]** Diferencie, sob a ótica doutrinária, a classificação do homicídio (crime material, comum, de dano, etc.) e analise, com base em cenário prático, a (im)possibilidade de sua ocorrência na forma omissiva imprópria, indicando os requisitos jurisprudenciais do STJ para a imputação ao garantidor (art. 13, §2º) (Questão modelo).
-- **[Sujeitos do crime]** Analise a natureza jurídica do homicídio como crime comum quanto ao sujeito ativo. Em um cenário onde um Prefeito pratica homicídio *propter officium* e, simultaneamente, *ratione officii*, diferencie a competência para julgamento segundo a jurisprudência atual do STF sobre o alcance do foro por prerrogativa de função (Questão modelo).
-- **[Pessoa Jurídica]** Discorra sobre a (im)possibilidade de pessoa jurídica figurar como sujeito ativo do crime de homicídio, à luz da teoria da dupla imputação (atualmente mitigada) e da jurisprudência consolidada do STF sobre responsabilidade penal ambiental. (Questão modelo).
-- **[Dolo Geral]** Descreva o dolo sob o aspecto subjetivo, conforme o Código Penal Brasileiro (CPB), destacando seus elementos intelectual (cognitivo) e volitivo (vontade consciente).
-- **[Ação Penal]** Qual a natureza da ação penal para todos os crimes dolosos contra a vida e qual órgão tem a responsabilidade de promover a acusação perante o Tribunal do Júri?
+- [Conceito Legal] Qual é o bem jurídico primariamente tutelado pelo crime de homicídio simples (Art. 121, *caput*, do CP)?
 
-## Dolo Eventual e Culpa Consciente no Homicídio de Trânsito
+- [Classificação Doutrinária] Classifique o homicídio simples quanto ao resultado, sujeito ativo, momento consumativo e dano (crime material, comum, de dano, etc.).
 
-- **[Distinção Dogmática Central]** Qual a diferença principal entre **dolo eventual** e **culpa consciente** e como o elemento **volitivo** (vontade/aceitação) define a imputação em acidentes de trânsito, segundo a doutrina penal?
-- **[Culpa com Previsão]** Explique o conceito de **culpa consciente** ou "culpa com previsão" e qual a convicção psicológica do agente (o que o agente confia em evitar) quando ele, apesar de prever o resultado, age imprudentemente.
-- **[Imputação Dolo Eventual]** No contexto do homicídio de trânsito (e.g., embriaguez ou racha), como a jurisprudência brasileira lida com a dificuldade de prejulgar o elemento psicológico do agente, e qual o risco que o motorista deve "assumir" para que se configure o dolo eventual?
-- **[Homicídio Culposo CTB]** Explique a crítica doutrinária sobre o tratamento mais rigoroso (e, para alguns, desproporcional) dado ao homicídio culposo na direção de veículo automotor (Art. 302 do CTB) em comparação ao homicídio culposo simples (Art. 121, § 3º, CP).
-- **[Dever de Cuidado]** Segundo a dogmática, em qual modalidade de ilícito (doloso ou culposo) o descrédito ou valoração negativa da ação incide na infração de um **dever de cuidado** objetivo?
-- **[Função do Júri na Classificação]** Qual a principal implicação processual (em termos de competência de julgamento) quando o magistrado, ao analisar a denúncia de homicídio de trânsito, se convence da existência de **dolo eventual** em vez de culpa consciente?
-- **[Teoria Adotada]** Qual teoria do dolo é majoritariamente adotada pelo Código Penal Brasileiro e como ela se relaciona com o conceito de dolo eventual ("assumir o risco de produzir o resultado")?
-- **[Inquérito e Dolo Eventual]** Em que momento da *persecutio criminis* é fundamental analisar a existência do elemento subjetivo (dolo) e como os elementos probatórios devem ser considerados na instrução processual para evitar a submissão a constrangimento ilegal por imputação equivocada?
-- **[Decisão de Desclassificação]** Em um caso de homicídio no trânsito, se o juiz se convencer de que a conduta é de culpa consciente e não de dolo eventual, qual decisão ele deve proferir e qual a nova competência de julgamento?
-- **[Proporcionalidade Punitiva]** Como o STF, ao analisar a constitucionalidade do Art. 302 do CTB, justificou o tratamento mais rigoroso e a majoração das margens penais para o homicídio culposo de trânsito em comparação ao Art. 121, § 3º, do CP?
+- [Sujeito Passivo] Discorra sobre a (im)possibilidade de um feto ser considerado vítima (sujeito passivo imediato) do crime de homicídio, diferenciando-o do crime de aborto.
 
-## Homicídio Qualificado, Privilegiado e Concurso de Pessoas
+- [Sujeito Passivo] Pessoas falecidas podem figurar como sujeito passivo imediato no crime de homicídio? Justifique à luz da doutrina penal.
 
-- **[Homicídio Simples vs. Qualificado]** Defina homicídio simples e explique a função das circunstâncias agravantes no homicídio qualificado (Art. 121, § 2º, CP), citando dois exemplos de qualificadoras.
-- **[Qualificadoras Subjetivas/Objetivas]** Classifique, quanto à natureza (subjetiva ou objetiva), as qualificadoras de "motivo fútil" e de "emprego de veneno", e explique a importância dessa distinção para o concurso de qualificadoras.
-- **[Homicídio Privilegiado - Requisitos]** O que caracteriza o homicídio privilegiado (Art. 121, § 1º, CP) e quais são os motivos determinantes (valor social, moral, violenta emoção) que permitem a redução de pena?
-- **[Diferença Motivo Torpe/Fútil]** Diferencie o homicídio motivado por **paga ou promessa de recompensa** de outras qualificadoras, destacando qual é o motivo mais repulsivo (torpe) para a lei penal.
-- **[Homicídio Qualificado-Privilegiado]** Explique a possibilidade de coexistência e compatibilidade do homicídio qualificado (Art. 121, § 2º) com o privilegiado (Art. 121, § 1º), conforme a jurisprudência dos Tribunais Superiores (STF/STJ).
-- **[Teoria da Compatibilidade]** Qual é a regra da **natureza** (objetiva/subjetiva) que a doutrina majoritária e a jurisprudência aplicam para admitir a combinação de circunstâncias privilegiadoras e qualificadoras no homicídio?
-- **[Homicídio Conexivo]** O que significa a modalidade de homicídio qualificado cometida para **"assegurar a execução, a ocultação, a impunidade ou a vantagem de outro crime"** (homicídio conexivo)?
-- **[Rixa Qualificada]** No crime de rixa, se o agente que deu causa à morte ou lesão corporal for perfeitamente identificável, qual a divergência doutrinária sobre a responsabilidade penal dos demais participantes?
-- **[Incomunicabilidade de Motivos]** Na hipótese de concurso de pessoas, como os motivos que qualificam o crime de homicídio são tratados em relação à sua comunicabilidade entre coautores ou partícipes?
-- **[Homicídio Simples Pena]** Qual é a pena de reclusão prevista para o homicídio simples, conforme o Art. 121 do Código Penal?
+- [Princípio da Insignificância] Explique o papel do **princípio da insignificância** na avaliação da **tipicidade material** em delitos, e justifique por que tal princípio é inviável no crime de homicídio.
 
-## Homicídio e Crimes Hediondos
+- [Ação Penal] Qual é a natureza da ação penal para **todos os crimes dolosos contra a vida**, incluindo o homicídio?
 
-- **[Homicídio Hediondo]** Quais modalidades do crime de homicídio são consideradas **hediondas** no Brasil, de acordo com o rol taxativo da Lei 8.072/90?
-- **[Grupo de Extermínio]** Qual a circunstância específica que torna o **homicídio simples** (Art. 121, *caput*) equiparado a crime hediondo?
-- **[Hediondez e Privilégio]** O **homicídio qualificado-privilegiado** é considerado crime hediondo? Fundamente a resposta com a posição do Superior Tribunal de Justiça (STJ).
-- **[Objetivo do HQ-HP]** Qual o objetivo da doutrina e da jurisprudência em permitir a figura do homicídio qualificado-privilegiado, especialmente no tocante à dosimetria e à mitigação da reprovabilidade?
-- **[Consequência da Hediondez]** Quais são as consequências penais mais severas (embora o STF tenha mitigado o regime integralmente fechado) do reconhecimento de um crime como hediondo?
+- [Lugar do Crime] Qual teoria é adotada pelo Código Penal brasileiro para determinar o lugar do crime, e como isso se aplica a um homicídio cuja conduta e resultado ocorreram em jurisdições distintas?
 
-## Temas Processuais e Jurisprudenciais do Júri
+- [Pessoa Jurídica] A pessoa jurídica pode ser sujeito ativo do crime de homicídio? Analise a evolução da jurisprudência do STF e STJ em relação à **Teoria da Dupla Imputação** nos crimes ambientais e sua inaplicabilidade ao homicídio.
 
-- **[Composição do Júri]** Como é composto o Tribunal do Júri e qual a função específica dos jurados que integram o Conselho de Sentença?
-- **[Diferença Dolo/Culpa e Júri]** Por que a distinção entre dolo eventual e culpa consciente é crucial processualmente? Em qual dos dois o julgamento é atraído para o Tribunal do Júri?
-- **[Pronúncia e Indícios]** Qual é o requisito fundamental para que o juiz profira a decisão de **pronúncia** em um crime doloso contra a vida, remetendo o caso ao Júri?
-- **[Excesso de Linguagem]** O que a jurisprudência entende por **excesso de linguagem** na sentença de pronúncia e qual a consequência processual caso o juiz faça afirmações no sentido de ser o réu o autor do delito?
-- **[Inimputabilidade e Júri]** Em um caso de homicídio onde o laudo de insanidade mental indica a **inimputabilidade** do réu, qual o entendimento do STF sobre a submissão desse acusado ao Júri (Art. 411 do CPP)?
-- **[Papel do MP no Júri]** Qual é o papel central do Ministério Público na fase do *judicium causae* (julgamento pelo Júri), especialmente em relação à produção de provas e à persuasão?
-- **[Princípio da Insignificância]** Cite os quatro vetores (requisitos) consolidados pelo Supremo Tribunal Federal (STF) para o reconhecimento do **Princípio da Insignificância**, que afasta a tipicidade material da conduta.
-- **[Latim Processual]** Qual o significado do princípio *nemo tenetur se detegere* e quais direitos do réu decorrem dele, especialmente no contexto de **fraude processual** ou uso de documento falso para ocultar antecedentes?
-- **[Inversão da Ordem de Perguntas]** Qual o entendimento do Superior Tribunal de Justiça (STJ) sobre a nulidade processual decorrente da inversão da ordem de inquiridores de testemunhas (Art. 212 do CPP)?
-- **[Identidade Física do Juiz]** Explique o princípio da identidade física do juiz no processo penal e cite uma hipótese de sua mitigação, conforme a jurisprudência do STJ.
+- [Homicídio Omissivo Impróprio] Analise a possibilidade de ocorrência do homicídio na **forma omissiva imprópria** (comissiva por omissão), indicando os requisitos da posição de garantidor (Art. 13, § 2º do CP).
 
-## Tipicidade, Prova e Imputação
+- [Tentativa] Explique a figura da **adequação típica mediata** e como ela se manifesta no caso de **homicídio tentado** (Art. 121 c/c Art. 14, II do CP).
 
-- **[Tipicidade Formal e Material]** Diferencie tipicidade formal e tipicidade material e como a ausência desta última justifica a aplicação do princípio da insignificância.
-- **[Autoria Coletiva]** Em crimes de autoria coletiva de difícil individualização, como o STJ tem admitido a descrição da conduta na denúncia ("denúncia mais ou menos genérica")?
-- **[Denúncia Genérica vs. Específica]** Qual o requisito fundamental que a denúncia deve conter, mesmo em crimes societários ou de autoria coletiva, para não ser considerada inepta e violar o princípio da ampla defesa?
-- **[Fraude Processual e *Nemo Tenetur*]** No caso Nardoni, a prerrogativa contra a autoincriminação (*nemo tenetur se detegere*) garantiu aos réus o direito de alterar a cena do crime? Explique a posição do STJ sobre a fraude processual e o bem jurídico protegido.
-- **[Tentativa de Homicídio]** Qual o conceito de **adequação típica mediata** e como ele se manifesta na tentativa de homicídio?
-- **[Local do Crime]** Qual a teoria adotada pelo Código Penal Brasileiro (CPB) para definir o **lugar do crime** e o que ela estabelece?
-- **[Delação Anônima]** É possível iniciar uma investigação ou inquérito criminal baseado exclusivamente em **denúncia anônima** (*delatio criminis*)? Qual a cautela exigida pela jurisprudência (STF/STJ)?
-- **[Finalidade da Prisão Preventiva]** Mencione três circunstâncias principais relacionadas à **garantia da ordem pública** que podem fundamentar a prisão preventiva, segundo o entendimento do STF.
-- **[Inépcia e Sentença Condenatória]** A superveniência de sentença condenatória impede o reconhecimento da **inépcia da denúncia**, se a arguição foi feita oportunamente?
-- **[Ônus da Prova]** Na perspectiva do princípio da presunção de inocência, a quem cabe o ônus da prova no processo penal?
+## Tipicidade e Causalidade
 
-## Críticas, Conexão e Outros Delitos
+- [Nexo Causal] Qual é a importância do **nexo causal** para o crime de homicídio e como ele se relaciona com a **Teoria da Condição Equivalente** adotada pelo CP?
 
-- **[Apropriação Indébita Previdenciária]** Qual é a posição majoritária do STF e STJ sobre a natureza jurídica (formal ou material) do crime de Apropriação Indébita Previdenciária e qual o requisito essencial para a sua consumação (Súmula Vinculante 24)?
-- **[Extinção de Punibilidade em Peculato Culposo]** O que o Código Penal prevê para a extinção da punibilidade no crime de **peculato culposo** quando o agente repara o dano antes da sentença irrecorrível, e essa regra se aplica às demais formas de peculato?
-- **[Injúria Consumação]** No crime contra a honra de **injúria**, quando se dá a consumação e como ela difere da consumação no crime de calúnia?
-- **[Homicídio e Foro por Prerrogativa]** Qual a regra da Súmula 704 do STF sobre a **atração** do processo do corréu ao foro por prerrogativa de função de um dos denunciados em caso de crimes conexos?
-- **[Extinção das Sanções]** Cite as cinco espécies de sanção penal que são **vedadas** pela Constituição Federal, tratando-se de cláusula pétrea.
-- **[Diferença Imunidade Diplomática/Consular]** Qual a diferença na extensão da **imunidade** concedida a diplomatas (embaixadores) e a cônsules no Brasil?
-- **[Interrogatório do Acusado]** Qual a nova sistemática processual penal (introduzida pela Lei 11.719/2008) em relação ao momento da realização do **interrogatório** do acusado durante a instrução e qual o seu status jurídico principal?
-- **[Bis in Idem Médico]** Há *bis in idem* no caso de homicídio culposo por **imperícia médica** e a causa de majoração relativa à inobservância de regra técnica de profissão (Art. 121, § 4º, CP)? Qual a raiz hermenêutica que a jurisprudência adota?
-- **[Conflito de Normas]** Por que o princípio da retroatividade da lei penal mais benéfica gerou divergências (agora superadas pelo STF) quando se tentava combinar dispositivos de leis diversas (ex: causa de diminuição de uma lei com pena mínima de outra)?
-- **[Dano Culposo]** A conduta de dano (destruição, inutilização ou deterioração da coisa) é punida na forma culposa? E o crime de **pichação**, qual bem jurídico tutela e qual Lei o tipifica?
+- [Causa Superveniente] Diferencie, na aplicação do nexo causal, as causas relativamente independentes que por si só produzem o resultado daquelas que não o produzem, conforme o Art. 13 do CP.
+
+- [Imputação Objetiva] Embora o CP não a tenha adotado expressamente, como a **Teoria da Imputação Objetiva** pode influenciar a análise da causalidade em casos complexos de homicídio, segundo a jurisprudência?
+
+- [Desistência Voluntária] Em uma tentativa de homicídio, explique a diferença entre **desistência voluntária** e **arrependimento eficaz** e quais os efeitos jurídicos para o agente.
+
+- [Crime Continuado] O homicídio pode ser praticado na forma de **crime continuado**? Justifique a resposta considerando a natureza do bem jurídico.
+
+- [Crime Impossível] O que é o **crime impossível** por ineficácia absoluta do meio ou por absoluta impropriedade do objeto, e como se diferencia do homicídio tentado?
+
+- [Concurso de Pessoas] Qual a regra de imputação penal aplicada ao coautor ou partícipe de um homicídio, considerando o conhecimento da situação do comparsa?
+
+- [Coisa Julgada] Em um julgamento desmembrado de homicídio pelo Júri, se o partícipe é absolvido, essa decisão gera **coisa julgada** que impeça nova acusação contra ele por autoria material, à luz do Art. 110, § 2º, do CPP?
+
+- [Homicídio Preterdoloso] Por que o crime de homicídio (Art. 121) não comporta, em regra, a modalidade **preterdolosa**, como ocorre em outros crimes contra a pessoa (ex: lesão corporal seguida de morte)?
+
+- [Pena Cominada] Qual a pena cominada ao homicídio simples e o que o caracteriza, segundo o Código Penal?
+
+## Dolo e Culpa
+
+- [Dolo Geral] Quais são os dois elementos (intelectual e volitivo) que compõem o **Dolo** no Direito Penal brasileiro?
+
+- [Dolo vs. Culpa] Qual a distinção crucial entre **homicídio doloso** e **homicídio culposo**?
+
+- [Culpa Geral] O que caracteriza a **Culpa** no Direito Penal, e quais são as três formas de manifestação da inobservância do dever de cuidado no homicídio culposo?
+
+- [Dolo Eventual] Caracterize o **Dolo Eventual** e explique qual a posição psicológica do agente em relação ao resultado morte.
+
+- [Culpa Consciente] Caracterize a **Culpa Consciente** (culpa com previsão) e explique a confiança do agente na não ocorrência do resultado.
+
+- [Dolo Eventual vs. Culpa Consciente] Na prática, qual é o principal fator (psicológico ou volitivo) que gera discussão doutrinária e jurisprudencial para diferenciar o **dolo eventual** da **culpa consciente**?
+
+- [Homicídio no Trânsito] Como a jurisprudência atual do STJ/STF trata a embriaguez ao volante seguida de morte para a configuração de **dolo eventual**?
+
+- [Homicídio Culposo Majorado] Quais são as circunstâncias que, quando presentes, podem levar ao **aumento da pena** no homicídio culposo, como a violação de dever profissional?
+
+- [Homicídio Culposo no Trânsito] Qual a crítica doutrinária em relação à suposta **desproporcionalidade das penas** impostas ao homicídio culposo no Código de Trânsito Brasileiro (CTB) em comparação com outros homicídios culposos do CP?
+
+- [Dolo Eventual na Denúncia] Segundo o STJ, o que deve ser obrigatoriamente descrito na denúncia para configurar o **dolo eventual** em um homicídio, além do elemento cognitivo, sob pena de desclassificação?
+
+## Homicídio Simples e Processo
+
+- [Função do Júri] Qual a composição do **Tribunal do Júri** e qual sua função constitucional no julgamento dos crimes dolosos contra a vida?
+
+- [Competência Processual] Por que os casos de homicídio são processados e julgados pelo **Tribunal do Júri**?
+
+- [Ministério Público] Qual o papel do **Ministério Público** (MP) na primeira fase do Tribunal do Júri (Judicium Accusationis) e em Plenário?
+
+- [Pronúncia] O que é a **sentença de pronúncia** e qual o requisito probatório que o juiz deve observar para submeter o réu a julgamento pelo Júri, aplicando-se o princípio *in dubio pro societate*?
+
+- [Imparcialidade na Pronúncia] Quais são os riscos da **linguagem excessiva** ou imprecisa na sentença de pronúncia e quais os efeitos jurídicos que a jurisprudência (STF/STJ) impõe nesse caso?
+
+- [Ação Penal Pública] Por que o homicídio, como crime contra a vida, é de **Ação Penal Pública Incondicionada**?
+
+- [Foro por Prerrogativa] O **foro por prerrogativa de função** é um direito renunciável pelo réu? Justifique com base na jurisprudência do STF.
+
+- [Foro por Prerrogativa: Regra Atual] Qual o entendimento atual do STF sobre a **competência do foro por prerrogativa** para Deputados Estaduais e Federais, inclusive na fase de investigação?
+
+- [Denúncia Anônima] Qual a posição do STF sobre a admissibilidade de investigação criminal iniciada por **denúncia anônima** (*delatio criminis* anônima) em casos de homicídio?
+
+- [Homicídio *Propter Officium*] Em caso de crime contra a honra de servidor público em razão de suas funções (*propter officium*), qual a regra de **legitimidade concorrente** para a ação penal?
+
+## Homicídio Privilegiado
+
+- [Conceito Privilégio] O que é o **homicídio privilegiado** (Art. 121, § 1º) e qual é a consequência jurídica dessa circunstância (causa de diminuição de pena)?
+
+- [Natureza Jurídica] Qual a natureza jurídica das circunstâncias que caracterizam o homicídio privilegiado (Art. 121, § 1º)?
+
+- [Motivação Privilegiada] Quais são as três principais hipóteses de motivação que podem levar ao reconhecimento do privilégio?
+
+- [Valor Moral/Social] Diferencie **relevante valor social** de **relevante valor moral** como elementos do privilégio.
+
+- [Eutanásia] Como o **relevante valor moral (compaixão/misericórdia)** se relaciona com a **eutanásia**, e como o Direito Penal brasileiro trata essa conduta?
+
+- [Emoção Violenta] Quais são os requisitos legais para o reconhecimento do privilégio pela **violenta emoção**?
+
+- [Requisito Temporal] Qual o significado da expressão **"logo após injusta provocação da vítima"** para configurar o privilégio de emoção violenta, e o que significa a ausência de tempo para reflexão?
+
+- [Proporcionalidade] A jurisprudência exige **proporcionalidade** entre a injusta provocação da vítima e a reação do agente para configurar o homicídio privilegiado por emoção violenta? Justifique com base na análise do "homem médio".
+
+- [Diminuição da Culpa] O privilégio no homicídio decorre do reconhecimento de uma **diminuição sensível da culpa** do agente, ou de uma diminuição da ilicitude?
+
+- [Homicídio e Ciúme] Em que medida o **ciúme** ou **amor exagerado** podem ser considerados como elementos de **compreensível emoção violenta** ou **desespero** para fins de privilegiadora?
+
+- [Critério de Julgamento] Na análise da **"compreensível emoção violenta"**, qual o critério doutrinário (homem médio ou particular sensibilidade do agente) que se utiliza para aferir a diminuição sensível da culpa?
+
+- [Injusta Provocação] Se o réu age motivado pela **raiva** causada por uma ofensa que o levou ao desemprego, dois dias após o incidente, é possível configurar o privilégio por compreensível emoção violenta?
+
+- [Crimes Funcionais e Privilégio] É possível aplicar a causa de diminuição do homicídio privilegiado a um **crime funcional** (Art. 121, § 1º)?
+
+- [Frações de Pena] Quais são os limites de **redução de pena** previstos para o homicídio privilegiado (1/6 a 1/3) e quais critérios devem ser usados pelo julgador para a escolha da fração ideal?
+
+- [Homicídio Simples vs. Privilegiado] Quando se prova que o agente agiu sob emoção violenta, mas há **manifesta desproporção** entre a provocação (insultos) e o crime, para qual tipo penal a conduta é desclassificada?
+
+## Homicídio Qualificado
+
+- [Conceito Qualificado] O que caracteriza o **homicídio qualificado** (Art. 121, § 2º) e qual o impacto nas consequências jurídicas (pena)?
+
+- [Hediondez] Quais modalidades de homicídio são consideradas **crimes hediondos** pela legislação brasileira?
+
+- [Motivo Torpe] O que se entende por **motivo torpe** para a qualificação do homicídio e qual o entendimento do STF sobre a **vingança** isoladamente?
+
+- [Motivo Fútil] Caracterize o **motivo fútil** e explique sua distinção em relação à ausência de motivo.
+
+- [Meio Cruel] O que se entende por **meio cruel** e como o emprego de **tortura** para causar a morte qualifica o homicídio?
+
+- [Meio Insidioso] Qual é a diferença entre o uso de **veneno** como meio cruel e como meio insidioso?
+
+- [Perigo Comum] Explique o significado da qualificadora **"de que possa resultar perigo comum"** (ex: fogo, explosivo) e qual o bem jurídico secundário atingido.
+
+- [Recurso Dificultou Defesa] Exemplifique a qualificadora **"mediante dissimulação ou outro recurso que dificulte ou torne impossível a defesa do ofendido"**.
+
+- [Traição e Emboscada] Diferencie as qualificadoras **"à traição"** e **"de emboscada"**.
+
+- [Qualificadoras Subjetivas vs. Objetivas] Qual a distinção na doutrina e jurisprudência entre **qualificadoras de natureza subjetiva** (motivos) e **qualificadoras de natureza objetiva** (meios e modos de execução)?
+
+- [Concurso de Pessoas] Em caso de **concurso de pessoas** no homicídio qualificado, as qualificadoras de natureza subjetiva (motivos) são comunicáveis aos demais agentes?
+
+- [Homicídio Conexivo] Quais são as quatro possibilidades que caracterizam o **homicídio conexivo** (para assegurar a execução, ocultação, impunidade ou vantagem de outro crime)?
+
+- [Feminicídio] Quais são os elementos que tipificam o **Feminicídio** como qualificadora do homicídio (Art. 121, § 2º, VI)? (Pergunta investigativa de tema recente).
+
+- [Homicídio de Agente de Segurança] Quais os requisitos para o homicídio de um agente de segurança pública (Art. 121, § 2º, VII) ser considerado qualificado? (Pergunta investigativa de tema recente).
+
+- [Interpretação Analógica] É possível a aplicação de **interpretação analógica** para estender o sentido e o alcance dos enunciados normativos que qualificam o homicídio?
+
+## Homicídio Qualificado-Privilegiado e Temas Conexos
+
+- [Homicídio Híbrido: Possibilidade] É possível, em um mesmo fato de homicídio, a coexistência de uma **circunstância privilegiadora** (subjetiva) com uma **circunstância qualificadora** (objetiva)?
+
+- [Homicídio Híbrido: Incompatibilidade] Quais são as circunstâncias que, sendo ambas de natureza subjetiva, são consideradas **incompatíveis** no homicídio qualificado-privilegiado (ex: motivo torpe e violenta emoção)?
+
+- [Exemplo Híbrido] Cite um exemplo prático de **homicídio qualificado-privilegiado** que é pacificamente aceito pela jurisprudência do STJ e STF.
+
+- [Impacto da Hediondez no Híbrido] O reconhecimento do privilégio (Art. 121, § 1º) em um homicídio que também contém uma qualificadora objetiva **afasta a hediondez** do crime, segundo a jurisprudência consolidada do STJ?
+
+- [Dosimetria do Híbrido] Na **dosimetria da pena** do homicídio qualificado-privilegiado, qual o momento de aplicação da qualificadora e da privilegiadora?
+
+- [Natureza da Qualificadora] Na análise do **HC 98265** (STF), qual a regra de interpretação estabelecida para permitir a conciliação entre o homicídio objetivamente qualificado e subjetivamente privilegiado?
+
+- [Critério para a Fração] Quais critérios devem ser considerados na dosimetria para a escolha do *quantum* de redução da pena pelo **privilégio** (1/6 a 1/3)?
+
+- [Qualificadora Subjetiva Isolada] Se o Júri reconhece uma qualificadora de **natureza subjetiva** (ex: motivo torpe) e não reconhece o privilégio, qual a consequência jurídica na aplicação da pena?
+
+- [Homicídio Simples e Hediondez] Além do homicídio qualificado, qual é a única modalidade de **homicídio simples** que é considerada hedionda pela lei, conforme o Art. 1º da Lei 8.072/90?
+
+- [Crimes Conexos ao Júri] Quais são os crimes conexos aos dolosos contra a vida que, por força da **vis attractiva** (Súmula 704/STF), são julgados pelo Tribunal do Júri?
+
+## Homicídios Especiais e Jurisprudência
+
+- [Circunstâncias Pós-Fato] Qual a diferença na aplicação do benefício da **reparação do dano** no peculato culposo (extinção da punibilidade *antes* da sentença irrecorrível) em comparação com o homicídio?
+
+- [Homicídio Funcional] A qualidade de **funcionário público** pode ser considerada para elevar a pena-base do réu em crimes funcionais típicos (como peculato ou concussão), sob pena de **bis in idem**?
+
+- [Imunidade Diplomática] Como a **imunidade diplomática** afeta a aplicação da lei penal brasileira em caso de homicídio cometido por um diplomata no Brasil?
+
+- [Competência e Atos Executórios] Em casos de homicídio em que a **consumação** ocorre em local distinto do início dos **atos executórios**, como o STJ tem relativizado a **Teoria do Resultado** (Art. 70, CPP) para fins de fixação de competência?
+
+- [Extensão do Dano] Em delitos que causam lesão ao erário, o **valor da extensão do dano** pode ser usado na primeira fase da dosimetria para exasperar a pena-base sem configurar *bis in idem*?
+
+- [Pena Máxima] Qual é o limite máximo de **pena privativa de liberdade** permitido pela Constituição Federal, e qual a única exceção prevista?
+
+- [Identidade Física do Juiz] O que estabelece o **Princípio da Identidade Física do Juiz** (Art. 399, § 2º do CPP), e em quais casos ele é mitigado por analogia ao CPC, segundo o STJ?
+
+- [Execução Precoce da Pena] Qual era o entendimento do STF (HC 126292/SP, 2016) sobre o início do **cumprimento da pena** com a condenação em segunda instância, relativizando o princípio da presunção de inocência?
+
+- [Homicídio Qualificado: Fraude Processual] O que é o crime de **fraude processual** e por que ele é considerado crime conexo ao homicídio qualificado (como no **Caso Nardoni**)?
+
+- [Fraude Processual e Autodefesa] O direito à não auto-incriminação abrange a possibilidade de os acusados alterarem a cena do crime (**fraude processual**) em casos de homicídio, conforme o STJ?
+
+## Aspectos Processuais e Júri
+
+- [Fases do Júri] Quais são as duas fases do procedimento do **Tribunal do Júri** (Judicium Accusationis e Judicium Causae)?
+
+- [Conselho de Sentença] Como o Conselho de Sentença do Júri decide sobre a culpa ou inocência do réu?
+
+- [Quesitos e Jurados] É admissível a formulação de quesito aos jurados sobre a **insuficiência de provas** para condenação, ou o Júri deve se ater aos quesitos sobre o fato principal e autoria?
+
+- [Agravantes e Pronúncia] Qual a regra jurisprudencial que proíbe a formulação de **quesitos sobre agravantes simples** se estas não foram reconhecidas na sentença de pronúncia?
+
+- [Excesso de Prazo] Como a **complexidade da causa** (multiplicidade de réus ou necessidade de precatórias) pode justificar o **excesso de prazo** na instrução criminal de um processo de homicídio?
+
+- [Direito de Presença] O réu preso por homicídio tem o direito de **presença em todos os atos** da instrução criminal? Qual o efeito de sua ausência?
+
+- [Confissão Qualificada] Qual o entendimento do STF sobre a aplicação da atenuante da **confissão espontânea** (Art. 65, III, "d", CP) quando o agente apresenta **confissão qualificada** (agregando teses de legítima defesa)?
+
+- [Número de Testemunhas] O limite legal de testemunhas arroladas no processo de homicídio se refere à quantidade de réus ou à **quantidade de fatos** imputados?
+
+- [Julgamento e Previsão] O Tribunal do Júri, ao decidir pela condenação, está implicitamente deliberando sobre a suficiência de provas, visto que o sistema não exige a **fundamentação dos veredictos**?
+
+- [Medida de Segurança] Em caso de absolvição sumária do réu inimputável por homicídio, qual a tese do STF sobre a possibilidade de o Juiz **impor imediatamente a medida de segurança**, sem submetê-lo ao Júri, para evitar o "desgastante procedimento"?
+
+- [Excesso de Prazo da Prisão] O fato de o réu permanecer **foragido por longo período** justifica a decretação da prisão preventiva para garantia da aplicação da lei penal, mesmo que ele compareça em juízo?
+
+- [Inconstitucionalidade Lei de Imprensa] Qual a relevância da decisão do STF na **ADPF 130/DF (Lei de Imprensa)** para a interpretação de crimes contra a honra, e qual a aplicação subsidiária das regras do Código Penal e de Processo Penal estabelecida por essa decisão?
+
+- [Competência Relação de Trabalho] Quando o crime de homicídio está de alguma forma vinculado à relação de trabalho (ex: assassinato em local de trabalho), qual o critério do STF para definir a **competência da Justiça Federal** em crimes contra a organização do trabalho?
+
+- [Prisão Preventiva] Quais são os três principais fundamentos que justificam a decretação da **prisão preventiva** em um processo de homicídio (Art. 312, CPP)?
+
+- [Garantia da Ordem Pública] Além da reiteração criminosa, o que a jurisprudência considera como elemento concreto para justificar a prisão preventiva para a **garantia da ordem pública** em casos de homicídio de alta gravidade?
+
+- [Afastamento da Qualificadora] Em qual fase processual (Pronúncia, Júri ou Apelação) o Juiz ou Tribunal pode **afastar uma qualificadora** manifestamente improcedente, e qual o fundamento legal dessa decisão?
+
+- [Inquérito no Júri] O inquérito policial (IP) é uma peça indispensável para o ajuizamento da ação penal por homicídio, ou o **Ministério Público** pode oferecer denúncia com base em outros elementos de convicção (*aliunde*)?
+
+- [Diferença Simples vs. Qualificado] Como a **jurisprudência ajuda a diferenciar** os tipos de homicídio (simples e qualificado), analisando as circunstâncias específicas e o motivo?
+
+- [Requisitos da Denúncia] Quais são os requisitos formais (Art. 41, CPP) que a **denúncia** deve satisfazer para evitar a inépcia em crimes de homicídio complexos?
+
+- [Denúncia Genérica em Crimes Coletivos] Em casos de homicídio por **autoria coletiva**, o STJ admite a denúncia de forma mais ou menos genérica?
+
+- [Suspensão Condicional do Processo] O **Habeas Corpus** pode ser utilizado para questionar a inépcia da denúncia em homicídio antes mesmo de formalizado o acordo de **suspensão condicional do processo**?
+
+- [Princípio da Reserva Legal] Qual o princípio constitucional que impõe que as hipóteses de crimes hediondos sejam **taxativas** (*numerus clausus*), impedindo a analogia *in malam partem* para incluir o homicídio qualificado-privilegiado?
+
+- [Quesitos e Agravantes] É possível formular quesito sobre **motivo torpe** no Júri, se a pronúncia foi por homicídio simples?
+
+- [Liberdade Provisória em Homicídio Hediondo] Qual o impacto da declaração de inconstitucionalidade do **Art. 2º, § 1º da Lei 8.078/90** (que proibia a progressão de regime em hediondos) na concessão da liberdade provisória em crimes de homicídio qualificado?
+
+- [Impossibilidade de *Mutatio Libelli* no Júri] Diferencie **Emendatio Libelli** de **Mutatio Libelli** e explique a relevância dessa distinção no procedimento do Tribunal do Júri.
+
+- [Desclassificação] Quando a descrição da denúncia não é hábil a configurar o dolo eventual, mas sim negligência, o Tribunal do Júri é o juízo competente para o processamento e julgamento, ou cabe a **desclassificação** para Vara Criminal?
+
+- [Gravação Telefônica Lícita] Em uma investigação de homicídio, a prova decorrente de interceptação lícita em procedimento criminal pode ser oposta ao acusado na esfera administrativa ou disciplinar, segundo o STF?
+
+- [Dignidade Humana e Pena] Como o princípio constitucional da **limitação das penas (ou humanidade)** restringe as espécies de sanção penal aplicáveis no Brasil, e qual a exceção à proibição de pena de morte?
+
+- [Dúvida na Competência] Em caso de **dúvida sobre o local exato da consumação** do homicídio (ex: corpo não localizado), qual critério de fixação da competência processual é adotado, conforme o Art. 83 do CPP?
+
+- [Função da Vítima/Testemunha] Qual o dever legal da vítima em colaborar na persecução criminal de homicídio, e qual o valor probatório de suas declarações e da prova testemunhal em geral?
+
+- [Retirada do Réu] Em que circunstâncias o réu pode ser **retirado da sala de audiência** (Art. 217 do CPP) para a oitiva de testemunhas ou vítimas em um processo de homicídio?
+
+- [Busca da Verdade Real] Por que a não observância da ordem de inquiridores das testemunhas (Art. 212 do CPP) gera, no máximo, **nulidade relativa** e não absoluta, segundo a jurisprudência, sob o prisma da busca da verdade material?
+
+- [Interrogatório no Júri] Qual a regra processual atual que rege o **momento do interrogatório** do acusado no rito do Júri (Art. 400, CPP), e por que ele é visto como meio de defesa?
+
+- [Extensão do Protesto por Novo Júri] Em caso de **protesto por novo júri** (antigo Art. 607, CPP), o recurso alcançava apenas o homicídio ou se estendia aos crimes conexos, se a pena aplicada era inferior a 20 anos para os conexos?
+
+- [Inimputabilidade e Júri] Se o laudo de **insanidade mental** indica a inimputabilidade do réu por homicídio, qual a consequência jurídica imediata que o Juiz deve aplicar (absolvição sumária ou encaminhamento ao Júri)?
+
+- [Absolvição e Presunção de Inocência] Qual a relação entre a absolvição pelo Júri e o **princípio da presunção de inocência** (ou não culpabilidade), considerando que o ônus da prova cabe sempre à acusação?
+
+- [Prejuízo Concreto] Qual o requisito jurisprudencial fundamental (Art. 563, CPP) que a defesa deve demonstrar para que seja declarada a **nulidade de um ato processual** (ex: vício na instrução) em um processo de homicídio?
+
+- [Concurso Formal e Dolo] Qual a regra de **graduação de órgãos jurisdicionais** aplicável ao julgamento de um homicídio em **concurso formal** com crime de competência de Justiça especializada (ex: militar ou federal)?
+
+- [Diligências do MP] O Ministério Público pode, diretamente, conduzir **diligências investigatórias** para subsidiar a propositura da ação penal por homicídio, desde que não presida o inquérito policial?
+
+- [Homicídio por Grupo de Extermínio] Qual a diferença entre o **homicídio simples** praticado em atividade típica de **grupo de extermínio** e o homicídio qualificado, para fins de hediondez?
+
+- [Requisitos da Denúncia: Sonegação] Em crimes materiais como apropriação indébita previdenciária (analogia à sonegação), qual o requisito de **constituição definitiva do tributo** exigido para a consumação do crime (Súmula Vinculante nº 24) e qual a irrelevância desse debate no homicídio?
+
+- [Irregularidades no Inquérito] Quais as consequências jurídicas, segundo o STF, de eventuais **irregularidades** ocorridas no inquérito policial (IP) de um réu que possua prerrogativa de foro, e se essas irregularidades contaminam a ação penal?
+
+- [Critério de Prevenção] O que é o critério de **prevenção** para a fixação de competência e quando ele é utilizado em casos de homicídio?
+
+- [Inquérito em Jurisdição com Prerrogativa] Quando o investigado por homicídio possui prerrogativa de foro (ex: Deputado Federal), a **competência do STF** abrange a fase de investigação?
+
+- [Análise da Defesa no Júri] Em um processo de homicídio, a **qualidade da defesa técnica** é medida pelo tempo de sustentação oral do advogado ou pela **eficácia minimamente aceitável** da defesa no contexto da complexidade do caso?
+
+- [Aferição da Culpabilidade] Em que medida o **grau de culpa** e as exigências de **prevenção geral e especial** devem ser consideradas na determinação da pena em um homicídio qualificado, sob o prisma da proporcionalidade?
+
+- [Exame de Corpo de Delito] Em casos de latrocínio (crime contra a vida conexo ao patrimônio), a **ausência do laudo de corpo de delito** impede a comprovação da materialidade do crime, ou esta pode ser provada por outros meios de convicção?
+
+- [Teoria do Crime do Fato] Por que o Direito Penal brasileiro, sendo um Direito Penal do Fato, repudia a **responsabilidade penal objetiva** e exige o nexo causal entre a conduta e o resultado no crime de homicídio?
+
+- [Excesso de Prazo: Sentença Condenatória] O **excesso de prazo** na instrução criminal é superado com a superveniência de **sentença condenatória**?
+
+- [Atenuante e Pena Mínima] O reconhecimento de **atenuantes genéricas** (como a confissão espontânea) permite a redução da pena abaixo do mínimo legalmente previsto, conforme a Súmula 231 do STJ?
+
+- [Interpretação Evolutiva] Qual a importância da **interpretação evolutiva/progressiva** dos enunciados normativos incriminadores para o homicídio qualificado, conforme a doutrina e a evolução social?
+
+- [Acréscimo de Qualificadoras] Se o Júri reconhece uma qualificadora objetiva (meio cruel) e uma privilegiadora (violenta emoção), a qualificadora não utilizada na tipificação pode ser considerada como **circunstância judicial desfavorável** na dosimetria?
+
+- [Regime Inicial de Pena] Qual o regime inicial de cumprimento de pena para o **homicídio simples** e para o **homicídio qualificado-privilegiado** (em face do afastamento da hediondez)?
+
+- [Homicídio Simples e Agravantes] Em um homicídio simples (Art. 121, *caput*), se o Juiz considera a **gravidade do crime** (elemento inerente ao tipo) como circunstância judicial desfavorável na dosimetria, ocorre *bis in idem*?
+
+- [Denúncia de Funcionário Público] Em ação penal contra funcionário público por crime funcional, a **notificação prévia** (Art. 514, CPP) é dispensada se a denúncia se baseia em inquérito policial ou se a infração envolve violência/grave ameaça?
+
+- [Teoria da Ubiquidade] Defina a **Teoria da Ubiquidade** (ou Mista) adotada pelo CP para o lugar do crime, e aplique-a em um caso hipotético de homicídio envolvendo disparo de arma de fogo em um estado e resultado em outro.
+
+- [Doutrina do STF sobre a Liberdade] Qual a posição do STF que estabelece que, havendo normas de opostas inspirações ideológicas (antinomia de princípio), a solução deve **privilegiar a liberdade**?
+
+- [Prisão por Comprovação da Culpa] Em 2016, a decisão do STF permitiu o início do cumprimento da pena com a condenação em segunda instância. Qual a tensão dessa decisão com o princípio da **presunção de não culpabilidade**?
+
+- [Competência Homicídio Militar] Em que casos um homicídio praticado por militar deve ser julgado pela **Justiça Comum Estadual** e não pela Justiça Militar, mesmo que o agente esteja fardado?
+
+- [Desmembramento do Júri] O que justifica o **desmembramento do julgamento** no Tribunal do Júri em caso de concurso de agentes, e como a absolvição de um réu afeta o julgamento do outro?
+
+- [Excesso de Linguagem] Além da nulidade da pronúncia, quais os possíveis **prejuízos ao réu** decorrentes do excesso de linguagem do Juiz Togado, que pode influenciar o Conselho de Sentença?
+
+- [Crime de Extermínio] Quando o **homicídio simples** é praticado em atividade de **grupo de extermínio**, qual o regime de cumprimento de pena a ser observado, dada a sua classificação como hediondo?
+
+- [Repristinação de Julgamento] Qual o efeito jurídico de uma decisão do Tribunal Superior que **anula a sentença de pronúncia** por excesso de linguagem, e o que deve ocorrer para que o processo retome seu curso normal?
+
+- [Natureza da Prisão Preventiva] Qual a natureza da prisão preventiva (cautelar ou punitiva) e por que ela não pode ser decretada apenas com base na **gravidade abstrata** do crime de homicídio?
+
+- [Homicídio Privilegiado e Atenuação] Quais são os **fundamentos privilegiantes** que, se reconhecidos, diminuem de forma autônoma a responsabilidade penal do agente (culpa), mas mantêm a ilicitude do homicídio?
+
+- [Conflito de Atribuições] Em um inquérito de homicídio, o que é o **Conflito de Atribuições** e quando ele pode ser suscitado entre o Ministério Público e a autoridade policial?
+
+- [Fase da Instrução] Por que a fase de instrução processual (Judicium Accusationis) nos crimes de homicídio é considerada crucial para a defesa, e quais são os atos nela praticados?
+
+- [Função do Acusador] O Ministério Público, ao sustentar a acusação perante o Tribunal do Júri, atua primariamente para buscar a condenação ou para garantir que os **interesses da sociedade** sejam representados?
