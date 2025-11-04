@@ -1,0 +1,71 @@
+@@PROMPT: Responda como um professor de Direito Penal muito experiente em temas sobre Induzimento, instigação ou auxílio a suicídio ou a automutilação: "{{PERGUNTA}}" @@
+
+# Induzimento, instigação ou auxílio a suicídio ou a automutilação
+
+## Considerações iniciais
+- [Alteração Legislativa] Discorra sobre as inovações trazidas pela Lei nº 13.819/2019 ao art. 122 do CP, explicando a criminalização expressa da conduta voltada à automutilação e a transformação do crime (anteriormente material) em crime formal.
+- [Bem Jurídico Tutelado] Defina o bem jurídico tutelado pelo art. 122, explicando se o legislador protege a vida/integridade física como um bem indisponível, ou se tutela a autodeterminação e a liberdade de vontade da vítima contra interferências de terceiros.
+- [Classificação Doutrinária] Classifique o crime de induzimento, instigação ou auxílio a suicídio ou automutilação quanto à sua natureza (crime comum, formal, de forma livre, comissivo e, excepcionalmente, omissivo impróprio).
+- [Autonomia da Vítima] Analise o requisito da "autonomia da vítima" para a configuração do art. 122. Se a vítima for inimputável (ex: criança) ou estiver com a capacidade de resistência totalmente suprimida, o agente responde pelo art. 122 ou por homicídio (art. 121) / lesão corporal (art. 129) por autoria mediata?
+- [Automutilação e Crime de Dano] Diferencie a conduta de automutilação (tutelada pelo art. 122) do crime de lesão corporal (art. 129), explicando por que a autolesão, por si só, não é punível, mas a participação de terceiro nela o é.
+
+## Sujeitos do crime
+- [Sujeito Ativo] Defina quem pode ser o sujeito ativo do crime, explicando por que se trata de um crime comum e se é possível a participação de um garantidor (art. 13, §2º) na forma omissiva imprópria.
+- [Sujeito Passivo] Defina quem pode ser o sujeito passivo, abordando a (im)prescindibilidade de sua capacidade de discernimento para a configuração do tipo penal.
+- [Menoridade e Vulnerabilidade] Discuta a situação em que o sujeito passivo é um menor de 14 anos ou uma pessoa sem o necessário discernimento. A conduta do agente se amolda ao art. 122 (com majorante) ou se desloca para o art. 121 (homicídio) ou art. 129 (lesão corporal)?
+- [Pluralidade de Vítimas] Em um cenário onde o agente, por um único ato (ex: postagem em rede social), induz múltiplas pessoas à automutilação, analise se o agente responde por crime único, concurso formal ou crime continuado.
+- [Concurso de Pessoas] É possível a coautoria ou participação no crime do art. 122? Ex: 'A' induz e 'B' fornece os meios para 'C' se automutilar. Como 'A' e 'B' respondem?
+
+## Conduta
+- [Verbos Nucleares - Induzir] Diferencie os três verbos nucleares do tipo. Conceitue a conduta de "induzir", explicando como ela se caracteriza pela criação de uma ideia (suicídio/automutilação) até então inexistente na mente da vítima.
+- [Verbos Nucleares - Instigar] Conceitue a conduta de "instigar", diferenciando-a do "induzir", e explicando como ela se caracteriza pelo reforço de uma ideia já preexistente na mente da vítima.
+- [Verbos Nucleares - Auxiliar] Conceitue a conduta de "auxiliar", explicando sua natureza de participação material (fornecimento de meios, como a arma, o veneno ou a corda) e diferenciando-a da execução direta, que configuraria homicídio.
+- [Automutilação vs. Lesão Corporal] Defina o alcance do termo "automutilação" trazido pela Lei nº 13.819/2019. Qualquer ato de autolesão (ex: um corte superficial) se enquadra no tipo, ou exige-se uma gravidade comparável à lesão corporal grave ou gravíssima?
+- [Conduta Omissiva] Discuta a (im)possibilidade de praticar o crime do art. 122 por omissão imprópria. Um psicólogo ou psiquiatra, na posição de garantidor da saúde mental do paciente, que se omite deliberadamente (com dolo) para permitir que ele se suicide, responde pelo art. 122 ou por homicídio omissivo?
+- [Auxílio Moral] O "auxílio" previsto no tipo penal restringe-se ao auxílio material (entregar a arma), ou abrange também o auxílio moral (ex: prometer cuidar dos filhos da vítima após sua morte, facilitando a decisão)?
+- [Participação vs. Autoria Mediata] Estabeleça a linha divisória fundamental entre o art. 122 (onde a vítima tem domínio do fato sobre sua própria vida) e o homicídio por autoria mediata (onde o agente usa a vítima como instrumento, sem que ela tenha real discernimento).
+
+## Voluntariedade
+- [Elemento Subjetivo] Defina o elemento subjetivo exigido para o *caput* do art. 122 (participação em suicídio ou automutilação). É necessário o dolo direto ou admite-se o dolo eventual?
+- [Inadmissibilidade da Culpa] Explique por que o art. 122 não admite a modalidade culposa. Se alguém, por negligência, deixa uma arma ao alcance de pessoa que sabe estar depressiva, e esta a utiliza para se matar, qual a consequência jurídico-penal?
+- [Dolo Eventual e Automutilação] Analise a (in)admissibilidade de dolo eventual na conduta de "auxiliar". O agente que empresta uma faca a um amigo, sabendo que ele *pode* usá-la para se cortar (assumindo o risco), mas sem desejar diretamente, pratica o crime?
+- [Elemento Subjetivo Específico] Discuta se, além do dolo genérico (vontade de induzir, instigar ou auxiliar), o agente precisa ter um "fim especial de agir" (ex: motivo torpe, como receber herança), ou se esse motivo apenas majora a pena.
+- [Erro de Tipo] Analise a hipótese de erro de tipo. O agente entrega um veneno à vítima, acreditando que ela o usará para matar um animal (praga), mas a vítima o ingere para cometer suicídio. O agente responde pelo art. 122?
+
+## Consumação e tentativa
+- [Momento Consumativo (Caput)] Com a redação da Lei nº 13.819/2019, o crime do art. 122, *caput* (pena de 6 meses a 2 anos), tornou-se formal. Explique em que momento exato ele se consuma: no ato de induzir/instigar/auxiliar, ou quando a vítima efetivamente inicia os atos de automutilação/suicídio?
+- [Momento Consumativo (Qualificadoras)] Diferencie o momento consumativo do *caput* (crime formal) das formas qualificadas pelo resultado (§1º - lesão grave ou gravíssima; §2º - morte), explicando a natureza preterdolosa (ou não) dessas qualificadoras.
+- [Tentativa (Caput)] Sendo o *caput* um crime formal (e, para parte da doutrina, unissubsistente), discorra sobre a (in)admissibilidade de tentativa. Seria possível tentar "induzir" alguém, por exemplo, enviando uma carta que é interceptada?
+- [Tentativa (Formas Qualificadas)] É possível a "tentativa de participação em suicídio qualificada pelo resultado morte" (art. 122, §2º c/c art. 14, II)? Fundamente a (im)possibilidade de tentativa de crime qualificado pelo resultado ou preterdoloso.
+- [Resultado e Nova Lei] Antes da Lei 13.819/2019, o crime só existia se resultasse morte ou lesão grave. Explique o que acontece se o agente induziu a vítima ao suicídio, mas ela sofreu apenas lesões leves. A conduta é atípica?
+
+## Majorantes de pena
+- [Análise Sistemática] Explique a natureza jurídica das causas de aumento de pena (majorantes) previstas nos parágrafos do art. 122 e se elas podem ser aplicadas cumulativamente.
+- [Motivo Torpe ou Fútil] Analise a majorante do §3º, I (motivo torpe ou fútil), diferenciando-os e exemplificando-os no contexto do art. 122 (ex: induzir ao suicídio para receber herança).
+- [Vulnerabilidade Etária] Discuta a majorante do §3º, II (vítima menor ou com capacidade de resistência diminuída). Qual a diferença crucial entre esta majorante (resistência *diminuída*) e a hipótese de autoria mediata em homicídio (resistência *suprimida*)?
+- [Liderança ou Coordenação] Explique o alcance da majorante do §3º, III (conduta realizada por líder ou coordenador de grupo ou rede virtual), e se ela se aplica ao mero "influenciador digital" que não coordena ativamente um grupo.
+- [Meio Virtual (Rede Social)] Analise a majorante do §3º, V (conduta realizada por meio de rede de computadores, rede social ou transmitida em tempo real). Essa majorante se aplica se o agente usar um aplicativo de mensagem privada (como WhatsApp) para instigar a vítima?
+- [Comunicação das Majorantes] As majorantes do art. 122 (ex: motivo torpe) têm natureza subjetiva ou objetiva? Elas se comunicam ao coautor ou partícipe que não as praticou, mas tinha ciência delas (art. 30, CP)?
+- [Dupla Majoração] Se o agente, líder de um grupo virtual (§3º, III), usa a rede social (§3º, V) para induzir um menor (§3º, II) por motivo fútil (§3º, I), como o juiz deve aplicar essas quatro majorantes na dosimetria da pena?
+
+## Duelo americano, roleta russa e pacto de morte (ambicídio)
+- [Pacto de Morte (Ambicídio)] Diferencie as duas hipóteses de pacto de morte: (1) Suicídio a dois (ambos se matam); (2) Homicídio-suicídio (um mata o outro e depois se mata). Se o sobrevivente do pacto de homicídio-suicídio apenas auxiliou o outro (que se matou), ele responde por art. 121 ou art. 122?
+- [Roleta Russa] Analise a natureza jurídica da "roleta russa". Se 'A' e 'B' jogam, e 'B' aciona o gatilho contra si mesmo e morre, 'A' (que instigou e forneceu a arma) responde por homicídio doloso (dolo eventual) ou pelo art. 122, §2º (auxílio ao suicídio com resultado morte)?
+- [Duelo Americano] Explique o "duelo americano" (sorteio para ver quem se mata). O sobrevivente (que não foi sorteado) responde por art. 122?
+
+## Testemunhas de Jeová
+- [Recusa de Transfusão] Analise o caso de uma Testemunha de Jeová adulta e capaz que recusa transfusão de sangue e vem a falecer. O médico que respeita a autonomia (ortotanásia) ou o familiar que apoia a decisão religiosa praticam o crime do art. 122? Fundamente com base na colisão de direitos fundamentais (vida vs. liberdade religiosa).
+- [Recusa por Menor] Diferencie a situação anterior do caso em que os pais (Testemunhas de Jeová) recusam a transfusão para o filho menor, que vem a falecer. Os pais respondem por art. 122 ou por homicídio (doloso ou culposo)?
+
+## O denominado “Desafio da Baleia Azul”
+- [Tipificação dos Curadores] No contexto de jogos como o "Desafio da Baleia Azul", analise a conduta do "curador" que, por meio de rede social, instiga (reforça) e auxilia (passa as tarefas) um menor de idade a praticar automutilação e, por fim, o suicídio. Qual a tipificação penal completa? (Art. 122, §2º, com quais majorantes?)
+- [Dolo Eventual e Jogos Virtuais] Discuta se os criadores de jogos ou desafios virtuais que, embora não desejem diretamente o suicídio dos participantes, sabem do risco e o aceitam (assumem o risco) para obter fama ou engajamento, podem ser responsabilizados pelo art. 122 a título de dolo eventual.
+
+## Ação penal
+- [Natureza da Ação] Defina a natureza da ação penal para o crime do art. 122 em suas diferentes formas (caput, §1º, §2º), explicando se ela é pública incondicionada ou se depende de representação.
+- [Ação Penal e Resultado] A natureza da ação penal muda se o resultado for apenas automutilação (caput) ou se for morte (§2º)?
+- [Competência] Defina a competência para julgamento. Se o agente induz a vítima ao suicídio (art. 122, §2º), o crime é julgado pelo Tribunal do Júri ou pelo Juiz Singular? (Dica: compare com o art. 121).
+
+## Princípio da especialidade
+- [Art. 122 vs. Art. 121] Reforce a distinção entre o art. 122 (participação em ato de autodeterminação da vítima) e o art. 121 (homicídio por autoria, incluindo a mediata), aplicando o princípio da especialidade.
+- [Art. 122 vs. Curandeirismo/Charlatanismo] Diferencie o art. 122 do crime de curandeirismo (art. 284, CP) quando, por exemplo, um "curandeiro" induz um doente grave a abandonar o tratamento médico (auxílio omissivo?) e este vem a falecer.
