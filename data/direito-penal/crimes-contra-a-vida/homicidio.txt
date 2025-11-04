@@ -2,8 +2,8 @@
 
 # Homicídio
 ## Considerações iniciais
-- Diferencie, sob a ótica doutrinária, a classificação do homicídio (crime material, comum, de dano, etc.) e analise, com base em cenário prático, a (im)possibilidade de sua ocorrência na forma omissiva imprópria, indicando os requisitos jurisprudenciais do STJ para a imputação ao garantidor (art. 13, §2º).
-- Discorra sobre a tutela do bem jurídico "vida humana extrauterina" no crime de homicídio, correlacionando-o com os crimes de aborto e infanticídio, e explique o critério distintivo (doutrinário e prático) adotado pelo STF para o início da proteção penal típica do art. 121.
+- [2.1. Considerações Iniciais] Diferencie, sob a ótica doutrinária, a classificação do homicídio (crime material, comum, de dano, etc.) e analise, com base em cenário prático, a (im)possibilidade de sua ocorrência na forma omissiva imprópria, indicando os requisitos jurisprudenciais do STJ para a imputação ao garantidor (art. 13, §2º).
+- [2.1. Considerações Iniciais] Discorra sobre a tutela do bem jurídico "vida humana extrauterina" no crime de homicídio, correlacionando-o com os crimes de aborto e infanticídio, e explique o critério distintivo (doutrinário e prático) adotado pelo STF para o início da proteção penal típica do art. 121.
 
 ## Homicídio simples
 - [2.2.1. Sujeitos do crime] Analise a natureza jurídica do homicídio como crime comum quanto ao sujeito ativo. Em um cenário onde um Prefeito pratica homicídio *propter officium* e, simultaneamente, *ratione officii*, diferencie a competência para julgamento segundo a jurisprudência atual do STF sobre o alcance do foro por prerrogativa de função.
