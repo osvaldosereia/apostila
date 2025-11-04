@@ -1,0 +1,122 @@
+@@PROMPT: Responda como um professor de Direito Penal muito experiente em temas sobre Aborto provocado por terceiro, com o consentimento da gestante: "{{PERGUNTA}}" @@
+
+# Aborto provocado por terceiro, com o consentimento da gestante (Art. 126 CP)
+
+## Considerações iniciais
+- [Classificação Doutrinária] Diferencie o crime de aborto com consentimento (art. 126) quanto à sua classificação (crime comum, material, de dano, instantâneo de efeitos permanentes) e justifique por que ele é considerado um crime de "mão própria" em relação à gestante (art. 124), mas comum em relação ao terceiro (art. 126).
+- [Bem Jurídico] Discorra sobre a dupla titularidade do bem jurídico tutelado nos crimes de aborto (vida do feto/embrião e integridade/saúde da gestante), explicando como essa dualidade afeta a aplicação do princípio da insignificância.
+- [Consentimento Válido] Analise os requisitos de validade do consentimento da gestante como elemento normativo do tipo no art. 126, detalhando as consequências jurídicas da incapacidade da gestante (menor de 14 anos, alienada ou débil mental).
+
+## Sujeitos do crime
+- [Sujeito Ativo] Explique por que o médico, embora agindo no exercício de sua profissão, pode ser sujeito ativo do crime do art. 126, e discorra sobre a (im)possibilidade de um coautor (ex: enfermeiro) que não realiza o ato executório principal (a manobra abortiva) responder pelo mesmo crime.
+- [Sujeito Passivo] Defina quem é o sujeito passivo primário e secundário no crime de aborto provocado por terceiro, e analise a problemática da (i)legitimidade do feto/embrião como sujeito passivo de direitos penais.
+- [Concurso de Pessoas] Em um cenário onde o namorado da gestante (maior e capaz) a convence e paga a clínica para o procedimento (art. 126), analise a responsabilidade penal dele e da gestante (art. 124), e do médico que executa (art. 126), abordando a teoria do concurso de agentes em crimes "de mão própria" ou "de conduta paralela".
+
+## Conduta
+- [Núcleo do Tipo] Explique o significado da conduta "provocar aborto" e diferencie os meios de execução (químicos, cirúrgicos, etc.), analisando a relevância penal de atos preparatórios (ex: compra de misoprostol) que não iniciam a execução.
+- [Elemento Normativo] Discorra sobre a natureza jurídica do "consentimento da gestante", diferenciando-o de mero acordo ou ratificação, e explique por que a ausência ou vício desse consentimento desclassifica o crime para o art. 125 (aborto sem consentimento).
+- [Fraude ou Ameaça] Analise a consequência jurídico-penal se o consentimento da gestante (maior e capaz) for obtido mediante fraude, grave ameaça ou violência. [Frase-chave] O crime permanece no art. 126 ou migra para o art. 125, §1º? Justifique.
+
+## Voluntariedade
+- [Dolo Específico] Demonstre a exigência do dolo direto (vontade de interromper a gravidez) no art. 126, e debata a (in)admissibilidade do dolo eventual por parte do terceiro (ex: farmacêutico que vende substância abortiva de alto risco, assumindo o risco do aborto).
+- [Erro de Tipo] Diferencie as consequências de um erro de tipo essencial (ex: médico realiza procedimento acreditando tratar-se de outra condição, mas causa aborto) e um erro de tipo acidental sobre a pessoa (ex: médico tenta abortar feto A, mas por erro aborta feto B, em caso de gêmeos).
+
+## Consumação e tentativa
+- [Momento Consumativo] Estabeleça o exato momento consumativo do crime de aborto (morte do feto/embrião), e diferencie-o da mera expulsão do feto do útero, analisando a (i)relevância da viabilidade extrauterina do feto para a consumação.
+- [Tentativa] Discorra sobre a admissibilidade da tentativa (art. 14, II) no crime de aborto, fornecendo um exemplo prático (ex: gestante ingere substância abortiva que não surte efeito) e explicando por que o crime impossível (ex: tentar abortar quem não está grávida) afasta a tipicidade.
+
+## Dissenso presumido (Art. 126, Parágrafo único)
+- [Presunção Legal] Explique a natureza jurídica da presunção de dissenso (presunção *jure et de jure* ou *juris tantum*) nos casos do parágrafo único do art. 126 (menor de 14, alienada, etc.) e sua consequência imediata na tipificação (remessa ao art. 125).
+- [Consentimento do Representante] Analise a (i)rrelevância do consentimento do representante legal (ex: pais da menor de 14 anos) para afastar a presunção de dissenso, explicando o fundamento da Súmula 593 do STJ (natureza personalíssima do consentimento).
+
+## Ação penal
+- [Natureza da Ação] Indique a natureza da ação penal para os crimes de aborto (pública incondicionada) e justifique por que, mesmo havendo consentimento da gestante (art. 126), o Ministério Público não depende de sua representação para agir.
+
+---
+
+# Aborto (Art. 124, 125, 127 e 128)
+
+## Considerações Iniciais (Art. 124)
+- [Autoaborto] Discorra sobre a natureza do crime do art. 124 (autoaborto) como crime de "mão própria", explicando a (im)possibilidade de coautoria e a admissibilidade de participação (induzimento, instigação ou auxílio).
+- [Controle de Constitucionalidade] Analise os principais argumentos jurídicos (dignidade humana, direitos sexuais e reprodutivos, direito à saúde, princípio da proporcionalidade) discutidos pelo STF no âmbito da ADPF 442, que debate a (in)constitucionalidade da criminalização do aborto até a 12ª semana de gestação.
+
+## Aborto sem consentimento (Art. 125)
+- [Tipo Penal] Diferencie o dolo exigido no art. 125 (vontade de abortar) daquele exigido no crime de lesão corporal de natureza gravíssima (art. 129, §2º, V - aborto preterdoloso), focando no elemento subjetivo do agente.
+- [Qualificadora (Art. 127)] Explique a aplicação da forma qualificada do art. 127 (lesão grave ou morte da gestante) aos crimes dos arts. 125 e 126, e se a qualificadora da morte se aplica na modalidade preterdolosa (dolo no aborto, culpa na morte) ou se exige dolo em relação ao resultado morte.
+
+## Aborto Legal (Art. 128)
+- [Aborto Terapêutico] Explique os requisitos do aborto necessário (art. 128, I), quem deve atestar o risco de vida da gestante, e se a intervenção de terceiro (médico) sem o consentimento da gestante (ex: em coma) configuraria crime, justificado pelo estado de necessidade de terceiro.
+- [Aborto Sentimental] Discorra sobre os requisitos do aborto em caso de estupro (art. 128, II), a (des)necessidade de autorização judicial ou boletim de ocorrência, e a relevância do consentimento da gestante (ou de seu representante, se incapaz) segundo a jurisprudência.
+- [Anencefalia (ADPF 54)] Analise a natureza jurídica da decisão do STF na ADPF 54 (anencefalia), explicando se o tribunal criou uma nova excludente de ilicitude (supralegal) ou se reconheceu a atipicidade da conduta por ausência de bem jurídico (vida extrauterina viável).
+
+---
+
+# Homicídio (Art. 121)
+
+## Considerações Iniciais
+- [Omissão Imprópria] Diferencie, com base na jurisprudência recente do STJ, os requisitos para a imputação de homicídio por omissão imprópria (art. 13, §2º) a um médico plantonista que se recusa a atender paciente em emergência, e a um salva-vidas de clube privado que deliberadamente não socorre um banhista.
+- [Competência] Analise a competência para julgamento de homicídio doloso praticado por militar contra civil em contexto de atividade de Garantia da Lei e da Ordem (GLO), à luz das recentes alterações na Lei nº 13.491/2017.
+
+## Homicídio Simples (Caput)
+- [Dolo Eventual vs. Culpa Consciente] Em um caso de "racha" (disputa automobilística) com resultado morte, [Frase-chave] exponha os critérios objetivos e subjetivos utilizados pelo STJ e STF para diferenciar o dolo eventual (competência do Júri) da culpa consciente (competência do juiz singular).
+- [Desistência Voluntária] Em um cenário onde o agente, após efetuar disparos na vítima com *animus necandi*, se arrepende e a leva ao hospital, salvando-lhe a vida, [Frase-chave] analise se o caso configura tentativa de homicídio ou desistência voluntária (respondendo apenas por lesão corporal).
+
+## Homicídio Privilegiado (§1º)
+- [Natureza Jurídica] Discorra sobre a natureza jurídica do homicídio privilegiado (causa de diminuição de pena) e seus requisitos (relevante valor social/moral ou violenta emoção após injusta provocação), e explique por que a "violenta emoção" não se confunde com o estado de "paixão".
+- [Injusta Provocação] Analise a (im)possibilidade de reconhecimento do privilégio em casos de "agressão putativa" (agente supõe que está sendo injustamente provocado, mas não está), e a necessidade de *imediatidade* entre a provocação e a reação.
+
+## Homicídio Qualificado (§2º)
+- [Motivo Torpe] Defina "motivo torpe" (inciso I) e analise, com base na jurisprudência dos tribunais superiores, se a "guerra entre facções criminosas" e a "vingança" configuram, *automaticamente*, essa qualificadora.
+- [Meio Cruel] Explique o conceito de "meio cruel" (inciso III), diferenciando-o da mera repetição de golpes ("pluralidade de ictus"), e se o uso de fogo (incêndio) qualifica o crime por meio cruel ou por perigo comum (inciso III *in fine*).
+- [Emboscada] Diferencie as qualificadoras da emboscada, traição e dissimulação (inciso IV), fornecendo um exemplo prático de "recurso que dificultou a defesa da vítima" que não se enquadre nas três primeiras modalidades.
+- [Homicídio Funcional] Analise a qualificadora do "homicídio funcional" (inciso VII), explicando se ela se aplica a um policial militar de folga que é morto em razão de sua função, e se essa qualificadora se comunica a um coautor civil que *não* conhecia a condição de agente de segurança da vítima.
+
+## Feminicídio (§2º, VI e §2º-A)
+- [Natureza da Qualificadora] Debata a natureza jurídica do feminicídio (objetiva ou subjetiva) e [Frase-chave] exponha a posição consolidada do STJ sobre a (im)possibilidade de sua comunicação a coautores ou partícipes, e se ela pode ser aplicada a mulheres (ex: filha que mata a mãe por razões de gênero).
+- [Contexto] Explique o que a lei define como "razões da condição de sexo feminino", diferenciando o contexto de "violência doméstica e familiar" (Lei Maria da Penha) do "menosprezo ou discriminação à condição de mulher".
+
+## Homicídio Privilegiado-Qualificado
+- [Compatibilidade] Discorra sobre a tese fixada pelo STJ (Súmula 686 STF é anterior ao tema) sobre a compatibilidade entre o homicídio privilegiado (§1º) e as qualificadoras (§2º), [Frase-chave] explicando por que o privilégio (subjetivo) é compatível com qualificadoras objetivas (ex: meio cruel), mas incompatível com qualificadoras subjetivas (ex: motivo torpe).
+
+## Causas de Aumento e Homicídio Culposo
+- [Homicídio Culposo no Trânsito] Diferencie o homicídio culposo do art. 121, §3º (CP) do homicídio culposo na direção de veículo automotor (art. 302 do CTB), aplicando o princípio da especialidade.
+- [Inobservância de Regra Técnica] No homicídio culposo (art. 121, §4º), explique o que se entende por "inobservância de regra técnica de profissão, arte ou ofício", e como isso se diferencia da imperícia comum.
+- [Perdão Judicial] Analise a natureza jurídica da sentença que concede o perdão judicial (art. 121, §5º) e [Frase-chave] se ela extingue a punibilidade ou se é declaratória de ausência de interesse de agir, e quais seus efeitos na esfera cível (reparação de danos).
+
+---
+
+# Induzimento, Instigação ou Auxílio ao Suicídio ou à Automutilação (Art. 122)
+
+## Considerações Iniciais
+- [Alteração Legislativa] Analise a principal alteração promovida pela Lei 13.968/2019 (Pacote Antijogo) no art. 122, [Frase-chave] explicando a inclusão da "automutilação" e a transformação do crime (que era material) em crime formal (não exigindo mais resultado lesão grave ou morte).
+- [Conduta] Diferencie as três condutas nucleares do tipo: "induzir" (criar a ideia), "instigar" (reforçar a ideia existente) e "auxiliar" (prestar ajuda material).
+
+## Sujeitos do Crime
+- [Vítima Vulnerável] Explique a consequência jurídica de praticar as condutas do art. 122 contra vítima vulnerável (menor de 14 anos ou sem discernimento), e se o agente responderá pelo art. 122 qualificado ou pelo crime de homicídio (art. 121) por autoria mediata.
+- ["Roleta Russa"] Em um cenário de "roleta russa" pactuada entre dois agentes, onde um morre, [Frase-chave] analise se o sobrevivente responde por art. 122 (auxílio) ou por homicídio com dolo eventual (art. 121).
+
+## Consumação e Tentativa
+- [Crime Formal] Sendo o art. 122 (após 2019) um crime formal, [Frase-chave] explique em que momento ele se consuma (no ato de induzir, instigar ou auxiliar) e se a tentativa é juridicamente admissível (ex: carta de instigação interceptada).
+
+## Formas Qualificadas
+- [Resultado] Se da instigação ao suicídio resulta morte, [Frase-chave] o agente responderá por homicídio (art. 121) ou pela forma qualificada do art. 122, §1º? Justifique a diferença de dolo.
+- [Causas de Aumento] Explique as causas de aumento de pena do §2º (motivo egoístico, torpe ou fútil; vítima menor ou com capacidade de resistência diminuída), e a causa de duplicação do §5º (conduta por meio de rede de computadores).
+
+---
+
+# Infanticídio (Art. 123)
+
+## Considerações Iniciais
+- [Classificação Doutrinária] Defina o infanticídio como crime próprio (quanto ao sujeito ativo), de mão própria, material, e explique por que a doutrina o classifica como um "homicídio privilegiado" por circunstâncias personalíssimas.
+- [Elemento Temporal] Discorra sobre o elemento temporal "logo após o parto", e [Frase-chave] se a jurisprudência adota um critério cronológico rígido ou um critério psicofisiológico (enquanto durar a influência do estado puerperal).
+
+## Sujeitos do Crime
+- [Sujeito Ativo] Explique por que apenas a mãe (parturiente) pode ser autora do crime de infanticídio, e o que define o "estado puerperal".
+- [Sujeito Passivo] Defina o sujeito passivo (o "próprio filho") e analise o momento exato em que se inicia a tutela penal da vida extrauterina (com o início do parto ou com a respiração pulmonar autônoma).
+
+## Concurso de Pessoas
+- [Comunicabilidade] Analise o cenário em que a mãe, sob influência do estado puerperal, combina com o pai da criança matar o recém-nascido. [Frase-chave] Explique, com base no art. 30 do CP (comunicabilidade de elementares), por qual crime responde o pai (infanticídio ou homicídio) e por qual crime responde a mãe.
+- [Estado Puerperal] Se o pai da criança, agindo sozinho, mata o recém-nascido, mas o faz para "proteger a honra" da mãe (que está em estado puerperal), [Frase-chave] analise se ele pode se beneficiar da circunstância personalíssima da mãe.
+
+## Consumação e Tentativa
+- [Dolo] Explique o dolo exigido no infanticídio (*animus necandi*) e [Frase-chave] diferencie a conduta da mãe que, em estado puerperal, mata o filho (art. 123) daquela que o abandona em local ermo para que morra (art. 134, §2º - abandono de incapaz qualificado pela morte).
