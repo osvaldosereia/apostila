@@ -96,8 +96,9 @@
         }
         
         /* --- ESTILO: Bloco de Fontes --- */
+        /* Alterado de margin-top para margin-bottom */
         .sources-block {
-            margin-top: 2rem; /* 32px */
+            margin-top: 1.5rem; /* Espaço entre a intro e as fontes */
             border-top: 1px solid #e5e7eb; /* border-gray-200 */
             padding-top: 1.5rem; /* 24px */
         }
@@ -198,7 +199,13 @@
             <!-- Área de Conteúdo (Perguntas) -->
             <div id="content-area" class="flex-1 overflow-y-auto p-4 md:p-6 lg:p-8">
                 <div class="max-w-4xl mx-auto">
-                    <!-- Adicionado space-y-4 para o "respiro" -->
+
+                    <!-- Container para o Bloco de Intro e Fontes (Movido para cima) -->
+                    <div id="preamble-container" class="max-w-4xl mx-auto mb-8">
+                        <!-- O bloco de intro e fontes será injetado aqui -->
+                    </div>
+
+                    <!-- Lista de Perguntas -->
                     <div id="questions-list" class="space-y-4">
                         <div id="welcome-message" class="text-center text-gray-500 pt-10">
                             <!-- Ícone atualizado -->
@@ -209,10 +216,8 @@
                         </div>
                     </div>
 
-                    <!-- Container para o Bloco de Fontes -->
-                    <div id="sources-container" class="max-w-4xl mx-auto">
-                        <!-- O bloco de fontes será injetado aqui -->
-                    </div>
+                    <!-- Container de Fontes ANTIGO (removido daqui) -->
+                    
                 </div>
             </div>
         </main>
@@ -232,7 +237,8 @@
         const subtemaTitle = document.getElementById('subtema-title');
         const welcomeMessage = document.getElementById('welcome-message');
         const faqSchemaScript = document.getElementById('faq-schema');
-        const sourcesContainer = document.getElementById('sources-container'); // Container das fontes
+        // Novo seletor unificado para intro + fontes
+        const preambleContainer = document.getElementById('preamble-container');
         
         // --- 2. Lógica do Menu Lateral (Sidebar) ---
         function openSidebar() {
@@ -347,10 +353,12 @@
             subtemaTitle.textContent = subtema.subtema;
             welcomeMessage.classList.add('hidden');
             
-            // Limpa o schema de FAQ e as Fontes anteriores
+            // Limpa o schema de FAQ, o preâmbulo e as perguntas
             if (faqSchemaScript) faqSchemaScript.textContent = '';
-            sourcesContainer.innerHTML = '';
+            preambleContainer.innerHTML = ''; // Limpa a intro e fontes
+            questionsList.innerHTML = ''; // Limpa perguntas antigas
             
+            // Mostra o loading *dentro* da lista de perguntas
             questionsList.innerHTML = `
                 <div class="text-center text-gray-500 pt-10">
                     <svg class="animate-spin h-8 w-8 text-blue-600 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
@@ -370,11 +378,13 @@
                 
                 let texto = await response.text();
                 
-                // Primeiro, extrai e renderiza as fontes
+                // Primeiro, extrai o bloco de fontes
                 const sourceRegex = /@@SOURCES_START@@([\s\S]*?)@@SOURCES_END@@/m;
                 const sourceMatch = texto.match(sourceRegex);
+                
+                // Se houver fontes, renderiza o preâmbulo (Intro + Fontes)
                 if (sourceMatch && sourceMatch[1]) {
-                    renderizarFontes(sourceMatch[1]);
+                    renderizarPreambulo(sourceMatch[1]);
                     texto = texto.replace(sourceRegex, ''); // Remove o bloco de fontes do texto principal
                 }
                 
@@ -388,12 +398,29 @@
         }
 
         /**
+         * Renderiza o bloco de Introdução (NotebookLM)
+         */
+        function renderizarIntro() {
+            const introDiv = document.createElement('div');
+            introDiv.className = "bg-blue-50 border border-blue-200 text-blue-900 rounded-xl p-5 text-sm leading-relaxed shadow-sm";
+            introDiv.innerHTML = `
+                <p>As perguntas a seguir foram criadas utilizando o <strong>NotebookLM</strong> como assistente de pesquisa.</p>
+                <p class="mt-2">A base de conhecimento utilizada para a formulação destas perguntas está listada nas <strong>Fontes Bibliográficas</strong> abaixo.</p>
+            `;
+            return introDiv;
+        }
+
+        /**
          * Renderiza o bloco de Fontes Bibliográficas.
          */
-        function renderizarFontes(textoFontes) {
-            sourcesContainer.innerHTML = ''; // Limpa
-            const linhasFontes = textoFontes.trim().split('\n');
+        function renderizarPreambulo(textoFontes) {
+            preambleContainer.innerHTML = ''; // Limpa
+
+            // 1. Cria e adiciona o Bloco de Intro
+            const introElement = renderizarIntro();
+            preambleContainer.appendChild(introElement);
             
+            // 2. Cria o Bloco de Fontes
             const detailsElement = document.createElement('details');
             detailsElement.className = 'sources-block group';
             
@@ -407,25 +434,25 @@
             const listElement = document.createElement('ul');
             listElement.className = 'sources-list';
             
+            const linhasFontes = textoFontes.trim().split('\n');
             linhasFontes.forEach(linha => {
                 linha = linha.trim();
-                // CORREÇÃO DE BUG: Aceita '*' ou '-' com ou sem espaço depois
+                // Aceita '*' ou '-' com ou sem espaço depois
                 if (linha.startsWith('-') || linha.startsWith('*')) {
-                    // Pega o texto depois do marcador
                     const textoLinha = linha.substring(1).trim(); 
                     if (!textoLinha) return; // Ignora linhas em branco
 
                     const listItem = document.createElement('li');
-                    // Converte *itálico* em <em>itálico</em>
                     listItem.innerHTML = textoLinha.replace(/\*(.*?)\*/g, '<em>$1</em>');
                     listElement.appendChild(listItem);
                 }
             });
             
+            // 3. Adiciona o Bloco de Fontes ao container
             if (listElement.hasChildNodes()) {
                 detailsElement.appendChild(summaryElement);
                 detailsElement.appendChild(listElement);
-                sourcesContainer.appendChild(detailsElement);
+                preambleContainer.appendChild(detailsElement);
             }
         }
         
@@ -456,12 +483,13 @@
             linhas.forEach(linha => {
                 linha = linha.trim();
                 if (linha.startsWith('## ')) {
-                    // É um tópico principal
+                    // É um tópico principal (MUDANÇA: H4)
                     const titulo = linha.substring(3).trim();
-                    const h3 = document.createElement('h3');
-                    h3.className = 'text-2xl font-bold text-gray-900 pt-2 pb-2 border-b border-gray-200';
-                    h3.textContent = titulo;
-                    questionsList.appendChild(h3);
+                    const h4 = document.createElement('h4');
+                    // Classes atualizadas para um visual de H4
+                    h4.className = 'text-lg font-semibold text-gray-800 pt-4 pb-1'; 
+                    h4.textContent = titulo;
+                    questionsList.appendChild(h4);
 
                 } 
                 // Aceita '*' ou '-'
