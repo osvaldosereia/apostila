@@ -1,4 +1,4 @@
-@@PROMPT: Responda de forma organizada e didatica "{{PERGUNTA}}" @@
+@@PROMPT: Responda como um professor de Direito responderia para seus alunos: "{{PERGUNTA}}" @@
 
 
 # Feminicídio
