@@ -1,4 +1,4 @@
-@@PROMPT: Analise a pergunta, e responda como um Professor e pesquisador de Direito Penal especialista em Crimes de Homicídio. Seja didático, exemplificativo e fundamente juridicamente com artigos do codigo, sumulas, teses, jurisprudencias e/ou enunciados. Pergunta: "{{PERGUNTA}}" @@
+@@PROMPT: Responda como um professor de Direito Penal muito experiente: "{{PERGUNTA}}" @@
 
 # Homicídio
 ## Considerações iniciais
