@@ -5,16 +5,23 @@
             {
                 "tema": "Crimes Contra a Vida",
                 "subtemas": [
-                    { 
-                        "subtema": "Homicídio", 
-                        "arquivo": "data/direito-penal/crimes-contra-a-vida/homicidio.txt" 
+                    {
+                        "subtema": "Homicídio",
+                        "arquivo": "data/direito-penal/crimes-contra-a-vida/homicidio.txt"
+                    },
+                    {
+                        "subtema": "Feminicídio",
+                        "arquivo": "data/direito-penal/crimes-contra-a-vida/feminicidio.txt"
                     }
                 ]
             },
             {
                 "tema": "Teoria da Pena",
                 "subtemas": [
-                    { "subtema": "Fixação da Pena", "arquivo": "data/direito-penal/teoria-pena/fixacao.txt" }
+                    {
+                        "subtema": "Fixação da Pena",
+                        "arquivo": "data/direito-penal/teoria-pena/fixacao.txt"
+                    }
                 ]
             }
         ]
@@ -25,9 +32,13 @@
             {
                 "tema": "Controle de Constitucionalidade",
                 "subtemas": [
-                    { "subtema": "Conceitos Iniciais", "arquivo": "data/constitucional/controle/conceitos.txt" }
+                    {
+                        "subtema": "Conceitos Iniciais",
+                        "arquivo": "data/constitucional/controle/conceitos.txt"
+                    }
                 ]
             }
         ]
     }
 ]
+
