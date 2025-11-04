@@ -1,0 +1,33 @@
+[
+    {
+        "disciplina": "Direito Penal",
+        "temas": [
+            {
+                "tema": "Crimes Contra a Vida",
+                "subtemas": [
+                    { 
+                        "subtema": "Homicídio", 
+                        "arquivo": "data/direito-penal/crimes-contra-a-vida/homicidio.txt" 
+                    }
+                ]
+            },
+            {
+                "tema": "Teoria da Pena",
+                "subtemas": [
+                    { "subtema": "Fixação da Pena", "arquivo": "data/direito-penal/teoria-pena/fixacao.txt" }
+                ]
+            }
+        ]
+    },
+    {
+        "disciplina": "Direito Constitucional",
+        "temas": [
+            {
+                "tema": "Controle de Constitucionalidade",
+                "subtemas": [
+                    { "subtema": "Conceitos Iniciais", "arquivo": "data/constitucional/controle/conceitos.txt" }
+                ]
+            }
+        ]
+    }
+]
