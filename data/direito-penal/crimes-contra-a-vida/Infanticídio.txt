@@ -1,0 +1,60 @@
+@@PROMPT: Responda como um professor de Direito Penal muito experiente em temas sobre Infanticídio: "{{PERGUNTA}}" @@
+
+# Infanticídio
+
+## Considerações iniciais
+- [Natureza Jurídica] Discorra sobre a natureza jurídica do infanticídio (art. 123, CP), explicando por que ele é classificado como um crime privilegiado *próprio* (ou autônomo) em relação ao homicídio (art. 121, CP).
+- [Bem Jurídico Tutelado] Defina o bem jurídico tutelado pelo art. 123, explicando se há uma dupla tutela (vida do nascente/neonato e a saúde psíquica da mãe) ou se a proteção recai unicamente sobre a vida do vulnerável.
+- [Classificação Doutrinária] Classifique o crime de infanticídio quanto: (1) ao sujeito ativo (crime próprio); (2) ao momento consumativo (crime material); (3) ao modo de execução (forma livre); e (4) ao elemento subjetivo (dolo).
+- [Princípio da Especialidade] Explique por que o infanticídio é uma exceção à regra do homicídio, aplicando o princípio da especialidade (*lex specialis derogat legi generali*) em razão dos elementos especializantes (sujeito ativo, circunstância temporal e estado puerperal).
+- [Evolução Histórica] Analise a evolução histórica do tratamento penal do infanticídio, comparando a "defesa da honra" (motivação principal em códigos anteriores) com a atual redação, focada no "estado puerperal" (critério fisiopsíquico).
+- [Polêmica Doutrinária] Discuta a (in)constitucionalidade do art. 123 frente ao princípio da isonomia (art. 5º, *caput*, CF/88), questionando se o tratamento penal mais brando à mãe viola o princípio da proteção integral à criança (art. 227, CF/88).
+- [Critério Fisiopsíquico] Diferencie o critério *psicológico* (adotado em legislações passadas, focado na honra) do critério *fisiopsíquico* (adotado pelo CP/40), que fundamenta o privilégio na perturbação psíquica decorrente do parto (estado puerperal).
+- [Infanticídio e Eutanásia Neonatal] Diferencie o infanticídio (art. 123) da chamada "eutanásia neonatal" (praticada para abreviar o sofrimento de neonato com doença grave e incurável), analisando a tipificação desta última conduta (art. 121, §1º ou art. 121, *caput*).
+
+## Sujeitos do crime
+- [Sujeito Ativo - Crime Próprio] Defina o sujeito ativo do infanticídio, explicando por que se trata de um crime *próprio* (ou de mão própria, segundo parte da doutrina) que só pode ser cometido pela *mãe*.
+- [Sujeito Ativo - Mãe Adotiva] Analise a (im)possibilidade de uma mãe adotiva, que recebe o bebê logo após o nascimento e sofre um abalo psicológico (ex: "depressão pós-adoção"), praticar o crime de infanticídio. Fundamente.
+- [Sujeito Passivo - Marco Inicial] Defina quem é o sujeito passivo ("o próprio filho"). A proteção do art. 123 se inicia com o feto (vida intrauterina) ou exige o início do parto (vida extrauterina)?
+- [Sujeito Passivo - Neonato vs. Nascente] Diferencie "nascente" (durante o parto) de "neonato" (logo após o parto). A conduta praticada contra ambos pode configurar infanticídio?
+- [Sujeito Passivo - Morte Antes do Parto] Se a mãe, sob influência do estado puerperal, pratica atos para matar o filho, mas a perícia constata que este já estava morto (natimorto), qual a consequência jurídico-penal? (Crime impossível).
+- [Concurso de Pessoas - Comunicabilidade] Analise a (in)comunicabilidade da circunstância elementar personalíssima ("estado puerperal"). Se um terceiro (ex: o pai da criança ou a avó) auxilia a mãe a matar o neonato, sabendo do estado puerperal dela, como ele responde?
+- [Concurso de Pessoas - Art. 30] Aprofunde a análise anterior: explique a controvérsia doutrinária sobre a comunicabilidade do art. 123 ao partícipe. O terceiro responde por homicídio (art. 121) ou por infanticídio (art. 123), com base na teoria monista e na exceção do art. 30 do CP?
+- [Concurso de Pessoas - Autoria Mediata] É possível infanticídio por autoria mediata? (Ex: a mãe, em estado puerperal, se vale de um inimputável para matar o filho).
+- [Infanticídio e Participação de Mãe] Se a mãe (em estado puerperal) apenas *participa* (ex: instiga) para que um terceiro (ex: a enfermeira) mate seu filho, ambos respondem por infanticídio?
+- [Erro sobre a Pessoa] Se a mãe, em estado puerperal e visando matar seu filho, mata por engano (troca de bebês na maternidade) o filho de outra mulher, ela responde por infanticídio ou por homicídio? (Art. 20, §3º, CP).
+
+## Conduta
+- [Verbo Nuclear] Defina a conduta "matar", explicando que, assim como no homicídio, trata-se de crime de forma livre, podendo ser praticado por ação (comissão) ou omissão (omissão imprópria).
+- [Elemento Circunstancial - Estado Puerperal] Conceitue o "estado puerperal" sob a ótica médico-legal, diferenciando-o da psicose puerperal e da depressão pós-parto, e explicando sua relevância como elemento normativo do tipo.
+- [Comprovação do Estado Puerperal] A influência do estado puerperal é presumida (*juris et de jure*) pelo simples fato de a morte ocorrer após o parto, ou exige comprovação pericial (exame psiquiátrico-legal) de que houve efetiva perturbação psíquica na mãe?
+- [Elemento Temporal - "Durante o parto"] Defina o marco temporal "durante o parto", correlacionando-o com os estágios clínicos do parto (dilatação, expulsão, dequitação).
+- [Elemento Temporal - "Logo após o parto"] Defina o alcance da elementar cronológica "logo após o parto". Trata-se de um critério meramente cronológico (ex: 24 horas) ou de um critério psicossomático (enquanto durar a influência psíquica do estado puerperal)?
+- [Infanticídio Omissivo] Detalhe a (plenamente possível) ocorrência do infanticídio por omissão imprópria (art. 13, §2º), quando a mãe, garantidora legal e natural, deixa de amamentar ou agasalhar o neonato, visando sua morte, sob influência do estado puerperal.
+- [Causa da Morte e Conduta] Se a mãe, desejando matar o filho (art. 123), o abandona (art. 134), mas a morte sobrevém por outra causa (ex: atacado por animal), ela responde por infanticídio consumado ou tentado, ou por abandono de incapaz qualificado pela morte?
+- [Diferença de Homicídio] Qual a exata diferença fática que desloca a conduta do art. 121 (homicídio) para o art. 123 (infanticídio)? A ausência de qualquer um dos três elementos (mãe, estado puerperal, nexo temporal) descaracteriza o privilégio?
+- [Infanticídio Múltiplo] Se a mãe, em estado puerperal, dá à luz gêmeos e mata ambos em um mesmo contexto fático, ela responde por crime único, concurso formal ou crime continuado?
+
+## Voluntariedade
+- [Elemento Subjetivo] Defina o elemento subjetivo do infanticídio. O crime só é punido a título de dolo (direto ou eventual) ou existe a modalidade culposa (art. 123, § único - *revogado*)?
+- [Dolo Eventual] É possível o infanticídio a título de dolo eventual? Exemplifique um cenário (ex: mãe que, em estado puerperal, deixa o bebê em local de risco, assumindo o risco da morte).
+- [Elemento Subjetivo Especial] Discuta se, além do dolo (vontade de matar), o tipo exige um elemento subjetivo especial (um "fim especial de agir"), como a "defesa da honra", ou se basta o dolo genérico (matar) praticado sob a influência psíquica do estado puerperal.
+- [Estado Puerperal e Inimputabilidade] Diferencie a "influência do estado puerperal" (que atenua a pena, art. 123) da "psicose puerperal" que suprime totalmente a capacidade de entendimento da mãe. Nesta segunda hipótese, a mãe responde por infanticídio ou deve ser absolvida impropriamente (art. 26, *caput*, CP)?
+- [Erro de Tipo sobre o Estado Puerperal] Se a mãe pratica a conduta acreditando (erroneamente) estar sob influência do estado puerperal, quando na verdade não está, ela responde por infanticídio?
+- [Erro de Tipo sobre o Neonato] Se a mãe, em estado puerperal, mata uma criança que acredita ser seu filho, mas na verdade é um boneco (ou o filho já morto), qual a consequência? (Crime impossível).
+- [Dolo e Omissão] No infanticídio omissivo, o dolo deve ser comprovado pela simples inércia da mãe (ex: não amamentar), ou exige-se a prova inequívoca de que a omissão foi intencional e dirigida à morte, e não apenas fruto de negligência ou da perturbação psíquica?
+
+## Consumação e tentativa
+- [Momento Consumativo] Sendo um crime material, defina o momento exato da consumação do infanticídio, correlacionando-o com a morte encefálica do nascente ou neonato.
+- [Tentativa] Explique por que o infanticídio, como crime plurissubsistente, admite tentativa (art. 14, II). Exemplifique um cenário de tentativa de infanticídio (ex: mãe tenta afogar o bebê, mas é impedida pela enfermeira).
+- [Tentativa e Omissão] É possível a tentativa de infanticídio na forma omissiva imprópria? (Ex: mãe deixa de amamentar dolosamente, mas a avó percebe e alimenta a criança, salvando-a).
+- [Desistência Voluntária] Diferencie a tentativa de infanticídio da desistência voluntária (art. 15). Se a mãe, em estado puerperal, inicia os atos de asfixia e, voluntariamente, para e socorre o bebê, qual sua responsabilidade penal?
+- [Resultado Diverso do Pretendido] Se a mãe (art. 123) pratica atos para matar, mas o filho sobrevive com lesões corporais (art. 129), ela responde por tentativa de infanticídio ou por lesão corporal? (Depende da análise do *animus*).
+- [Infanticídio e Aborto] Se a mãe pratica a conduta "durante o parto", mas a criança ainda não iniciou a respiração pulmonar (sendo considerada feto pela perícia), ela responde por tentativa de infanticídio ou por aborto (art. 124)?
+
+## Ação penal
+- [Natureza da Ação] Defina a natureza da ação penal no crime de infanticídio (consumado ou tentado), explicando por que ela é pública incondicionada, apesar da natureza "privilegiada" do delito.
+- [Competência] Defina a autoridade competente para processar e julgar o crime de infanticídio. (Tribunal do Júri, por força do art. 5º, XXXVIII, da CF/88, por ser crime doloso contra a vida).
+- [Desclassificação no Júri] Se a mãe é denunciada por homicídio qualificado (ex: asfixia) contra o recém-nascido (art. 121, §2º, III), é possível que os jurados, em plenário, desclassifiquem a conduta para infanticídio (art. 123)? Quais os requisitos para essa desclassificação?
+- [Competência no Concurso] No caso de concurso de agentes (mãe e terceiro), onde a mãe responde por infanticídio (art. 123) e o terceiro por homicídio (art. 121), haverá separação dos julgamentos (cisão da unidade processual)?
+- [Prescrição] Analise o prazo prescricional do infanticídio (art. 109, CP) e compare-o com o prazo prescricional do homicídio simples, destacando a relevância da desclassificação para a pretensão punitiva do Estado.
