@@ -22,7 +22,7 @@
             width: 4px;
         }
         .sidebar-scroll::-webkit-scrollbar-thumb {
-            background-color: #cbd5e1;
+            background-color: #cbd5e1; /* cool-gray-300 */
             border-radius: 4px;
         }
         .sidebar-scroll::-webkit-scrollbar-track {
@@ -41,7 +41,7 @@
             color: #374151; /* gray-700 */
         }
         #menu-content details[open] > .disciplina-summary {
-            background-color: #f9fafb;
+            background-color: #f9fafb; /* gray-50 */
         }
 
         /* O <summary> do Tema (novo) */
@@ -51,7 +51,7 @@
             color: #4b5563; /* gray-600 */
         }
         #menu-content .tema-details[open] > .tema-summary {
-            background-color: #f3f4f6;
+            background-color: #f3f4f6; /* gray-100 */
         }
         
         /* Links de Subtema (mais recuo) */
@@ -61,16 +61,16 @@
             border-radius: 0.5rem;
             transition: all 0.15s ease-in-out;
             display: block;
-            color: #374151;
+            color: #374151; /* gray-700 */
         }
         #menu-content .subtema-link:hover {
-            background-color: #eff6ff;
-            color: #2563eb;
+            background-color: #eff6ff; /* blue-50 */
+            color: #2563eb; /* blue-600 */
             transform: translateX(4px);
         }
         #menu-content .subtema-link[data-active="true"] {
-            background-color: #dbeafe;
-            color: #1d4ed8;
+            background-color: #dbeafe; /* blue-100 */
+            color: #1d4ed8; /* blue-700 */
             font-weight: 600;
         }
         
@@ -131,6 +131,11 @@
             font-size: 0.9rem; /* 14px */
             color: #4b5563; /* gray-600 */
             line-height: 1.6;
+        }
+        /* Estilo para itálico dentro das fontes */
+        .sources-list em {
+            font-style: italic;
+            color: #1f2937; /* gray-800 */
         }
 
     </style>
@@ -251,7 +256,8 @@
          */
         async function carregarEAmbienteMenu() {
             try {
-                const response = await fetch('index_menu.json');
+                // Adiciona um parâmetro anti-cache ao JSON também
+                const response = await fetch(`index_menu.json?v=${new Date().getTime()}`);
                 if (!response.ok) {
                     throw new Error(`Falha ao carregar index_menu.json (status: ${response.status})`);
                 }
@@ -266,7 +272,7 @@
 
                     const disciplinaDetails = document.createElement('details');
                     disciplinaDetails.className = 'group';
-                    if (i === 0) disciplinaDetails.setAttribute('open', ''); 
+                    if (i === 0) disciplinaDetails.setAttribute('open', ''); // Abre a primeira disciplina por padrão
 
                     const disciplinaSummary = document.createElement('summary');
                     disciplinaSummary.className = 'disciplina-summary flex items-center justify-between p-2 rounded-lg cursor-pointer hover:bg-gray-100 list-none';
@@ -355,6 +361,7 @@
                 </div>`;
 
             try {
+                // CORREÇÃO DE CACHE: Adicionado { cache: "no-store" }
                 const response = await fetch(subtema.arquivo, { cache: "no-store" });
                 
                 if (!response.ok) {
@@ -402,10 +409,11 @@
             
             linhasFontes.forEach(linha => {
                 linha = linha.trim();
-                // Aceita '*' ou '-'
-                if (linha.startsWith('- ') || linha.startsWith('* ')) {
-                    const textoLinha = linha.substring(2).trim();
-                    if (!textoLinha) return;
+                // CORREÇÃO DE BUG: Aceita '*' ou '-' com ou sem espaço depois
+                if (linha.startsWith('-') || linha.startsWith('*')) {
+                    // Pega o texto depois do marcador
+                    const textoLinha = linha.substring(1).trim(); 
+                    if (!textoLinha) return; // Ignora linhas em branco
 
                     const listItem = document.createElement('li');
                     // Converte *itálico* em <em>itálico</em>
@@ -462,6 +470,7 @@
                     let linhaConteudo = linha.substring(2).trim();
                     if (!linhaConteudo) return; // Ignora linhas vazias
 
+                    // Regex para capturar a tag no início da linha
                     const tagRegex = /^\[(.*?)\]\s*(.*)/;
                     const match = linhaConteudo.match(tagRegex);
 
@@ -475,14 +484,16 @@
                         perguntaConteudo = linhaConteudo;
                     }
                     
-                    if (!perguntaConteudo) return; 
+                    if (!perguntaConteudo) return; // Se não houver pergunta, pula
 
                     const card = document.createElement('div');
                     card.className = 'bg-white p-5 rounded-xl shadow-sm border border-gray-200 flex flex-col space-y-3 question-card';
                     
+                    // Cabeçalho do Card (Tag + Botão)
                     const headerWrapper = document.createElement('div');
                     headerWrapper.className = 'flex justify-between items-start space-x-4';
 
+                        // Wrapper da Tag (para alinhar à esquerda)
                         const tagElementWrapper = document.createElement('div');
                         if (tagConteudo) {
                             const tagElement = document.createElement('span');
@@ -501,11 +512,13 @@
                         googleLink.rel = 'noopener noreferrer';
                         googleLink.className = 'flex-shrink-0 w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-all duration-150 transform active:scale-95';
                         googleLink.title = 'Buscar explicação no Google IA';
+                        // Imagem do Google
                         googleLink.innerHTML = `
                             <img src="data/icon/google.png" alt="Google" class="w-5 h-5">
                         `;
                         headerWrapper.appendChild(googleLink);
 
+                    // Texto da Pergunta
                     const perguntaText = document.createElement('p');
                     perguntaText.className = 'question-text text-base text-gray-800 leading-relaxed text-justify';
                     
@@ -513,8 +526,8 @@
                     const htmlComNegrito = perguntaConteudo.replace(/\*(.*?)\*/g, '<strong class="font-semibold text-gray-900">$1</strong>');
                     perguntaText.innerHTML = htmlComNegrito; 
 
-                    card.appendChild(headerWrapper);
-                    card.appendChild(perguntaText);
+                    card.appendChild(headerWrapper); // Adiciona cabeçalho (Tag + Botão)
+                    card.appendChild(perguntaText);  // Adiciona texto da pergunta
                     questionsList.appendChild(card);
                     
                     // --- Adiciona a pergunta ao Schema de SEO ---
@@ -541,7 +554,9 @@
          * Cria o link de busca do Google.
          */
         function construirUrlGoogle(template, pergunta) {
-            const promptFinal = template.replace('{{PERGUNTA}}', pergunta);
+            // Remove o negrito da pergunta antes de enviar ao Google
+            const perguntaLimpa = pergunta.replace(/\*/g, '');
+            const promptFinal = template.replace('{{PERGUNTA}}', perguntaLimpa);
             const queryCodificada = encodeURIComponent(promptFinal);
             return `https://www.google.com/search?udm=50&q=${queryCodificada}`;
         }
