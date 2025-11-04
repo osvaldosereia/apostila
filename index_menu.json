@@ -24,6 +24,10 @@
                     {
                         "subtema": "Aborto (provocado pela gestante ou com seu consentimento)",
                         "arquivo": "data/direito-penal/crimes-contra-a-vida/aborto-provocado-pela-gestante.txt"
+                    },
+                    {
+                        "subtema": "Aborto (Aborto provocado por terceiro, sem o consentimento da gestante)",
+                        "arquivo": "data/direito-penal/crimes-contra-a-vida/aborto-provocado-por-terceiro-sem-consentimento.txt"
                     }
                 ]
             },
