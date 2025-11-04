@@ -20,6 +20,10 @@
                     {
                         "subtema": "Infanticídio",
                         "arquivo": "data/direito-penal/crimes-contra-a-vida/infanticidio.txt"
+                    },
+                    {
+                        "subtema": "Aborto (provocado pela gestante ou com seu consentimento)",
+                        "arquivo": "data/direito-penal/crimes-contra-a-vida/aborto-provocado-pela-gestante.txt"
                     }
                 ]
             },
