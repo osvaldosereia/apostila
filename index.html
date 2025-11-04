@@ -1,502 +1,533 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mapas Mentais - Direito</title>
-    <!-- 1. Importando o Tailwind CSS -->
+    <!-- Novo Título -->
+    <title>50 Perguntas Sobre...</title>
+    <!-- Carrega o Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
-
-    <!-- 1.1. Importando a fonte 'Inter' -->
+    <!-- Fonte Inter -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- 2. Estilos CSS customizados e responsivos (Minimalista, Estrutura de Outline) -->
+    
     <style>
-        /* Fonte padrão e fundo suave */
         body {
             font-family: 'Inter', sans-serif;
-            overflow-x: hidden; 
-            background-color: #f7f9fb; /* Fundo muito leve */
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
         }
-
-        /* Cores de Nível para Ícones e Borda (UX para hierarquia) */
-        .depth-0 { --color-primary: #1d4ed8; } /* Azul Escuro (Raiz) */
-        .depth-1 { --color-primary: #059669; } /* Verde (Grande Seção) */
-        .depth-2 { --color-primary: #d97706; } /* Laranja (Sub-Seção) */
-        .depth-3 { --color-primary: #4b5563; } /* Cinza (Detalhe/Folhas) */
-
-        /* --- Estilos do Mapa Mental (Estrutura de Outline/Lista) --- */
-
-        /* Contêiner principal da lista (Substitui map-item-card) */
-        .map-list {
-            list-style: none;
-            padding: 0;
-            margin: 0;
+        /* Estilo para a barra de rolagem no menu (Webkit) */
+        .sidebar-scroll::-webkit-scrollbar {
+            width: 4px;
         }
-        
-        /* Estilo de cada item (li) */
-        .map-list-item {
-            position: relative; /* Necessário para posicionar o marcador */
-            cursor: pointer;
-            padding: 0.75rem 0; 
-            border-bottom: 1px solid #e5e7eb; /* Divisor sutil */
-        }
-
-        /* Linha de Hierarquia (Usando a borda da indentação) */
-        .map-list .map-list {
-            padding-left: 0.75rem; /* Indentação mobile (compacta) - Reduzido para 0.75rem */
-            border-left: 3px solid #e5e7eb; /* AUMENTADO PARA 3PX */
-        }
-
-        /* --- Estilos do Marcador + / - (NOVO) --- */
-        .map-list-item.collapsible {
-            padding-left: 0.75rem; /* Para itens que podem ser expandidos, ajeitamos o espaço - Reduzido para 0.75rem */
-        }
-        /* Item não colapsável (folha) */
-        .map-list-item:not(.collapsible) {
-            padding-left: 0.75rem; /* Reduzido para 0.75rem */
-        }
-
-        /* === ALTERAÇÕES AQUI (MARCADOR MOBILE) === */
-        .map-list-item.collapsible::before {
-            content: '+'; /* Conteúdo inicial */
-            position: absolute;
-            left: -0.4rem; /* Posição ajustada (era -0.3rem) */
-            top: 50%;
-            transform: translateY(-50%);
-            z-index: 10;
-            width: 18px; /* Aumentado (era 16px) */
-            height: 18px; /* Aumentado (era 16px) */
-            text-align: center;
-            line-height: 16px; /* Ajustado (era 14px) */
-            font-size: 16px; /* Aumentado (era 14px) */
-            font-weight: 600;
-            color: var(--color-primary);
-            background-color: #f7f9fb; /* Cor de fundo para cobrir a linha */
-            border: 2px solid var(--color-primary); /* Borda com cor do nível */
+        .sidebar-scroll::-webkit-scrollbar-thumb {
+            background-color: #cbd5e1; /* cinza-300 */
             border-radius: 4px;
-            transition: content 0.4s ease;
+        }
+        .sidebar-scroll::-webkit-scrollbar-track {
+            background-color: transparent;
         }
 
-        .map-list-item.collapsible.open::before {
-            content: '–'; /* Muda para - quando aberto */
+        /* --- NOVOS ESTILOS PARA SIDEBAR --- */
+        /* Estilo para o <summary> (Disciplina) */
+        #menu-content summary {
+            transition: background-color 0.15s ease-in-out;
+            border-radius: 0.5rem; /* rounded-lg */
+        }
+        #menu-content details[open] > summary {
+            background-color: #f9fafb; /* gray-50 */
         }
 
-        /* Ajuste de posição para UL's internos (mobile) */
-        @media (max-width: 767px) {
-            .map-list .map-list .map-list-item.collapsible::before {
-                left: calc(-0.75rem - 0.4rem); /* Ajustado (era -0.3rem) */
-            }
+        /* Estilo para o Título do Tema (ex: "Controle de Constitucionalidade") */
+        #menu-content .tema-title {
+            font-size: 0.8rem; /* 12px */
+            font-weight: 600; /* semibold */
+            color: #6b7280; /* gray-500 */
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding-left: 0.5rem; /* pl-2 */
+            margin-top: 0.75rem; /* mt-3 */
+            margin-bottom: 0.25rem; /* mb-1 */
+        }
+
+        /* Estilo para o Link do Subtema (ex: "Conceitos Iniciais") */
+        #menu-content .subtema-link {
+            padding: 0.6rem 0.75rem; /* py-2.5 px-3 */
+            font-size: 0.9rem; /* 14px */
+            border-radius: 0.5rem; /* rounded-md */
+            transition: all 0.15s ease-in-out;
+            display: block;
+            color: #374151; /* gray-700 */
+        }
+        #menu-content .subtema-link:hover {
+            background-color: #eff6ff; /* blue-50 */
+            color: #2563eb; /* blue-600 */
+            transform: translateX(4px);
         }
         
-        /* Estilo do Título/Header */
-        .item-header {
-            display: flex;
-            align-items: center; 
-            transition: background-color 0.15s ease;
-            padding: 0.5rem 0.5rem;
-            margin-bottom: 0.25rem;
-            border-radius: 0.25rem;
+        /* Estilo para o link ATIVO */
+        #menu-content .subtema-link[data-active="true"] {
+            background-color: #dbeafe; /* blue-100 */
+            color: #1d4ed8; /* blue-700 */
+            font-weight: 600; /* semibold */
         }
         
-        /* Hover e Ícone */
-        .item-header:hover {
-            background-color: #eff6ff; /* Cor muito leve no hover */
-        }
-
-        /* Estilos dos Conteúdos Colapsáveis (ul dentro de li) */
-        .collapsible-content {
-            display: grid;
-            grid-template-rows: 0fr; /* Fechado */
-            transition: grid-template-rows 0.4s ease-in-out;
-            margin-top: 0;
-        }
-
-        .collapsible-content.open {
-            grid-template-rows: 1fr; /* Abre */
-        }
-
-        .collapsible-inner {
-            overflow: hidden; /* Oculta o conteúdo no estado fechado */
-        }
-
-        /* Classes de texto por nível (Mobile-First) */
-        .title-text {
-            flex-grow: 1;
+        /* --- NOVOS ESTILOS PARA CONTEÚDO --- */
+        /* Card da Pergunta */
+        .question-card {
+            /* Mudar para items-start para alinhar botão ao topo em texto longo */
+            align-items: flex-start;
         }
         
-        .depth-0 .title-text { font-size: 1.15rem; font-weight: 700; color: #1f2937; } /* Raiz - Menor */
-        .depth-1 .title-text { font-size: 1rem; font-weight: 600; color: #059669; } /* Verde - Menor */
-        .depth-2 .title-text { font-size: 0.95rem; font-weight: 500; color: #d97706; } /* Laranja - Menor */
-        .depth-3 .title-text { font-size: 0.85rem; font-weight: 400; color: #4b5563; } /* Cinza - Menor */
-
-
-        /* ==================================================
-         * BLOCO DE CÓDIGO ALTERADO PARA DESKTOP
-         * ==================================================
-         */
-        @media (min-width: 768px) {
-            /* Otimizações para Desktop (Fontes ajustadas) */
-             .depth-0 .title-text { font-size: 1.25rem; } /* Antes era: 1.35rem */
-             .depth-1 .title-text { font-size: 1.0rem; }  /* Antes era: 1.05rem */
-             .depth-2 .title-text { font-size: 0.9rem; }  /* Adicionado (Mobile era 0.95rem) */
-             .depth-3 .title-text { font-size: 0.8rem; }  /* Adicionado (Mobile era 0.85rem) */
-             
-             .map-list .map-list {
-                padding-left: 1.5rem; /* Indentação Reduzida para 1.5rem */
-            }
-             .map-list-item.collapsible {
-                padding-left: 1.5rem; /* Reduzido para 1.5rem */
-            }
-            .map-list-item:not(.collapsible) {
-                padding-left: 1.5rem; /* Reduzido para 1.5rem */
-            }
-             .map-list .map-list .map-list-item.collapsible::before {
-                left: calc(-1.5rem - 0.85rem); /* Ajuste de posição para desktop (era -0.75rem) */
-            }
-            
-            /* === ALTERAÇÕES AQUI (MARCADOR DESKTOP) === */
-             .map-list-item.collapsible::before {
-                width: 20px; /* Aumentado (era 18px) */
-                height: 20px; /* Aumentado (era 18px) */
-                line-height: 18px; /* Ajustado (era 16px) */
-                font-size: 18px; /* Aumentado (era 15px) */
-                left: -0.85rem; /* Ajustado (era -0.75rem) */
-            }
+        /* Texto da Pergunta com mais "respiro" */
+        .question-text {
+            line-height: 1.6; /* leading-relaxed */
         }
     </style>
 </head>
-<body class="bg-gray-50 text-gray-800">
+<body class="bg-gray-100 h-full overflow-hidden">
 
-    <!-- Barra Superior (Header) -->
-    <header class="bg-white text-gray-800 shadow-lg sticky top-0 left-0 right-0 z-30">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between items-center h-16">
-                <!-- Lado Esquerdo: Hamburger e Logo -->
-                <div class="items-center flex">
-                    <!-- Botão Hamburger -->
-                    <button id="hamburger-btn" class="p-2 rounded-md text-gray-500 hover:text-indigo-600 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-indigo-600">
-                        <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
+    <!-- Estrutura principal com layout flexível -->
+    <div class="flex h-full">
+
+        <!-- 
+          Menu Lateral (Sidebar) 
+        -->
+        <nav id="sidebar" class="bg-white/95 backdrop-blur-sm border-r border-gray-200 w-72 h-full fixed lg:static left-0 top-0 z-30
+                           transform -translate-x-full lg:translate-x-0
+                           transition-transform duration-300 ease-in-out
+                           flex flex-col shadow-lg lg:shadow-none">
+            
+            <!-- Cabeçalho do Menu (Atualizado com Logo e Título) -->
+            <div class="flex items-center gap-3 p-4 border-b border-gray-200">
+                <!-- Logo SVG Simples (Exemplo) -->
+                <div class="bg-blue-600 p-2 rounded-lg">
+                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                    </svg>
+                </div>
+                <h1 class="text-xl font-bold text-gray-800">50 Perguntas</h1>
+
+                <!-- Botão de fechar (Apenas visível no mobile) -->
+                <button id="close-menu-btn" class="lg:hidden text-gray-500 hover:text-gray-800 ml-auto">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+
+            <!-- Conteúdo do Menu (com rolagem) -->
+            <div id="menu-content" class="flex-1 overflow-y-auto sidebar-scroll p-4 space-y-2">
+                <!-- O menu será populado dinamicamente aqui -->
+            </div>
+        </nav>
+
+        <!-- Backdrop (fundo escuro) para o menu mobile -->
+        <div id="sidebar-backdrop" class="fixed inset-0 bg-black/50 z-20 hidden lg:hidden" aria-hidden="true"></div>
+
+        <!-- 
+          Conteúdo Principal 
+        -->
+        <main class="flex-1 flex flex-col h-full overflow-hidden">
+            
+            <!-- Cabeçalho Principal (Header) -->
+            <header class="bg-white/95 backdrop-blur-sm border-b border-gray-200 sticky top-0 z-10">
+                <div class="flex items-center justify-between p-4 max-w-4xl mx-auto">
+                    <!-- Botão de abrir menu (Apenas visível no mobile) -->
+                    <button id="open-menu-btn" class="lg:hidden text-gray-600 hover:text-gray-900">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
                     </button>
-                    <!-- Logo -->
-                    <div class="ml-4 text-xl font-bold text-indigo-700">
-                        DireitoMap
+                    <!-- Título do Subtema (atualizado dinamicamente) -->
+                    <h2 id="subtema-title" class="text-lg font-semibold text-gray-900 truncate">
+                        Selecione um tópico
+                    </h2>
+                    <!-- Ícone de placeholder para alinhar o título ao centro -->
+                    <div class="w-6 lg:hidden"></div>
+                </div>
+            </header>
+
+            <!-- Área de Conteúdo (Perguntas) -->
+            <div id="content-area" class="flex-1 overflow-y-auto p-4 md:p-6 lg:p-8">
+                <!-- A lista de perguntas parseada do TXT será injetada aqui -->
+                <div id="questions-list" class="max-w-4xl mx-auto">
+                    <div id="welcome-message" class="text-center text-gray-500 pt-10">
+                        <svg class="w-12 h-12 mx-auto text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path></svg>
+                        <p class="mt-4 text-lg font-medium">Bem-vindo!</p>
+                        <p>Use o menu para navegar pelas disciplinas e encontrar os tópicos de estudo.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </main>
+    </div>
+    
+    <!-- MODAL REMOVIDO -->
 
-    <!-- Menu Lateral (Sidebar) -->
-    <aside id="sidebar" class="bg-white w-72 h-full fixed top-0 left-0 z-40 shadow-xl transform -translate-x-full pt-16">
-        <nav id="sidebar-content" class="py-4 px-2 overflow-y-auto h-full"></nav>
-    </aside>
 
-    <!-- Overlay (fundo escuro quando o menu está aberto) -->
-    <div id="overlay" class="fixed inset-0 bg-black bg-opacity-50 z-30 hidden" aria-hidden="true"></div>
-
-    <!-- Área de Conteúdo Principal -->
-    <main id="content-area" class="pt-12 pb-12 max-w-4xl mx-auto px-4">
-        <div class="bg-white p-8 rounded-xl shadow-md text-center border border-gray-200">
-            <h2 class="text-2xl font-semibold text-indigo-700">Bem-vindo(a) ao seu Mapa Mental de Direito!</h2>
-            <p class="mt-4 text-gray-600">Selecione uma disciplina e um tema no menu lateral para começar a estudar de forma interativa.</p>
-        </div>
-    </main>
-
-    <!-- 4. O Código JavaScript com Lógica de Renderização e IA -->
-    <script>
-        document.addEventListener('DOMContentLoaded', async () => {
-
-            // 1. Seleciona os elementos principais da UI
-            const sidebar = document.getElementById('sidebar');
-            const sidebarContent = document.getElementById('sidebar-content');
-            const hamburgerBtn = document.getElementById('hamburger-btn');
-            const overlay = document.getElementById('overlay');
-            const contentArea = document.getElementById('content-area');
-
-            // Variável para armazenar o prompt customizado
-            let currentPromptTemplate = ''; 
-
-            // 2. Função para abrir/fechar o menu lateral
-            function toggleSidebar() {
-                sidebar.classList.toggle('-translate-x-full');
-                overlay.classList.toggle('hidden');
-            }
-            
-            // --- FUNÇÃO PARA MANIPULAR O ACORDEÃO (CLIQUE) ---
-            function toggleAccordion(event) {
-                const item = event.target.closest('.map-list-item');
-                if (!item) return;
-
-                const childrenContainer = item.querySelector('.collapsible-content');
-                if (!childrenContainer) return;
-
-                const parentList = item.parentElement; // O <ul> pai
-                const isCurrentlyOpen = childrenContainer.classList.contains('open');
-                
-                // Lógica de fechamento de irmãos (siblings) - Garante o foco
-                if (!isCurrentlyOpen) {
-                    Array.from(parentList.children).forEach(sibling => {
-                        // Verifica se o irmão é colapsável e não é o item clicado
-                        if (sibling !== item && sibling.classList.contains('collapsible')) {
-                            const siblingChildren = sibling.querySelector('.collapsible-content');
-                            if (siblingChildren && siblingChildren.classList.contains('open')) {
-                                // Fecha o irmão
-                                siblingChildren.classList.remove('open');
-                                sibling.classList.remove('open');
+    <!-- ====================================================== -->
+    <!-- JAVASCRIPT -->
+    <!-- ====================================================== -->
+    <script type="module">
+        // --- 1. Estrutura de Dados (Simulação de Conteúdo) ---
+        // A estrutura agora aponta para os arquivos .txt
+        const estruturaDireito = [
+            {
+                disciplina: "Direito Constitucional",
+                temas: [
+                    {
+                        tema: "Controle de Constitucionalidade",
+                        subtemas: [
+                            {
+                                subtema: "Conceitos Iniciais",
+                                arquivo: "data/constitucional/controle/conceitos.txt"
+                            },
+                            {
+                                subtema: "Ações de Controle Concentrado",
+                                arquivo: "data/constitucional/controle/acoes.txt"
                             }
-                        }
-                    });
-                }
-
-
-                // Lógica para abrir/fechar o item clicado
-                if (isCurrentlyOpen) {
-                    // Fechar o item clicado
-                    childrenContainer.classList.remove('open');
-                    item.classList.remove('open');
-                } else {
-                    // Abrir o item clicado (após fechar os irmãos)
-                    childrenContainer.classList.add('open');
-                    item.classList.add('open');
-                }
-                
-                event.stopPropagation();
-            }
-
-
-            // 3. Função para construir o menu lateral dinamicamente
-            async function buildSidebarMenu() {
-                let menuHtml = '';
-
-                try {
-                    const response = await fetch(`data/index_menu.json?v=${new Date().getTime()}`);
-                    if (!response.ok) {
-                        throw new Error(`Erro ao buscar o menu: ${response.statusText}`);
+                        ]
+                    },
+                    {
+                        tema: "Direitos Fundamentais",
+                        subtemas: [
+                            {
+                                subtema: "Teoria Geral",
+                                arquivo: "data/constitucional/fundamentais/teoria.txt"
+                            }
+                        ]
                     }
-                    const menuData = await response.json();
+                ]
+            },
+            {
+                disciplina: "Direito Penal",
+                temas: [
+                    {
+                        tema: "Teoria do Crime",
+                        subtemas: [
+                            {
+                                subtema: "Conceito e Elementos",
+                                arquivo: "data/penal/crime/conceito.txt"
+                            },
+                            {
+                                subtema: "Ilicitude",
+                                arquivo: "data/penal/crime/ilicitude.txt"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ];
 
-                    menuData.forEach(disciplina => {
-                        menuHtml += `<details class="group px-2 py-1" open>`;
-                        menuHtml += `
-                            <summary class="flex justify-between items-center p-2 rounded-lg cursor-pointer hover:bg-indigo-50 transition-colors focus:outline-none">
-                                <span class="font-bold text-lg text-indigo-800">${disciplina.disciplina}</span>
-                                <svg class="w-5 h-5 transform group-open:rotate-90 transition-transform text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
-                            </summary>
-                        `;
+        // --- SIMULAÇÃO DE ARQUIVOS TXT ---
+        // Em um app real, você faria fetch() desses arquivos do seu servidor.
+        const arquivosTxtSimulados = {
+            "data/constitucional/controle/conceitos.txt": `
+@@PROMPT: Aja como um professor de Direito Constitucional e explique de forma aprofundada o seguinte conceito para um estudante de graduação: "{{PERGUNTA}}" @@
 
-                        menuHtml += `<ul class="pl-2 mt-1 space-y-1">`;
-                        disciplina.temas.forEach(tema => {
-                            menuHtml += `
-                                <li>
-                                    <a href="#" 
-                                       class="block p-2 rounded-lg text-gray-700 hover:bg-indigo-100 hover:text-indigo-800 transition-colors"
-                                       data-path="${tema.path}"
-                                       data-disciplina="${disciplina.disciplina}">
-                                        ${tema.nome}
-                                    </a>
-                                </li>
-                            `;
+# CONTROLE DE CONSTITUCIONALIDADE
+## Conceitos Iniciais
+- O que é o princípio da supremacia da Constituição?
+- Quais são os pressupostos do controle de constitucionalidade?
+
+## Sistema Difuso vs. Concentrado
+- Diferencie controle difuso e controle concentrado.
+- Explique o que é o 'parâmetro' no controle de constitucionalidade.
+- Quais as diferenças entre os efeitos da decisão no controle difuso e no concentrado?
+`,
+            "data/constitucional/controle/acoes.txt": `
+@@PROMPT: Explique didaticamente, como um professor de Direito, o que é e como funciona a seguinte ação de controle concentrado: "{{PERGUNTA}}" @@
+
+# AÇÕES DE CONTROLE
+## Ação Direta de Inconstitucionalidade (ADI)
+- O que é uma ADI (Ação Direta de Inconstitucionalidade)?
+- Quem são os legitimados para propor uma ADI perante o STF?
+- O que é uma ADI por Omissão (ADO)?
+
+## Outras Ações
+- O que é uma ADPF (Arguição de Descumprimento de Preceito Fundamental)?
+- Explique os efeitos de uma decisão em ADI (ex tunc, vinculante).
+- O que é Ação Declaratória de Constitucionalidade (ADC)?
+`,
+            "data/constitucional/fundamentais/teoria.txt": `
+@@PROMPT: Discorra sobre o seguinte tópico de Teoria Geral dos Direitos Fundamentais, como um jurista renomado em um seminário: "{{PERGUNTA}}" @@
+
+# TEORIA GERAL
+## Conceitos e Gerações
+- Qual a diferença entre direitos humanos e direitos fundamentais?
+- O que são as 'gerações' ou 'dimensões' dos direitos fundamentais?
+
+## Eficácia
+- O que significa a 'eficácia horizontal' dos direitos fundamentais?
+- Explique a teoria dos limites dos limites (Schranken-Schranken).
+- O que é o princípio da proibição do retrocesso social?
+`,
+            "data/penal/crime/conceito.txt": `
+@@PROMPT: Você é um professor de Direito Penal. Explique para um aluno do 2º ano o seguinte instituto da Teoria do Crime: "{{PERGUNTA}}" @@
+
+# TEORIA DO CRIME
+## Conceito e Elementos
+- Qual o conceito analítico de crime na teoria tripartida?
+- Diferencie dolo direto de dolo eventual.
+- O que é o princípio da insignificância e qual sua natureza jurídica?
+- O que é erro de tipo e quais suas consequências?
+
+## Iter Criminis
+- Quais são as fases do 'iter criminis'?
+- O que é tentativa e quais seus elementos?
+- Diferencie desistência voluntária de arrependimento eficaz.
+`,
+            "data/penal/crime/ilicitude.txt": `
+@@PROMPT: Você é um professor de Direito Penal. Explique para um aluno do 2º ano a seguinte causa de exclusão da ilicitude: "{{PERGUNTA}}" @@
+
+# EXCLUDENTES DE ILICITUDE
+## Legítima Defesa
+- O que é legítima defesa e quais são seus requisitos?
+- O que é legítima defesa putativa?
+
+## Estado de Necessidade
+- O que é estado de necessidade e quais seus requisitos?
+- Diferencie estado de necessidade de legítima defesa.
+- O que é o estado de necessidade exculpante?
+`
+        };
+
+        // Função de simulação de fetch (substitua por fetch() real)
+        function fetchSimulado(url) {
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    if (arquivosTxtSimulados[url]) {
+                        resolve({
+                            ok: true,
+                            text: () => Promise.resolve(arquivosTxtSimulados[url])
                         });
-                        menuHtml += `</ul></details>`;
-                    });
-
-                    sidebarContent.innerHTML = menuHtml;
-
-                } catch (error) {
-                    console.error("Erro ao construir o menu:", error);
-                    sidebarContent.innerHTML = `<p class="p-4 text-red-500">Erro: Não foi possível carregar o menu. Verifique o arquivo 'data/index_menu.json'.</p>`;
-                }
-            }
-
-
-            // 4. Função para carregar um mapa mental na tela
-            async function loadMindMap(path, disciplina) {
-                try {
-                    contentArea.innerHTML = ''; // Limpa antes de carregar
-
-                    const response = await fetch(`${path}?v=${new Date().getTime()}`);
-                    if (!response.ok) {
-                        throw new Error(`Status: ${response.status}`);
+                    } else {
+                        reject(new Error(`Arquivo não encontrado: ${url}`));
                     }
-                    const mapData = await response.json();
-
-                    // Armazena o template de prompt personalizado (ou usa um padrão)
-                    currentPromptTemplate = mapData.iaPromptTemplate || 
-                        "explique como um professor de direito explicaria para seus alunos de modo didático, explicativo e fundamentado sobre o tema: [TOPIC][CONTEXT]";
-
-
-                    // 4.1. Título do Mapa
-                    const title = document.createElement('h2');
-                    title.className = "text-3xl md:text-4xl font-bold text-indigo-700 mb-6 mt-4 text-center";
-                    title.textContent = mapData.titulo;
-                    contentArea.appendChild(title);
-
-                    // 4.2. Contêiner Principal
-                    const mapContainer = document.createElement('div');
-                    mapContainer.className = "map-list-container p-4 md:p-8 bg-white rounded-xl shadow-md";
-                    
-                    // 4.3. Cria o nó raiz (Depth 0)
-                    const rootList = document.createElement('ul');
-                    rootList.className = 'map-list';
-
-                    const rootNode = createMapNode(mapData.topicoRaiz, [disciplina], 0);
-                    rootList.appendChild(rootNode);
-
-                    mapContainer.appendChild(rootList);
-                    contentArea.appendChild(mapContainer);
-
-                    // Desloca a página para o topo do conteúdo do mapa
-                    window.scrollTo({ top: 0, behavior: 'smooth' });
-                    
-                } catch (error) {
-                    console.error(`Erro ao carregar o mapa de '${path}':`, error);
-                    contentArea.innerHTML = `<div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mt-8">
-                                                <strong class="font-bold">Erro de Carregamento:</strong>
-                                                <span class="block sm:inline">Não foi possível carregar o mapa mental. Verifique a URL do arquivo (${path}) e sua sintaxe JSON.</span>
-                                            </div>`;
-                }
-            }
-
-            // 5. Função Recursiva para criar os nós do mapa (Estrutura de Lista)
-            function createMapNode(nodeData, pathArray, depth) {
-                // O nó é um elemento <li>
-                const item = document.createElement('li');
-                item.className = 'map-list-item';
-                
-                // Define a classe de cor com base na profundidade
-                const colorClass = `depth-${Math.min(depth, 3)}`;
-
-                // Verifica se tem filhos
-                const hasChildren = nodeData.filhos && nodeData.filhos.length > 0;
-                
-                // Adiciona classe de controle para o CSS
-                if (hasChildren) {
-                    item.classList.add('collapsible');
-                }
-                
-                // --- 5.1. Header do Tópico (Contém Título e Botões) ---
-                const header = document.createElement('div');
-                header.className = `item-header ${colorClass}`;
-                
-                
-                // Se tiver filhos, adiciona o evento de clique ao header (para o ACORDEÃO)
-                if (hasChildren) {
-                    header.addEventListener('click', toggleAccordion);
-                    // Adiciona o estilo de hover customizado baseado na cor primária
-                    header.onmouseover = function() {
-                        const rootStyle = getComputedStyle(document.documentElement);
-                        const primaryColor = rootStyle.getPropertyValue(`--color-primary`);
-                        header.style.backgroundColor = primaryColor + '05'; // Adiciona 5% de opacidade
-                    };
-                    header.onmouseout = function() {
-                         header.style.backgroundColor = 'transparent';
-                    };
-                }
+                }, 200); // Simula 200ms de delay de rede
+            });
+        }
+        // --- FIM DA SIMULAÇÃO ---
 
 
-                // Título do Tópico
-                const titleText = document.createElement('span');
-                // Alinha o texto do item à esquerda, sem a borda colorida aqui. A borda é feita pelo pseudo-elemento.
-                titleText.className = `title-text flex-grow`; 
-                titleText.textContent = nodeData.nome;
-                header.appendChild(titleText);
+        // --- 2. Seletores de Elementos do DOM ---
+        const sidebar = document.getElementById('sidebar');
+        const sidebarBackdrop = document.getElementById('sidebar-backdrop');
+        const openMenuBtn = document.getElementById('open-menu-btn');
+        const closeMenuBtn = document.getElementById('close-menu-btn');
+        const menuContent = document.getElementById('menu-content');
+        const questionsList = document.getElementById('questions-list');
+        const subtemaTitle = document.getElementById('subtema-title');
+        const welcomeMessage = document.getElementById('welcome-message');
+        
+        // --- 3. Lógica do Menu Lateral (Sidebar) ---
 
+        function openSidebar() {
+            sidebar.classList.remove('-translate-x-full');
+            sidebarBackdrop.classList.remove('hidden');
+        }
 
-                // Mini Botão de IA (Sempre presente)
-                const button = document.createElement('button');
-                button.className = 'explain-btn ml-3 flex-shrink-0 p-1 rounded-full hover:bg-indigo-100 transition-colors focus:outline-none';
-                button.dataset.topic = nodeData.nome;
-                button.dataset.path = JSON.stringify(pathArray);
-                button.setAttribute('aria-label', `Explicar tópico ${nodeData.nome}`);
-                button.innerHTML = `
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block text-[color:var(--color-primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    </svg>
+        function closeSidebar() {
+            sidebar.classList.add('-translate-x-full');
+            sidebarBackdrop.classList.add('hidden');
+        }
+
+        openMenuBtn.addEventListener('click', openSidebar);
+        closeMenuBtn.addEventListener('click', closeSidebar);
+        sidebarBackdrop.addEventListener('click', closeSidebar);
+        
+        // --- 4. Renderização Dinâmica do Conteúdo ---
+
+        /**
+         * Renderiza o menu lateral a partir da estrutura de dados.
+         */
+        function renderizarMenu() {
+            menuContent.innerHTML = ''; // Limpa o conteúdo existente
+            
+            estruturaDireito.forEach((disciplina, i) => {
+                const disciplinaElement = document.createElement('div');
+                disciplinaElement.className = 'py-1';
+
+                const detailsElement = document.createElement('details');
+                detailsElement.className = 'group';
+                if (i === 0) detailsElement.setAttribute('open', ''); 
+
+                const summaryElement = document.createElement('summary');
+                summaryElement.className = 'flex items-center justify-between p-2 rounded-lg cursor-pointer hover:bg-gray-100 list-none';
+                summaryElement.innerHTML = `
+                    <span class="text-base font-semibold text-gray-700">${disciplina.disciplina}</span>
+                    <svg class="w-5 h-5 text-gray-500 transform transition-transform duration-200 group-open:rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
                 `;
                 
-                // *** CORREÇÃO: Anexar o listener de IA diretamente ao botão e parar a propagação aqui. ***
-                button.addEventListener('click', (event) => {
-                    event.stopPropagation(); // IMPEDE QUE O CLIQUE SUBA PARA O HEADER (toggleAccordion)
-                    
-                    const topic = button.dataset.topic;
-                    const pathString = button.dataset.path;
-                    const pathArray = pathString ? JSON.parse(pathString) : [];
-                    const context = pathArray.length > 0 ? ` (${pathArray.join(', ')})` : '';
+                const temasContainer = document.createElement('div');
+                temasContainer.className = 'pl-4 mt-1 space-y-1';
 
-                    let finalQuery = currentPromptTemplate
-                        .replace(/\[TOPIC\]/g, topic)
-                        .replace(/\[CONTEXT\]/g, context);
-
-                    const encodedQuery = encodeURIComponent(finalQuery);
-                    const googleUrl = `https://www.google.com/search?udm=50&q=${encodedQuery}`;
+                disciplina.temas.forEach(tema => {
+                    const temaElement = document.createElement('div');
                     
-                    window.open(googleUrl, '_blank');
-                });
-                
-                header.appendChild(button);
-                item.appendChild(header);
+                    const temaTitle = document.createElement('h4');
+                    // Classe atualizada
+                    temaTitle.className = 'tema-title';
+                    temaTitle.textContent = tema.tema;
+                    temaElement.appendChild(temaTitle);
 
-                // --- 5.2. Contêiner dos Filhos (Acordeão) ---
-                if (hasChildren) {
-                    const childrenContainer = document.createElement('div');
-                    // Começa FECHADO
-                    childrenContainer.className = 'collapsible-content'; 
+                    const subtemasLista = document.createElement('ul');
+                    subtemasLista.className = 'space-y-1';
                     
-                    const innerWrapper = document.createElement('div');
-                    innerWrapper.className = 'collapsible-inner';
-                    
-                    // Cria os filhos (recursão)
-                    const childrenList = document.createElement('ul');
-                    childrenList.className = 'map-list space-y-1';
+                    tema.subtemas.forEach(subtema => {
+                        const subtemaItem = document.createElement('li');
+                        const subtemaLink = document.createElement('a');
+                        subtemaLink.href = '#';
+                        // Classe atualizada
+                        subtemaLink.className = 'subtema-link';
+                        subtemaLink.textContent = subtema.subtema;
+                        
+                        // Adiciona o evento de clique para carregar as perguntas
+                        subtemaLink.addEventListener('click', (e) => {
+                            e.preventDefault();
 
-                    const newPathArray = [...pathArray, nodeData.nome];
-                    nodeData.filhos.forEach(filhoNode => {
-                        const filhoElement = createMapNode(filhoNode, newPathArray, depth + 1);
-                        childrenList.appendChild(filhoElement);
+                            // --- LÓGICA DE ESTADO ATIVO ---
+                            // 1. Remove o estado ativo de todos os links
+                            document.querySelectorAll('#menu-content .subtema-link').forEach(link => {
+                                link.removeAttribute('data-active');
+                            });
+                            // 2. Adiciona o estado ativo no link clicado
+                            subtemaLink.setAttribute('data-active', 'true');
+                            // --- FIM DA LÓGICA ---
+
+                            // Passa o objeto subtema inteiro
+                            carregarPerguntasDoArquivo(subtema); 
+                            if (window.innerWidth < 1024) {
+                                closeSidebar();
+                            }
+                        });
+                        
+                        subtemaItem.appendChild(subtemaLink);
+                        subtemasLista.appendChild(subtemaItem);
                     });
+                    
+                    temaElement.appendChild(subtemasLista);
+                    temasContainer.appendChild(temaElement);
+                });
 
-                    innerWrapper.appendChild(childrenList);
-                    childrenContainer.appendChild(innerWrapper);
-                    item.appendChild(childrenContainer);
+                detailsElement.appendChild(summaryElement);
+                detailsElement.appendChild(temasContainer);
+                disciplinaElement.appendChild(detailsElement);
+                menuContent.appendChild(disciplinaElement);
+            });
+        }
+
+        /**
+         * Busca o arquivo .txt, parseia e renderiza as perguntas.
+         */
+        async function carregarPerguntasDoArquivo(subtema) {
+            subtemaTitle.textContent = subtema.subtema; // Atualiza o título no header
+            welcomeMessage.classList.add('hidden'); // Esconde msg de boas-vindas
+            
+            // Mostra um estado de carregamento
+            questionsList.innerHTML = `
+                <div class="text-center text-gray-500 pt-10">
+                    <svg class="animate-spin h-8 w-8 text-blue-600 mx-auto" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                        <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    <p class="mt-4 text-lg">Carregando perguntas...</p>
+                </div>`;
+
+            try {
+                // Em um app real: const response = await fetch(subtema.arquivo);
+                const response = await fetchSimulado(subtema.arquivo);
+                
+                if (!response.ok) {
+                    throw new Error("Não foi possível carregar o arquivo de perguntas.");
                 }
+                
+                const texto = await response.text();
+                parsearERenderizarTxt(texto);
 
-                return item; // Retorna o item completo
+            } catch (error) {
+                console.error("Erro ao carregar arquivo:", error);
+                questionsList.innerHTML = `<p class="text-red-600 text-center pt-10">Erro ao carregar perguntas. Tente novamente.</p>`;
+            }
+        }
+
+        /**
+         * Faz o parse do arquivo .txt e renderiza o HTML.
+         */
+        function parsearERenderizarTxt(texto) {
+            questionsList.innerHTML = ''; // Limpa o loading
+            let promptTemplate = "Explique este tópico de Direito: {{PERGUNTA}}"; // Default
+            
+            const regexPrompt = /@@PROMPT: (.*?) @@/s;
+            const matchPrompt = texto.match(regexPrompt);
+            
+            if (matchPrompt && matchPrompt[1]) {
+                promptTemplate = matchPrompt[1].trim();
+                texto = texto.replace(regexPrompt, ''); // Remove o prompt do texto
             }
 
+            const linhas = texto.trim().split('\n');
+            
+            linhas.forEach(linha => {
+                linha = linha.trim();
+                if (linha.startsWith('## ')) {
+                    // É um tópico principal
+                    const titulo = linha.substring(3).trim();
+                    const h3 = document.createElement('h3');
+                    h3.className = 'text-xl font-semibold text-gray-800 mt-6 mb-3 pb-2 border-b border-gray-200';
+                    h3.textContent = titulo;
+                    questionsList.appendChild(h3);
 
-            // --- 6. Configuração dos Eventos ---
+                } else if (linha.startsWith('- ')) {
+                    // É uma pergunta
+                    const pergunta = linha.substring(2).trim();
+                    if (!pergunta) return; // Ignora linhas vazias
 
-            // Evento para abrir/fechar o menu
-            hamburgerBtn.addEventListener('click', toggleSidebar);
-            overlay.addEventListener('click', toggleSidebar);
-
-            // Evento para cliques DENTRO do menu lateral (carregar mapas)
-            sidebarContent.addEventListener('click', (event) => {
-                const link = event.target.closest('a[data-path]');
-                
-                if (link) {
-                    event.preventDefault();
-                    const path = link.dataset.path;
-                    const disciplina = link.dataset.disciplina; 
-                    loadMindMap(path, disciplina); 
+                    const card = document.createElement('div');
+                    // Classe 'question-card' adicionada e 'items-start'
+                    card.className = 'bg-white p-4 rounded-xl shadow-sm border border-gray-200 flex items-start justify-between space-x-3 question-card';
                     
-                    // Fecha o menu em todas as telas
-                    toggleSidebar();
+                    const perguntaText = document.createElement('p');
+                    // Classe 'question-text' adicionada e 'leading-relaxed'
+                    perguntaText.className = 'flex-1 text-base text-gray-800 question-text leading-relaxed';
+                    perguntaText.textContent = pergunta;
+
+                    // O novo "mini botão"
+                    const googleLink = document.createElement('a');
+                    googleLink.href = construirUrlGoogle(promptTemplate, pergunta);
+                    googleLink.target = '_blank'; // Abrir em nova aba
+                    googleLink.rel = 'noopener noreferrer';
+                    googleLink.className = 'flex-shrink-0 w-9 h-9 flex items-center justify-center bg-gray-100 text-gray-500 rounded-full hover:bg-blue-100 hover:text-blue-600 transition-all duration-150 transform active:scale-90';
+                    googleLink.title = 'Buscar explicação no Google IA';
+                    // Ícone SVG de "pesquisa" ou "IA"
+                    googleLink.innerHTML = `
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                        </svg>
+                    `;
+                    
+                    card.appendChild(perguntaText);
+                    card.appendChild(googleLink);
+                    questionsList.appendChild(card);
                 }
+                // Linhas com # (Título Principal) ou vazias são ignoradas
             });
+        }
 
-            // O Listener delegado na contentArea foi removido e a lógica de IA está agora em createMapNode.
+        /**
+         * Monta a URL de busca do Google com o prompt formatado.
+         */
+        function construirUrlGoogle(template, pergunta) {
+            const promptFinal = template.replace('{{PERGUNTA}}', pergunta);
+            const queryCodificada = encodeURIComponent(promptFinal);
+            // ATUALIZADO para usar o link udm=50
+            return `https://www.google.com/search?udm=50&q=${queryCodificada}`;
+        }
 
-            // --- 7. Inicialização ---
-            await buildSidebarMenu(); 
-        });
+        // --- 5. Inicialização ---
+        renderizarMenu();
+
     </script>
-
 </body>
 </html>
+
+
 
